@@ -1,0 +1,159 @@
+<div class="halved {% if section.settings.image_first == false %}halved_reverse{% endif %}">
+  {% if section.settings.image != blank %}
+    <div class="halved__image">
+      {{ section.settings.image | image_url: width: 950 | image_tag }}
+    </div>
+  {% endif %}
+  <div class="halved__inner" style="padding-top:{{ section.settings.padding_top }}rem">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'heading' %}
+          <div class="halved__heading" {{ block.shopify_attributes }}>
+            {{ block.settings.text }}
+          </div>
+        {% when 'subheading' %}
+          <div class="halved__subheading" {{ block.shopify_attributes }}>
+            {{ block.settings.text }}
+          </div>
+        {% when 'item' %}
+          <div class="item halved__item" {{ block.shopify_attributes }}>
+            {% if block.settings.icon != blank %}
+              <div class="item__icon">
+                {{ block.settings.icon | image_url: width: 30 | image_tag }}
+              </div>
+            {% endif %}
+            {% if block.settings.heading != blank %}
+              <div class="item__heading">
+                {{ block.settings.heading }}
+              </div>
+            {% endif %}
+            {% if block.settings.description != blank %}
+              <div class="item__description">
+                {{ block.settings.description }}
+              </div>
+            {% endif %}
+          </div>
+        {% when 'button' %}
+          {% if block.settings.text != blank %}
+            <a href="{{ block.settings.url }}" class="button button--secondary" {{ block.shopify_attributes }}>{{ block.settings.text }}</a>
+          {% endif %}
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Halved",
+    "tag": "section",
+    "class": "section_halved",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 1,
+        "max": 15,
+        "unit": "rem",
+        "label": "Padding top",
+        "default": 5
+      },
+      {
+        "type": "checkbox",
+        "id": "image_first",
+        "label": "Image first",
+        "default": true
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "heading",
+        "name": "Heading",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Heading"
+          }
+        ]
+      },
+      {
+        "type": "subheading",
+        "name": "Subheading",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Subheading"
+          }
+        ]
+      },
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "heading",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon",
+            "label": "Icon"
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "name": "Button",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Url"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Halved",
+        "blocks": [
+          {
+            "type": "heading"
+          },
+          {
+            "type": "subheading"
+          },
+          {
+            "type": "item"
+          },
+          {
+            "type": "button"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

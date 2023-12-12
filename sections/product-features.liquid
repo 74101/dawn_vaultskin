@@ -1,0 +1,57 @@
+{% for variant_product in product.variants %}
+  {% if variant_product.metafields.variant.features.value != blank %}
+    {% assign features = variant_product.metafields.variant.features.value %}
+  {% else %}
+    {% assign features = product.metafields.variant.features.value %}
+  {% endif %}
+  <div class="variant_product_features{% if variant_product == product.selected_or_first_available_variant %} active{% endif %} scroll-trigger animate--fade-in">
+    {% for item in features %}
+      <div class="halved product_feature">
+        {% if item.image != blank %}
+          <div class="halved__image">
+            {{ item.image | image_url: width: 950 | image_tag }}
+          </div>
+        {% endif %}
+        <div class="halved__inner">
+            {% if forloop.index < 10 %}
+              <div class="halved__num" data-letters="0{{- forloop.index -}}">0{{- forloop.index -}}</div>
+            {% else %}
+              <div class="halved__num" data-letters="{{- forloop.index -}}">{{- forloop.index -}}</div>
+            {% endif %}    
+          {% if item.feature_icon != blank %}
+            <div class="halved__icon">
+              {{ item.feature_icon | image_url: width: 60 | image_tag }}
+            </div>
+          {% endif %}
+          {% if item.feature_title != blank %}
+            <h3 class="halved__heading">
+              {{ item.feature_title }}
+            </h3>
+          {% endif %}
+          {% if item.feature_subtitle != blank %}
+            <div class="halved__subheading">
+              {{ item.feature_subtitle }}
+            </div>
+          {% endif %}
+          {% if item.feature_description != blank %}
+            <div class="halved__description">
+              {{ item.feature_description }}
+            </div>
+          {% endif %}
+          </div>
+      </div>
+    {% endfor %}
+
+  </div>
+{% endfor %}
+{% schema %}
+  {
+    "name": "Product features",
+    "tag": "section",
+    "class": "section_halved",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": []
+  }
+{% endschema %}

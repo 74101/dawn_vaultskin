@@ -1,0 +1,131 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "link": "",
+            "text": "Free shipping for orders over $70!",
+            "text_US": "Free shipping for orders over $50!",
+            "text_GB": "Free shipping for orders over £50!",
+            "text_DE": "Free shipping for orders over €50!",
+            "text_BH": "Free shipping for orders over $99!",
+            "text_AU": "Free shipping for orders over $99!",
+            "text_CA": "Free shipping for orders over $89.99!",
+            "text_JO": "Free shipping for orders over $99!",
+            "text_KW": "Free shipping for orders over $99!",
+            "text_LB": "Free shipping for orders over $99!",
+            "text_OM": "Free shipping for orders over $99!",
+            "text_PK": "Free shipping for orders over $99!",
+            "text_PS": "Free shipping for orders over $99!",
+            "text_QA": "Free shipping for orders over $99!",
+            "text_SA": "Free shipping for orders over $99!",
+            "text_IQ": "Free shipping for orders over $99!",
+            "text_AE": "Free shipping for orders over $99!",
+            "text_YE": "Free shipping for orders over $99!"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "accent-2",
+        "show_line_separator": false,
+        "show_social": false,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "1f52a879-c676-4f39-8e5d-7b3f3f028419": {
+          "type": "menu_item_icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/wallet-app-100.png"
+          }
+        },
+        "cace3ca6-4968-4e7f-9520-b7cf5bc47306": {
+          "type": "menu_item_icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icons8-wallet-100.png"
+          }
+        },
+        "a354b442-c1a7-43bb-a99e-9f78561e886c": {
+          "type": "menu_item_icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icons8-phone-case-100.png"
+          }
+        },
+        "de508342-f54d-444e-bcdb-8670ddbce739": {
+          "type": "menu_item_icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icons8-card-security-100.png"
+          }
+        },
+        "1da11b30-1728-4068-ba08-b1dbb2f5b1db": {
+          "type": "menu_item_icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/star-100.png"
+          }
+        },
+        "9eff77fc-47d0-4f19-9c15-e2b946e0ed4e": {
+          "type": "menu_item_icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/remove-rfid-100.png"
+          }
+        },
+        "11851cb4-88b6-4b7c-a766-691c93f6ec6b": {
+          "type": "menu_item_icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icons8-phone-case-100.png"
+          }
+        },
+        "48a1b6d4-2ed3-4ba4-b159-a0c7ed5d193a": {
+          "type": "menu_item_icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icons8-phone-case-100.png"
+          }
+        }
+      },
+      "block_order": [
+        "1f52a879-c676-4f39-8e5d-7b3f3f028419",
+        "cace3ca6-4968-4e7f-9520-b7cf5bc47306",
+        "a354b442-c1a7-43bb-a99e-9f78561e886c",
+        "de508342-f54d-444e-bcdb-8670ddbce739",
+        "1da11b30-1728-4068-ba08-b1dbb2f5b1db",
+        "9eff77fc-47d0-4f19-9c15-e2b946e0ed4e",
+        "11851cb4-88b6-4b7c-a766-691c93f6ec6b",
+        "48a1b6d4-2ed3-4ba4-b159-a0c7ed5d193a"
+      ],
+      "custom_css": [],
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu-1",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "reduce-logo-size",
+        "show_line_separator": false,
+        "color_scheme": "accent-1",
+        "menu_color_scheme": "accent-1",
+        "enable_country_selector": true,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 32,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
