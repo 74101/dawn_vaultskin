@@ -124,8 +124,6 @@ details-disclosure > details {
   transform: translateY(-10px);
 }
 
-.wc_review_main_content .slider-btn > svg,
-.wc_testimonial_section .slider-btn > svg,
 .product-form__input--hide,
 .header__heading-logo {
   display: none;
@@ -250,7 +248,7 @@ details[open]>.header__menu-item,
 }
 
 .halved {
-    display: flex;
+  display: flex;
 }
 .variant_product_features .halved:nth-child(odd),
 .halved_reverse {
@@ -651,11 +649,9 @@ input[type=radio]:checked + .product-variant-options-custom {
   background: rgba(0,0,0,.8) !important;
 }
 
-.wc_review_main_content .slider-btn,
-#wc_reviews_tab .wc_review_main_content .slider-btn:hover,
-.wc_testimonial_section .slider-btn,
-#wc_reviews_tab .wc_testimonial_section .slider-btn:hover {
-  background: none !important;
+.wc_review_main_content .slider-btn:after,
+.wc_testimonial_section .slider-btn:after {
+  content: none;
 }
 
 
