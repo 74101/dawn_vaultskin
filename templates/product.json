@@ -5,6 +5,7 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
+        "pagination_switcher": "on",
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -23,22 +24,26 @@
     },
     "product_navigation": {
       "type": "product-navigation",
-      "settings": {}
+      "settings": {
+      }
     },
     "main": {
       "type": "main-product",
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "1c92fd7a-5f5b-4e69-8af9-a221507c3da1": {
           "type": "short_description",
-          "settings": {}
+          "settings": {
+          }
         },
         "d74289b0-c64f-452c-9ebf-a534e6ac6e75": {
           "type": "variant_picker",
@@ -48,7 +53,8 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -59,7 +65,8 @@
         },
         "574df41e-05fa-485f-b8b6-c885b3cbb77c": {
           "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-product-review-badge\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -89,7 +96,8 @@
     },
     "product_features": {
       "type": "product-features",
-      "settings": {}
+      "settings": {
+      }
     },
     "related_products": {
       "type": "related-products",
@@ -131,7 +139,8 @@
       "blocks": {
         "3ee2adb6-35ce-4842-87fd-3fea24395a6c": {
           "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [

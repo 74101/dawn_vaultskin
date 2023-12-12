@@ -134,17 +134,21 @@
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "16789939927838974014": {
         "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/app-embed\/f1860e84-309f-40ca-a2df-188435a622f3",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       }
     },
     "color_schemes": {
@@ -398,6 +402,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+
+    ]
   }
 }
