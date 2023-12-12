@@ -72,7 +72,7 @@
           {{ placeholder_image | placeholder_svg_tag: 'placeholder-svg' }}
         </div>
       {%- else -%}
-        <div class="card__content card__content2">
+        <div class="card__content">
           <div class="card__information">
             <h2 class="card__heading">
               <a
@@ -115,7 +115,7 @@
       {%- endif -%}
     </div>
     {%- if card_collection != blank and card_style == 'card' or card_collection.metafields.custom.image -%}
-      <div class="card__content card__content2">
+      <div class="card__content">
         <div class="card__information">
           <h2 class="card__heading">
             <a
