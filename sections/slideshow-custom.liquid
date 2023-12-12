@@ -41,7 +41,7 @@
         aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
         aria-label="{{ section.settings.accessibility_info | escape }}"
       >
-        {%- if section.settings.auto_rotate and current_variant_title_images_size > 1 -%}
+        {%- if section.settings.pagination_switcher == 'on' and current_variant_title_images_size > 1 -%}
           <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
             <button
               type="button"
@@ -195,7 +195,7 @@
           {%- endfor -%}
         </div>
       
-        {%- if current_variant_title_images_size > 1 and section.settings.auto_rotate == false -%}
+        {%- if current_variant_title_images_size > 1 and section.settings.pagination_switcher == 'on' -%}
           <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
             <button
               type="button"
