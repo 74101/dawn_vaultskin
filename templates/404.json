@@ -2,10 +2,84 @@
   "sections": {
     "main": {
       "type": "main-404",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "f6fc4b6b-0739-4228-be6b-2f6b1929de45": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17136463610096__f6fc4b6b-0739-4228-be6b-2f6b1929de45-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "404!",
+            "heading_size": "h1"
+          }
+        },
+        "template--17136463610096__f6fc4b6b-0739-4228-be6b-2f6b1929de45-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sorry, we can't find the page you are looking for<\/p>"
+          }
+        },
+        "template--17136463610096__f6fc4b6b-0739-4228-be6b-2f6b1929de45-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Take me back to the homepage",
+            "button_link": "\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17136463610096__f6fc4b6b-0739-4228-be6b-2f6b1929de45-heading-1",
+        "template--17136463610096__f6fc4b6b-0739-4228-be6b-2f6b1929de45-text-1",
+        "template--17136463610096__f6fc4b6b-0739-4228-be6b-2f6b1929de45-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ef15b46f-3dec-420c-95b1-14e545b4b314": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "f6fc4b6b-0739-4228-be6b-2f6b1929de45",
+    "ef15b46f-3dec-420c-95b1-14e545b4b314"
   ]
 }
