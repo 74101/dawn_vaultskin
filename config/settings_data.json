@@ -120,6 +120,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "bestsellers",
     "cart_color_scheme": "accent-1",
+    "checkout_logo_size": "large",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
