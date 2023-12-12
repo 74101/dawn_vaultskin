@@ -82,7 +82,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/feature1.png",
-            "title": "<strong>Smart wallets<\/strong>",
+            "title": "<strong>SMART WALLETS<\/strong>",
             "text": "<p>With invisibly integrated RFID protection. Secure your cards.<\/p>",
             "link_label": "VIEW MORE",
             "link": "shopify:\/\/collections\/smart-wallets"
@@ -92,7 +92,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/feature2.png",
-            "title": "<strong>iPhone cases<\/strong>",
+            "title": "<strong>iPhone CASES<\/strong>",
             "text": "<p>Slim iPhone wallets and sleeves for the minimalist.<\/p>",
             "link_label": "VIEW MORE",
             "link": "shopify:\/\/collections\/iphone-cases"
@@ -102,7 +102,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/feature3.png",
-            "title": "<strong>Vaultcard<\/strong>",
+            "title": "<strong>VAULTCARD<\/strong>",
             "text": "<p>World-class RFID-blocking technology to protect your cards.<\/p>",
             "link_label": "VIEW MORE",
             "link": "shopify:\/\/products\/vaultcard"
@@ -112,7 +112,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/feature4.png",
-            "title": "<strong>Victoria<\/strong>",
+            "title": "<strong>VICTORIA<\/strong>",
             "text": "<p>Crossbody iPhone wallet. Stay in touch, in style.<\/p>",
             "link_label": "GET INSPIRED",
             "link": "shopify:\/\/pages\/victoria"
