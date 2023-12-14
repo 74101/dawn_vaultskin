@@ -133,7 +133,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/vaultcard-vaultskin-safe-card-holder-credit-card-sleeve-best-security.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
