@@ -92,6 +92,7 @@
         "buy_buttons",
         "574df41e-05fa-485f-b8b6-c885b3cbb77c"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": false,
         "color_scheme": "background-1",
@@ -151,6 +152,7 @@
     },
     "related_products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -179,6 +181,7 @@
       "block_order": [
         "3ee2adb6-35ce-4842-87fd-3fea24395a6c"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
