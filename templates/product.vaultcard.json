@@ -14,25 +14,13 @@
           "type": "text",
           "settings": {
             "text": "<p>FOR YOUR WALLET<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--17147770241264__fb16e5b1-2d88-4d78-b673-fafb990287ba-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text_style": "subtitle"
           }
         }
       },
       "block_order": [
         "template--17147770241264__fb16e5b1-2d88-4d78-b673-fafb990287ba-heading-1",
-        "template--17147770241264__fb16e5b1-2d88-4d78-b673-fafb990287ba-text-1",
-        "template--17147770241264__fb16e5b1-2d88-4d78-b673-fafb990287ba-buttons-1"
+        "template--17147770241264__fb16e5b1-2d88-4d78-b673-fafb990287ba-text-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/vaultcard-vaultskin-safe-card-holder-credit-card-sleeve-best-security.jpg",
