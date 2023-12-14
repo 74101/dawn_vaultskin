@@ -1,5 +1,5 @@
 {% for block in section.blocks %}
-  <div class="vc_feature vc_feature--{{- block.settings.type }}" {{ block.shopify_attributes }}>
+  <div class="vc_feature vc_feature--type-{{- block.settings.type }}" {{ block.shopify_attributes }}>
     <h2 class="vc_feature__title">{{ block.settings.title }}</h2>
     <div class="vc_feature__text">{{ block.settings.text }}</div>
   </div>
