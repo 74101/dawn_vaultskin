@@ -1,25 +1,39 @@
 {
   "sections": {
-    "slideshow_custom": {
-      "type": "slideshow-custom",
+    "5fe72802-4272-4080-bf23-ac5d02dfec7c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE MOST ADVANCED RFID PROTECTION",
+            "heading_size": "h1"
+          }
+        },
+        "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FOR YOUR WALLET<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-heading-1",
+        "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-text-1"
+      ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "pagination_switcher": "off",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "ambient",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow product variant images",
-        "heading_size": "h1",
-        "button_style_secondary": false,
-        "box_align": "middle-center",
+        "image": "shopify:\/\/shop_images\/vaultcard-vaultskin-safe-card-holder-credit-card-sleeve-best-security.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-center",
         "show_text_box": false,
-        "text_alignment": "center",
-        "image_overlay_opacity": 20,
+        "desktop_content_alignment": "center",
         "color_scheme": "inverse",
-        "text_alignment_mobile": "center"
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "product_navigation": {
@@ -94,11 +108,6 @@
         "padding_bottom": 12
       }
     },
-    "product_features": {
-      "type": "product-features",
-      "settings": {
-      }
-    },
     "related_products": {
       "type": "related-products",
       "settings": {
@@ -115,23 +124,6 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
-      }
-    },
-    "texnical_details": {
-      "type": "texnical-details",
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "heading": "Technical details",
-        "heading_size": "h1",
-        "text_style": "body",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
-        "image_behavior": "fixed",
-        "mobile_content_alignment": "center",
-        "show_text_below": false
       }
     },
     "1702301323f5484959": {
@@ -152,12 +144,10 @@
     }
   },
   "order": [
-    "slideshow_custom",
+    "5fe72802-4272-4080-bf23-ac5d02dfec7c",
     "product_navigation",
     "main",
-    "product_features",
     "related_products",
-    "texnical_details",
     "1702301323f5484959"
   ]
 }
