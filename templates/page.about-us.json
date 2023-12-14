@@ -87,9 +87,9 @@
         "template--17150325457136__e1bbb2f4-3b1c-44f0-b22b-d4307f3c9432-button-1"
       ],
       "settings": {
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
