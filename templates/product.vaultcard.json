@@ -92,6 +92,7 @@
     "texnical_details": {
       "type": "texnical-details",
       "settings": {
+        "image": "shopify:\/\/shop_images\/vaultcard-vaultskin-safe-card-holder-credit-card-sleeve-best-security.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "heading": "Technical details",
