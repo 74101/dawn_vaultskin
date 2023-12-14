@@ -1,3 +1,8 @@
+{% stylesheet %}
+  .vc_features {
+    
+  }
+{% endstylesheet %}
 {% for block in section.blocks %}
   <div class="vc_feature vc_feature--type-{{- block.settings.type }}" {{ block.shopify_attributes }}>
     <div class="vc_feature__content">
@@ -18,7 +23,14 @@
   "name": "Vaultcard features",
   "tag": "section",
   "class": "vc_features",
-  "settings": [],
+  "settings": [
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "#161628"
+    }
+  ],
   "blocks": [
     {
       "type": "feature",
