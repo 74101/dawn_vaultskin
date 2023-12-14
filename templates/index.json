@@ -186,7 +186,7 @@
           "type": "button",
           "settings": {
             "text": "SEE ALL PRODUCTS",
-            "url": "shopify:\/\/collections"
+            "url": "shopify:\/\/collections\/all"
           }
         }
       },
