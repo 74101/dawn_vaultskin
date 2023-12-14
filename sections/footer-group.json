@@ -16,7 +16,7 @@
           "type": "text",
           "settings": {
             "heading": "<strong>ORDERS<\/strong>",
-            "subtext": "<p>All orders are shipped within 2 business days. Delivery is dependent on postal services but is generally within a few days.<\/p><p>Returns are accepted within 4 weeks from the date of delivery.<\/p><p>Payments can be made in US dollars, Euros and British Pounds.<\/p>",
+            "subtext": "<p><strong>Fast Dispatch & Delivery:<\/strong> Orders shipped within 2 business days. Delivery is dependent on postal services but is generally within a few days.<\/p><p><strong>Easy returns:<\/strong> Returns are accepted within 4 weeks from the date of delivery.<\/p><p><strong>Payments:<\/strong> Local currency payments accepted. <\/p>",
             "show_trustpilot": false
           }
         },
