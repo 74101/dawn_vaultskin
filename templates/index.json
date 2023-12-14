@@ -326,6 +326,52 @@
         "image": "shopify:\/\/shop_images\/feature3-1.jpg"
       }
     },
+    "3d43a7a7-384c-4096-a30f-a1647ec6df32": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-heading-1",
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-text-1",
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "87d06e70-9dbc-4d36-8482-1ac60e599c49": {
       "type": "image-banner",
       "blocks": {
@@ -534,6 +580,7 @@
     "190874e7-206f-4d49-a09f-68c6a3f9c10e",
     "d250f2ab-7171-4c01-abdc-4c3537a306ad",
     "96639c7f-53b1-40a2-b729-5698295ea373",
+    "3d43a7a7-384c-4096-a30f-a1647ec6df32",
     "87d06e70-9dbc-4d36-8482-1ac60e599c49",
     "56a5d040-3ca0-4bf0-a019-fd501c81d225",
     "a02a8e9c-404b-4e1e-9b66-93088c367285"
