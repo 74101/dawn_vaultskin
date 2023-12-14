@@ -1,7 +1,12 @@
 {% for block in section.blocks %}
   <div class="vc_feature vc_feature--type-{{- block.settings.type }}" {{ block.shopify_attributes }}>
-
-    <div id="triangle-topleft"></div>
+    <div class="vc_feature_figures">
+      {% case block.settings.type %}
+        {% when 1 %}
+          <div class="vc_feature_figure triangle-top-left-1"></div>
+          <div class="vc_feature_figure triangle-top-left-2"></div>
+      {% endcase %}
+    </div>
     
     <div class="vc_feature__content">
       {% if forloop.index < 10 %}
