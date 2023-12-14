@@ -1,5 +1,41 @@
 {
   "sections": {
+    "5fe72802-4272-4080-bf23-ac5d02dfec7c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE MOST ADVANCED RFID PROTECTION",
+            "heading_size": "h1"
+          }
+        },
+        "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FOR YOUR WALLET<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-heading-1",
+        "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/vaultcard-vaultskin-safe-card-holder-credit-card-sleeve-best-security.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "product_navigation": {
       "type": "product-navigation",
       "settings": {
@@ -108,6 +144,7 @@
     }
   },
   "order": [
+    "5fe72802-4272-4080-bf23-ac5d02dfec7c",
     "product_navigation",
     "main",
     "related_products",
