@@ -2,7 +2,7 @@
   <div class="vc_feature vc_feature--type-{{- block.settings.type }}" {{ block.shopify_attributes }}>
     <h2 class="vc_feature__title">{{ block.settings.title }}</h2>
     <div class="vc_feature__text">{{ block.settings.text }}</div>
-    <div class="vc_feature__image">{{ block.settings.image | image_url | image_tag }}</div>
+    <div class="vc_feature__image">{{ block.settings.image_main | image_url | image_tag }}</div>
   </div>
 {% endfor %}
 
