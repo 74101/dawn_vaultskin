@@ -28,11 +28,6 @@ body * {
   transition: color .3s !important;
   cursor: pointer;
 }
-.button > *,
-.klaviyo-form button > * {
-  position: relative;
-  z-index: 2;
-}
 
 .button::after {
   content: none;
@@ -49,10 +44,9 @@ body * {
   right: 20% !important;
   transition: .3s;
   border-radius: 0 !important;
-  z-index: 1;
+  z-index: -1;
   pointer-events: none;
 }
-
 .klaviyo-form button:hover,
 .button:hover {
   color: #fff !important;
