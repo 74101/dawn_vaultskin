@@ -1,27 +1,5 @@
 {
   "sections": {
-    "slideshow_custom": {
-      "type": "slideshow-custom",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "pagination_switcher": "off",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "ambient",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow product variant images",
-        "heading_size": "h1",
-        "button_style_secondary": false,
-        "box_align": "middle-center",
-        "show_text_box": false,
-        "text_alignment": "center",
-        "image_overlay_opacity": 20,
-        "color_scheme": "inverse",
-        "text_alignment_mobile": "center"
-      }
-    },
     "product_navigation": {
       "type": "product-navigation",
       "settings": {
@@ -120,7 +98,6 @@
     "texnical_details": {
       "type": "texnical-details",
       "settings": {
-        "image": "shopify:\/\/shop_images\/vaultcard-vaultskin-safe-card-holder-credit-card-sleeve-best-security.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "heading": "Technical details",
@@ -153,7 +130,6 @@
     }
   },
   "order": [
-    "slideshow_custom",
     "product_navigation",
     "main",
     "product_features",
