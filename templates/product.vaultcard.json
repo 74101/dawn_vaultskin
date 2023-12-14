@@ -1,41 +1,5 @@
 {
   "sections": {
-    "fb16e5b1-2d88-4d78-b673-fafb990287ba": {
-      "type": "image-banner",
-      "blocks": {
-        "template--17147770241264__fb16e5b1-2d88-4d78-b673-fafb990287ba-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "THE MOST ADVANCED RFID PROTECTION",
-            "heading_size": "h1"
-          }
-        },
-        "template--17147770241264__fb16e5b1-2d88-4d78-b673-fafb990287ba-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>FOR YOUR WALLET<\/p>",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "template--17147770241264__fb16e5b1-2d88-4d78-b673-fafb990287ba-heading-1",
-        "template--17147770241264__fb16e5b1-2d88-4d78-b673-fafb990287ba-text-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/vaultcard-vaultskin-safe-card-holder-credit-card-sleeve-best-security.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "top-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "product_navigation": {
       "type": "product-navigation",
       "settings": {
@@ -76,6 +40,11 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
+        },
+        "574df41e-05fa-485f-b8b6-c885b3cbb77c": {
+          "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-product-review-badge\/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -84,7 +53,8 @@
         "1c92fd7a-5f5b-4e69-8af9-a221507c3da1",
         "d74289b0-c64f-452c-9ebf-a534e6ac6e75",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "574df41e-05fa-485f-b8b6-c885b3cbb77c"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -100,45 +70,6 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
-      }
-    },
-    "product_features": {
-      "type": "product-features",
-      "settings": {
-      }
-    },
-    "texnical_details": {
-      "type": "texnical-details",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/vaultcard-vaultskin-safe-card-holder-credit-card-sleeve-best-security.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "heading": "Technical details",
-        "heading_size": "h1",
-        "text_style": "body",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
-        "image_behavior": "fixed",
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
-    "1702301323f5484959": {
-      "type": "apps",
-      "blocks": {
-        "3ee2adb6-35ce-4842-87fd-3fea24395a6c": {
-          "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "3ee2adb6-35ce-4842-87fd-3fea24395a6c"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "related_products": {
@@ -158,15 +89,28 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1702301323f5484959": {
+      "type": "apps",
+      "blocks": {
+        "3ee2adb6-35ce-4842-87fd-3fea24395a6c": {
+          "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "3ee2adb6-35ce-4842-87fd-3fea24395a6c"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "fb16e5b1-2d88-4d78-b673-fafb990287ba",
     "product_navigation",
     "main",
-    "product_features",
-    "texnical_details",
-    "1702301323f5484959",
-    "related_products"
+    "related_products",
+    "1702301323f5484959"
   ]
 }
