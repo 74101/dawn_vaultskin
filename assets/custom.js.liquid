@@ -122,18 +122,18 @@ if (buy_now_btn) {
   })
 }
 
-// Получаем нужный элемент
+// Getting the right element
 let halved_numbers = document.querySelectorAll('.halved__num');
 
 let Visible = function (target) {
-  // Все позиции элемента
+  // All item positions
   let targetPosition = {
       top: window.pageYOffset + target.getBoundingClientRect().top,
       left: window.pageXOffset + target.getBoundingClientRect().left,
       right: window.pageXOffset + target.getBoundingClientRect().right,
       bottom: window.pageYOffset + target.getBoundingClientRect().bottom
     },
-    // Получаем позиции окна
+    // Get window positions
     windowPosition = {
       top: window.pageYOffset,
       left: window.pageXOffset,
@@ -141,26 +141,22 @@ let Visible = function (target) {
       bottom: window.pageYOffset + document.documentElement.clientHeight
     };
 
-  if (targetPosition.bottom > windowPosition.top && // Если позиция нижней части элемента больше позиции верхней чайти окна, то элемент виден сверху
-    targetPosition.top < windowPosition.bottom && // Если позиция верхней части элемента меньше позиции нижней чайти окна, то элемент виден снизу
-    targetPosition.right > windowPosition.left && // Если позиция правой стороны элемента больше позиции левой части окна, то элемент виден слева
-    targetPosition.left < windowPosition.right) { // Если позиция левой стороны элемента меньше позиции правой чайти окна, то элемент виден справа
-    // Если элемент полностью видно, то запускаем следующий код
-    target.classList.add('is-visible')
+  if (targetPosition.bottom > windowPosition.top &&
+    targetPosition.top < windowPosition.bottom &&
+    targetPosition.right > windowPosition.left &&
+    targetPosition.left < windowPosition.right) {
+    setTimeout(()=>{target.classList.add('is-visible')}, 400)
   } else {
-    // Если элемент не видно, то запускаем этот код
-    target.classList.remove('is-visible')
+    setTimeout(()=>{target.classList.remove('is-visible')}, 400)
   };
 };
 
-// Запускаем функцию при прокрутке страницы
 window.addEventListener('scroll', function() {
   halved_numbers.forEach(element => {
     Visible(element);
   })
 });
 
-// А также запустим функцию сразу. А то вдруг, элемент изначально видно
 halved_numbers.forEach(element => {
   Visible(element);
 })
