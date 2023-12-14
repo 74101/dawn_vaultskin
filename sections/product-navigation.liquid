@@ -27,12 +27,14 @@
         View Options
         {{ product.price | money }}
       </div>
-      <div class="price_old">
-        was
-        <s>
-          {{ product.compare_at_price | money_with_currency }}
-        </s>
-      </div>
+      {% if product.compare_at_price %}
+        <div class="price_old">
+          was
+          <s>
+            {{ product.compare_at_price | money_with_currency }}
+          </s>
+        </div>
+      {% endif %}
     </a>
   </div>
 </div>
