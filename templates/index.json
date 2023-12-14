@@ -449,7 +449,7 @@
           "type": "content",
           "settings": {
             "position": "left",
-            "content": "<h6><strong>NEWSLETTER<\/strong><\/h6>"
+            "content": "<h5><strong>NEWSLETTER<\/strong><\/h5>"
           }
         },
         "58fde479-94f8-476c-8020-17d127c3426e": {
@@ -473,7 +473,7 @@
           "type": "content",
           "settings": {
             "position": "right",
-            "content": "<h6><strong>DELIVERY & WARRANTY<\/strong><\/h6>"
+            "content": "<h5><strong>DELIVERY & WARRANTY<\/strong><\/h5>"
           }
         },
         "b784e584-4d37-4c5d-a650-901f1fba447a": {
