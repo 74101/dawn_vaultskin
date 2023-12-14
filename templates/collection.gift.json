@@ -1,10 +1,47 @@
 {
   "sections": {
+    "7cc7c04b-f739-4d72-8e02-589de6e89044": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17150051418352__7cc7c04b-f739-4d72-8e02-589de6e89044-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vaultskin-belgravia-rfid-wallet-red-5.jpg",
+            "heading": "STYLISH WALLET GIFT IDEAS FOR HER",
+            "heading_size": "h0",
+            "subheading": "Elevate Her Style with Exquisite Wallets: Discover our collection of stylish wallets that make the perfect gift for her. Featuring premium materials and impeccable craftsmanship, these wallets exude sophistication and elegance. Choose from a range of designs that combine form and function, ensuring that she can carry her essentials in style.",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17150051418352__7cc7c04b-f739-4d72-8e02-589de6e89044-slide-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "pagination": "on",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": false,
+        "show_collection_image": true,
         "color_scheme": "background-1"
       }
     },
@@ -30,6 +67,7 @@
     }
   },
   "order": [
+    "7cc7c04b-f739-4d72-8e02-589de6e89044",
     "banner",
     "product-grid"
   ]
