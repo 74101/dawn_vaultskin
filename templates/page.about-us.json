@@ -14,7 +14,7 @@
         "template--17150325457136__9532899a-1428-48ca-996d-e12c7ec46d0b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "WHY CHOOSE VAULTSKIN",
             "heading_size": "h1"
           }
         },
@@ -46,9 +46,9 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "inverse",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
