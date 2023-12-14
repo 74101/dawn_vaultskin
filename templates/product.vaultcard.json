@@ -108,6 +108,11 @@
         "padding_bottom": 12
       }
     },
+    "vaultcard_features": {
+      "type": "vaultcard-features",
+      "settings": {
+      }
+    },
     "e7ff2dea-9ea3-4ced-b58a-6247aaa94dcf": {
       "type": "image-banner",
       "blocks": {
@@ -183,6 +188,7 @@
     "5fe72802-4272-4080-bf23-ac5d02dfec7c",
     "product_navigation",
     "main",
+    "vaultcard_features",
     "e7ff2dea-9ea3-4ced-b58a-6247aaa94dcf",
     "related_products",
     "1702301323f5484959"
