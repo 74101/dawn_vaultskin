@@ -29,34 +29,11 @@ body * {
   cursor: pointer;
 }
 
-.button::before {
-  content: none;
-}
-.klaviyo-form button::after,
-.button::after {
-  content: '';
-  position: absolute;
-  background: #cd9b5c !important;
-  opacity: 0;
-  top: 0;
-  bottom: 0;
-  left: 20% !important;
-  right: 20% !important;
-  transition: .3s;
-  border-radius: 0 !important;
-  border: none !important;
-  pointer-events: none;
-}
 .klaviyo-form button:hover,
 .button:hover {
   color: #fff !important;
 }
-.klaviyo-form button:hover::after,
-.button:hover::after {
-  opacity: 1;
-  left: 0 !important;
-  right: 0 !important;
-}
+
 .announcement-bar .slider-button { 
   height: 2.3rem !important;
 }
