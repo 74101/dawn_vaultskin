@@ -116,14 +116,24 @@
           "type": "feature",
           "settings": {
             "type": "1",
-            "title": "<p>WHY TYPICAL RFID PROTECTION IS INEFFECTIVE<\/p>",
+            "title": "<h2>WHY TYPICAL RFID PROTECTION IS INEFFECTIVE<\/h2>",
+            "text": "<p>As consumers have become increasingly aware of RFID fraud, a flood of products has appeared to address these concerns. All the current products are based on the same principle of shielding the RFID card from electromagnetic waves using metal foils and materials. However, in practice, this approach is susceptible to flaws.<\/p><p><strong>This is due to the way that electromagnetic waves propagate through space.<\/strong><\/p><p>To ensure full protection, your cards need to be fully wrapped in metal foil with no gaps or spaces. This is almost impossible to achieve. A typical wallet with metal shielding can only protect against low-power reading devices, and only at certain angles.<\/p>",
+            "image_main": "shopify:\/\/shop_images\/rfid-security-credit-card-protection.png"
+          }
+        },
+        "a9774995-061b-4bb7-8a5b-f28346728809": {
+          "type": "feature",
+          "settings": {
+            "type": "2",
+            "title": "<h2>DANGERS OF RFID TECHNOLOGY<\/h2>",
             "text": "<p>As consumers have become increasingly aware of RFID fraud, a flood of products has appeared to address these concerns. All the current products are based on the same principle of shielding the RFID card from electromagnetic waves using metal foils and materials. However, in practice, this approach is susceptible to flaws.<\/p><p><strong>This is due to the way that electromagnetic waves propagate through space.<\/strong><\/p><p>To ensure full protection, your cards need to be fully wrapped in metal foil with no gaps or spaces. This is almost impossible to achieve. A typical wallet with metal shielding can only protect against low-power reading devices, and only at certain angles.<\/p>",
             "image_main": "shopify:\/\/shop_images\/rfid-security-credit-card-protection.png"
           }
         }
       },
       "block_order": [
-        "fbbce8de-e6e1-4236-8b35-a23d984eceba"
+        "fbbce8de-e6e1-4236-8b35-a23d984eceba",
+        "a9774995-061b-4bb7-8a5b-f28346728809"
       ],
       "settings": {
       }
