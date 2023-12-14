@@ -111,6 +111,17 @@
     },
     "vaultcard_features": {
       "type": "vaultcard-features",
+      "blocks": {
+        "fbbce8de-e6e1-4236-8b35-a23d984eceba": {
+          "type": "feature",
+          "settings": {
+            "title": "<p>WHY TYPICAL RFID PROTECTION IS INEFFECTIVE<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "fbbce8de-e6e1-4236-8b35-a23d984eceba"
+      ],
       "settings": {
       }
     },
