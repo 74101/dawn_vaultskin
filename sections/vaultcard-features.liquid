@@ -39,7 +39,18 @@
         {% endif %}
       </div>
     {% when "feature_width_steps" %}
-      <div class="vc_feature vc_feature--type-3" {{ block.shopify_attributes }}>
+      <div class="vc_feature vc_feature--type-3 vc_feature--id-{{- block.id }}" {{ block.shopify_attributes }}>
+        <style>
+          .vc_feature--id-{{- block.id }} .halved__num.vc_feature__num:before {
+            color: {{ block.settings.num_color_secondary }};
+          }
+          .vc_feature--id-{{- block.id }} .halved__num.vc_feature__num {
+            color: {{ block.settings.num_color_primary }};
+          }
+          .vc_feature--id-{{- block.id }} .halved__num.vc_feature__num:after {
+            color: {{ block.settings.num_color_line }};
+          }
+        </style>
         <div class="vc_feature_figures">
           <div class="vc_feature_figure triangle-bottom-right" style="border-bottom-color:{{ block.settings.figure_color }}"></div>
         </div>
