@@ -47,18 +47,26 @@
           <div class="vc_feature__text">{{ block.settings.text }}</div>
         </div>
         <div class="vc_feature__steps">
-          <div class="vc_feature__step">
-            {{ block.settings.step_1 | image_url: width: 300 | image_tag }}
-          </div>
-          <div class="vc_feature__step">
-            {{ block.settings.step_2 | image_url: width: 300 | image_tag }}
-          </div>
-          <div class="vc_feature__step">
-            {{ block.settings.step_3 | image_url: width: 300 | image_tag }}
-          </div>
-          <div class="vc_feature__step">
-            {{ block.settings.step_4 | image_url: width: 300 | image_tag }}
-          </div>
+          {% if block.settings.step_1 != blank %}
+            <div class="vc_feature__step">
+              {{ block.settings.step_1 | image_url: width: 300 | image_tag }}
+            </div>
+          {% endif %}
+          {% if block.settings.step_2 != blank %}
+            <div class="vc_feature__step">
+              {{ block.settings.step_2 | image_url: width: 300 | image_tag }}
+            </div>
+          {% endif %}
+          {% if block.settings.step_3 != blank %}
+            <div class="vc_feature__step">
+              {{ block.settings.step_3 | image_url: width: 300 | image_tag }}
+            </div>
+          {% endif %}
+          {% if block.settings.step_4 != blank %}
+            <div class="vc_feature__step">
+              {{ block.settings.step_4 | image_url: width: 300 | image_tag }}
+            </div>
+          {% endif %}
         </div>
       </div>
   {% endcase %}
