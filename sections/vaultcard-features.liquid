@@ -3,10 +3,10 @@
     {% when "feature" %}
       <div class="vc_feature vc_feature--type-{{- block.settings.type }} vc_feature--id-{{- block.id }}" {{ block.shopify_attributes }}>
         <style>
-          .halved__num.vc_feature__num:before {
+          .vc_feature--id-{{- block.id }} .halved__num.vc_feature__num:before {
             color: {{ block.settings.num_color_secondary }};
           }
-          .halved__num.vc_feature__num {
+          .vc_feature--id-{{- block.id }} .halved__num.vc_feature__num {
             color: {{ block.settings.num_color_primary }};
           }
         </style>
