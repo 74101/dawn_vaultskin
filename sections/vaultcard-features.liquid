@@ -12,6 +12,9 @@
           .vc_feature--id-{{- block.id }} .halved__num.vc_feature__num:after {
             color: {{ block.settings.num_color_line }};
           }
+          .vc_feature--id-{{- block.id }} .vc_feature__content:before {
+            backrgound-color: {{ block.settings.num_color_primary }};
+          }
         </style>
         <div class="vc_feature_figures">
           {% case block.settings.type %}
@@ -49,6 +52,9 @@
           }
           .vc_feature--id-{{- block.id }} .halved__num.vc_feature__num:after {
             color: {{ block.settings.num_color_line }};
+          }
+          .vc_feature--id-{{- block.id }} .vc_feature__content:before {
+            backrgound-color: {{ block.settings.num_color_primary }};
           }
         </style>
         <div class="vc_feature_figures">
