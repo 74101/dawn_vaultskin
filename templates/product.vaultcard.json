@@ -138,12 +138,22 @@
             "text": "<p>VAULTCARD switches on automatically when it senses the electromagnetic wave emitted by an RFID scanner.<\/p><p>It responds to a signal strength a hundred times smaller than what your RFID enabled cards need. Vaultcard then creates a sophisticated electromagnetic jamming signal that blocks RFID readers.<\/p><p><strong>This principle is frequently used in military jamming systems.<\/strong><\/p><p>The stronger the signal of the scanner, the stronger the jam signal that Vaultcard will generate. This way your credit cards, passports, etc. remain protected from even the most powerful scanning devices.<\/p>",
             "image_main": "shopify:\/\/shop_images\/vaultskin-vaultcard-rfid-theft-protection-security.png"
           }
+        },
+        "4db29c2b-aef0-41aa-b3b1-8e4a1e511f4b": {
+          "type": "feature",
+          "settings": {
+            "type": "1",
+            "title": "<h2>HOW TO USE YOUR VAULTCARD<\/h2>",
+            "text": "<p>Place your VAULTCARD in the middle of your wallet. All RFID enabled cards will be protected within 4 cm (1.6 inches) of VAULTCARD. Cards can be on either side of VAULTCARD, so your wallet can be up to 8 cm (3.2 inches) thick, which should be more than enough.<\/p><p><br\/>Now you can use your credit card normally. Just make sure to hold it at least 20 cm (8 inches) away from the VAULTCARD.<\/p>",
+            "image_main": "shopify:\/\/shop_images\/vaultskin-vaultcard-rfid-wallet-shield.png"
+          }
         }
       },
       "block_order": [
         "fbbce8de-e6e1-4236-8b35-a23d984eceba",
         "a9774995-061b-4bb7-8a5b-f28346728809",
-        "215ab3d3-1b1f-4edb-9bd1-160943cd0bf6"
+        "215ab3d3-1b1f-4edb-9bd1-160943cd0bf6",
+        "4db29c2b-aef0-41aa-b3b1-8e4a1e511f4b"
       ],
       "settings": {
       }
