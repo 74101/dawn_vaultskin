@@ -13,8 +13,18 @@
         </div>
 
         <div class="vc_feature__content">
+          <style>
+            .halved__num.vc_feature__num:before {
+              color: {{ block.settings.num_color_secondary }};
+            }
+            .halved__num.vc_feature__num {
+              color: {{ block.settings.num_color_primary }};
+            }
+          </style>
           {% if forloop.index < 10 %}
-            <div class="vc_feature__num halved__num" data-letters="0{{- forloop.index -}}">0{{- forloop.index -}}</div>
+            <div class="vc_feature__num halved__num {{ block.id }} " data-letters="0{{- forloop.index -}}">
+              0{{- forloop.index -}}
+            </div>
           {% else %}
             <div class="vc_feature__num halved__num" data-letters="{{- forloop.index -}}">{{- forloop.index -}}</div>
           {% endif %}
