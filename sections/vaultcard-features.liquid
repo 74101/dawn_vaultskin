@@ -21,7 +21,9 @@
           <div class="vc_feature__title">{{ block.settings.title }}</div>
           <div class="vc_feature__text">{{ block.settings.text }}</div>
         </div>
-        <div class="vc_feature__image">{{ block.settings.image_main | image_url: width: 1100 | image_tag }}</div>
+        {% if block.settings.image_main != blank %}
+          <div class="vc_feature__image">{{ block.settings.image_main | image_url: width: 1100 | image_tag }}</div>
+        {% endif %}
       </div>
     {% when "feature_width_steps" %}
       <div class="vc_feature vc_feature--type-3" {{ block.shopify_attributes }}>
@@ -44,7 +46,6 @@
           <div class="vc_feature__title">{{ block.settings.title }}</div>
           <div class="vc_feature__text">{{ block.settings.text }}</div>
         </div>
-        <div class="vc_feature__image">{{ block.settings.image_main | image_url: width: 1100 | image_tag }}</div>
         <div class="vc_feature__steps">
           <div class="vc_feature__step">
             {{ block.settings.step_1 | image_url: width: 300 | image_tag }}
@@ -122,11 +123,6 @@
           "type": "richtext",
           "id": "text",
           "label": "Text content"
-        },
-        {
-          "type": "image_picker",
-          "id": "image_main",
-          "label": "Image"
         },
         {
           "type": "header",
