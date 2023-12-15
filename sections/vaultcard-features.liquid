@@ -28,13 +28,7 @@
     {% when "feature_width_steps" %}
       <div class="vc_feature vc_feature--type-3" {{ block.shopify_attributes }}>
         <div class="vc_feature_figures">
-          {% case block.settings.type %}
-            {% when "1" %}
-              <div class="vc_feature_figure triangle-top-left-1"></div>
-              <div class="vc_feature_figure triangle-top-left-2"></div>
-            {% when "2" %}
-              <div class="vc_feature_figure triangle-bottom-right"></div>
-          {% endcase %}
+          <div class="vc_feature_figure triangle-bottom-right"></div>
         </div>
 
         <div class="vc_feature__content">
