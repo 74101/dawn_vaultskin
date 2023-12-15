@@ -129,11 +129,21 @@
             "text": "<p>RFID enabled cards offer remarkable convenience and save a lot of time for both consumers and businesses. Governments pounced on this technology and introduced RFID technology in passports, IDs, driving licenses, etc.<\/p><p>Most offices use RFID building access cards nowadays. As RFID technology has become more common around the globe, significant security concerns have also emerged.<\/p><p><strong>Criminals can easily acquire equipment that can access the data stored on your cards or passports from up to several meters.<\/strong><\/p><p>With this data, they can replicate your credit card, steal your identity or get access to your building.<\/p>",
             "image_main": "shopify:\/\/shop_images\/rfid-contactless-card-wallet-skimming.png"
           }
+        },
+        "215ab3d3-1b1f-4edb-9bd1-160943cd0bf6": {
+          "type": "feature",
+          "settings": {
+            "type": "2",
+            "title": "<h2>WHY VAULTCARD IS SO EFFECTIVE<\/h2>",
+            "text": "<p>VAULTCARD switches on automatically when it senses the electromagnetic wave emitted by an RFID scanner.<\/p><p>It responds to a signal strength a hundred times smaller than what your RFID enabled cards need. Vaultcard then creates a sophisticated electromagnetic jamming signal that blocks RFID readers.<\/p><p><strong>This principle is frequently used in military jamming systems.<\/strong><\/p><p>The stronger the signal of the scanner, the stronger the jam signal that Vaultcard will generate. This way your credit cards, passports, etc. remain protected from even the most powerful scanning devices.<\/p>",
+            "image_main": "shopify:\/\/shop_images\/vaultskin-vaultcard-rfid-theft-protection-security.png"
+          }
         }
       },
       "block_order": [
         "fbbce8de-e6e1-4236-8b35-a23d984eceba",
-        "a9774995-061b-4bb7-8a5b-f28346728809"
+        "a9774995-061b-4bb7-8a5b-f28346728809",
+        "215ab3d3-1b1f-4edb-9bd1-160943cd0bf6"
       ],
       "settings": {
       }
