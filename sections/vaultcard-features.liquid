@@ -27,13 +27,9 @@
           {% if forloop.index < 10 %}
             <div class="vc_feature__num halved__num" data-letters="0{{- forloop.index -}}">
               0{{- forloop.index -}}
-              <span style="background:{{ block.settings.num_color_primary }}"></span>
             </div>
           {% else %}
-            <div class="vc_feature__num halved__num" data-letters="{{- forloop.index -}}">
-              {{- forloop.index -}}
-              <span style="background:{{ block.settings.num_color_primary }}"></span>
-            </div>
+            <div class="vc_feature__num halved__num" data-letters="{{- forloop.index -}}">{{- forloop.index -}}</div>
           {% endif %}
           <div class="vc_feature__title">{{ block.settings.title }}</div>
           <div class="vc_feature__text">{{ block.settings.text }}</div>
@@ -61,15 +57,9 @@
 
         <div class="vc_feature__content">
           {% if forloop.index < 10 %}
-            <div class="vc_feature__num halved__num" data-letters="0{{- forloop.index -}}">
-              0{{- forloop.index -}}
-              <span style="background:{{ block.settings.num_color_primary }}"></span>
-            </div>
+            <div class="vc_feature__num halved__num" data-letters="0{{- forloop.index -}}">0{{- forloop.index -}}</div>
           {% else %}
-            <div class="vc_feature__num halved__num" data-letters="{{- forloop.index -}}">
-              {{- forloop.index -}}
-              <span style="background:{{ block.settings.num_color_primary }}"></span>
-            </div>
+            <div class="vc_feature__num halved__num" data-letters="{{- forloop.index -}}">{{- forloop.index -}}</div>
           {% endif %}
           <div class="vc_feature__title">{{ block.settings.title }}</div>
           <div class="vc_feature__text">{{ block.settings.text }}</div>
