@@ -9,6 +9,9 @@
           .vc_feature--id-{{- block.id }} .halved__num.vc_feature__num {
             color: {{ block.settings.num_color_primary }};
           }
+          .vc_feature--id-{{- block.id }} .halved__num.vc_feature__num:after {
+            color: {{ block.settings.num_color_line }};
+          }
         </style>
         <div class="vc_feature_figures">
           {% case block.settings.type %}
@@ -135,6 +138,12 @@
           "id": "num_color_secondary",
           "label": "Number color secondary",
           "default": "#792c38"
+        },
+        {
+          "type": "color",
+          "id": "num_color_line",
+          "label": "Number line color",
+          "default": "#F9F9F9"
         },
         {
           "type": "color",
