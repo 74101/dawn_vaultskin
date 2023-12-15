@@ -134,7 +134,11 @@
           "type": "feature_width_steps",
           "settings": {
             "title": "<h2>HOW RFID SYSTEMS WORK<\/h2>",
-            "text": "<p>During a typical RFID card payment the card reader constantly transmits electromagnetic pulses (Step 1).<\/p><p>When a RFID enabled card is in range of the card reader it receives electromagnetic waves with its antenna and converts them to electric currents (Step 2).<\/p><p>The microprocessor generates a coded message with the payment or identity data (Step 3).<\/p><p>which is then transmitted back to the card reader using the card’s internal antenna (Step 4).<\/p>"
+            "text": "<p>During a typical RFID card payment the card reader constantly transmits electromagnetic pulses (Step 1).<\/p><p>When a RFID enabled card is in range of the card reader it receives electromagnetic waves with its antenna and converts them to electric currents (Step 2).<\/p><p>The microprocessor generates a coded message with the payment or identity data (Step 3).<\/p><p>which is then transmitted back to the card reader using the card’s internal antenna (Step 4).<\/p>",
+            "step_1": "shopify:\/\/shop_images\/step1.png",
+            "step_2": "shopify:\/\/shop_images\/step2.png",
+            "step_3": "shopify:\/\/shop_images\/step3.png",
+            "step_4": "shopify:\/\/shop_images\/step4.png"
           }
         },
         "215ab3d3-1b1f-4edb-9bd1-160943cd0bf6": {
