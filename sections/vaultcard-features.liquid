@@ -1,6 +1,9 @@
 <div class="vc_preview">
   <div class="page-width">
-    <h1>{{ section.settings.title }}</h1>
+    <h1 class="vc_preview__title">{{ section.settings.title }}</h1>
+    <div class="vc_preview__img">
+      {{ section.settings.image | image_url: width: 340 | image_tag }}
+    </div>
   </div>
 </div>
 {% for block in section.blocks %}
