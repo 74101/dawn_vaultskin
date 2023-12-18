@@ -88,12 +88,14 @@ function productTabsScroll() {
             behavior: "smooth"
           });
         } else if (block) {
-          const blockTop = offset(block) - headerHeight - NAV_HEIGHT
-          window.scrollTo({
-            top: blockTop,
-            left: 0,
-            behavior: "smooth"
-          });
+          setTimeout(() => {
+            const blockTop = offset(block) - headerHeight - NAV_HEIGHT
+            window.scrollTo({
+              top: blockTop,
+              left: 0,
+              behavior: "smooth"
+            })
+          }, 100)
         }
       }
       if (is_tab_link) {
