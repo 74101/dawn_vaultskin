@@ -84,6 +84,24 @@
                   <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
                     {{ block.settings.text }}
                   </div>
+                {% when 'item' %}
+                  <div class="item image-with-text__item" {{ block.shopify_attributes }}>
+                    {% if block.settings.icon != blank %}
+                      <div class="item__icon">
+                        {{ block.settings.icon | image_url: width: 30 | image_tag }}
+                      </div>
+                    {% endif %}
+                    {% if block.settings.heading != blank %}
+                      <div class="item__heading">
+                        {{ block.settings.heading }}
+                      </div>
+                    {% endif %}
+                    {% if block.settings.description != blank %}
+                      <div class="item__description">
+                        {{ block.settings.description }}
+                      </div>
+                    {% endif %}
+                  </div>
                 {%- when 'button' -%}
                   {%- if block.settings.button_label != blank -%}
                     <a
@@ -432,6 +450,27 @@
           ],
           "default": "body",
           "label": "t:sections.image-with-text.blocks.text.settings.text_style.label"
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
         }
       ]
     },
