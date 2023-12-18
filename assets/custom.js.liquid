@@ -122,41 +122,44 @@ if (buy_now_btn) {
   })
 }
 
-// Getting the right element
-let halved_numbers = document.querySelectorAll('.halved__num');
-
-let Visible = function (target) {
-  // All item positions
-  let targetPosition = {
-      top: window.pageYOffset + target.getBoundingClientRect().top,
-      left: window.pageXOffset + target.getBoundingClientRect().left,
-      right: window.pageXOffset + target.getBoundingClientRect().right,
-      bottom: window.pageYOffset + target.getBoundingClientRect().bottom
-    },
-    // Get window positions
-    windowPosition = {
-      top: window.pageYOffset,
-      left: window.pageXOffset,
-      right: window.pageXOffset + document.documentElement.clientWidth,
-      bottom: window.pageYOffset + document.documentElement.clientHeight
+function halvedNumbersAnimate() {
+  // Getting the right element
+  let halved_numbers = document.querySelectorAll('.halved__num');
+  
+  let Visible = function (target) {
+    // All item positions
+    let targetPosition = {
+        top: window.pageYOffset + target.getBoundingClientRect().top,
+        left: window.pageXOffset + target.getBoundingClientRect().left,
+        right: window.pageXOffset + target.getBoundingClientRect().right,
+        bottom: window.pageYOffset + target.getBoundingClientRect().bottom
+      },
+      // Get window positions
+      windowPosition = {
+        top: window.pageYOffset,
+        left: window.pageXOffset,
+        right: window.pageXOffset + document.documentElement.clientWidth,
+        bottom: window.pageYOffset + document.documentElement.clientHeight
+      };
+  
+    if (targetPosition.bottom > windowPosition.top &&
+      targetPosition.top < windowPosition.bottom &&
+      targetPosition.right > windowPosition.left &&
+      targetPosition.left < windowPosition.right) {
+      setTimeout(()=>{target.classList.add('is-visible')}, 400)
+    } else {
+      setTimeout(()=>{target.classList.remove('is-visible')}, 400)
     };
-
-  if (targetPosition.bottom > windowPosition.top &&
-    targetPosition.top < windowPosition.bottom &&
-    targetPosition.right > windowPosition.left &&
-    targetPosition.left < windowPosition.right) {
-    setTimeout(()=>{target.classList.add('is-visible')}, 400)
-  } else {
-    setTimeout(()=>{target.classList.remove('is-visible')}, 400)
   };
-};
-
-window.addEventListener('scroll', function() {
+  
+  window.addEventListener('scroll', function() {
+    halved_numbers.forEach(element => {
+      Visible(element);
+    })
+  });
+  
   halved_numbers.forEach(element => {
     Visible(element);
   })
-});
-
-halved_numbers.forEach(element => {
-  Visible(element);
-})
+}
+halvedNumbersAnimate()
