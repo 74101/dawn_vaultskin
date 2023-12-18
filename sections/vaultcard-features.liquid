@@ -1,7 +1,7 @@
 {% for block in section.blocks %}
   {% case block.type %}
     {% when "preview" %}
-      <h1>{{ product.title }}</h1>
+      <h1>{{ block.settings.title }}</h1>
     {% when "feature" %}
       <div class="vc_feature vc_feature--type-{{- block.settings.type }} vc_feature--id-{{- block.id }}" {{ block.shopify_attributes }}>
         <style>
