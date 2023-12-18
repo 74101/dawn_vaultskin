@@ -189,7 +189,20 @@
       ],
       "settings": {
         "title": "BEST RFID PROTECTION",
-        "image": "shopify:\/\/shop_images\/VAULTCARD-RFID-blocking-card-rfid-blocking-material-shield-what-is-Vaultskin.png"
+        "image": "shopify:\/\/shop_images\/VAULTCARD-RFID-blocking-card-rfid-blocking-material-shield-what-is-Vaultskin.png",
+        "feature_1_title": "Security",
+        "feature_1_text": "<p>Protects your RFID enabled credit cards, passport, driving license, office door passes etc from RFID skimming (electronic pick-pocketing).<\/p>",
+        "feature_1_image": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-security.png",
+        "feature_2_title": "",
+        "feature_2_text": "",
+        "feature_3_title": "",
+        "feature_3_text": "",
+        "feature_4_title": "",
+        "feature_4_text": "",
+        "feature_5_title": "",
+        "feature_5_text": "",
+        "feature_6_title": "",
+        "feature_6_text": ""
       }
     },
     "e7ff2dea-9ea3-4ced-b58a-6247aaa94dcf": {
