@@ -72,7 +72,7 @@ function productTabsScroll() {
   const anchors = document.querySelectorAll('.product_tabs a[href*="#"]')
   for (let anchor of anchors) {
     anchor.addEventListener('click', function (evt) {
-      evt.preventDefault()
+      // evt.preventDefault()
       let is_tab_link = anchor.classList.contains('tab_link')
       let is_scroll_link = anchor.classList.contains('scroll_link')
 
