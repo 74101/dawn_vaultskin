@@ -1,3 +1,14 @@
+<div class="page-width">
+
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when "text" %}
+      {{ block.settings.text }}
+  {% endcase %}
+{% endfor %}
+
+</div>
+
 {% schema %}
 {
   "name": "Vaultcard description",
