@@ -3,7 +3,10 @@
     <div class="vc_preview__container">
       <h1 class="vc_preview__title">{{ section.settings.title }}</h1>
       <div class="vc_preview__left">
-        left
+        <div class="vc_preview__feature">
+          <div class="vc_preview__feature-icon">{{ section.settings.feature_1_title }}</div>
+          <div class="vc_preview__feature-title">{{ section.settings.feature_1_title }}</div>
+        </div>
       </div>
       {% if section.settings.image != blank %}
         <div class="vc_preview__img">
@@ -146,8 +149,8 @@
     },
     {
       "type": "image_picker",
-      "id": "feature_1_image",
-      "label": "Image (feature 1)"
+      "id": "feature_1_icon",
+      "label": "Icon (feature 1)"
     },
     {
       "type": "header",
@@ -165,8 +168,8 @@
     },
     {
       "type": "image_picker",
-      "id": "feature_2_image",
-      "label": "Image (feature 2)"
+      "id": "feature_2_icon",
+      "label": "Icon (feature 2)"
     },
     {
       "type": "header",
@@ -184,8 +187,8 @@
     },
     {
       "type": "image_picker",
-      "id": "feature_3_image",
-      "label": "Image (feature 3)"
+      "id": "feature_3_icon",
+      "label": "Icon (feature 3)"
     },
     {
       "type": "header",
@@ -203,8 +206,8 @@
     },
     {
       "type": "image_picker",
-      "id": "feature_4_image",
-      "label": "Image (feature 4)"
+      "id": "feature_4_icon",
+      "label": "Icon (feature 4)"
     },
     {
       "type": "header",
@@ -222,8 +225,8 @@
     },
     {
       "type": "image_picker",
-      "id": "feature_5_image",
-      "label": "Image (feature 5)"
+      "id": "feature_5_icon",
+      "label": "Icon (feature 5)"
     },
     {
       "type": "header",
@@ -241,8 +244,8 @@
     },
     {
       "type": "image_picker",
-      "id": "feature_6_image",
-      "label": "Image (feature 6)"
+      "id": "feature_6_icon",
+      "label": "Icon (feature 6)"
     }
   ],
   "blocks": [
