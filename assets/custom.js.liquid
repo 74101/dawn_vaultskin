@@ -69,7 +69,7 @@ function offset(el) {
 }
 
 function productTabsScroll() {
-  const anchors = document.querySelectorAll('a[href*="#"]')
+  const anchors = document.querySelectorAll('a.scroll_link[href*="#"]')
   for (let anchor of anchors) {
     anchor.addEventListener('click', function (evt) {
       evt.preventDefault()
