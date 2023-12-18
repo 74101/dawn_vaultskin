@@ -1,11 +1,19 @@
 <div class="vc_preview">
   <div class="page-width">
     <h1 class="vc_preview__title">{{ section.settings.title }}</h1>
-    {% if section.settings.image != blank %}
-      <div class="vc_preview__img">
-        {{ section.settings.image | image_url: width: 340 | image_tag }}
+    <div class="vc_preview__container">
+      <div class="vc_preview__left">
+        left
       </div>
-    {% endif %}
+      {% if section.settings.image != blank %}
+        <div class="vc_preview__img">
+          {{ section.settings.image | image_url: width: 340 | image_tag }}
+        </div>
+      {% endif %}
+      <div class="vc_preview__right">
+        right
+      </div>
+    </div>
   </div>
 </div>
 {% for block in section.blocks %}
