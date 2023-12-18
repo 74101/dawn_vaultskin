@@ -53,20 +53,20 @@
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
       >
-        {%- if card_product.variants[1].featured_media -%}
+        {%- if card_product.variants[0].featured_media -%}
           <div class="card__media{% if image_shape and image_shape != 'default' %} shape--{{ image_shape }} color-{{ settings.card_color_scheme }} gradient{% endif %}">
             <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
-                src="{{ card_product.variants[1].featured_media | image_url: width: 533 }}"
+                src="{{ card_product.variants[0].featured_media | image_url: width: 533 }}"
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-                alt="{{ card_product.variants[1].featured_media.alt | escape }}"
+                alt="{{ card_product.variants[0].featured_media.alt | escape }}"
                 class="motion-reduce"
                 {% unless lazy_load == false %}
                   loading="lazy"
                 {% endunless %}
-                width="{{ card_product.variants[1].featured_media.width }}"
-                height="{{ card_product.variants[1].featured_media.height }}"
+                width="{{ card_product.variants[0].featured_media.width }}"
+                height="{{ card_product.variants[0].featured_media.height }}"
               >
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
 
