@@ -1,0 +1,36 @@
+<div class="page-width">
+  <div class="breadcrumbs">
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      /
+      <li>{{ product.title }}</li>
+    </ul>
+  </div>
+  <div class="product_tabs">
+    <ul>
+      <li>
+        <a href="#vc_features" class="scroll_link tab_link">Features</a>
+      </li>
+      <li>
+        <a href="#vc_description" class="scroll_link tab_link">Description</a>
+      </li>
+      <li>
+        <a href="#video" class="scroll_link tab_link">Video</a>
+      </li>
+    </ul>
+  </div>
+  <button class="buy_now_btn button button--secondary">Buy now</button>
+</div>
+{% schema %}
+  {
+    "name": "Product navigation",
+    "tag": "section",
+    "class": "product_navigation",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": []
+  }
+{% endschema %}

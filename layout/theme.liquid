@@ -284,32 +284,9 @@
       }
     </script>
     {{ 'custom.css' | asset_url | stylesheet_tag }}
-    {% if template.name == "index" %} 
-     {% style %}
-        @media screen and (min-width: 990px) {
-          .shopify-section-header-sticky {
-            position: fixed !important;
-            left: 0;
-            right: 0;
-          }
-         }
-        .header__heading-logo {
-          display: block;
-        }
-        .header__heading-logo_scroll {
-          display: none;
-        }
-        .scrolled-past-header .header__heading-logo {
-          display: none;
-        }
-        .scrolled-past-header .header__heading-logo_scroll {
-          display: block;
-        }
-     {% endstyle %}
-    {% endif %}
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %} {% if template.suffix != blank %}template_{{- template.suffix -}}{% else %} template_{{- template.name -}}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>

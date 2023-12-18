@@ -1,0 +1,320 @@
+{
+  "sections": {
+    "5fe72802-4272-4080-bf23-ac5d02dfec7c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE MOST ADVANCED RFID PROTECTION",
+            "heading_size": "h1"
+          }
+        },
+        "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>FOR YOUR WALLET<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-heading-1",
+        "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/vaultcard-vaultskin-safe-card-holder-credit-card-sleeve-best-security.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "product_navigation": {
+      "type": "product-navigation-another",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1c92fd7a-5f5b-4e69-8af9-a221507c3da1": {
+          "type": "short_description",
+          "settings": {
+          }
+        },
+        "d74289b0-c64f-452c-9ebf-a534e6ac6e75": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "574df41e-05fa-485f-b8b6-c885b3cbb77c": {
+          "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-product-review-badge\/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "1c92fd7a-5f5b-4e69-8af9-a221507c3da1",
+        "d74289b0-c64f-452c-9ebf-a534e6ac6e75",
+        "quantity_selector",
+        "buy_buttons",
+        "574df41e-05fa-485f-b8b6-c885b3cbb77c"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sticky_info": false,
+        "color_scheme": "background-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "vaultcard_features": {
+      "type": "vaultcard-features",
+      "blocks": {
+        "fbbce8de-e6e1-4236-8b35-a23d984eceba": {
+          "type": "feature",
+          "settings": {
+            "type": "1",
+            "title": "<h2>WHY TYPICAL RFID PROTECTION IS INEFFECTIVE<\/h2>",
+            "text": "<p>As consumers have become increasingly aware of RFID fraud, a flood of products has appeared to address these concerns. All the current products are based on the same principle of shielding the RFID card from electromagnetic waves using metal foils and materials. However, in practice, this approach is susceptible to flaws.<\/p><p><strong>This is due to the way that electromagnetic waves propagate through space.<\/strong><\/p><p>To ensure full protection, your cards need to be fully wrapped in metal foil with no gaps or spaces. This is almost impossible to achieve. A typical wallet with metal shielding can only protect against low-power reading devices, and only at certain angles.<\/p>",
+            "image_main": "shopify:\/\/shop_images\/rfid-security-credit-card-protection.png",
+            "num_color_primary": "#c7444b",
+            "num_color_secondary": "#792c38",
+            "num_color_line": "#f9f9f9",
+            "figure_color": "#b74046"
+          }
+        },
+        "a9774995-061b-4bb7-8a5b-f28346728809": {
+          "type": "feature",
+          "settings": {
+            "type": "2",
+            "title": "<h2>DANGERS OF RFID TECHNOLOGY<\/h2>",
+            "text": "<p>RFID enabled cards offer remarkable convenience and save a lot of time for both consumers and businesses. Governments pounced on this technology and introduced RFID technology in passports, IDs, driving licenses, etc.<\/p><p>Most offices use RFID building access cards nowadays. As RFID technology has become more common around the globe, significant security concerns have also emerged.<\/p><p><strong>Criminals can easily acquire equipment that can access the data stored on your cards or passports from up to several meters.<\/strong><\/p><p>With this data, they can replicate your credit card, steal your identity or get access to your building.<\/p>",
+            "image_main": "shopify:\/\/shop_images\/rfid-contactless-card-wallet-skimming.png",
+            "num_color_primary": "#c7444b",
+            "num_color_secondary": "#792c38",
+            "num_color_line": "#f9f9f9",
+            "figure_color": "#b74046"
+          }
+        },
+        "5242e492-ff11-4983-ae38-ae3d5d97e371": {
+          "type": "feature_width_steps",
+          "settings": {
+            "title": "<h2>HOW RFID SYSTEMS WORK<\/h2>",
+            "text": "<p>During a typical RFID card payment the card reader constantly transmits electromagnetic pulses (Step 1).<\/p><p>When a RFID enabled card is in range of the card reader it receives electromagnetic waves with its antenna and converts them to electric currents (Step 2).<\/p><p>The microprocessor generates a coded message with the payment or identity data (Step 3).<\/p><p>which is then transmitted back to the card reader using the card’s internal antenna (Step 4).<\/p>",
+            "step_1": "shopify:\/\/shop_images\/step1.png",
+            "step_2": "shopify:\/\/shop_images\/step2.png",
+            "step_3": "shopify:\/\/shop_images\/step3.png",
+            "step_4": "shopify:\/\/shop_images\/step4.png",
+            "num_color_primary": "#c7444b",
+            "num_color_secondary": "#792c38",
+            "num_color_line": "#f9f9f9",
+            "figure_color": "#121222"
+          }
+        },
+        "215ab3d3-1b1f-4edb-9bd1-160943cd0bf6": {
+          "type": "feature",
+          "settings": {
+            "type": "2",
+            "title": "<h2>WHY VAULTCARD IS SO EFFECTIVE<\/h2>",
+            "text": "<p>VAULTCARD switches on automatically when it senses the electromagnetic wave emitted by an RFID scanner.<\/p><p>It responds to a signal strength a hundred times smaller than what your RFID enabled cards need. Vaultcard then creates a sophisticated electromagnetic jamming signal that blocks RFID readers.<\/p><p><strong>This principle is frequently used in military jamming systems.<\/strong><\/p><p>The stronger the signal of the scanner, the stronger the jam signal that Vaultcard will generate. This way your credit cards, passports, etc. remain protected from even the most powerful scanning devices.<\/p>",
+            "image_main": "shopify:\/\/shop_images\/vaultskin-vaultcard-rfid-theft-protection-security.png",
+            "num_color_primary": "#c7444b",
+            "num_color_secondary": "#792c38",
+            "num_color_line": "#f9f9f9",
+            "figure_color": "#b74046"
+          }
+        },
+        "4db29c2b-aef0-41aa-b3b1-8e4a1e511f4b": {
+          "type": "feature",
+          "settings": {
+            "type": "1",
+            "title": "<h2>HOW TO USE YOUR VAULTCARD<\/h2>",
+            "text": "<p>Place your VAULTCARD in the middle of your wallet. All RFID enabled cards will be protected within 4 cm (1.6 inches) of VAULTCARD. Cards can be on either side of VAULTCARD, so your wallet can be up to 8 cm (3.2 inches) thick, which should be more than enough.<\/p><p><br\/>Now you can use your credit card normally. Just make sure to hold it at least 20 cm (8 inches) away from the VAULTCARD.<\/p>",
+            "image_main": "shopify:\/\/shop_images\/vaultskin-vaultcard-rfid-wallet-shield.png",
+            "num_color_primary": "#c7444b",
+            "num_color_secondary": "#792c38",
+            "num_color_line": "#f9f9f9",
+            "figure_color": "#b74046"
+          }
+        }
+      },
+      "block_order": [
+        "fbbce8de-e6e1-4236-8b35-a23d984eceba",
+        "a9774995-061b-4bb7-8a5b-f28346728809",
+        "5242e492-ff11-4983-ae38-ae3d5d97e371",
+        "215ab3d3-1b1f-4edb-9bd1-160943cd0bf6",
+        "4db29c2b-aef0-41aa-b3b1-8e4a1e511f4b"
+      ],
+      "settings": {
+        "title": "BEST RFID PROTECTION",
+        "image": "shopify:\/\/shop_images\/VAULTCARD-RFID-blocking-card-rfid-blocking-material-shield-what-is-Vaultskin.png",
+        "feature_1_title": "Security",
+        "feature_1_text": "<p>Protects your RFID enabled credit cards, passport, driving license, office door passes etc from RFID skimming (electronic pick-pocketing).<\/p>",
+        "feature_1_icon": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-security.png",
+        "feature_2_title": "Convenience",
+        "feature_2_text": "<p>You no longer need to wrap your credit card in foil. Just keep VAULTCARD together with your cards in your wallet to ensure unmatched RFID security.<\/p>",
+        "feature_2_icon": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-convinience.png",
+        "feature_3_title": "Slim",
+        "feature_3_text": "<p>The card is only 1.1 mm thick and will perfectly fit in your wallet or cardholder.<\/p>",
+        "feature_3_icon": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-slim.png",
+        "feature_4_title": "Patented Technology",
+        "feature_4_text": "<p>The card uses sophisticated electromagnetic jamming technology frequently used in military applications.<\/p>",
+        "feature_4_icon": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-technology.png",
+        "feature_5_title": "No battery",
+        "feature_5_text": "<p>The card lasts forever. The card has an extremely efficient energy harnessing technology which allows it to be powered by energy from the RFID scanner.<\/p>",
+        "feature_5_icon": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-no-battery.png",
+        "feature_6_title": "Auto-Adjust Power",
+        "feature_6_text": "<p>VAULTCARD automatically adjusts the power of its jamming signal to ensure your RFID enabled cards, passport etc. remain protected even against very powerful RFID skimming systems.<\/p>",
+        "feature_6_icon": "shopify:\/\/shop_images\/RFID-blocking-auto-power-adjustment-technology.png"
+      }
+    },
+    "vaultcard_description": {
+      "type": "vaultcard-description",
+      "blocks": {
+        "90745bdd-9779-4fd8-8844-d30070442a4a": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>WHY VAULTCARD<\/h2>"
+          }
+        },
+        "a203c552-0ba0-4a86-847b-eed8a78e4788": {
+          "type": "two_column_text",
+          "settings": {
+            "two_column_text_1": "<p>With contactless card payments growing in popularity, our personal data is increasingly at risk of interception by fraudsters. The RFID technology that allows them to function is not entirely secure and can be accessed by scanning devices that are freely available online. VAULTCARD™ is a credit-card-sized tool, which can be placed inside a wallet to block electromagnetic signals – guaranteeing protection against RFID theft, while still enabling the use of contactless payments.<\/p>",
+            "two_column_text_2": "<p>VAULTCARD's patent pending RFID protection technology is unique to contactless card safety devices and is based on highly sophisticated jamming signals frequently used by the military. We have invested a great deal of time in research and development to create our final VAULTCARD™ prototype. Its unmatched protection utilizes an extremely efficient design, which emits a complex jamming signal that completely shuts out any RFID communication.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "90745bdd-9779-4fd8-8844-d30070442a4a",
+        "a203c552-0ba0-4a86-847b-eed8a78e4788"
+      ],
+      "settings": {
+      }
+    },
+    "e7ff2dea-9ea3-4ced-b58a-6247aaa94dcf": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17147770241264__e7ff2dea-9ea3-4ced-b58a-6247aaa94dcf-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Technical details",
+            "heading_size": "h1"
+          }
+        },
+        "template--17147770241264__e7ff2dea-9ea3-4ced-b58a-6247aaa94dcf-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>VAULTCARD dimensions:<\/p><p>86 x 54 x 1 mm or‎ 3.31 x 2.13 x 0.04 inches<\/p><p>Weight:<\/p><p>13.9 grams or 0.49 ounces<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--17147770241264__e7ff2dea-9ea3-4ced-b58a-6247aaa94dcf-heading-1",
+        "template--17147770241264__e7ff2dea-9ea3-4ced-b58a-6247aaa94dcf-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/vaultcard-vaultskin-safe-card-holder-credit-card-sleeve-best-security.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "related_products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "1702301323f5484959": {
+      "type": "apps",
+      "blocks": {
+        "3ee2adb6-35ce-4842-87fd-3fea24395a6c": {
+          "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "3ee2adb6-35ce-4842-87fd-3fea24395a6c"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "5fe72802-4272-4080-bf23-ac5d02dfec7c",
+    "product_navigation",
+    "main",
+    "vaultcard_features",
+    "vaultcard_description",
+    "e7ff2dea-9ea3-4ced-b58a-6247aaa94dcf",
+    "related_products",
+    "1702301323f5484959"
+  ]
+}
