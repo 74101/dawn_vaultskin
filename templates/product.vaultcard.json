@@ -192,22 +192,22 @@
         "image": "shopify:\/\/shop_images\/VAULTCARD-RFID-blocking-card-rfid-blocking-material-shield-what-is-Vaultskin.png",
         "feature_1_title": "Security",
         "feature_1_text": "<p>Protects your RFID enabled credit cards, passport, driving license, office door passes etc from RFID skimming (electronic pick-pocketing).<\/p>",
-        "feature_1_image": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-security.png",
+        "feature_1_icon": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-security.png",
         "feature_2_title": "Convenience",
         "feature_2_text": "<p>You no longer need to wrap your credit card in foil. Just keep VAULTCARD together with your cards in your wallet to ensure unmatched RFID security.<\/p>",
-        "feature_2_image": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-convinience.png",
+        "feature_2_icon": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-convinience.png",
         "feature_3_title": "Slim",
         "feature_3_text": "<p>The card is only 1.1 mm thick and will perfectly fit in your wallet or cardholder.<\/p>",
-        "feature_3_image": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-slim.png",
+        "feature_3_icon": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-slim.png",
         "feature_4_title": "Patented Technology",
         "feature_4_text": "<p>The card uses sophisticated electromagnetic jamming technology frequently used in military applications.<\/p>",
-        "feature_4_image": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-technology.png",
+        "feature_4_icon": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-technology.png",
         "feature_5_title": "No battery",
         "feature_5_text": "<p>The card lasts forever. The card has an extremely efficient energy harnessing technology which allows it to be powered by energy from the RFID scanner.<\/p>",
-        "feature_5_image": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-no-battery.png",
+        "feature_5_icon": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-no-battery.png",
         "feature_6_title": "Auto-Adjust Power",
         "feature_6_text": "<p>VAULTCARD automatically adjusts the power of its jamming signal to ensure your RFID enabled cards, passport etc. remain protected even against very powerful RFID skimming systems.<\/p>",
-        "feature_6_image": "shopify:\/\/shop_images\/RFID-blocking-auto-power-adjustment-technology.png"
+        "feature_6_icon": "shopify:\/\/shop_images\/RFID-blocking-auto-power-adjustment-technology.png"
       }
     },
     "e7ff2dea-9ea3-4ced-b58a-6247aaa94dcf": {
