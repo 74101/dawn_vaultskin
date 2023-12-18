@@ -275,19 +275,18 @@ details[open]>.header__menu-item,
   margin: 0;
 }
 
+.image-with-text__item,
 .halved__item {
   position: relative;
   margin-left: 30px;
   margin-bottom: 30px;
   padding-left: 40px;
 }
-.image-with-text__item {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .item__icon {
-  flex-shrink: 0;
+  position: absolute;
+  top: 10px;
+  left: 0;
   width: 26px;
   height: 26px;
 }
@@ -297,9 +296,6 @@ details[open]>.header__menu-item,
   height: 100%;
   object-fit: contain;
 }
-  
-
-.item__heading > *,
 .halved__item h1,
 .halved__item h2,
 .halved__item h3,
