@@ -4,8 +4,19 @@
       <h1 class="vc_preview__title">{{ section.settings.title }}</h1>
       <div class="vc_preview__left">
         <div class="vc_preview__feature">
-          <div class="vc_preview__feature-icon">{{ section.settings.feature_1_title }}</div>
+          <div class="vc_preview__feature-icon">{{ section.settings.feature_1_icon | image_url: width: 30 | image_tag }}</div>
           <div class="vc_preview__feature-title">{{ section.settings.feature_1_title }}</div>
+          <div class="vc_preview__feature-text">{{ section.settings.feature_1_text }}</div>
+        </div>
+        <div class="vc_preview__feature">
+          <div class="vc_preview__feature-icon">{{ section.settings.feature_2_icon | image_url: width: 30 | image_tag }}</div>
+          <div class="vc_preview__feature-title">{{ section.settings.feature_2_title }}</div>
+          <div class="vc_preview__feature-text">{{ section.settings.feature_2_text }}</div>
+        </div>
+        <div class="vc_preview__feature">
+          <div class="vc_preview__feature-icon">{{ section.settings.feature_3_icon | image_url: width: 30 | image_tag }}</div>
+          <div class="vc_preview__feature-title">{{ section.settings.feature_3_title }}</div>
+          <div class="vc_preview__feature-text">{{ section.settings.feature_3_text }}</div>
         </div>
       </div>
       {% if section.settings.image != blank %}
