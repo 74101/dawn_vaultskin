@@ -2,7 +2,7 @@
   <div class="page-width">
     <div class="vc_preview__container">
       <h1 class="vc_preview__title">{{ section.settings.title }}</h1>
-      <div class="vc_preview__left">
+      <div class="vc_preview__left vc_preview__inner">
         <div class="vc_preview__feature">
           {% if section.settings.feature_1_icon %}
             <div class="vc_preview__feature-icon">{{ section.settings.feature_1_icon | image_url: width: 30 | image_tag }}</div>
@@ -42,7 +42,7 @@
           {{ section.settings.image | image_url: width: 340 | image_tag }}
         </div>
       {% endif %}
-      <div class="vc_preview__right">
+      <div class="vc_preview__right vc_preview__inner">
         <div class="vc_preview__feature">
           {% if section.settings.feature_4_icon %}
             <div class="vc_preview__feature-icon">{{ section.settings.feature_4_icon | image_url: width: 30 | image_tag }}</div>
