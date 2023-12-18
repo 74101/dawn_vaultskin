@@ -69,11 +69,11 @@ function offset(el) {
 }
 
 function productTabsScroll() {
-  const anchors = document.querySelectorAll('a.scroll_link[href*="#"]')
+  const anchors = document.querySelectorAll('.product_tabs a[href*="#"]')
   for (let anchor of anchors) {
     anchor.addEventListener('click', function (evt) {
       evt.preventDefault()
-      
+
       const blockID = anchor.getAttribute('href').substr(1)
       const block = document.querySelector(`.${blockID}`)
       const headerHeight = document.querySelector('.section-header').offsetHeight
