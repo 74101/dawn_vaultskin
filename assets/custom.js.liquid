@@ -75,24 +75,25 @@ function productTabsScroll() {
       evt.preventDefault()
       let is_tab_link = anchor.classList.contains('tab_link')
       let is_scroll_link = anchor.classList.contains('scroll_link')
-
-      const blockID = anchor.getAttribute('href').substr(1)
-      const block = document.querySelector(`.${blockID}`)
-      const headerHeight = document.querySelector('.section-header').offsetHeight
-      const NAV_HEIGHT = 38;
-      if (blockID == 'to_top') {
-        window.scrollTo({
-          top: 0,
-          left: 0,
-          behavior: "smooth"
-        });
-      } else if (block) {
-        const blockTop = offset(block) - headerHeight - NAV_HEIGHT;
-        window.scrollTo({
-          top: blockTop,
-          left: 0,
-          behavior: "smooth"
-        });
+      if (is_scroll_link) {
+        const blockID = anchor.getAttribute('href').substr(1)
+        const block = document.querySelector(`.${blockID}`)
+        const headerHeight = document.querySelector('.section-header').offsetHeight
+        const NAV_HEIGHT = 38;
+        if (blockID == 'to_top') {
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+          });
+        } else if (block) {
+          const blockTop = offset(block) - headerHeight - NAV_HEIGHT;
+          window.scrollTo({
+            top: blockTop,
+            left: 0,
+            behavior: "smooth"
+          });
+        }
       }
     })
   }
