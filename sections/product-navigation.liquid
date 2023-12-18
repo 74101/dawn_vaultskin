@@ -1,42 +1,44 @@
-<div class="product_navigation_container">
-  <div class="page-width">
-    <div class="breadcrumbs">
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        /
-        <li>{{ product.title }}</li>
-      </ul>
-    </div>
-    <div class="product_tabs">
-      <ul>
-        <li>
-          <a href="#to_top">Home</a>
-        </li>
-        <li>
-          <a href="#main-product">Features</a>
-        </li>
-        <li>
-          <a href="#product_feature">Get Inspired</a>
-        </li>
-      </ul>
-    </div>
-    <div class="view_options">
-      <a href="#main-product">
-        <div>
-          View Options
-          {{ product.price | money }}
-        </div>
-        {% if product.compare_at_price %}
-          <div class="price_old">
-            was
-            <s>
-              {{ product.compare_at_price | money_with_currency }}
-            </s>
+<div class="product_navigation_container" style="background: {{ section.settings.background }}">
+  <div class="product_navigation_content">
+    <div class="page-width">
+      <div class="breadcrumbs">
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          /
+          <li>{{ product.title }}</li>
+        </ul>
+      </div>
+      <div class="product_tabs">
+        <ul>
+          <li>
+            <a href="#to_top">Home</a>
+          </li>
+          <li>
+            <a href="#main-product">Features</a>
+          </li>
+          <li>
+            <a href="#product_feature">Get Inspired</a>
+          </li>
+        </ul>
+      </div>
+      <div class="view_options">
+        <a href="#main-product">
+          <div>
+            View Options
+            {{ product.price | money }}
           </div>
-        {% endif %}
-      </a>
+          {% if product.compare_at_price %}
+            <div class="price_old">
+              was
+              <s>
+                {{ product.compare_at_price | money_with_currency }}
+              </s>
+            </div>
+          {% endif %}
+        </a>
+      </div>
     </div>
   </div>
 </div>
