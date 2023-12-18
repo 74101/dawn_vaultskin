@@ -1,27 +1,31 @@
-<div class="page-width">
-  <div class="breadcrumbs">
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      /
-      <li>{{ product.title }}</li>
-    </ul>
+<div class="product_navigation_container" style="background: {{ section.settings.background }}">
+  <div class="product_navigation_content">
+    <div class="page-width">
+      <div class="breadcrumbs">
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          /
+          <li>{{ product.title }}</li>
+        </ul>
+      </div>
+      <div class="product_tabs">
+        <ul>
+          <li>
+            <a href="#features">Features</a>
+          </li>
+          <li>
+            <a href="#description">Description</a>
+          </li>
+          <li>
+            <a href="#video">Video</a>
+          </li>
+        </ul>
+      </div>
+      <button class="buy_now_btn button button--secondary">Buy now</button>
+    </div>
   </div>
-  <div class="product_tabs">
-    <ul>
-      <li>
-        <a href="#features">Features</a>
-      </li>
-      <li>
-        <a href="#description">Description</a>
-      </li>
-      <li>
-        <a href="#video">Video</a>
-      </li>
-    </ul>
-  </div>
-  <button class="buy_now_btn button button--secondary">Buy now</button>
 </div>
 {% schema %}
   {
