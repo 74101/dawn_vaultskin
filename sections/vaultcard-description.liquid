@@ -4,6 +4,15 @@
   {% case block.type %}
     {% when "text" %}
       {{ block.settings.text }}
+    {% when "two_column_text" %}
+      <div class="two_column_text">
+        <div class="column">
+          {{ block.settings.two_column_text_1 }}
+        </div>
+        <div class="column">
+          {{ block.settings.two_column_text_2 }}
+        </div>
+      </div>
   {% endcase %}
 {% endfor %}
 
@@ -33,12 +42,12 @@
       "settings": [
         {
           "type": "richtext",
-          "id": "text1",
+          "id": "two_column_text_1",
           "label": "Text 1"
         },
         {
           "type": "richtext",
-          "id": "text2",
+          "id": "two_column_text_2",
           "label": "Text 2"
         }
       ]
