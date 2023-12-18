@@ -112,12 +112,6 @@
     "vaultcard_features": {
       "type": "vaultcard-features",
       "blocks": {
-        "de53b30b-477c-4cd5-8c3f-995916a4dd28": {
-          "type": "preview",
-          "settings": {
-            "title": "BEST RFID PROTECTION"
-          }
-        },
         "fbbce8de-e6e1-4236-8b35-a23d984eceba": {
           "type": "feature",
           "settings": {
@@ -127,7 +121,7 @@
             "image_main": "shopify:\/\/shop_images\/rfid-security-credit-card-protection.png",
             "num_color_primary": "#c7444b",
             "num_color_secondary": "#792c38",
-            "num_color_line": "#F9F9F9",
+            "num_color_line": "#f9f9f9",
             "figure_color": "#b74046"
           }
         },
@@ -140,7 +134,7 @@
             "image_main": "shopify:\/\/shop_images\/rfid-contactless-card-wallet-skimming.png",
             "num_color_primary": "#c7444b",
             "num_color_secondary": "#792c38",
-            "num_color_line": "#F9F9F9",
+            "num_color_line": "#f9f9f9",
             "figure_color": "#b74046"
           }
         },
@@ -155,7 +149,7 @@
             "step_4": "shopify:\/\/shop_images\/step4.png",
             "num_color_primary": "#c7444b",
             "num_color_secondary": "#792c38",
-            "num_color_line": "#F9F9F9",
+            "num_color_line": "#f9f9f9",
             "figure_color": "#121222"
           }
         },
@@ -168,7 +162,7 @@
             "image_main": "shopify:\/\/shop_images\/vaultskin-vaultcard-rfid-theft-protection-security.png",
             "num_color_primary": "#c7444b",
             "num_color_secondary": "#792c38",
-            "num_color_line": "#F9F9F9",
+            "num_color_line": "#f9f9f9",
             "figure_color": "#b74046"
           }
         },
@@ -181,13 +175,12 @@
             "image_main": "shopify:\/\/shop_images\/vaultskin-vaultcard-rfid-wallet-shield.png",
             "num_color_primary": "#c7444b",
             "num_color_secondary": "#792c38",
-            "num_color_line": "#F9F9F9",
+            "num_color_line": "#f9f9f9",
             "figure_color": "#b74046"
           }
         }
       },
       "block_order": [
-        "de53b30b-477c-4cd5-8c3f-995916a4dd28",
         "fbbce8de-e6e1-4236-8b35-a23d984eceba",
         "a9774995-061b-4bb7-8a5b-f28346728809",
         "5242e492-ff11-4983-ae38-ae3d5d97e371",
@@ -195,6 +188,7 @@
         "4db29c2b-aef0-41aa-b3b1-8e4a1e511f4b"
       ],
       "settings": {
+        "title": "BEST RFID PROTECTION"
       }
     },
     "e7ff2dea-9ea3-4ced-b58a-6247aaa94dcf": {
