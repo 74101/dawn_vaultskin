@@ -121,7 +121,7 @@
             "image_main": "shopify:\/\/shop_images\/rfid-security-credit-card-protection.png",
             "num_color_primary": "#c7444b",
             "num_color_secondary": "#792c38",
-            "num_color_line": "#f9f9f9",
+            "num_color_line": "#F9F9F9",
             "figure_color": "#b74046"
           }
         },
@@ -134,7 +134,7 @@
             "image_main": "shopify:\/\/shop_images\/rfid-contactless-card-wallet-skimming.png",
             "num_color_primary": "#c7444b",
             "num_color_secondary": "#792c38",
-            "num_color_line": "#f9f9f9",
+            "num_color_line": "#F9F9F9",
             "figure_color": "#b74046"
           }
         },
@@ -149,7 +149,7 @@
             "step_4": "shopify:\/\/shop_images\/step4.png",
             "num_color_primary": "#c7444b",
             "num_color_secondary": "#792c38",
-            "num_color_line": "#f9f9f9",
+            "num_color_line": "#F9F9F9",
             "figure_color": "#121222"
           }
         },
@@ -162,7 +162,7 @@
             "image_main": "shopify:\/\/shop_images\/vaultskin-vaultcard-rfid-theft-protection-security.png",
             "num_color_primary": "#c7444b",
             "num_color_secondary": "#792c38",
-            "num_color_line": "#f9f9f9",
+            "num_color_line": "#F9F9F9",
             "figure_color": "#b74046"
           }
         },
@@ -175,7 +175,7 @@
             "image_main": "shopify:\/\/shop_images\/vaultskin-vaultcard-rfid-wallet-shield.png",
             "num_color_primary": "#c7444b",
             "num_color_secondary": "#792c38",
-            "num_color_line": "#f9f9f9",
+            "num_color_line": "#F9F9F9",
             "figure_color": "#b74046"
           }
         }
@@ -212,17 +212,6 @@
     },
     "vaultcard_description": {
       "type": "vaultcard-description",
-      "blocks": {
-        "d4e00519-ba73-499f-af6b-8beaba73b517": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>WHY VAULTCARD<\/h2>"
-          }
-        }
-      },
-      "block_order": [
-        "d4e00519-ba73-499f-af6b-8beaba73b517"
-      ],
       "settings": {
       }
     },
