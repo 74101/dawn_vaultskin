@@ -75,6 +75,7 @@ function productTabsScroll() {
       evt.preventDefault()
       let is_tab_link = anchor.classList.contains('tab_link')
       let is_scroll_link = anchor.classList.contains('scroll_link')
+
       if (is_scroll_link) {
         const blockID = anchor.getAttribute('href').substr(1)
         const block = document.querySelector(`.${blockID}`)
