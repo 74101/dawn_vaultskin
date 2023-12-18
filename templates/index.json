@@ -346,8 +346,8 @@
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "SEE ALL PRODUCTS",
+            "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false
           }
         }
