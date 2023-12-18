@@ -73,8 +73,9 @@ function productTabsScroll() {
   for (let anchor of anchors) {
     anchor.addEventListener('click', function (evt) {
       evt.preventDefault()
-      console.log(anchor.classList.contains('tab_link'))
-      console.log(anchor.classList.contains('scroll_link'))
+      let is_tab_link = anchor.classList.contains('tab_link')
+      let is_scroll_link = anchor.classList.contains('scroll_link')
+
       const blockID = anchor.getAttribute('href').substr(1)
       const block = document.querySelector(`.${blockID}`)
       const headerHeight = document.querySelector('.section-header').offsetHeight
