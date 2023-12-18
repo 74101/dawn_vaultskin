@@ -823,7 +823,18 @@ input[type=radio]:checked + .product-variant-options-custom {
   color: #909099;
   font-size: 13px;
 }
-
+.vc_preview__feature-icon {
+  position: relative;
+}
+.vc_preview__feature-icon:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 11rem;
+  height: 4rem;
+  background: url({{ 'point.png' | asset_url }}) no-repeat;
+}
 
 .template_index .header__heading-logo {
   display: block;
