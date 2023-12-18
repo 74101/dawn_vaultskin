@@ -350,12 +350,21 @@
             "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false
           }
+        },
+        "c76045de-f035-4ca0-ae1e-39dba5fc82c4": {
+          "type": "item",
+          "settings": {
+            "heading": "<p><strong>Luxury Leather<\/strong><\/p>",
+            "description": "<p>We exclusively use top-grain natural Italian leather. It is strong yet supple, thick enough to be substantial yet slim enough to make slender wallets.<\/p>",
+            "icon": "shopify:\/\/shop_images\/feature_item7.svg"
+          }
         }
       },
       "block_order": [
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-heading-1",
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-text-1",
-        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1"
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1",
+        "c76045de-f035-4ca0-ae1e-39dba5fc82c4"
       ],
       "settings": {
         "height": "medium",
