@@ -1,0 +1,255 @@
+{
+  "sections": {
+    "7cc7c04b-f739-4d72-8e02-589de6e89044": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17150051418352__7cc7c04b-f739-4d72-8e02-589de6e89044-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vaultskin-belgravia-rfid-wallet-red-5.jpg",
+            "heading": "STYLISH WALLET GIFT IDEAS FOR HER",
+            "heading_size": "h0",
+            "subheading": "Elevate Her Style with Exquisite Wallets: Discover our collection of stylish wallets that make the perfect gift for her. Featuring premium materials and impeccable craftsmanship, these wallets exude sophistication and elegance. Choose from a range of designs that combine form and function, ensuring that she can carry her essentials in style.",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17150051418352__7cc7c04b-f739-4d72-8e02-589de6e89044-slide-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "pagination": "off",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "238def45-5c73-4941-b74d-71a1a44ecffb": {
+      "type": "halved",
+      "blocks": {
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<h2>UNCOVER THE JOY OF GIFTING WITH VAULTSKIN<\/h2>"
+          }
+        },
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Check<\/p>"
+          }
+        },
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-item-1": {
+          "type": "item",
+          "settings": {
+            "heading": "<p><strong>Effortless Elegance<\/strong><\/p>",
+            "description": "<p>Our wallets are not just an accessory, but an extension of her style. Crafted with a keen eye for design, these minimalist wallets bring a chic, streamlined look that complements her persona. Slipping effortlessly into any pocket, they exude an understated charm without adding unnecessary weight.<\/p>"
+          }
+        },
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-button-1": {
+          "type": "button",
+          "settings": {
+            "text": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-heading-1",
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-subheading-1",
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-item-1",
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-button-1"
+      ],
+      "settings": {
+        "padding_top": 5,
+        "image_first": false,
+        "image": "shopify:\/\/shop_images\/VICTORIA-every-day-crossbody-wallet-bumper-iPhone-XS-Max-Chain-Strap-champagne-Vaultskin_3d3a962d-5a8b-4f15-9a8e-cd6f2654637c.jpg"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "236a7d86-cc82-4f4b-a78e-853f7b80701f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17150051418352__236a7d86-cc82-4f4b-a78e-853f7b80701f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--17150051418352__236a7d86-cc82-4f4b-a78e-853f7b80701f-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17150051418352__236a7d86-cc82-4f4b-a78e-853f7b80701f-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17150051418352__236a7d86-cc82-4f4b-a78e-853f7b80701f-heading-1",
+        "template--17150051418352__236a7d86-cc82-4f4b-a78e-853f7b80701f-text-1",
+        "template--17150051418352__236a7d86-cc82-4f4b-a78e-853f7b80701f-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 30,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "84662398-a32f-4286-85d1-ad176a77e469": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17150051418352__84662398-a32f-4286-85d1-ad176a77e469-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--17150051418352__84662398-a32f-4286-85d1-ad176a77e469-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17150051418352__84662398-a32f-4286-85d1-ad176a77e469-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17150051418352__84662398-a32f-4286-85d1-ad176a77e469-heading-1",
+        "template--17150051418352__84662398-a32f-4286-85d1-ad176a77e469-text-1",
+        "template--17150051418352__84662398-a32f-4286-85d1-ad176a77e469-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/victoria-smart-minimalist-card-holder-crossbody-iphone-case_d2bc69aa-7851-4eda-961a-c5a3603e2e74.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-2",
+        "color_scheme": "background-1",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9263f064-8755-4ae9-9964-4ad8111e5e0d": {
+      "type": "halved",
+      "blocks": {
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<h2>FIND THE PERFECT GIFT<\/h2>"
+          }
+        },
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-item-1": {
+          "type": "item",
+          "settings": {
+            "heading": "",
+            "description": "<p>Give the ultimate freedom of choice with a Vaultskin gift card. Let her explore our collection and choose his ideal minimalist wallet or accessory. With a Vaultskin gift card, he's guaranteed to find the perfect style that matches his taste. Give the gift of endless possibilities and let her decide. Purchase a Vaultskin gift card today!<\/p>"
+          }
+        },
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-button-1": {
+          "type": "button",
+          "settings": {
+            "text": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-heading-1",
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-subheading-1",
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-item-1",
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 5,
+        "image_first": true,
+        "image": "shopify:\/\/shop_images\/iPhone-case-wallet-crossbody-strap-6-7-8-victoria-black-vaultskin-_0003_Generative_Fill.jpg"
+      }
+    }
+  },
+  "order": [
+    "7cc7c04b-f739-4d72-8e02-589de6e89044",
+    "238def45-5c73-4941-b74d-71a1a44ecffb",
+    "banner",
+    "236a7d86-cc82-4f4b-a78e-853f7b80701f",
+    "product-grid",
+    "84662398-a32f-4286-85d1-ad176a77e469",
+    "9263f064-8755-4ae9-9964-4ad8111e5e0d"
+  ]
+}

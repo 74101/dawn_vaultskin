@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/vaultskin-title-victoria-case_1.jpg",
-            "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL. <\/strong>",
+            "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL.  <\/strong>",
             "heading_size": "h1",
             "subheading": "Slim, minimalist wallets, card holders and iPhone covers. Designed in Britain to combine elegance, convenience and RFID security.",
             "button_label": "SEE ALL PRODUCTS",
@@ -186,7 +186,7 @@
           "type": "button",
           "settings": {
             "text": "SEE ALL PRODUCTS",
-            "url": "shopify:\/\/collections"
+            "url": "shopify:\/\/collections\/all"
           }
         }
       },
@@ -326,6 +326,94 @@
         "image": "shopify:\/\/shop_images\/feature3-1.jpg"
       }
     },
+    "2f42b8e5-24d1-419c-bc9e-ba3454ad8c28": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-heading-1",
+        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-text-1",
+        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "3d43a7a7-384c-4096-a30f-a1647ec6df32": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-heading-1",
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-text-1",
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "87d06e70-9dbc-4d36-8482-1ac60e599c49": {
       "type": "image-banner",
       "blocks": {
@@ -348,7 +436,7 @@
           "settings": {
             "button_label_1": "Learn more about us",
             "button_link_1": "shopify:\/\/pages\/about-us-v1",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -449,7 +537,7 @@
           "type": "content",
           "settings": {
             "position": "left",
-            "content": "<h6><strong>NEWSLETTER<\/strong><\/h6>"
+            "content": "<h5><strong>NEWSLETTER<\/strong><\/h5>"
           }
         },
         "58fde479-94f8-476c-8020-17d127c3426e": {
@@ -473,7 +561,7 @@
           "type": "content",
           "settings": {
             "position": "right",
-            "content": "<h6><strong>DELIVERY & WARRANTY<\/strong><\/h6>"
+            "content": "<h5><strong>DELIVERY & WARRANTY<\/strong><\/h5>"
           }
         },
         "b784e584-4d37-4c5d-a650-901f1fba447a": {
@@ -509,7 +597,7 @@
           "type": "content",
           "settings": {
             "position": "right",
-            "content": "<h6>* Check our <a href=\"https:\/\/vaultskin.com\/pages\/terms\" target=\"_self\" title=\"Vaultskin Terms and Conditions\">Terms and Conditions<\/a><\/h6>"
+            "content": "<p>* Check our <a href=\"https:\/\/vaultskin.com\/pages\/terms\" target=\"_self\" title=\"Vaultskin Terms and Conditions\">Terms and Conditions<\/a><\/p>"
           }
         }
       },
@@ -534,6 +622,8 @@
     "190874e7-206f-4d49-a09f-68c6a3f9c10e",
     "d250f2ab-7171-4c01-abdc-4c3537a306ad",
     "96639c7f-53b1-40a2-b729-5698295ea373",
+    "2f42b8e5-24d1-419c-bc9e-ba3454ad8c28",
+    "3d43a7a7-384c-4096-a30f-a1647ec6df32",
     "87d06e70-9dbc-4d36-8482-1ac60e599c49",
     "56a5d040-3ca0-4bf0-a019-fd501c81d225",
     "a02a8e9c-404b-4e1e-9b66-93088c367285"
