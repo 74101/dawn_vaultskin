@@ -1,12 +1,36 @@
+<div class="page-width">
+  <div class="breadcrumbs">
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      /
+      <li>{{ product.title }}</li>
+    </ul>
+  </div>
+  <div class="product_tabs">
+    <ul>
+      <li>
+        <a href="#to_top">Home</a>
+      </li>
+      <li>
+        <a href="#main-product">Features</a>
+      </li>
+      <li>
+        <a href="#product_feature">Get Inspired</a>
+      </li>
+    </ul>
+  </div>
+  <button class="buy_now_btn button button--secondary">Buy now</button>
+</div>
 {% schema %}
   {
-    "name": "Section name",
+    "name": "Product navigation",
+    "tag": "section",
+    "class": "product_navigation",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
     "settings": []
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
