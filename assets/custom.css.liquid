@@ -221,10 +221,8 @@ details[open]>.header__menu-item,
   pointer-events: none;
   z-index: -1;
 }
-.multicolumn_custom .multicolumn-list__item,
-.multicolumn_custom .multicolumn-card__info {
+.multicolumn_custom .multicolumn-list__item {
   display: flex;
-  flex-direction: column;
 }
 .multicolumn_custom .multicolumn-card__image-wrapper {
   position: absolute;
@@ -250,6 +248,8 @@ details[open]>.header__menu-item,
 
 .multicolumn_custom .multicolumn-card__info {
   position: relative;
+  display: flex;
+  flex-direction: column;
   font-size: 14px !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
