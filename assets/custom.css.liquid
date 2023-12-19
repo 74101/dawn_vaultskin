@@ -31,6 +31,15 @@ body * {
   transition: cubic-bezier(0.4, 0, 1, 1) .2s !important;
   cursor: pointer;
 }
+.button--primary {
+  color: #fff !important;
+  background-size: 100% 100% !important;
+}
+
+.button--primary:hover {
+  color: #cd9b5c !important;
+  background-size: 0% 100% !important;
+}
 
 .button::before,
 .button::after {
@@ -38,7 +47,7 @@ body * {
 }
 
 .klaviyo-form button:hover,
-.button:hover {
+.button--secondary:hover {
   color: #fff !important;
   background-size: 100% 100% !important;
 }
