@@ -143,22 +143,24 @@
         "padding_bottom": 20
       }
     },
-    "190874e7-206f-4d49-a09f-68c6a3f9c10e": {
-      "type": "halved",
+    "63b1d84f-fc30-4e99-befe-6c9a0e2f6436": {
+      "type": "image-with-text",
       "blocks": {
-        "template--17041032544496__190874e7-206f-4d49-a09f-68c6a3f9c10e-heading-1": {
+        "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "<h1><strong>STYLE FUSED WITH FUNCTION<\/strong><\/h1>"
+            "heading": "<strong>STYLE FUSED WITH FUNCTION<\/strong>",
+            "heading_size": "h1"
           }
         },
-        "9d539ca3-c258-4176-9dde-56745f4524dd": {
-          "type": "subheading",
+        "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-text-1": {
+          "type": "text",
           "settings": {
-            "text": "<p>We wouldn’t want you to settle for anything less than a wallet that is easy to use and is undeniably stylish.<\/p>"
+            "text": "<p>We wouldn’t want you to settle for anything less than a wallet that is easy to use and is undeniably stylish.<\/p>",
+            "text_style": "body"
           }
         },
-        "e14808c9-fb03-4e63-a284-0057bfba65e2": {
+        "99b4ae35-3fec-4556-850a-edd697c9da62": {
           "type": "item",
           "settings": {
             "heading": "<p><strong>Practicality<\/strong><\/p>",
@@ -166,7 +168,7 @@
             "icon": "shopify:\/\/shop_images\/feature_item1.svg"
           }
         },
-        "9c54f381-bb87-4d5d-a0b3-24e69c708762": {
+        "336c9859-b653-4a34-ba8a-26993b3a0228": {
           "type": "item",
           "settings": {
             "heading": "<p><strong>Simplicity<\/strong><\/p>",
@@ -174,7 +176,7 @@
             "icon": "shopify:\/\/shop_images\/feature_item2.svg"
           }
         },
-        "b2c59d4f-b73d-4ba2-9546-f6616d4b5c67": {
+        "2c2fcd37-43a8-4555-ad5b-1ea87e8306ee": {
           "type": "item",
           "settings": {
             "heading": "<p><strong>Elegance<\/strong><\/p>",
@@ -182,26 +184,37 @@
             "icon": "shopify:\/\/shop_images\/feature_item3.svg"
           }
         },
-        "8663cde3-7816-4909-826b-3e396ae53a5f": {
+        "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-button-1": {
           "type": "button",
           "settings": {
-            "text": "SEE ALL PRODUCTS",
-            "url": "shopify:\/\/collections\/all"
+            "button_label": "SEE ALL PRODUCTS",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "template--17041032544496__190874e7-206f-4d49-a09f-68c6a3f9c10e-heading-1",
-        "9d539ca3-c258-4176-9dde-56745f4524dd",
-        "e14808c9-fb03-4e63-a284-0057bfba65e2",
-        "9c54f381-bb87-4d5d-a0b3-24e69c708762",
-        "b2c59d4f-b73d-4ba2-9546-f6616d4b5c67",
-        "8663cde3-7816-4909-826b-3e396ae53a5f"
+        "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-heading-1",
+        "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-text-1",
+        "99b4ae35-3fec-4556-850a-edd697c9da62",
+        "336c9859-b653-4a34-ba8a-26993b3a0228",
+        "2c2fcd37-43a8-4555-ad5b-1ea87e8306ee",
+        "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-button-1"
       ],
       "settings": {
-        "padding_top": 9,
-        "image_first": true,
-        "image": "shopify:\/\/shop_images\/feature1-1.jpg"
+        "image": "shopify:\/\/shop_images\/feature1-1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "d250f2ab-7171-4c01-abdc-4c3537a306ad": {
@@ -343,14 +356,6 @@
             "text_style": "body"
           }
         },
-        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "SEE ALL PRODUCTS",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false
-          }
-        },
         "c76045de-f035-4ca0-ae1e-39dba5fc82c4": {
           "type": "item",
           "settings": {
@@ -358,15 +363,42 @@
             "description": "<p>We exclusively use top-grain natural Italian leather. It is strong yet supple, thick enough to be substantial yet slim enough to make slender wallets.<\/p>",
             "icon": "shopify:\/\/shop_images\/feature_item7.svg"
           }
+        },
+        "a17d5feb-888a-41a0-ac1e-7ed027fdf3f0": {
+          "type": "item",
+          "settings": {
+            "heading": "<p><strong>Careful Crafting<\/strong><\/p>",
+            "description": "<p>Our aim is to make wallets that you will use for a long time, so they have to be well made. Every detail is examined in our extremely high quality-control standards.<\/p>",
+            "icon": "shopify:\/\/shop_images\/feature_item8.svg"
+          }
+        },
+        "a297cdbd-3a05-4861-b541-3f79e3fd5aef": {
+          "type": "item",
+          "settings": {
+            "heading": "<p><strong>Constantly Improving<\/strong><\/p>",
+            "description": "<p>We listen carefully to our customers, to find out how we can keep innovating to improve our products. We want to hear your feedback, to give you more of what you need.<\/p>",
+            "icon": "shopify:\/\/shop_images\/feature_item9.svg"
+          }
+        },
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "SEE ALL PRODUCTS",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-heading-1",
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-text-1",
-        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1",
-        "c76045de-f035-4ca0-ae1e-39dba5fc82c4"
+        "c76045de-f035-4ca0-ae1e-39dba5fc82c4",
+        "a17d5feb-888a-41a0-ac1e-7ed027fdf3f0",
+        "a297cdbd-3a05-4861-b541-3f79e3fd5aef",
+        "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/feature3-1.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -628,7 +660,7 @@
   "order": [
     "c695660e-e1dc-4928-9327-84eb26861546",
     "abdbc101-3d61-44ba-bb6b-e9aee1c11989",
-    "190874e7-206f-4d49-a09f-68c6a3f9c10e",
+    "63b1d84f-fc30-4e99-befe-6c9a0e2f6436",
     "d250f2ab-7171-4c01-abdc-4c3537a306ad",
     "96639c7f-53b1-40a2-b729-5698295ea373",
     "3d43a7a7-384c-4096-a30f-a1647ec6df32",
