@@ -189,7 +189,10 @@
           "settings": {
             "button_label": "SEE ALL PRODUCTS",
             "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -234,14 +237,6 @@
             "text_style": "body"
           }
         },
-        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
         "6c114d78-2f8b-4b8d-a9a1-cad7832339a9": {
           "type": "item",
           "settings": {
@@ -265,15 +260,26 @@
             "description": "<p>We invisibly incorporate RFID security in wallets that remain super slim, so that your style is compromised by a bulgingpocket.<\/p>",
             "icon": "shopify:\/\/shop_images\/feature_item6.svg"
           }
+        },
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "SEE ALL PRODUCTS",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-heading-1",
         "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-text-1",
-        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-button-1",
         "6c114d78-2f8b-4b8d-a9a1-cad7832339a9",
         "4883ab05-6d2f-497f-a28b-cb95f0f27583",
-        "d5555a0b-56c2-4f06-aad8-f5b0d91c9dfe"
+        "d5555a0b-56c2-4f06-aad8-f5b0d91c9dfe",
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-button-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/feature2-1.jpg",
@@ -337,7 +343,10 @@
           "settings": {
             "button_label": "SEE ALL PRODUCTS",
             "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
