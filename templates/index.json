@@ -284,7 +284,7 @@
         "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-button-1"
       ],
       "settings": {
-        "container_size": "default",
+        "container_size": "full",
         "image": "shopify:\/\/shop_images\/feature2-1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -363,7 +363,7 @@
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1"
       ],
       "settings": {
-        "container_size": "default",
+        "container_size": "full",
         "image": "shopify:\/\/shop_images\/feature3-1.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
