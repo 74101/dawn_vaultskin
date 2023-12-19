@@ -935,7 +935,8 @@ input[type=radio]:checked + .product-variant-options-custom {
   .main-product .page-width {
     max-width: 100% !important;
   }
-  .main-product .grid__item.product__media-wrapper {
+  .product--medium:not(.product--no-media) .product__media-wrapper,
+  .product--small:not(.product--no-media) .product__info-wrapper {
     max-width: 517px !important;
   }
   .image-with-text__content--desktop-left .rich-text__buttons {
