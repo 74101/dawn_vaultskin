@@ -190,9 +190,10 @@
             "button_label": "SEE ALL PRODUCTS",
             "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "text",
+            "button_link_2": "shopify:\/\/collections\/all",
+            "button_style_secondary_2": false,
+            "content_alignment": "center"
           }
         }
       },
@@ -269,7 +270,8 @@
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "content_alignment": "left"
           }
         }
       },
@@ -346,7 +348,8 @@
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "content_alignment": "left"
           }
         }
       },
