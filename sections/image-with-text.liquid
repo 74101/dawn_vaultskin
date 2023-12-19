@@ -108,7 +108,7 @@
                   </div>
                 {%- when 'button' -%}
                   <div
-                    class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                    class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}{% case block.settings.content_alignment %}{% when 'left' %}ail{% when 'center' %}aic{% when 'right' %}air{% endcase %}"
                     {{ block.shopify_attributes }}
                     {% if settings.animations_reveal_on_scroll %}
                       data-cascade
@@ -537,6 +537,26 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+        },
+        {
+          "type": "select",
+          "id": "content_alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.rich-text.settings.content_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.rich-text.settings.content_alignment.options__2.label"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.rich-text.settings.content_alignment.options__3.label"
+            }
+          ],
+          "default": "left",
+          "label": "t:sections.rich-text.settings.content_alignment.label"
         }
       ]
     }
