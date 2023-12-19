@@ -91,14 +91,18 @@
                         {{ block.settings.icon | image_url: width: 30 | image_tag }}
                       </div>
                     {% endif %}
-                    {% if block.settings.heading != blank %}
-                      <div class="item__heading">
-                        {{ block.settings.heading }}
-                      </div>
-                    {% endif %}
-                    {% if block.settings.description != blank %}
-                      <div class="item__description">
-                        {{ block.settings.description }}
+                    {% if block.settings.heading != blank or block.settings.description != blank %}
+                      <div class="item__content">
+                        {% if block.settings.heading != blank %}
+                          <div class="item__heading">
+                            {{ block.settings.heading }}
+                          </div>
+                        {% endif %}
+                        {% if block.settings.description != blank %}
+                          <div class="item__description">
+                            {{ block.settings.description }}
+                          </div>
+                        {% endif %}
                       </div>
                     {% endif %}
                   </div>
