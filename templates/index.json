@@ -377,48 +377,6 @@
         "padding_bottom": 0
       }
     },
-    "2f42b8e5-24d1-419c-bc9e-ba3454ad8c28": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-heading-1",
-        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-text-1",
-        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "87d06e70-9dbc-4d36-8482-1ac60e599c49": {
       "type": "image-banner",
       "blocks": {
@@ -627,7 +585,6 @@
     "63b1d84f-fc30-4e99-befe-6c9a0e2f6436",
     "ad4ac7b7-c919-4390-9566-b597362e8510",
     "3d43a7a7-384c-4096-a30f-a1647ec6df32",
-    "2f42b8e5-24d1-419c-bc9e-ba3454ad8c28",
     "87d06e70-9dbc-4d36-8482-1ac60e599c49",
     "56a5d040-3ca0-4bf0-a019-fd501c81d225",
     "a02a8e9c-404b-4e1e-9b66-93088c367285"
