@@ -937,6 +937,10 @@ input[type=radio]:checked + .product-variant-options-custom {
   .main-product {
     position: relative;
   }
+  .main-product > * {
+    position: relative;
+    z-index: 2;
+  }
   .main-product:after {
     content: '';
     position: absolute;
@@ -946,6 +950,7 @@ input[type=radio]:checked + .product-variant-options-custom {
     width: 50%;
     background: #E9E9E9;
     pointer-events: none;
+    z-index: 1;
   }
   .main-product .page-width {
     max-width: 100% !important;
