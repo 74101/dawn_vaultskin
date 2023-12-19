@@ -12,7 +12,7 @@
             "subheading": "Slim, minimalist wallets, card holders and iPhone covers. Designed in Britain to combine elegance, convenience and RFID security.",
             "button_label": "SEE ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
