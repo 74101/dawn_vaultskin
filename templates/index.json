@@ -217,22 +217,32 @@
         "padding_bottom": 36
       }
     },
-    "d250f2ab-7171-4c01-abdc-4c3537a306ad": {
-      "type": "halved",
+    "ad4ac7b7-c919-4390-9566-b597362e8510": {
+      "type": "image-with-text",
       "blocks": {
-        "93005f38-5a16-484f-a4bd-fe26dcab1181": {
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "<h1><strong>INNOVATION AND INVENTION<\/strong><\/h1>"
+            "heading": "<strong>INNOVATION AND INVENTION<\/strong>",
+            "heading_size": "h1"
           }
         },
-        "8ed1ce8c-996d-44bd-bb48-9d031b12d32b": {
-          "type": "subheading",
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-text-1": {
+          "type": "text",
           "settings": {
-            "text": "<p>In today’s fast-paced technological world, we are constantly evaluating changes to ensure we keep you up to date.<\/p>"
+            "text": "<p>In today’s fast-paced technological world, we are constantly evaluating changes to ensure we keep you up to date.<\/p>",
+            "text_style": "body"
           }
         },
-        "a234e2d1-c434-4dd7-a8e8-d780a1bc85bf": {
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "6c114d78-2f8b-4b8d-a9a1-cad7832339a9": {
           "type": "item",
           "settings": {
             "heading": "<p><strong>Design<\/strong><\/p>",
@@ -240,7 +250,7 @@
             "icon": "shopify:\/\/shop_images\/feature_item4.svg"
           }
         },
-        "ee547048-e663-4317-90e1-f4377a6726f1": {
+        "4883ab05-6d2f-497f-a28b-cb95f0f27583": {
           "type": "item",
           "settings": {
             "heading": "<p><strong>Technology<\/strong><\/p>",
@@ -248,95 +258,37 @@
             "icon": "shopify:\/\/shop_images\/feature_item5.svg"
           }
         },
-        "6ec0a12b-a976-419a-8a1a-b8bfee8ada56": {
+        "d5555a0b-56c2-4f06-aad8-f5b0d91c9dfe": {
           "type": "item",
           "settings": {
             "heading": "<p><strong>Security<\/strong><\/p>",
             "description": "<p>We invisibly incorporate RFID security in wallets that remain super slim, so that your style is compromised by a bulgingpocket.<\/p>",
             "icon": "shopify:\/\/shop_images\/feature_item6.svg"
           }
-        },
-        "f76790fa-85ac-4d57-b893-ad2a108a2978": {
-          "type": "button",
-          "settings": {
-            "text": "SEE ALL PRODUCTS",
-            "url": "shopify:\/\/collections"
-          }
         }
       },
       "block_order": [
-        "93005f38-5a16-484f-a4bd-fe26dcab1181",
-        "8ed1ce8c-996d-44bd-bb48-9d031b12d32b",
-        "a234e2d1-c434-4dd7-a8e8-d780a1bc85bf",
-        "ee547048-e663-4317-90e1-f4377a6726f1",
-        "6ec0a12b-a976-419a-8a1a-b8bfee8ada56",
-        "f76790fa-85ac-4d57-b893-ad2a108a2978"
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-heading-1",
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-text-1",
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-button-1",
+        "6c114d78-2f8b-4b8d-a9a1-cad7832339a9",
+        "4883ab05-6d2f-497f-a28b-cb95f0f27583",
+        "d5555a0b-56c2-4f06-aad8-f5b0d91c9dfe"
       ],
       "settings": {
-        "padding_top": 5,
-        "image_first": false,
-        "image": "shopify:\/\/shop_images\/feature2-1.jpg"
-      }
-    },
-    "96639c7f-53b1-40a2-b729-5698295ea373": {
-      "type": "halved",
-      "blocks": {
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "<h1><strong>QUALITY WITHOUT COMPROMISE<\/strong><\/h1>"
-          }
-        },
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>All of our products are made with premium materials and precision processes to ensure that they look and feel gorgeous over many years of service.<\/p>"
-          }
-        },
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-item-1": {
-          "type": "item",
-          "settings": {
-            "heading": "<p><strong>Luxury Leather<\/strong><\/p>",
-            "description": "<p>We exclusively use top-grain natural Italian leather. It is strong yet supple, thick enough to be substantial yet slim enough to make slender wallets.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item7.svg"
-          }
-        },
-        "2f292178-4b96-449e-a57c-9a4353f833b5": {
-          "type": "item",
-          "settings": {
-            "heading": "<p><strong>Careful Crafting<\/strong><\/p>",
-            "description": "<p>Our aim is to make wallets that you will use for a long time, so they have to be well made. Every detail is examined in our extremely high quality-control standards.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item8.svg"
-          }
-        },
-        "8b830d06-252b-4882-9877-3cd5cc83548f": {
-          "type": "item",
-          "settings": {
-            "heading": "<p><strong>Constantly Improving<\/strong><\/p>",
-            "description": "<p>We listen carefully to our customers, to find out how we can keep innovating to improve our products. We want to hear your feedback, to give you more of what you need.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item9.svg"
-          }
-        },
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-button-1": {
-          "type": "button",
-          "settings": {
-            "text": "SEE ALL PRODUCTS",
-            "url": "shopify:\/\/collections"
-          }
-        }
-      },
-      "block_order": [
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-heading-1",
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-subheading-1",
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-item-1",
-        "2f292178-4b96-449e-a57c-9a4353f833b5",
-        "8b830d06-252b-4882-9877-3cd5cc83548f",
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-button-1"
-      ],
-      "settings": {
-        "padding_top": 5,
-        "image_first": true,
-        "image": "shopify:\/\/shop_images\/feature3-1.jpg"
+        "image": "shopify:\/\/shop_images\/feature2-1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "3d43a7a7-384c-4096-a30f-a1647ec6df32": {
@@ -661,8 +613,7 @@
     "c695660e-e1dc-4928-9327-84eb26861546",
     "abdbc101-3d61-44ba-bb6b-e9aee1c11989",
     "63b1d84f-fc30-4e99-befe-6c9a0e2f6436",
-    "d250f2ab-7171-4c01-abdc-4c3537a306ad",
-    "96639c7f-53b1-40a2-b729-5698295ea373",
+    "ad4ac7b7-c919-4390-9566-b597362e8510",
     "3d43a7a7-384c-4096-a30f-a1647ec6df32",
     "2f42b8e5-24d1-419c-bc9e-ba3454ad8c28",
     "87d06e70-9dbc-4d36-8482-1ac60e599c49",
