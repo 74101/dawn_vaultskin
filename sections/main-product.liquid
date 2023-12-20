@@ -74,7 +74,7 @@
         {% endif %}
         {% if current_variant_product_images %}
           <div class="product_images {% if variant_product == product.selected_or_first_available_variant %} active{% endif %}">
-              {% render 'product-media-gallery', variant_images: current_variant_product_images %}
+              {% render 'product-media-gallery', product: variant_product, variant_images: current_variant_product_images %}
           </div>
         {% endif %}
       {% endfor %}
