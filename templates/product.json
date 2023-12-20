@@ -75,7 +75,7 @@
         "574df41e-05fa-485f-b8b6-c885b3cbb77c"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "color_scheme": "background-1",
         "media_size": "large",
         "constrain_to_viewport": true,
