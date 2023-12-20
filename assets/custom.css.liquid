@@ -951,15 +951,14 @@ input[type=radio]:checked + .product-variant-options-custom {
 
 
 @media screen and (min-width: 990px) {
-  .main-product {
+  .main-product > section:not(.product_navigation) {
     position: relative;
   }
-
   .main-product .product_images > .swiper {
     position: relative;
     z-index: 2;
   }
-  .main-product .product_images:after {
+  .main-product > section:not(.product_navigation):after {
     content: '';
     position: absolute;
     top: 0;
