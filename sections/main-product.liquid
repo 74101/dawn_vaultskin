@@ -1,3 +1,4 @@
+{% render 'product-navigation' %}
 <section
   id="MainProduct-{{ section.id }}"
   class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
@@ -59,8 +60,6 @@
       onload="this.media='all'"
     >
   {%- endif -%}
-
-  {% render 'product-navigation' %}
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
