@@ -26,13 +26,21 @@
       <a href="#main-product">
         <div>
           View Options
-          {{ product.price | money }}
+          {% if settings.currency_code_enabled %}
+            {{ product.price | money_with_currency }}
+          {% else %}
+            {{ product.price | money }}
+          {% endif %}
         </div>
         {% if product.compare_at_price %}
           <div class="price_old">
             was
             <s>
-              {{ product.compare_at_price | money_with_currency }}
+              {% if settings.currency_code_enabled %}
+                {{ product.compare_at_price | money_with_currency }}
+              {% else %}
+                {{ product.compare_at_price | money }}
+              {% endif %}
             </s>
           </div>
         {% endif %}
