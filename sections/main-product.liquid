@@ -60,7 +60,7 @@
     >
   {%- endif -%}
 
-  {% section 'product-navigation' %}
+  {% render 'product-navigation' %}
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
