@@ -2,12 +2,12 @@
 
 {% for block in section.blocks %}
   {% case block.type %}
-    {% when "text" %}
+    {% when 'text' %}
       {% if block.settings.text %}
         {{ block.settings.text }}
       {% endif %}
-    {% when "two_column" %}
-      <div class="two_column">
+    {% when 'two_column' %}
+      <div class="two_column {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}">
         <div class="column">
           {% if block.settings.column_1 %}
             {{ block.settings.column_1 }}
@@ -25,7 +25,7 @@
           {% endif %}
         </div>
       </div>
-    {% when "table_row" %}
+    {% when 'table_row' %}
       <div class=" table_row {% if block.settings.row_type == 'header' %}table_row_header{% endif %}">
         <div class="table_cell_1">
           {{ block.settings.cell_1 }}
