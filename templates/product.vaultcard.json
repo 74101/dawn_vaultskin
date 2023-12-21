@@ -27,6 +27,7 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "top-center",
+        "desktop_content_width": 100,
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "inverse",
@@ -44,67 +45,19 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1c92fd7a-5f5b-4e69-8af9-a221507c3da1": {
-          "type": "short_description",
-          "settings": {
-          }
-        },
-        "d74289b0-c64f-452c-9ebf-a534e6ac6e75": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "574df41e-05fa-485f-b8b6-c885b3cbb77c": {
-          "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-product-review-badge\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "title",
-        "price",
-        "1c92fd7a-5f5b-4e69-8af9-a221507c3da1",
-        "d74289b0-c64f-452c-9ebf-a534e6ac6e75",
-        "quantity_selector",
-        "buy_buttons",
-        "574df41e-05fa-485f-b8b6-c885b3cbb77c"
+        "buy_buttons"
       ],
-      "disabled": true,
       "settings": {
-        "enable_sticky_info": false,
         "color_scheme": "background-1",
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "gallery_layout": "thumbnail_slider",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "mobile_thumbnails": "hide",
-        "hide_variants": true,
-        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
       }
@@ -261,6 +214,7 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
+        "desktop_content_width": 100,
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "inverse",
