@@ -26,20 +26,6 @@
         </div>
       </div>
     {% when "table_row" %}
-      <thead>
-        <th>
-          {{ block.settings.cell_1 }}
-        </th>
-        <th>
-          {{ block.settings.cell_2 }}
-        </th>
-        <th>
-          {{ block.settings.cell_3 }}
-        </th>
-        <th>
-          {{ block.settings.cell_4 }}
-        </th>
-      </thead>
       <div class=" table_row {% if block.settings.row_type == 'header' %}table_row_header{% endif %}">
         <div class="table_cell_1">
           {{ block.settings.cell_1 }}
