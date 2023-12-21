@@ -165,12 +165,19 @@
           "settings": {
             "text": "<h2>EFFICIENT ENERGY HARNESSING<\/h2>"
           }
+        },
+        "fbc15952-1579-425b-b2a9-469d53f5de8c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In addition to a highly sophisticated jamming signal, VAULTCARD™ is extremely efficient in harnessing electromagnetic energy emitted by RFID scanners. This allows VAULTCARD™ to retransmit 1,000 times more power than RFID payment cards.  The table below represents laboratory test results of VAULTCARD™ and a typical RFID enabled credit card. For test purposes we used a popular 250mW NFC scanner with an electric E-field shielded antenna (so the scanner only working mainly with the magnetic H-field of Electromagnetic Field, diameter of magnetic antenna 45 mm).<\/p>"
+          }
         }
       },
       "block_order": [
         "90745bdd-9779-4fd8-8844-d30070442a4a",
         "5623c6f4-de37-4a5f-865a-8039f00fb271",
-        "03ac4aa1-e913-43ef-8902-0adef03f8529"
+        "03ac4aa1-e913-43ef-8902-0adef03f8529",
+        "fbc15952-1579-425b-b2a9-469d53f5de8c"
       ],
       "settings": {
       }
