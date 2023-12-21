@@ -3,18 +3,30 @@
 {% for block in section.blocks %}
   {% case block.type %}
     {% when "text" %}
-      {{ block.settings.text }}
+      {% if block.settings.text %}
+        {{ block.settings.text }}
+      {% endif %}
     {% when "two_column" %}
       <div class="two_column">
         <div class="column">
-          {{ block.settings.column_1 }}
-          {{ block.settings.image_1 }}
+          {% if block.settings.column_1 %}
+            {{ block.settings.column_1 }}
+          {% endif %}
+          {% if block.settings.image_1 %}
+            {{ block.settings.image_1 }}
+          {% endif %}
         </div>
         <div class="column">
-          {{ block.settings.column_2 }}
-          {{ block.settings.image_2 }}
+          {% if block.settings.column_2 %}
+            {{ block.settings.column_2 }}
+          {% endif %}
+          {% if block.settings.image_2 %}
+            {{ block.settings.image_2 }}
+          {% endif %}
         </div>
       </div>
+    {% when "table_row" %}
+      
   {% endcase %}
 {% endfor %}
 
