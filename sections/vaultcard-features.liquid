@@ -1,9 +1,3 @@
-<section
-  id="MainProduct-{{ section.id }}"
-  class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
-  data-section="{{ section.id }}"
->
-
 {%- assign product_form_id = 'product-form-' | append: section.id -%}
 <div class="vc_preview">
   <div class="page-width">
@@ -187,7 +181,7 @@
       </div>
   {% endcase %}
 {% endfor %}
-</section>
+
 {% schema %}
 {
   "name": "Vaultcard features",
