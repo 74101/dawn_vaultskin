@@ -4,8 +4,8 @@
   {% case block.type %}
     {% when "text" %}
       {{ block.settings.text }}
-    {% when "two_column_text" %}
-      <div class="two_column_text">
+    {% when "two_column" %}
+      <div class="two_column">
         <div class="column">
           {{ block.settings.column_1 }}
           {{ block.settings.image_1 }}
@@ -44,8 +44,8 @@
       ]
     },
     {
-      "type": "two_column_text",
-      "name": "Two-column text",
+      "type": "two_column",
+      "name": "Two-column",
       "settings": [
         {
           "type": "richtext",
