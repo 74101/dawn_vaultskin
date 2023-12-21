@@ -276,6 +276,7 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https:\/\/youtu.be\/G6SonPHDEBc?si=BixMSH-MKV4ZZw1n",
+        "cover_image": "shopify:\/\/shop_images\/video_preview.jpg",
         "description": "",
         "full_width": false,
         "padding_top": 0,
