@@ -72,6 +72,7 @@
         "change_slides_speed": 5,
         "image_behavior": "ambient",
         "show_text_below": false,
+        "desktop_content_width": 100,
         "accessibility_info": "Slideshow about our brand"
       }
     },
@@ -164,8 +165,7 @@
           "type": "item",
           "settings": {
             "heading": "<p><strong>Practicality<\/strong><\/p>",
-            "description": "<p>We set exceptionally high standards for you. A beautiful wallet is useless if it doesn’t serve your purpose. We go a step beyond practicality into frictionless ease of use.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item1.svg"
+            "description": "<p>We set exceptionally high standards for you. A beautiful wallet is useless if it doesn’t serve your purpose. We go a step beyond practicality into frictionless ease of use.<\/p>"
           }
         },
         "336c9859-b653-4a34-ba8a-26993b3a0228": {
@@ -419,6 +419,7 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
+        "desktop_content_width": 100,
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
