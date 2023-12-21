@@ -241,6 +241,15 @@
             "cell_3": "<p>-31 db<\/p>",
             "cell_4": "<p>Signal emitted by VAULTCARD™ is<br\/><strong>316x (25 db) <\/strong>more powerful than a credit card<\/p>"
           }
+        },
+        "dccbc6a4-7dac-4ff3-b671-e055f771cce1": {
+          "type": "two_column",
+          "settings": {
+            "column_1": "<h2>OUTSTANDING PROTECTION IN NEAR FIELD<\/h2><p>Due to the form factor of an antenna embedded in the credit card, RFID scanner and VAULTCARD™, the most critical area is the so-called near field zone (within 0–3 inches between credit card and RFID reader). Our team has focused on ensuring that VAULTCARD™ can be used not only against far-field scanning devices, but is also extremely effective in the near field.<\/p>",
+            "image_1": "shopify:\/\/shop_images\/vaultskin-patented-protection-rfid-skimming-card.png",
+            "column_2": "",
+            "alignment": "left"
+          }
         }
       },
       "block_order": [
@@ -253,7 +262,8 @@
         "a5230388-47a6-4b6d-8a39-580995f3e3e9",
         "cfbacd02-f1ce-417f-b0d3-52b516709d1b",
         "cbb1f440-c276-47de-a3ab-7d26fcb51572",
-        "784d3bfe-73a9-45fc-b17e-4675806ecae2"
+        "784d3bfe-73a9-45fc-b17e-4675806ecae2",
+        "dccbc6a4-7dac-4ff3-b671-e055f771cce1"
       ],
       "settings": {
       }
