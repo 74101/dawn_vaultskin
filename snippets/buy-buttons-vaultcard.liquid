@@ -12,13 +12,8 @@
 <div class="buy-buttons-container">
   {%- if product != blank -%}
     {%- liquid
-      assign gift_card_recipient_feature_active = false
-      if section.settings.show_gift_card_recipient and product.gift_card?
-        assign gift_card_recipient_feature_active = true
-      endif
-
       assign show_dynamic_checkout = false
-      if section.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false
+      if section.settings.show_dynamic_checkout
         assign show_dynamic_checkout = true
       endif
     -%}
