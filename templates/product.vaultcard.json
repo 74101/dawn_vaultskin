@@ -159,11 +159,18 @@
             "column_1": "<p>With contactless card payments growing in popularity, our personal data is increasingly at risk of interception by fraudsters. The RFID technology that allows them to function is not entirely secure and can be accessed by scanning devices that are freely available online. VAULTCARD™ is a credit-card-sized tool, which can be placed inside a wallet to block electromagnetic signals – guaranteeing protection against RFID theft, while still enabling the use of contactless payments.<\/p>",
             "column_2": "<p>VAULTCARD's patent pending RFID protection technology is unique to contactless card safety devices and is based on highly sophisticated jamming signals frequently used by the military. We have invested a great deal of time in research and development to create our final VAULTCARD™ prototype. Its unmatched protection utilizes an extremely efficient design, which emits a complex jamming signal that completely shuts out any RFID communication.<\/p>"
           }
+        },
+        "03ac4aa1-e913-43ef-8902-0adef03f8529": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>EFFICIENT ENERGY HARNESSING<\/h2>"
+          }
         }
       },
       "block_order": [
         "90745bdd-9779-4fd8-8844-d30070442a4a",
-        "5623c6f4-de37-4a5f-865a-8039f00fb271"
+        "5623c6f4-de37-4a5f-865a-8039f00fb271",
+        "03ac4aa1-e913-43ef-8902-0adef03f8529"
       ],
       "settings": {
       }
