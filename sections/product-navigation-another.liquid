@@ -1,3 +1,4 @@
+{% assign current_variant = product.selected_or_first_available_variant %}
 <div class="page-width">
   <div class="breadcrumbs">
     <ul>
@@ -21,7 +22,11 @@
       </li>
     </ul>
   </div>
-  <button class="buy_now_btn button button--secondary">Buy now</button>
+  <form method="post" id="product_cart-slider_form-four" action="/cart/add" accept-charset="UTF-8" enctype="multipart/form-data" class="product_cart-slider_form product_cart-vaultcard_form">
+    <input type="hidden" name="id" class="product_cart-slider_form-variant_id" value="{{ product.selected_or_first_available_variant.id }}" />
+    <input min="1" type="number" id="quantity" name="quantity" value="1" class="hide hidden" />
+    <button type="submit" onclick="pintrk('track', 'addtocart'), {product_id: '{{ current_variant.sku }}'};" class="buy_now_btn button button--secondary" {% unless current_variant.available %} disabled="disabled"{% endunless %} name="add">{% if current_variant.available %}BUY NOW{% else %}SOLD OUT{% endif %}</button>
+  </form>
 </div>
 {% schema %}
   {
