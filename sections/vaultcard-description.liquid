@@ -6,6 +6,9 @@
       {% if block.settings.text %}
         {{ block.settings.text }}
       {% endif %}
+      {% if block.settings.image %}
+        {{ block.settings.image | image_url: width: 1100 | image_tag }}
+      {% endif %}
     {% when 'two_column' %}
       <div class="two_column {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}">
         <div class="column">
@@ -13,7 +16,7 @@
             {{ block.settings.column_1 }}
           {% endif %}
           {% if block.settings.image_1 %}
-            {{ block.settings.image_1 }}
+            {{ block.settings.image_1 | image_url: width: 520 | image_tag }}
           {% endif %}
         </div>
         <div class="column">
@@ -21,7 +24,7 @@
             {{ block.settings.column_2 }}
           {% endif %}
           {% if block.settings.image_2 %}
-            {{ block.settings.image_2 }}
+            {{ block.settings.image_2 | image_url: width: 520 | image_tag }}
           {% endif %}
         </div>
       </div>
