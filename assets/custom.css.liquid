@@ -30,6 +30,11 @@ body * {
   transition: cubic-bezier(0.4, 0, 1, 1) .2s !important;
   cursor: pointer;
 }
+.klaviyo-form button:hover,
+.button:hover {
+  color: #fff !important;
+  background-size: 100% 100% !important;
+}
 .button--primary {
   color: #fff !important;
   background-size: 100% 100% !important;
@@ -42,16 +47,15 @@ body * {
 .button::after {
   content: none;
 }
-.klaviyo-form button:hover,
-.button--secondary:hover {
-  color: #fff !important;
-  background-size: 100% 100% !important;
-}
 .template_vaultcard .button {
   color: #d24147 !important;
   border-color: #d24147 !important;
   background: linear-gradient(90deg, #d24147, #d24147) center no-repeat !important;
   background-size: 0% 100% !important;
+}
+.template_vaultcard .button:hover {
+  color: #fff !important;
+  background-size: 100% 100% !important;
 }
 .template_vaultcard .button--primary {
   color: #fff !important;
@@ -60,10 +64,6 @@ body * {
 .template_vaultcard .button--primary:hover {
   color: #d24147 !important;
   background-size: 0% 100% !important;
-}
-.template_vaultcard .button--secondary:hover {
-  color: #fff !important;
-  background-size: 100% 100% !important;
 }
 .page-width-full {
   padding: 0 !important;
