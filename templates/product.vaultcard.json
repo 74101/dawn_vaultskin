@@ -150,8 +150,8 @@
         "90745bdd-9779-4fd8-8844-d30070442a4a": {
           "type": "text",
           "settings": {
-            "text": "<h2>WHY VAULTCARD<\/h2>",
-            "alignment": "left"
+            "text": "<h1>WHY VAULTCARD<\/h1>",
+            "alignment": "center"
           }
         },
         "5623c6f4-de37-4a5f-865a-8039f00fb271": {
