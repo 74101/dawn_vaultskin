@@ -1,3 +1,4 @@
+{%- assign product_form_id = 'product-form-' | append: section.id -%}
 <div class="vc_preview">
   <div class="page-width">
     <div class="vc_preview__container">
@@ -76,6 +77,9 @@
             <div class="vc_preview__feature-text">{{ section.settings.feature_6_text }}</div>
           {% endif %}
         </div>
+      </div>
+      <div class="vc_preview__buy">
+        {%- render 'buy-buttons', product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
       </div>
     </div>
   </div>
