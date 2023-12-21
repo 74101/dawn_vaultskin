@@ -11,6 +11,7 @@
         "change_slides_speed": 5,
         "image_behavior": "ambient",
         "show_text_below": false,
+        "desktop_content_width": 100,
         "accessibility_info": "Slideshow product variant images",
         "heading_size": "h1",
         "button_style_secondary": false,
@@ -20,11 +21,6 @@
         "image_overlay_opacity": 20,
         "color_scheme": "inverse",
         "text_alignment_mobile": "center"
-      }
-    },
-    "product_navigation": {
-      "type": "product-navigation",
-      "settings": {
       }
     },
     "main": {
@@ -81,14 +77,14 @@
       "settings": {
         "enable_sticky_info": false,
         "color_scheme": "background-1",
-        "media_size": "medium",
+        "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
-        "hide_variants": true,
+        "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
@@ -153,7 +149,6 @@
   },
   "order": [
     "slideshow_custom",
-    "product_navigation",
     "main",
     "product_features",
     "texnical_details",

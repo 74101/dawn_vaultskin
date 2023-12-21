@@ -1,3 +1,5 @@
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+{%- assign product_form_id = 'product-form-' | append: section.id -%}
 <div class="vc_preview">
   <div class="page-width">
     <div class="vc_preview__container">
@@ -76,6 +78,9 @@
             <div class="vc_preview__feature-text">{{ section.settings.feature_6_text }}</div>
           {% endif %}
         </div>
+      </div>
+      <div class="vc_preview__buy">
+        {%- render 'buy-buttons-vaultcard', product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
       </div>
     </div>
   </div>
@@ -180,7 +185,7 @@
 
 {% schema %}
 {
-  "name": "Vaultcard features",
+  "name": "Features",
   "tag": "section",
   "class": "vc_features tab_content tab_content_active",
   "settings": [
@@ -193,6 +198,17 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Buy buttons"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_dynamic_checkout",
+      "default": true,
+      "label": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.label",
+      "info": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
     },
     {
       "type": "header",

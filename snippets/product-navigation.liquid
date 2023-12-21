@@ -1,0 +1,50 @@
+<section class="product_navigation">
+  <div class="page-width">
+    <div class="breadcrumbs">
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        /
+        <li>{{ product.title }}</li>
+      </ul>
+    </div>
+    <div class="product_tabs">
+      <ul>
+        <li>
+          <a href="#to_top" class="scroll_link">Home</a>
+        </li>
+        <li>
+          <a href="#main-product" class="scroll_link">Features</a>
+        </li>
+        <li>
+          <a href="#section_halved" class="scroll_link">Get Inspired</a>
+        </li>
+      </ul>
+    </div>
+    <div class="view_options">
+      <a href="#main-product">
+        <div>
+          View Options
+          {% if settings.currency_code_enabled %}
+            {{ product.price | money_with_currency }}
+          {% else %}
+            {{ product.price | money }}
+          {% endif %}
+        </div>
+        {% if product.compare_at_price %}
+          <div class="price_old">
+            was
+            <s>
+              {% if settings.currency_code_enabled %}
+                {{ product.compare_at_price | money_with_currency }}
+              {% else %}
+                {{ product.compare_at_price | money }}
+              {% endif %}
+            </s>
+          </div>
+        {% endif %}
+      </a>
+    </div>
+  </div>
+</section>

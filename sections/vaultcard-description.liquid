@@ -2,15 +2,47 @@
 
 {% for block in section.blocks %}
   {% case block.type %}
-    {% when "text" %}
-      {{ block.settings.text }}
-    {% when "two_column_text" %}
-      <div class="two_column_text">
+    {% when 'text' %}
+      <div class="vc_descr_block {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}" {{ block.shopify_attributes }}>
+        {% if block.settings.text %}
+          {{ block.settings.text }}
+        {% endif %}
+        {% if block.settings.image %}
+          {{ block.settings.image | image_url: width: 1100 | image_tag }}
+        {% endif %}
+      </div>
+    {% when 'two_column' %}
+      <div class="vc_descr_block two_column {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}" {{ block.shopify_attributes }}>
         <div class="column">
-          {{ block.settings.two_column_text_1 }}
+          {% if block.settings.column_1 %}
+            {{ block.settings.column_1 }}
+          {% endif %}
+          {% if block.settings.image_1 %}
+            {{ block.settings.image_1 | image_url: width: 520 | image_tag }}
+          {% endif %}
         </div>
         <div class="column">
-          {{ block.settings.two_column_text_2 }}
+          {% if block.settings.column_2 %}
+            {{ block.settings.column_2 }}
+          {% endif %}
+          {% if block.settings.image_2 %}
+            {{ block.settings.image_2 | image_url: width: 520 | image_tag }}
+          {% endif %}
+        </div>
+      </div>
+    {% when 'table_row' %}
+      <div class=" table_row {% case block.settings.row_type %}{% when 'header' %}table_row_header{% when 'default' %}table_row_body{% endcase %}" {{ block.shopify_attributes }}>
+        <div class="table_cell table_cell_1">
+          {{ block.settings.cell_1 }}
+        </div>
+        <div class="table_cell table_cell_2">
+          {{ block.settings.cell_2 }}
+        </div>
+        <div class="table_cell table_cell_3">
+          {{ block.settings.cell_3 }}
+        </div>
+        <div class="table_cell table_cell_4">
+          {{ block.settings.cell_4 }}
         </div>
       </div>
   {% endcase %}
@@ -20,7 +52,7 @@
 
 {% schema %}
 {
-  "name": "Vaultcard description",
+  "name": "Description",
   "tag": "section",
   "class": "vc_description tab_content",
   "settings": [],
@@ -33,22 +65,139 @@
           "type": "richtext",
           "id": "text",
           "label": "Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "select",
+          "id": "alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "left",
+          "label": "Alignment"
         }
       ]
     },
     {
-      "type": "two_column_text",
-      "name": "Two-column text",
+      "type": "two_column",
+      "name": "Two-column",
       "settings": [
         {
           "type": "richtext",
-          "id": "two_column_text_1",
-          "label": "Text 1"
+          "id": "column_1",
+          "label": "First column"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "First column image"
         },
         {
           "type": "richtext",
-          "id": "two_column_text_2",
-          "label": "Text 2"
+          "id": "column_2",
+          "label": "Second column"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "Second column image"
+        },
+        {
+          "type": "select",
+          "id": "alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "left",
+          "label": "Alignment"
+        }
+      ]
+    },
+    {
+      "type": "table_row",
+      "name": "Table row",
+      "settings": [
+        {
+          "type": "select",
+          "id": "row_type",
+          "options": [
+            {
+              "value": "default",
+              "label": "Default"
+            },
+            {
+              "value": "header",
+              "label": "Header"
+            }
+          ],
+          "default": "default",
+          "label": "Type"
+        },
+        {
+          "type": "select",
+          "id": "alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "left",
+          "label": "Alignment"
+        },
+        {
+          "type": "richtext",
+          "id": "cell_1",
+          "label": "Сell 1"
+        },
+        {
+          "type": "richtext",
+          "id": "cell_2",
+          "label": "Сell 2"
+        },
+        {
+          "type": "richtext",
+          "id": "cell_3",
+          "label": "Сell 3"
+        },
+        {
+          "type": "richtext",
+          "id": "cell_4",
+          "label": "Сell 4"
         }
       ]
     }

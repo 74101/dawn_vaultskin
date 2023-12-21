@@ -12,7 +12,7 @@
             "subheading": "Slim, minimalist wallets, card holders and iPhone covers. Designed in Britain to combine elegance, convenience and RFID security.",
             "button_label": "SEE ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -143,22 +143,24 @@
         "padding_bottom": 20
       }
     },
-    "190874e7-206f-4d49-a09f-68c6a3f9c10e": {
-      "type": "halved",
+    "63b1d84f-fc30-4e99-befe-6c9a0e2f6436": {
+      "type": "image-with-text",
       "blocks": {
-        "template--17041032544496__190874e7-206f-4d49-a09f-68c6a3f9c10e-heading-1": {
+        "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "<h1><strong>STYLE FUSED WITH FUNCTION<\/strong><\/h1>"
+            "heading": "<strong>STYLE FUSED WITH FUNCTION<\/strong>",
+            "heading_size": "h1"
           }
         },
-        "9d539ca3-c258-4176-9dde-56745f4524dd": {
-          "type": "subheading",
+        "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-text-1": {
+          "type": "text",
           "settings": {
-            "text": "<p>We wouldn’t want you to settle for anything less than a wallet that is easy to use and is undeniably stylish.<\/p>"
+            "text": "<p>We wouldn’t want you to settle for anything less than a wallet that is easy to use and is undeniably stylish.<\/p>",
+            "text_style": "body"
           }
         },
-        "e14808c9-fb03-4e63-a284-0057bfba65e2": {
+        "99b4ae35-3fec-4556-850a-edd697c9da62": {
           "type": "item",
           "settings": {
             "heading": "<p><strong>Practicality<\/strong><\/p>",
@@ -166,7 +168,7 @@
             "icon": "shopify:\/\/shop_images\/feature_item1.svg"
           }
         },
-        "9c54f381-bb87-4d5d-a0b3-24e69c708762": {
+        "336c9859-b653-4a34-ba8a-26993b3a0228": {
           "type": "item",
           "settings": {
             "heading": "<p><strong>Simplicity<\/strong><\/p>",
@@ -174,7 +176,7 @@
             "icon": "shopify:\/\/shop_images\/feature_item2.svg"
           }
         },
-        "b2c59d4f-b73d-4ba2-9546-f6616d4b5c67": {
+        "2c2fcd37-43a8-4555-ad5b-1ea87e8306ee": {
           "type": "item",
           "settings": {
             "heading": "<p><strong>Elegance<\/strong><\/p>",
@@ -182,44 +184,62 @@
             "icon": "shopify:\/\/shop_images\/feature_item3.svg"
           }
         },
-        "8663cde3-7816-4909-826b-3e396ae53a5f": {
+        "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-button-1": {
           "type": "button",
           "settings": {
-            "text": "SEE ALL PRODUCTS",
-            "url": "shopify:\/\/collections\/all"
+            "button_label": "SEE ALL PRODUCTS",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "shopify:\/\/collections\/all",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--17041032544496__190874e7-206f-4d49-a09f-68c6a3f9c10e-heading-1",
-        "9d539ca3-c258-4176-9dde-56745f4524dd",
-        "e14808c9-fb03-4e63-a284-0057bfba65e2",
-        "9c54f381-bb87-4d5d-a0b3-24e69c708762",
-        "b2c59d4f-b73d-4ba2-9546-f6616d4b5c67",
-        "8663cde3-7816-4909-826b-3e396ae53a5f"
+        "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-heading-1",
+        "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-text-1",
+        "99b4ae35-3fec-4556-850a-edd697c9da62",
+        "336c9859-b653-4a34-ba8a-26993b3a0228",
+        "2c2fcd37-43a8-4555-ad5b-1ea87e8306ee",
+        "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-button-1"
       ],
       "settings": {
-        "padding_top": 9,
-        "image_first": true,
-        "image": "shopify:\/\/shop_images\/feature1-1.jpg"
+        "container_size": "full",
+        "image": "shopify:\/\/shop_images\/feature1-1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "content_padding_top": 9,
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "d250f2ab-7171-4c01-abdc-4c3537a306ad": {
-      "type": "halved",
+    "ad4ac7b7-c919-4390-9566-b597362e8510": {
+      "type": "image-with-text",
       "blocks": {
-        "93005f38-5a16-484f-a4bd-fe26dcab1181": {
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "<h1><strong>INNOVATION AND INVENTION<\/strong><\/h1>"
+            "heading": "<strong>INNOVATION AND INVENTION<\/strong>",
+            "heading_size": "h1"
           }
         },
-        "8ed1ce8c-996d-44bd-bb48-9d031b12d32b": {
-          "type": "subheading",
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-text-1": {
+          "type": "text",
           "settings": {
-            "text": "<p>In today’s fast-paced technological world, we are constantly evaluating changes to ensure we keep you up to date.<\/p>"
+            "text": "<p>In today’s fast-paced technological world, we are constantly evaluating changes to ensure we keep you up to date.<\/p>",
+            "text_style": "body"
           }
         },
-        "a234e2d1-c434-4dd7-a8e8-d780a1bc85bf": {
+        "6c114d78-2f8b-4b8d-a9a1-cad7832339a9": {
           "type": "item",
           "settings": {
             "heading": "<p><strong>Design<\/strong><\/p>",
@@ -227,7 +247,7 @@
             "icon": "shopify:\/\/shop_images\/feature_item4.svg"
           }
         },
-        "ee547048-e663-4317-90e1-f4377a6726f1": {
+        "4883ab05-6d2f-497f-a28b-cb95f0f27583": {
           "type": "item",
           "settings": {
             "heading": "<p><strong>Technology<\/strong><\/p>",
@@ -235,7 +255,7 @@
             "icon": "shopify:\/\/shop_images\/feature_item5.svg"
           }
         },
-        "6ec0a12b-a976-419a-8a1a-b8bfee8ada56": {
+        "d5555a0b-56c2-4f06-aad8-f5b0d91c9dfe": {
           "type": "item",
           "settings": {
             "heading": "<p><strong>Security<\/strong><\/p>",
@@ -243,110 +263,11 @@
             "icon": "shopify:\/\/shop_images\/feature_item6.svg"
           }
         },
-        "f76790fa-85ac-4d57-b893-ad2a108a2978": {
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-button-1": {
           "type": "button",
           "settings": {
-            "text": "SEE ALL PRODUCTS",
-            "url": "shopify:\/\/collections"
-          }
-        }
-      },
-      "block_order": [
-        "93005f38-5a16-484f-a4bd-fe26dcab1181",
-        "8ed1ce8c-996d-44bd-bb48-9d031b12d32b",
-        "a234e2d1-c434-4dd7-a8e8-d780a1bc85bf",
-        "ee547048-e663-4317-90e1-f4377a6726f1",
-        "6ec0a12b-a976-419a-8a1a-b8bfee8ada56",
-        "f76790fa-85ac-4d57-b893-ad2a108a2978"
-      ],
-      "settings": {
-        "padding_top": 5,
-        "image_first": false,
-        "image": "shopify:\/\/shop_images\/feature2-1.jpg"
-      }
-    },
-    "96639c7f-53b1-40a2-b729-5698295ea373": {
-      "type": "halved",
-      "blocks": {
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "<h1><strong>QUALITY WITHOUT COMPROMISE<\/strong><\/h1>"
-          }
-        },
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>All of our products are made with premium materials and precision processes to ensure that they look and feel gorgeous over many years of service.<\/p>"
-          }
-        },
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-item-1": {
-          "type": "item",
-          "settings": {
-            "heading": "<p><strong>Luxury Leather<\/strong><\/p>",
-            "description": "<p>We exclusively use top-grain natural Italian leather. It is strong yet supple, thick enough to be substantial yet slim enough to make slender wallets.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item7.svg"
-          }
-        },
-        "2f292178-4b96-449e-a57c-9a4353f833b5": {
-          "type": "item",
-          "settings": {
-            "heading": "<p><strong>Careful Crafting<\/strong><\/p>",
-            "description": "<p>Our aim is to make wallets that you will use for a long time, so they have to be well made. Every detail is examined in our extremely high quality-control standards.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item8.svg"
-          }
-        },
-        "8b830d06-252b-4882-9877-3cd5cc83548f": {
-          "type": "item",
-          "settings": {
-            "heading": "<p><strong>Constantly Improving<\/strong><\/p>",
-            "description": "<p>We listen carefully to our customers, to find out how we can keep innovating to improve our products. We want to hear your feedback, to give you more of what you need.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item9.svg"
-          }
-        },
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-button-1": {
-          "type": "button",
-          "settings": {
-            "text": "SEE ALL PRODUCTS",
-            "url": "shopify:\/\/collections"
-          }
-        }
-      },
-      "block_order": [
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-heading-1",
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-subheading-1",
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-item-1",
-        "2f292178-4b96-449e-a57c-9a4353f833b5",
-        "8b830d06-252b-4882-9877-3cd5cc83548f",
-        "template--17041032544496__96639c7f-53b1-40a2-b729-5698295ea373-button-1"
-      ],
-      "settings": {
-        "padding_top": 5,
-        "image_first": true,
-        "image": "shopify:\/\/shop_images\/feature3-1.jpg"
-      }
-    },
-    "2f42b8e5-24d1-419c-bc9e-ba3454ad8c28": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "SEE ALL PRODUCTS",
+            "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -355,17 +276,29 @@
         }
       },
       "block_order": [
-        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-heading-1",
-        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-text-1",
-        "template--17136463544560__2f42b8e5-24d1-419c-bc9e-ba3454ad8c28-button-1"
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-heading-1",
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-text-1",
+        "6c114d78-2f8b-4b8d-a9a1-cad7832339a9",
+        "4883ab05-6d2f-497f-a28b-cb95f0f27583",
+        "d5555a0b-56c2-4f06-aad8-f5b0d91c9dfe",
+        "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-button-1"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "container_size": "full",
+        "image": "shopify:\/\/shop_images\/feature2-1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "content_padding_top": 5,
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "3d43a7a7-384c-4096-a30f-a1647ec6df32": {
@@ -374,44 +307,77 @@
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "<strong>QUALITY WITHOUT COMPROMISE<\/strong>",
             "heading_size": "h1"
           }
         },
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>All of our products are made with premium materials and precision processes to ensure that they look and feel gorgeous over many years of service.<\/p>",
             "text_style": "body"
+          }
+        },
+        "c76045de-f035-4ca0-ae1e-39dba5fc82c4": {
+          "type": "item",
+          "settings": {
+            "heading": "<p><strong>Luxury Leather<\/strong><\/p>",
+            "description": "<p>We exclusively use top-grain natural Italian leather. It is strong yet supple, thick enough to be substantial yet slim enough to make slender wallets.<\/p>",
+            "icon": "shopify:\/\/shop_images\/feature_item7.svg"
+          }
+        },
+        "a17d5feb-888a-41a0-ac1e-7ed027fdf3f0": {
+          "type": "item",
+          "settings": {
+            "heading": "<p><strong>Careful Crafting<\/strong><\/p>",
+            "description": "<p>Our aim is to make wallets that you will use for a long time, so they have to be well made. Every detail is examined in our extremely high quality-control standards.<\/p>",
+            "icon": "shopify:\/\/shop_images\/feature_item8.svg"
+          }
+        },
+        "a297cdbd-3a05-4861-b541-3f79e3fd5aef": {
+          "type": "item",
+          "settings": {
+            "heading": "<p><strong>Constantly Improving<\/strong><\/p>",
+            "description": "<p>We listen carefully to our customers, to find out how we can keep innovating to improve our products. We want to hear your feedback, to give you more of what you need.<\/p>",
+            "icon": "shopify:\/\/shop_images\/feature_item9.svg"
           }
         },
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_label": "SEE ALL PRODUCTS",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-heading-1",
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-text-1",
+        "c76045de-f035-4ca0-ae1e-39dba5fc82c4",
+        "a17d5feb-888a-41a0-ac1e-7ed027fdf3f0",
+        "a297cdbd-3a05-4861-b541-3f79e3fd5aef",
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1"
       ],
       "settings": {
+        "container_size": "full",
+        "image": "shopify:\/\/shop_images\/feature3-1.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
+        "content_padding_top": 5,
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "87d06e70-9dbc-4d36-8482-1ac60e599c49": {
@@ -436,7 +402,7 @@
           "settings": {
             "button_label_1": "Learn more about us",
             "button_link_1": "shopify:\/\/pages\/about-us-v1",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -619,10 +585,8 @@
   "order": [
     "c695660e-e1dc-4928-9327-84eb26861546",
     "abdbc101-3d61-44ba-bb6b-e9aee1c11989",
-    "190874e7-206f-4d49-a09f-68c6a3f9c10e",
-    "d250f2ab-7171-4c01-abdc-4c3537a306ad",
-    "96639c7f-53b1-40a2-b729-5698295ea373",
-    "2f42b8e5-24d1-419c-bc9e-ba3454ad8c28",
+    "63b1d84f-fc30-4e99-befe-6c9a0e2f6436",
+    "ad4ac7b7-c919-4390-9566-b597362e8510",
     "3d43a7a7-384c-4096-a30f-a1647ec6df32",
     "87d06e70-9dbc-4d36-8482-1ac60e599c49",
     "56a5d040-3ca0-4bf0-a019-fd501c81d225",
