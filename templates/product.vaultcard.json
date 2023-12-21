@@ -247,7 +247,8 @@
           "settings": {
             "column_1": "<h2>OUTSTANDING PROTECTION IN NEAR FIELD<\/h2><p>Due to the form factor of an antenna embedded in the credit card, RFID scanner and VAULTCARD™, the most critical area is the so-called near field zone (within 0–3 inches between credit card and RFID reader). Our team has focused on ensuring that VAULTCARD™ can be used not only against far-field scanning devices, but is also extremely effective in the near field.<\/p>",
             "image_1": "shopify:\/\/shop_images\/vaultskin-patented-protection-rfid-skimming-card.png",
-            "column_2": "",
+            "column_2": "<h2>POWER LINEARITY<\/h2><p>Another feature of VAULTCARD™ is that its emitted power is directly proportionate to the power of the scanning device, unlike RFID enabled credit cards. This guarantees that VAULTCARD™ stays extremely effective even against high-powered skimming devices.<\/p>",
+            "image_2": "shopify:\/\/shop_images\/best-rfid-technology-patented-secure-protection.png",
             "alignment": "left"
           }
         }
