@@ -3,12 +3,14 @@
 {% for block in section.blocks %}
   {% case block.type %}
     {% when 'text' %}
-      {% if block.settings.text %}
-        {{ block.settings.text }}
-      {% endif %}
-      {% if block.settings.image %}
-        {{ block.settings.image | image_url: width: 1100 | image_tag }}
-      {% endif %}
+      <div class="descr_content {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}">
+        {% if block.settings.text %}
+          {{ block.settings.text }}
+        {% endif %}
+        {% if block.settings.image %}
+          {{ block.settings.image | image_url: width: 1100 | image_tag }}
+        {% endif %}
+      </div>
     {% when 'two_column' %}
       <div class="two_column {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}">
         <div class="column">
