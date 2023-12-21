@@ -150,37 +150,32 @@
         "90745bdd-9779-4fd8-8844-d30070442a4a": {
           "type": "text",
           "settings": {
-            "text": "<h1>WHY VAULTCARD<\/h1>",
-            "alignment": "center"
+            "text": "<h2>WHY VAULTCARD<\/h2>"
           }
         },
         "5623c6f4-de37-4a5f-865a-8039f00fb271": {
           "type": "two_column",
           "settings": {
             "column_1": "<p>With contactless card payments growing in popularity, our personal data is increasingly at risk of interception by fraudsters. The RFID technology that allows them to function is not entirely secure and can be accessed by scanning devices that are freely available online. VAULTCARD™ is a credit-card-sized tool, which can be placed inside a wallet to block electromagnetic signals – guaranteeing protection against RFID theft, while still enabling the use of contactless payments.<\/p>",
-            "column_2": "<p>VAULTCARD's patent pending RFID protection technology is unique to contactless card safety devices and is based on highly sophisticated jamming signals frequently used by the military. We have invested a great deal of time in research and development to create our final VAULTCARD™ prototype. Its unmatched protection utilizes an extremely efficient design, which emits a complex jamming signal that completely shuts out any RFID communication.<\/p>",
-            "alignment": "left"
+            "column_2": "<p>VAULTCARD's patent pending RFID protection technology is unique to contactless card safety devices and is based on highly sophisticated jamming signals frequently used by the military. We have invested a great deal of time in research and development to create our final VAULTCARD™ prototype. Its unmatched protection utilizes an extremely efficient design, which emits a complex jamming signal that completely shuts out any RFID communication.<\/p>"
           }
         },
         "03ac4aa1-e913-43ef-8902-0adef03f8529": {
           "type": "text",
           "settings": {
-            "text": "<h2>EFFICIENT ENERGY HARNESSING<\/h2>",
-            "alignment": "left"
+            "text": "<h2>EFFICIENT ENERGY HARNESSING<\/h2>"
           }
         },
         "fbc15952-1579-425b-b2a9-469d53f5de8c": {
           "type": "text",
           "settings": {
-            "text": "<p>In addition to a highly sophisticated jamming signal, VAULTCARD™ is extremely efficient in harnessing electromagnetic energy emitted by RFID scanners. This allows VAULTCARD™ to retransmit 1,000 times more power than RFID payment cards.  The table below represents laboratory test results of VAULTCARD™ and a typical RFID enabled credit card. For test purposes we used a popular 250mW NFC scanner with an electric E-field shielded antenna (so the scanner only working mainly with the magnetic H-field of Electromagnetic Field, diameter of magnetic antenna 45 mm).<\/p>",
-            "alignment": "left"
+            "text": "<p>In addition to a highly sophisticated jamming signal, VAULTCARD™ is extremely efficient in harnessing electromagnetic energy emitted by RFID scanners. This allows VAULTCARD™ to retransmit 1,000 times more power than RFID payment cards.  The table below represents laboratory test results of VAULTCARD™ and a typical RFID enabled credit card. For test purposes we used a popular 250mW NFC scanner with an electric E-field shielded antenna (so the scanner only working mainly with the magnetic H-field of Electromagnetic Field, diameter of magnetic antenna 45 mm).<\/p>"
           }
         },
         "98506ec6-7537-46f9-bb87-2c159bc0cb78": {
           "type": "table_row",
           "settings": {
             "row_type": "header",
-            "alignment": "left",
             "cell_1": "",
             "cell_2": "<p><strong>VAULTCARD™<\/strong><\/p>",
             "cell_3": "<p>Credit Card<\/p>",
@@ -191,7 +186,6 @@
           "type": "table_row",
           "settings": {
             "row_type": "default",
-            "alignment": "left",
             "cell_1": "<p>Maximum distance from scanner at which the jamming card starts working<\/p>",
             "cell_2": "<p>140 mm<\/p>",
             "cell_3": "<p>40 mm<\/p>",
@@ -202,7 +196,6 @@
           "type": "table_row",
           "settings": {
             "row_type": "default",
-            "alignment": "left",
             "cell_1": "<p>Emitted power vs. power of the scanner at <strong>40 mm <\/strong>distance from the scanner<\/p>",
             "cell_2": "<p>-20 db<\/p>",
             "cell_3": "<p>-55 db<\/p>",
@@ -213,7 +206,6 @@
           "type": "table_row",
           "settings": {
             "row_type": "default",
-            "alignment": "left",
             "cell_1": "<p>Emitted power vs. power of the scanner at <strong>30 mm <\/strong>distance from the scanner<\/p>",
             "cell_2": "<p>-14 db<\/p>",
             "cell_3": "<p>-46 db<\/p>",
@@ -224,7 +216,6 @@
           "type": "table_row",
           "settings": {
             "row_type": "default",
-            "alignment": "left",
             "cell_1": "<p>Emitted power vs. power of the scanner at <strong>20 mm <\/strong>distance from the scanner<\/p>",
             "cell_2": "<p>-12 db<\/p>",
             "cell_3": "<p>-42 db<\/p>",
@@ -235,21 +226,10 @@
           "type": "table_row",
           "settings": {
             "row_type": "default",
-            "alignment": "left",
             "cell_1": "<p>Emitted power vs. power of the scanner at <strong>0 mm <\/strong>distance from the scanner<\/p>",
             "cell_2": "<p>-6 db<\/p>",
             "cell_3": "<p>-31 db<\/p>",
             "cell_4": "<p>Signal emitted by VAULTCARD™ is<br\/><strong>316x (25 db) <\/strong>more powerful than a credit card<\/p>"
-          }
-        },
-        "8add7d77-9275-4f14-93e4-3217790b942d": {
-          "type": "two_column",
-          "settings": {
-            "column_1": "<h2>OUTSTANDING PROTECTION IN NEAR FIELD<\/h2><p>Due to the form factor of an antenna embedded in the credit card, RFID scanner and VAULTCARD™, the most critical area is the so-called near field zone (within 0–3 inches between credit card and RFID reader). Our team has focused on ensuring that VAULTCARD™ can be used not only against far-field scanning devices, but is also extremely effective in the near field.<\/p>",
-            "image_1": "shopify:\/\/shop_images\/vaultskin-patented-protection-rfid-skimming-card.png",
-            "column_2": "<h2>POWER LINEARITY<\/h2><p>Another feature of VAULTCARD™ is that its emitted power is directly proportionate to the power of the scanning device, unlike RFID enabled credit cards. This guarantees that VAULTCARD™ stays extremely effective even against high-powered skimming devices.<\/p>",
-            "image_2": "shopify:\/\/shop_images\/best-rfid-technology-patented-secure-protection.png",
-            "alignment": "left"
           }
         }
       },
@@ -263,9 +243,13 @@
         "a5230388-47a6-4b6d-8a39-580995f3e3e9",
         "cfbacd02-f1ce-417f-b0d3-52b516709d1b",
         "cbb1f440-c276-47de-a3ab-7d26fcb51572",
-        "784d3bfe-73a9-45fc-b17e-4675806ecae2",
-        "8add7d77-9275-4f14-93e4-3217790b942d"
+        "784d3bfe-73a9-45fc-b17e-4675806ecae2"
       ],
+      "settings": {
+      }
+    },
+    "vaultcard_video": {
+      "type": "vaultcard-video",
       "settings": {
       }
     },
@@ -348,6 +332,7 @@
     "product_navigation",
     "vaultcard_features",
     "vaultcard_description",
+    "vaultcard_video",
     "e7ff2dea-9ea3-4ced-b58a-6247aaa94dcf",
     "related_products",
     "1702301323f5484959"
