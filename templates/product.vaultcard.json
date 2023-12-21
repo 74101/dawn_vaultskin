@@ -181,6 +181,56 @@
             "cell_3": "<p>Credit Card<\/p>",
             "cell_4": "<p>Comment<\/p>"
           }
+        },
+        "8288510a-c506-4778-ab81-7d51f9a5e4e7": {
+          "type": "table_row",
+          "settings": {
+            "row_type": "default",
+            "cell_1": "<p>Maximum distance from scanner at which the jamming card starts working<\/p>",
+            "cell_2": "<p>140 mm<\/p>",
+            "cell_3": "<p>40 mm<\/p>",
+            "cell_4": "<p>VAULTCARD™ starts working at <strong>140 mm<\/strong> vs credit card starting to work at 40 mm or less<\/p>"
+          }
+        },
+        "a5230388-47a6-4b6d-8a39-580995f3e3e9": {
+          "type": "table_row",
+          "settings": {
+            "row_type": "default",
+            "cell_1": "<p>Emitted power vs. power of the scanner at <strong>40 mm <\/strong>distance from the scanner<\/p>",
+            "cell_2": "<p>-20 db<\/p>",
+            "cell_3": "<p>-55 db<\/p>",
+            "cell_4": "<p>Signal emitted by VAULTCARD™ is<br\/><strong>3100x (35 db)<\/strong> more powerful than credit card<\/p>"
+          }
+        },
+        "cfbacd02-f1ce-417f-b0d3-52b516709d1b": {
+          "type": "table_row",
+          "settings": {
+            "row_type": "default",
+            "cell_1": "<p>Emitted power vs. power of the scanner at <strong>30 mm <\/strong>distance from the scanner<\/p>",
+            "cell_2": "<p>-14 db<\/p>",
+            "cell_3": "<p>-46 db<\/p>",
+            "cell_4": "<p>Signal emitted by VAULTCARD™ is<br\/><strong>1600x (32 db)<\/strong> more powerful than a credit card<\/p>"
+          }
+        },
+        "cbb1f440-c276-47de-a3ab-7d26fcb51572": {
+          "type": "table_row",
+          "settings": {
+            "row_type": "default",
+            "cell_1": "<p>Emitted power vs. power of the scanner at <strong>20 mm <\/strong>distance from the scanner<\/p>",
+            "cell_2": "<p>-12 db<\/p>",
+            "cell_3": "<p>-42 db<\/p>",
+            "cell_4": "<p>Signal emitted by VAULTCARD™ is<br\/><strong>1000x (30 db)<\/strong> more powerful than a credit card<\/p>"
+          }
+        },
+        "784d3bfe-73a9-45fc-b17e-4675806ecae2": {
+          "type": "table_row",
+          "settings": {
+            "row_type": "default",
+            "cell_1": "<p>Emitted power vs. power of the scanner at <strong>0 mm <\/strong>distance from the scanner<\/p>",
+            "cell_2": "<p>-6 db<\/p>",
+            "cell_3": "<p>-31 db<\/p>",
+            "cell_4": "<p>Signal emitted by VAULTCARD™ is<br\/><strong>316x (25 db) <\/strong>more powerful than a credit card<\/p>"
+          }
         }
       },
       "block_order": [
@@ -188,7 +238,12 @@
         "5623c6f4-de37-4a5f-865a-8039f00fb271",
         "03ac4aa1-e913-43ef-8902-0adef03f8529",
         "fbc15952-1579-425b-b2a9-469d53f5de8c",
-        "98506ec6-7537-46f9-bb87-2c159bc0cb78"
+        "98506ec6-7537-46f9-bb87-2c159bc0cb78",
+        "8288510a-c506-4778-ab81-7d51f9a5e4e7",
+        "a5230388-47a6-4b6d-8a39-580995f3e3e9",
+        "cfbacd02-f1ce-417f-b0d3-52b516709d1b",
+        "cbb1f440-c276-47de-a3ab-7d26fcb51572",
+        "784d3bfe-73a9-45fc-b17e-4675806ecae2"
       ],
       "settings": {
       }
