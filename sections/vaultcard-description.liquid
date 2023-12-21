@@ -3,7 +3,7 @@
 {% for block in section.blocks %}
   {% case block.type %}
     {% when 'text' %}
-      <div class="descr_content {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}">
+      <div class="vc_descr_block {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}" {{ block.shopify_attributes }}>
         {% if block.settings.text %}
           {{ block.settings.text }}
         {% endif %}
@@ -12,7 +12,7 @@
         {% endif %}
       </div>
     {% when 'two_column' %}
-      <div class="two_column {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}">
+      <div class="vc_descr_block two_column {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}" {{ block.shopify_attributes }}>
         <div class="column">
           {% if block.settings.column_1 %}
             {{ block.settings.column_1 }}
@@ -31,7 +31,7 @@
         </div>
       </div>
     {% when 'table_row' %}
-      <div class=" table_row {% if block.settings.row_type == 'header' %}table_row_header{% endif %}">
+      <div class=" table_row {% if block.settings.row_type == 'header' %}table_row_header{% endif %}" {{ block.shopify_attributes }}>
         <div class="table_cell_1">
           {{ block.settings.cell_1 }}
         </div>
