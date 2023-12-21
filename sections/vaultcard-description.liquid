@@ -31,7 +31,7 @@
         </div>
       </div>
     {% when 'table_row' %}
-      <div class=" table_row {% if block.settings.row_type == 'header' %}table_row_header{% endif %}" {{ block.shopify_attributes }}>
+      <div class=" table_row {% case block.settings.row_type %}{% when 'header' %}table_row_header{% when 'default' %}table_row_body{% endcase %}" {{ block.shopify_attributes }}>
         <div class="table_cell table_cell_1">
           {{ block.settings.cell_1 }}
         </div>
