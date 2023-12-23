@@ -111,18 +111,6 @@
             "num_color_line": "#f9f9f9",
             "figure_color": "#b74046"
           }
-        },
-        "6564389a-42d4-4869-b041-d4bc08e14c25": {
-          "type": "feature",
-          "settings": {
-            "type": "1",
-            "title": "<p>jdjdxjxjd<\/p>",
-            "text": "<p>kdkdskskzkz<\/p>",
-            "num_color_primary": "#c7444b",
-            "num_color_secondary": "#792c38",
-            "num_color_line": "#f9f9f9",
-            "figure_color": "#b74046"
-          }
         }
       },
       "block_order": [
@@ -130,8 +118,7 @@
         "a9774995-061b-4bb7-8a5b-f28346728809",
         "5242e492-ff11-4983-ae38-ae3d5d97e371",
         "215ab3d3-1b1f-4edb-9bd1-160943cd0bf6",
-        "4db29c2b-aef0-41aa-b3b1-8e4a1e511f4b",
-        "6564389a-42d4-4869-b041-d4bc08e14c25"
+        "4db29c2b-aef0-41aa-b3b1-8e4a1e511f4b"
       ],
       "settings": {
         "title": "BEST RFID PROTECTION",
