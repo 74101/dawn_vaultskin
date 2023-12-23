@@ -180,10 +180,10 @@ let vc_table_header_rows = document.querySelectorAll('.table_row_header')
 
 vc_table_header_rows.forEach(row => {
 
-const header_cells = [...row.children];
+const header_cells = row.children;
 
-for (const header_cell of header_cells) {
-  console.log(header_cell)
+for (let i; i < header_cells.length; i++) {
+  console.log(header_cells[i].innerText)
 }
   let element = row
   while(element.nextElementSibling.classList.contains('table_row_body')) {
