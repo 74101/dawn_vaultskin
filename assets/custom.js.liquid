@@ -178,8 +178,7 @@ halvedNumbersAnimate()
 
 let vc_table_header_rows = document.querySelectorAll('.table_row_header .table_cell')
 
-vc_table_header_rows.forEach(elem => {
-  console.dir(elem)
+vc_table_header_rows.forEach((elem, index) => {
   console.dir(elem.innerText.trim())
 })
 
