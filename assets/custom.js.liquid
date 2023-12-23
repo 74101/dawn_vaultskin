@@ -179,27 +179,27 @@ halvedNumbersAnimate()
 let vc_table_header_rows = document.querySelectorAll('.table_row')
 
 
-// Флаг для проверки, следует ли проверять класс "body" у текущего элемента
+// Флаг для проверки, следует ли проверять класс "table_row_body" у текущего элемента
 var checkNextElement = false;
 
 // Перебираем каждый элемент
 vc_table_header_rows.forEach(function(element) {
-    // Если у текущего элемента есть класс "body", устанавливаем флаг и продолжаем
-    if (element.classList.contains('body')) {
+    // Если у текущего элемента есть класс "table_row_body", устанавливаем флаг и продолжаем
+    if (element.classList.contains('table_row_body')) {
         checkNextElement = true;
-        console.log('Элемент', element, 'содержит класс "body".');
+        console.log('Элемент', element, 'содержит класс "table_row_body".');
     } else if (checkNextElement) {
-        // Проверяем следующий элемент (nextElementSibling) после элемента с классом "body"
+        // Проверяем следующий элемент (nextElementSibling) после элемента с классом "table_row_body"
         var nextElement = element.nextElementSibling;
-        if (nextElement && nextElement.classList.contains('body')) {
-            console.log('Следующий элемент после', element, 'содержит класс "body".');
+        if (nextElement && nextElement.classList.contains('table_row_body')) {
+            console.log('Следующий элемент после', element, 'содержит класс "table_row_body".');
         } else {
-            console.log('Следующий элемент после', element, 'не содержит класса "body".');
+            console.log('Следующий элемент после', element, 'не содержит класса "table_row_body".');
         }
         // Сбрасываем флаг после проверки следующего элемента
         checkNextElement = false;
     } else {
-        console.log('Элемент', element, 'не содержит класса "body".');
+        console.log('Элемент', element, 'не содержит класса "table_row_body".');
     }
 });
 
