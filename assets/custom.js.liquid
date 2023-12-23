@@ -189,7 +189,7 @@ const header_cells = row.children
     for (let i = 0; i < header_cells.length; i++) {
       let cell_name = header_cells[i].innerText.trim()
       if (cell_name != '') {
-        body_cells[i].dataset.cell_name = cell_name + ':'
+        body_cells[i].dataset.cell_name = cell_name + ': '
       }
     }
   }
