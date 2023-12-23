@@ -180,16 +180,17 @@ let vc_table_header_rows = document.querySelectorAll('.table_row_header')
 
 vc_table_header_rows.forEach(row => {
 
-const header_cells = row.children;
-
+const header_cells = row.children
 
   let element = row
   while(element.nextElementSibling.classList.contains('table_row_body')) {
     element = element.nextElementSibling
-    const body_cells = element.children;
+    const body_cells = element.children
     for (let i = 0; i < header_cells.length; i++) {
-      console.log(header_cells[i].innerText.trim())
-      body_cells[i].dataset.cell_name = header_cells[i].innerText.trim() + ':'
+      let cell_name = header_cells[i].innerText.trim()
+      if (cell_name != '') {
+        body_cells[i].dataset.cell_name = cell_name + ':'
+      }
     }
   }
 })
