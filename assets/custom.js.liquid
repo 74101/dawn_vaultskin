@@ -176,7 +176,13 @@ function halvedNumbersAnimate() {
 }
 halvedNumbersAnimate()
 
-let vc_table_cells_2 = document.querySelectorAll('.table_row_header .table_cell_2')
-let vc_table_cells_3 = document.querySelectorAll('.table_row_header .table_cell_3')
-console.dir(vc_table_cells_2[0].innerText.trim())
-console.dir(vc_table_cells_3[0].innerText.trim())
+let vc_table_header_rows = document.querySelectorAll('.table_row_header')
+
+vc_table_header_row.forEach(elem => {
+  console.dir(elem)  
+})
+
+let vc_table_header_cells = document.querySelectorAll('.table_row_header .table_cell')
+let vc_table_body_rows = document.querySelectorAll('.table_row_body .table_cell_2')
+
+console.dir(vc_table_header_cells_3[0].innerText.trim())
