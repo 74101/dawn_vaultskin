@@ -33,27 +33,15 @@
     {% when 'table_row' %}
       <div class=" table_row {% case block.settings.row_type %}{% when 'header' %}table_row_header{% when 'default' %}table_row_body{% endcase %}" {{ block.shopify_attributes }}>
         <div class="table_cell table_cell_1 {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}">
-          {% if block.settings.row_type == 'default' %}
-            <span class="table_cell_name"></span>
-          {% endif %}
           {{ block.settings.cell_1 }}
         </div>
         <div class="table_cell table_cell_2 {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}">
-          {% if block.settings.row_type == 'default' %}
-            <span class="table_cell_name"></span>
-          {% endif %}
           {{ block.settings.cell_2 }}
         </div>
         <div class="table_cell table_cell_3 {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}">
-          {% if block.settings.row_type == 'default' %}
-            <span class="table_cell_name"></span>
-          {% endif %}
           {{ block.settings.cell_3 }}
         </div>
         <div class="table_cell table_cell_4 {% case block.settings.alignment %}{% when 'center' %}alignment_center{% when 'right' %}alignment_right{% endcase %}">
-          {% if block.settings.row_type == 'default' %}
-            <span class="table_cell_name"></span>
-          {% endif %}
           {{ block.settings.cell_4 }}
         </div>
       </div>
