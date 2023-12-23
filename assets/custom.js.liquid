@@ -179,18 +179,8 @@ halvedNumbersAnimate()
 let vc_table_header_rows = document.querySelectorAll('.table_row_header')
 
 vc_table_header_rows.forEach(header_row => {
-  let styleTag = document.createElement('style');
-  console.log(header_row.classList)
-  styleTag.innerHTML = `
-    body {
-      background-color: lightblue;
-    }
-  `;
-  
-  header_row.appendChild(styleTag);
+  let element = header_row
+  while(element.nextElementSibling.classList.contains('table_row_body')) {
+    console.log("asdasddasd")
+  }
 })
-
-let vc_table_header_cells = document.querySelectorAll('.table_row_header .table_cell')
-let vc_table_body_rows = document.querySelectorAll('.table_row_body .table_cell_2')
-
-console.dir(vc_table_header_cells[0].innerText.trim())
