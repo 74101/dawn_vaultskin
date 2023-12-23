@@ -179,9 +179,11 @@ halvedNumbersAnimate()
 let vc_table_header_rows = document.querySelectorAll('.table_row_header')
 
 vc_table_header_rows.forEach(header_row => {
-  console.log(header_row.nextElementSibling)
-  if (header_row.nextElementSibling.classList.contains('table_row_body')) {
-    console.log("has class")
+
+  let nextIsBodyRow = header_row.nextElementSibling.classList.contains('table_row_body')
+
+  if (nextIsBodyRow) {
+    console.log(nextIsBodyRow)
   }
 })
 
