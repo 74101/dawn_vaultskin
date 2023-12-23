@@ -188,7 +188,7 @@ const header_cells = row.children;
     element = element.nextElementSibling
     const body_cells = element.children;
     for (let i = 0; i < header_cells.length; i++) {
-      body_cells[i].classList.add(header_cells[i].innerText.trim())
+      console.log(header_cells[i].innerText.trim())
     }
   }
 })
