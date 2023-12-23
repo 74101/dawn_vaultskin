@@ -180,8 +180,8 @@ let vc_table_header_rows = document.querySelectorAll('.table_row_header')
 
 vc_table_header_rows.forEach(header_row => {
   let element = header_row
-  do {
+  while(element.nextElementSibling.classList.contains('table_row_body')) {
     element = element.nextElementSibling
     element.classList.add('ok')
-  } while(element.nextElementSibling.classList.contains('table_row_body'))
+  }
 })
