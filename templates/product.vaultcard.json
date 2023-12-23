@@ -120,7 +120,7 @@
             "text": "<p>kdkdskskzkz<\/p>",
             "num_color_primary": "#c7444b",
             "num_color_secondary": "#792c38",
-            "num_color_line": "#F9F9F9",
+            "num_color_line": "#f9f9f9",
             "figure_color": "#b74046"
           }
         }
@@ -137,7 +137,7 @@
         "title": "BEST RFID PROTECTION",
         "image": "shopify:\/\/shop_images\/VAULTCARD-RFID-blocking-card-rfid-blocking-material-shield-what-is-Vaultskin.png",
         "show_dynamic_checkout": true,
-        "feature_1_title": "Elina",
+        "feature_1_title": "Security",
         "feature_1_text": "<p>Protects your RFID enabled credit cards, passport, driving license, office door passes etc from RFID skimming (electronic pick-pocketing).<\/p>",
         "feature_1_icon": "shopify:\/\/shop_images\/vaultcard-rfid-blocking-security.png",
         "feature_2_title": "Convenience",
