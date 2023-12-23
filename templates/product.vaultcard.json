@@ -308,8 +308,8 @@
         "color_scheme": "inverse",
         "image_behavior": "fixed",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "related_products": {
