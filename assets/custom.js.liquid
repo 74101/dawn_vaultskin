@@ -185,5 +185,6 @@ vc_table_header_rows.forEach(header_row => {
   while(element.nextElementSibling.classList.contains('table_row_body')) {
     element = element.nextElementSibling
     element.classList.add('ok')
+    console.dir(element.children)
   }
 })
