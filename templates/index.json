@@ -72,6 +72,7 @@
         "change_slides_speed": 5,
         "image_behavior": "ambient",
         "show_text_below": false,
+        "desktop_content_width": 100,
         "accessibility_info": "Slideshow about our brand"
       }
     },
@@ -419,6 +420,7 @@
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
+        "desktop_content_width": 100,
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-1",
@@ -503,7 +505,7 @@
           "type": "content",
           "settings": {
             "position": "left",
-            "content": "<h5><strong>NEWSLETTER<\/strong><\/h5>"
+            "content": "<h4><strong>NEWSLETTER<\/strong><\/h4>"
           }
         },
         "58fde479-94f8-476c-8020-17d127c3426e": {
@@ -527,7 +529,7 @@
           "type": "content",
           "settings": {
             "position": "right",
-            "content": "<h5><strong>DELIVERY & WARRANTY<\/strong><\/h5>"
+            "content": "<h4><strong>DELIVERY & WARRANTY<\/strong><\/h4>"
           }
         },
         "b784e584-4d37-4c5d-a650-901f1fba447a": {
