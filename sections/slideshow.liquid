@@ -17,7 +17,7 @@ let newElement = document.createElement('div');
 newElement.textContent = 'Test';
 
 slideshow_text.forEach(element => {
-  element.insertBefore(newElement, element.querySelector('.banner__heading').nextSibling)
+  element.appendChild(newElement)
 })
 
 })
