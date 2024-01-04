@@ -3,10 +3,16 @@
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 
 {% if section.settings.pagination_custom == 'on' %}
-  <script>
-    let headingElement = document.querySelector('.banner__heading')
-    console.dir(headingElement)
-  </script>
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+let headingElement = document.querySelector('.banner__heading')
+console.dir(headingElement)
+
+})
+
+</script>
 {% endif %}
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
