@@ -1068,6 +1068,7 @@ input[type=radio]:checked + .product-variant-options-custom {
 .custom_dot {
   display: block;
   width: 10px;
+  max-width: 10px;
   height: 10px;
   padding: 0;
   font-size: 0;
@@ -1075,9 +1076,12 @@ input[type=radio]:checked + .product-variant-options-custom {
   color: transparent;
   cursor: pointer;
   border-radius: 50px;
-  border: none;
+  border: none
+  transition: 300ms;
 }
-
+.custom_dot_active {
+  background: #cd9b5c;
+}
 /* MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA  */
 
 
