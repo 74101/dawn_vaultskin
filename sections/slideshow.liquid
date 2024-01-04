@@ -4,7 +4,8 @@
 
 {% if section.settings.pagination_custom == 'on' %}
   <script>
-    console.log('{{ section.settings.pagination_custom }}')
+    let headingElement = document.querySelector('.banner__heading')
+    console.dir(headingElement)
   </script>
 {% endif %}
 
