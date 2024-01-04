@@ -13,8 +13,7 @@ let slideshow_text = slideshow_section.querySelectorAll('.slideshow__text')
 
 slideshow_text.forEach(element => {
   let slideId = element.closest('.slideshow__slide').dataset.slide_id
-  console.log("slideId " + slideId)
-  
+    
   let custom_dots = document.createElement('div')
   custom_dots.className = 'custom_dots'
   for(let i = 0; i < dots_number; i++) {
@@ -22,6 +21,9 @@ slideshow_text.forEach(element => {
     custom_dot.className = 'custom_dot'
     custom_dot.innerHTML = `slide-${i + 1}`
     custom_dot.dataset.slide_id = i
+    if (slideId == i) {
+      custom_dot.classList.add('custom_dot_active')
+    } 
     custom_dots.append(custom_dot)
   }
   let existingElement = element.querySelector('.banner__buttons')
