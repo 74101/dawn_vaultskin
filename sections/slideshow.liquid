@@ -8,15 +8,17 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 let slideshow_section = document.getElementById('shopify-section-{{ section.id }}')
-let headingElements = slideshow_section.querySelectorAll('.banner__heading')
 let dots = slideshow_section.querySelectorAll('.slider-counter__link').length
+let slideshow_text = slideshow_section.querySelectorAll('.slideshow__text')
 
 console.log(dots)
 
-headingElements.forEach(element => {
-  element.insertAdjacentHTML('afterend', `
-  <p>test</p>
-  `);
+var newElement = document.createElement('div');
+newElement.textContent = 'Test';
+
+slideshow_text.forEach(element => {
+  let existingElement = element.querySelector('.banner__heading')
+  existingElement.parentNode.insertBefore(newElement, existingElement.nextSibling);
 })
 
 })
