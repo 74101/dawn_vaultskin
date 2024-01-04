@@ -13,9 +13,8 @@ let slideshow_text = slideshow_section.querySelectorAll('.slideshow__text')
 
 slideshow_text.forEach(element => {
   let custom_dots = document.createElement('div')
-  custom_dots.textContent = 'Test'
   for(let i = 0; i < dots_number; i++) {
-    console.log(i)
+    custom_dots.append(`<p>${i}</p>`)
   }
   let existingElement = element.querySelector('.banner__buttons')
   element.insertBefore(custom_dots, existingElement)
