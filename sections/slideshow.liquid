@@ -13,7 +13,6 @@ let slideshow_text = slideshow_section.querySelectorAll('.slideshow__text')
 
 slideshow_text.forEach(element => {
   let slideId = element.closest('.slideshow__slide').dataset.slide_id
-    
   let custom_dots = document.createElement('div')
   custom_dots.className = 'custom_dots'
   for(let i = 0; i < dots_number; i++) {
