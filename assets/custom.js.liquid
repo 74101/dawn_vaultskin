@@ -32,6 +32,9 @@ changeImageCollectionCard()
 let filtersForm = document.getElementById('FacetFiltersForm');
 if(filtersForm) {
   console.dir(filtersForm)
+  filtersForm.addEventListener('submit', function() {
+    console.dir('filtersForm')
+  })
 }
 
 function changeVariant() { 
