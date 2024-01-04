@@ -29,6 +29,11 @@ function changeImageCollectionCard() {
 }
 changeImageCollectionCard()
 
+let FacetFiltersForm = document.getElementById('FacetFiltersForm');
+if(FacetFiltersForm) {
+  console.log(FacetFiltersForm)
+}
+
 function changeVariant() { 
   let slideshowContainerElements = document.querySelectorAll('.slideshow_container')
   let productImagesElements = document.querySelectorAll('.product_images')
