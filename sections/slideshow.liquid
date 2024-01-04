@@ -7,9 +7,11 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 
-let headingElement = document.querySelector('.banner__heading')
-console.dir(Math.round(headingElement.getBoundingClientRect().top))
-console.dir(Math.round(headingElement.closest('.banner__content').getBoundingClientRect().top))
+let headingElements = document.querySelectorAll('.banner__heading')
+
+headingElements.forEach(element => {
+  console.dir(element)
+})
 
 })
 
