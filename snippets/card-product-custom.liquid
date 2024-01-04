@@ -165,6 +165,7 @@
             {% for variant in card_product.variants %}
               {% assign variant_color = variant.metafields.variant.color.value %}
               <button
+                onclick="changeImageCollectionCard()"
                 type="button"
                 class="variant_btn {% if forloop.index == 1 %}active{% endif %}" 
                 style="background:{{ variant_color }}"
