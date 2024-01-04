@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 let headingElement = document.querySelector('.banner__heading')
 console.dir(headingElement.getBoundingClientRect().top)
-console.dir(headingElement.parentElement.getBoundingClientRect().top)
+console.dir(headingElement.closets('.banner__content').getBoundingClientRect().top)
 
 })
 
