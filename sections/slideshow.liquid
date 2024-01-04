@@ -11,10 +11,6 @@ let slideshow_section = document.getElementById('shopify-section-{{ section.id }
 let dots = slideshow_section.querySelectorAll('.slider-counter__link').length
 let slideshow_text = slideshow_section.querySelectorAll('.slideshow__text')
 
-console.log(dots)
-
-
-
 slideshow_text.forEach(element => {
   let newElement = document.createElement('div');
   newElement.textContent = 'Test';
