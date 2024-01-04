@@ -80,14 +80,22 @@
       {%- else -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
-          {{ money_price }}
+          {% if target == product and product.price_varies %}
+            <span class="from_price">{{ 'products.product.price.from_price_html' | t }}</span> {{ money_price }}
+          {% else %}
+            {{ money_price }}
+          {% endif %}
         </span>
       {%- endif -%}
     </div>
     <div class="price__sale">
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
       <span class="price-item price-item--sale price-item--last">
-        {{ money_price }}
+          {% if target == product and product.price_varies %}
+            <span class="from_price">{{ 'products.product.price.from_price_html' | t }}</span> {{ money_price }}
+          {% else %}
+            {{ money_price }}
+          {% endif %}
       </span>
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
