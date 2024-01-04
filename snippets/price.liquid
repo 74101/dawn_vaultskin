@@ -32,11 +32,12 @@
     assign money_price_max = price_max | money_with_currency
   endif
 
+-%}
+{% comment %}
   if target == product and product.price_varies
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
--%}
-
+{% endcomment %}
 <div
   class="
     price
