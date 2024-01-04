@@ -8,8 +8,8 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 let headingElement = document.querySelector('.banner__heading')
-console.dir(headingElement.getBoundingClientRect().top)
-console.dir(headingElement.closest('.banner__content').getBoundingClientRect().top)
+console.dir(Math.round(headingElement.getBoundingClientRect().top))
+console.dir(Math.round(headingElement.closest('.banner__content').getBoundingClientRect().top))
 
 })
 
