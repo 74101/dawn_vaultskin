@@ -9,6 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 let slideshow_section = document.getElementById('shopify-section-{{ section.id }}')
 let headingElements = slideshow_section.querySelectorAll('.banner__heading')
+let slider_counters = slideshow_section.querySelectorAll('.slider-counter__link')
+
+slider_counters.forEach(element => {
+  console.log(element)
+})
 
 headingElements.forEach(element => {
   element.insertAdjacentHTML('afterend', `
