@@ -11,7 +11,7 @@ let slideshow_section = document.getElementById('shopify-section-{{ section.id }
 let headingElements = slideshow_section.querySelectorAll('.banner__heading')
 
 headingElements.forEach(element => {
-  console.dir(element)
+  element.insertAdjacentHTML('afterend', '<p>test</p>');
 })
 
 })
