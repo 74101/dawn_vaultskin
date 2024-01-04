@@ -1,33 +1,26 @@
-function changeImageCollectionCard() { 
-  let variantBtnElements = document.querySelectorAll('.variant_btn')
-  variantBtnElements.forEach(buttonElement => {
-    buttonElement.addEventListener('click', () => {
-  
-      let cardElement = buttonElement.parentElement.parentElement.parentElement
-      let linkElements = cardElement.querySelectorAll('a')
-      let imageElement = cardElement.querySelector('.card__media img')
-      let imageUrl = buttonElement.dataset.image
-      let variantUrl = buttonElement.dataset.url
-  
-      linkElements.forEach(linkElement => {
-        linkElement.href = variantUrl
-      })
-  
-      Array.from(buttonElement.parentNode.children).forEach(sibling => {
-        if (sibling !== buttonElement) {
-          sibling.classList.remove('active')
-        }
-      })
-  
-      buttonElement.classList.add('active')
-      // imageElement.classList.add('loading')
-      // setTimeout(() => {imageElement.classList.remove('loading')}, 300)
-      
-      imageElement.src = imageUrl;
-    })
+function changeImageCollectionCard(element) {
+  let cardElement = element.parentElement.parentElement.parentElement
+  let linkElements = cardElement.querySelectorAll('a')
+  let imageElement = cardElement.querySelector('.card__media img')
+  let imageUrl = element.dataset.image
+  let variantUrl = element.dataset.url
+
+  linkElements.forEach(linkElement => {
+    linkElement.href = variantUrl
   })
-}
-changeImageCollectionCard()
+
+  Array.from(element.parentNode.children).forEach(sibling => {
+    if (sibling !== element) {
+      sibling.classList.remove('active')
+    }
+  })
+
+  element.classList.add('active')
+  // imageElement.classList.add('loading')
+  // setTimeout(() => {imageElement.classList.remove('loading')}, 300)
+  
+  imageElement.src = imageUrl;
+})
 
 function changeVariant() { 
   let slideshowContainerElements = document.querySelectorAll('.slideshow_container')
