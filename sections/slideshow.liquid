@@ -18,6 +18,7 @@ slideshow_text.forEach(element => {
     let custom_dot = document.createElement('button')
     custom_dot.className = 'custom_dot'
     custom_dot.innerHTML = `slide-${i + 1}`
+    custom_dot.dataset.slide_id = i
     custom_dots.append(custom_dot)
   }
   let existingElement = element.querySelector('.banner__buttons')
