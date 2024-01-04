@@ -8,14 +8,17 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 let slideshow_section = document.getElementById('shopify-section-{{ section.id }}')
-let dots = slideshow_section.querySelectorAll('.slider-counter__link').length
+let dots_number = slideshow_section.querySelectorAll('.slider-counter__link').length
 let slideshow_text = slideshow_section.querySelectorAll('.slideshow__text')
 
 slideshow_text.forEach(element => {
-  let newElement = document.createElement('div');
-  newElement.textContent = 'Test';
+  let custom_dots = document.createElement('div')
+  custom_dots.textContent = 'Test'
+  for(let i = 0; i <= dots_number; i++) {
+    console.log(i)
+  }
   let existingElement = element.querySelector('.banner__buttons')
-  element.insertBefore(newElement, existingElement)
+  element.insertBefore(custom_dots, existingElement)
 })
 
 })
