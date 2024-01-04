@@ -7,10 +7,9 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 
-
 let slideshow_section = document.getElementById('shopify-section-{{ section.id }}')
-let headingElements = document.querySelectorAll('.banner__heading')
-console.log(slideshow_section)
+let headingElements = slideshow_section.querySelectorAll('.banner__heading')
+
 headingElements.forEach(element => {
   console.dir(element)
 })
