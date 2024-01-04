@@ -13,11 +13,13 @@ let slideshow_text = slideshow_section.querySelectorAll('.slideshow__text')
 
 console.log(dots)
 
-let newElement = document.createElement('div');
-newElement.textContent = 'Test';
+
 
 slideshow_text.forEach(element => {
-  element.appendChild(newElement)
+  let newElement = document.createElement('div');
+  newElement.textContent = 'Test';
+  let existingElement = element.querySelector('.banner__heading')
+  element.insertBefore(newElement, existingElement.nextSibling)
 })
 
 })
