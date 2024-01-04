@@ -115,7 +115,7 @@
                     {{ block.shopify_attributes }}
                     {% if settings.animations_reveal_on_scroll %}
                       data-cascade
-                      style="--animation-order: {{ forloop.index }};"
+                      style="--animation-order: {{ forloop.index }};align-self:{{ block.settings.button_alignment }}"
                     {% endif %}
                   >
                     {%- if block.settings.button_label != blank -%}
@@ -565,6 +565,26 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+        },
+        {
+          "type": "select",
+          "id": "button_alignment",
+          "options": [
+            {
+              "value": "flex-start",
+              "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__2.label"
+            },
+            {
+              "value": "flex-end",
+              "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__3.label"
+            }
+          ],
+          "default": "flex-start",
+          "label": "Button alignment"
         }
       ]
     }
