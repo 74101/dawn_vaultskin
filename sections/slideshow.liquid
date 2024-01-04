@@ -16,7 +16,7 @@ slideshow_text.forEach(element => {
   custom_dots.className = 'custom_dots'
   for(let i = 0; i < dots_number; i++) {
     let custom_dot = document.createElement('button')
-    custom_dots.className = 'custom_dot'
+    custom_dot.className = 'custom_dot'
     custom_dot.innerHTML = `slide-${i + 1}`
     custom_dots.append(custom_dot)
   }
