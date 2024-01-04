@@ -67,7 +67,7 @@
         "layout": "full_bleed",
         "slide_height": "large",
         "pagination": "off",
-        "pagination_custom": "off",
+        "pagination_custom": "on",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
