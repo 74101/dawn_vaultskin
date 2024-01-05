@@ -146,7 +146,9 @@
           {%- endif -%}
           {%- if show_tags -%}
             <div class="card__tags">
-              {{ article.tags }}
+              {% for tag in article.tags %}
+                <span class="card__tag">{{ tag }}</span>
+              {% endfor %}
             </div>
           {%- endif -%}
         </div>
