@@ -144,7 +144,7 @@
               {%- endif -%}
             </div>
           {%- endif -%}
-          {%- if show_tags -%}
+          {%- if show_tags and article.tags.size > 0 -%}
             <div class="card__tags">
               <div class="card__tags-title">Tags: </div>
               {% for tag in article.tags %}
