@@ -86,112 +86,100 @@
     {%- endcase -%}
   {%- endfor -%}
 
-   {% if article.metafields.featured_product.product_id %}
+{% if article.metafields.featured_product.product_id %}
+  <h3 class="">FEATURED PRODUCT</h3>
+  {% assign product_id = article.metafields.featured_product.product_id %}
+  {% for product in collections.all.products %}
+    {% if product.id == article.metafields.featured_product.product_id %}
+      <img src="{{ product.featured_image | image_url }}">
+</div>
+<div class="col-9">
+<h4>{{ product.title }}</h4> 
+<span class="article_featured-product_collections">{% for collection in product.collections %}
+{{ collection.title }} | 
+{% endfor %}</span><br>
 
-        <div class="article_featured-product-block">
-        <h2 class="h3 article_live-a-comment-title">FEATURED PRODUCT</h2>
-        {% assign product_id = article.metafields.featured_product.product_id %}
-      
-        {% for product in collections.all.products %}
+<a href="{{ product.url }}" class="btn article_featured-product_view-link">VIEW PRODUCT</a>
+</div>
+</div>
 
-          {% if product.id == article.metafields.featured_product.product_id %}
+{% endif %}
 
-            <div class="row">
-             <div class="col-3">
-               <img src="{{ product.featured_image | img_url }}">
-             </div>
-             <div class="col-9">
-               <h4>{{ product.title }}</h4> 
-               <span class="article_featured-product_collections">{% for collection in product.collections %}
-                   {{ collection.title }} | 
-                 {% endfor %}</span><br>
+{% for var in product.variants %}
+{% if var.id == article.metafields.featured_product.product_id %}
+<div class="row">
+<div class="col-3">
+<img src="{{ var.featured_image | img_url }}">
+</div>
+<div class="col-9">
+<h4>{{ product.title }}</h4> 
+<span class="article_featured-product_collections">{% for collection in product.collections %}
+{{ collection.title }} | 
+{% endfor %}</span><br>
 
-               <a href="{{ product.url }}" class="btn article_featured-product_view-link">VIEW PRODUCT</a>
-             </div>
-            </div>
+<a href="{{ var.url }}" class="btn article_featured-product_view-link">VIEW PRODUCT</a>
+</div>
+</div>
+{% endif %}
+{% endfor %}
 
-          {% endif %}
-          
-          {% for var in product.variants %}
-              {% if var.id == article.metafields.featured_product.product_id %}
-                <div class="row">
-                   <div class="col-3">
-                     <img src="{{ var.featured_image | img_url }}">
-                   </div>
-                   <div class="col-9">
-                     <h4>{{ product.title }}</h4> 
-                     <span class="article_featured-product_collections">{% for collection in product.collections %}
-                         {{ collection.title }} | 
-                       {% endfor %}</span><br>
+{% endfor %}
 
-                     <a href="{{ var.url }}" class="btn article_featured-product_view-link">VIEW PRODUCT</a>
-                   </div>
-                  </div>
-             {% endif %}
-          {% endfor %}
-          
-        {% endfor %}
-         
-        </div>  
-        
-        {% endif %}
-        
-        
-        
-        {% if article.metafields.featured_product.product_id-2 %}
+</div>  
 
-        <div class="article_featured-product-block">
+{% endif %}
+
+
+
+{% if article.metafields.featured_product.product_id-2 %}
+
+<div class="article_featured-product-block">
 <!--         <h2 class="h3 article_live-a-comment-title">FEATURED PRODUCT</h2> -->
-        {% assign product_id = article.metafields.featured_product.product_id-2 %}
-      
-        {% for product in collections.all.products %}
+{% assign product_id = article.metafields.featured_product.product_id-2 %}
 
-          {% if product.id == article.metafields.featured_product.product_id-2 %}
+{% for product in collections.all.products %}
 
-            <div class="row">
-             <div class="col-3">
-               <img src="{{ product.featured_image | img_url }}">
-             </div>
-             <div class="col-9">
-               <h4>{{ product.title }}</h4> 
-               <span class="article_featured-product_collections">{% for collection in product.collections %}
-                   {{ collection.title }} | 
-                 {% endfor %}</span><br>
+{% if product.id == article.metafields.featured_product.product_id-2 %}
 
-               <a href="{{ product.url }}" class="btn article_featured-product_view-link">VIEW PRODUCT</a>
-             </div>
-            </div>
+<div class="row">
+<div class="col-3">
+<img src="{{ product.featured_image | img_url }}">
+</div>
+<div class="col-9">
+<h4>{{ product.title }}</h4> 
+<span class="article_featured-product_collections">{% for collection in product.collections %}
+{{ collection.title }} | 
+{% endfor %}</span><br>
 
-          {% endif %}
-          
-          {% for var in product.variants %}
-              {% if var.id == article.metafields.featured_product.product_id-2 %}
-                <div class="row">
-                   <div class="col-3">
-                     <img src="{{ var.featured_image | img_url }}">
-                   </div>
-                   <div class="col-9">
-                     <h4>{{ product.title }}</h4> 
-                     <span class="article_featured-product_collections">{% for collection in product.collections %}
-                         {{ collection.title }} | 
-                       {% endfor %}</span><br>
+<a href="{{ product.url }}" class="btn article_featured-product_view-link">VIEW PRODUCT</a>
+</div>
+</div>
 
-                     <a href="{{ var.url }}" class="btn article_featured-product_view-link">VIEW PRODUCT</a>
-                   </div>
-                  </div>
-             {% endif %}
-          {% endfor %}
-          
-        {% endfor %}
-         
-        </div>  
-        
-        {% endif %}
-        
-        
-        {% if section.settings.social_sharing_blog %}
-          {% include 'social-sharing', share_title: article.title, share_permalink: article.url, share_image: article.image %}
-        {% endif %}
+{% endif %}
+
+{% for var in product.variants %}
+{% if var.id == article.metafields.featured_product.product_id-2 %}
+<div class="row">
+<div class="col-3">
+<img src="{{ var.featured_image | img_url }}">
+</div>
+<div class="col-9">
+<h4>{{ product.title }}</h4> 
+<span class="article_featured-product_collections">{% for collection in product.collections %}
+{{ collection.title }} | 
+{% endfor %}</span><br>
+
+<a href="{{ var.url }}" class="btn article_featured-product_view-link">VIEW PRODUCT</a>
+</div>
+</div>
+{% endif %}
+{% endfor %}
+
+{% endfor %}
+
+</div>
+
+{% endif %}
   
   <div class="article-template__back element-margin-top center{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
