@@ -101,11 +101,11 @@
               </div>
               <div class="prod_inner">
                 <h4 class="prod_title">{{ product.title }}</h4> 
-                <div class="prod_collections">
+                <ul class="prod_collections">
                   {% for collection in product.collections %}
-                      <span>{{ collection.title }}</span>
+                    <li>{{ collection.title }}</li>
                   {% endfor %}
-                </div>
+                </ul>
                 <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
               </div>
             </div>
@@ -119,11 +119,11 @@
                 </div>
                 <div class="prod_inner">
                   <h4 class="prod_title">{{ product.title }}</h4> 
-                  <div class="prod_collections">
+                  <ul class="prod_collections">
                     {% for collection in product.collections %}
-                      <span>{{ collection.title }}</span>
+                      <li>{{ collection.title }}</li>
                     {% endfor %}
-                  </div>
+                  </ul>
                   <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
                 </div>
               </div>
@@ -149,11 +149,11 @@
               </div>
               <div class="prod_inner">
                 <h4 class="prod_title">{{ product.title }}</h4> 
-                <div class="prod_collections">
+                <ul class="prod_collections">
                   {% for collection in product.collections %}
-                    <span>{{ collection.title }}</span>
+                    <li>{{ collection.title }}</li>
                   {% endfor %}
-                </div>
+                </ul>
                 <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
               </div>
             </div>
@@ -167,11 +167,11 @@
                 </div>
                 <div class="prod_inner">
                   <h4 class="prod_title">{{ product.title }}</h4> 
-                  <div class="prod_collections">
+                  <ul class="prod_collections">
                     {% for collection in product.collections %}
-                      <span>{{ collection.title }}</span>
+                      <li>{{ collection.title }}</li>
                     {% endfor %}
-                  </div>
+                  </ul>
                   <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
                 </div>
               </div>
