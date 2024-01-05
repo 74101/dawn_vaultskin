@@ -1079,7 +1079,9 @@ input[type=radio]:checked + .product-variant-options-custom {
 }
 .custom_dot {
   position: relative;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 20px;
   max-width: 20px;
   height: 20px;
@@ -1092,6 +1094,14 @@ input[type=radio]:checked + .product-variant-options-custom {
   border: none;
   background: none;
   transition: 300ms;
+}
+.custom_dot::after {
+  content: '';
+  display: block;
+  width: 10px;
+  max-width: 10px;
+  height: 10px;
+  background: #fff;
 }
 .custom_dot_active {
   background: #cd9b5c;
