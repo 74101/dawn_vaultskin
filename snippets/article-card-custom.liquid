@@ -148,7 +148,7 @@
             <div class="card__tags">
               <div class="card__tags-title">Tags: </div>
               {% for tag in article.tags %}
-                <span class="card__tag">{{ tag }}</span>
+                <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="card__tag">{{ tag }}</a>
               {% endfor %}
             </div>
           {%- endif -%}
