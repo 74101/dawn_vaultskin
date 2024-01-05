@@ -11,6 +11,7 @@
         {%- if article.image -%}
           <div
             class="article-template__hero-container{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            style="max-width: {{ block.settings.image_width -}}px"
             {{ block.shopify_attributes }}
           >
             <div
@@ -322,6 +323,15 @@
       "name": "t:sections.main-article.blocks.featured_image.name",
       "limit": 1,
       "settings": [
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 300,
+          "max": 1600,
+          "step": 20,
+          "label": "Image width",
+          "default": 600
+        },
         {
           "type": "select",
           "id": "image_height",
