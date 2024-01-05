@@ -86,28 +86,17 @@
     {%- endcase -%}
   {%- endfor -%}
   
-  {% if article.metafields.featured_product.product_id %}
-    {% assign product_id = article.metafields.featured_product.product_id %}
-    <div class="article_featured_product">
-      <h3 class="section_title">FEATURED PRODUCT</h3>
-      {% for product in collections.all.products %}
-        {% if product.id == product_id %}
-          <div class="prod_image">
-            <img src="{{ product.featured_image | image_url: width: 100 }}" width="" height="">
-          </div>
-          <h4 class="prod_title">{{ product.title }}</h4> 
-          <span class="prod_collections">
-            {% for collection in product.collections %}
-              {{ collection.title }} | 
-            {% endfor %}
-          </span>
-          <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
-        {% endif %}
-  
-        {% for var in product.variants %}
-          {% if var.id == product_id %}
+  <div
+    class=" page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+  >
+    {% if article.metafields.featured_product.product_id %}
+      {% assign product_id = article.metafields.featured_product.product_id %}
+      <div class="article_featured_product">
+        <h3 class="section_title">FEATURED PRODUCT</h3>
+        {% for product in collections.all.products %}
+          {% if product.id == product_id %}
             <div class="prod_image">
-              <img src="{{ var.featured_image | image_url: width: 100 }}" width="" height="">
+              <img src="{{ product.featured_image | image_url: width: 100 }}" width="" height="">
             </div>
             <h4 class="prod_title">{{ product.title }}</h4> 
             <span class="prod_collections">
@@ -115,39 +104,39 @@
                 {{ collection.title }} | 
               {% endfor %}
             </span>
-            <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+            <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
           {% endif %}
+    
+          {% for var in product.variants %}
+            {% if var.id == product_id %}
+              <div class="prod_image">
+                <img src="{{ var.featured_image | image_url: width: 100 }}" width="" height="">
+              </div>
+              <h4 class="prod_title">{{ product.title }}</h4> 
+              <span class="prod_collections">
+                {% for collection in product.collections %}
+                  {{ collection.title }} | 
+                {% endfor %}
+              </span>
+              <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+            {% endif %}
+          {% endfor %}
+    
         {% endfor %}
-  
-      {% endfor %}
-  
-    </div>
-  
-  {% endif %}
-  
-  
-  {% if article.metafields.featured_product.product_id-2 %}
-    {% assign product_id = article.metafields.featured_product.product_id-2 %}
-    <div class="article_featured_product">
-      <h3 class="section_title">FEATURED PRODUCT</h3>
-      {% for product in collections.all.products %}
-        {% if product.id == product_id %}
-          <div class="prod_image">
-            <img src="{{ product.featured_image | image_url: width: 100 }}" width="" height="">
-          </div>
-          <h4 class="prod_title">{{ product.title }}</h4> 
-          <span class="prod_collections">
-            {% for collection in product.collections %}
-              {{ collection.title }} | 
-            {% endfor %}
-          </span>
-          <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
-        {% endif %}
-  
-        {% for var in product.variants %}
-          {% if var.id == product_id %}
+    
+      </div>
+    
+    {% endif %}
+    
+    
+    {% if article.metafields.featured_product.product_id-2 %}
+      {% assign product_id = article.metafields.featured_product.product_id-2 %}
+      <div class="article_featured_product">
+        <h3 class="section_title">FEATURED PRODUCT</h3>
+        {% for product in collections.all.products %}
+          {% if product.id == product_id %}
             <div class="prod_image">
-              <img src="{{ var.featured_image | image_url: width: 100 }}" width="" height="">
+              <img src="{{ product.featured_image | image_url: width: 100 }}" width="" height="">
             </div>
             <h4 class="prod_title">{{ product.title }}</h4> 
             <span class="prod_collections">
@@ -155,15 +144,30 @@
                 {{ collection.title }} | 
               {% endfor %}
             </span>
-            <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+            <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
           {% endif %}
+    
+          {% for var in product.variants %}
+            {% if var.id == product_id %}
+              <div class="prod_image">
+                <img src="{{ var.featured_image | image_url: width: 100 }}" width="" height="">
+              </div>
+              <h4 class="prod_title">{{ product.title }}</h4> 
+              <span class="prod_collections">
+                {% for collection in product.collections %}
+                  {{ collection.title }} | 
+                {% endfor %}
+              </span>
+              <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+            {% endif %}
+          {% endfor %}
+    
         {% endfor %}
-  
-      {% endfor %}
-  
-    </div>
-  
-  {% endif %}
+    
+      </div>
+    
+    {% endif %}
+  </div>
   
   <div class="article-template__back element-margin-top center{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
