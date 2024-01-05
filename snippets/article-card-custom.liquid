@@ -144,14 +144,6 @@
               {%- endif -%}
             </div>
           {%- endif -%}
-          {%- if show_tags -%}
-            <div class="card__tags">
-              <div class="card__tags-title">Tags: </div>
-              {% for tag in article.tags %}
-                <span class="card__tag">{{ tag }}</span>
-              {% endfor %}
-            </div>
-          {%- endif -%}
         </div>
         {%- if show_badge -%}
           <div class="card__badge {{ settings.badge_position }}">
@@ -159,6 +151,14 @@
           </div>
         {%- endif -%}
       </div>
+      {%- if show_tags -%}
+        <div class="card__tags">
+          <div class="card__tags-title">Tags: </div>
+          {% for tag in article.tags %}
+            <span class="card__tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {%- endif -%}
     </div>
   </div>
 {%- endif -%}
