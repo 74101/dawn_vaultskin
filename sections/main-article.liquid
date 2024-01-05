@@ -121,7 +121,7 @@
                   <h4 class="prod_title">{{ product.title }}</h4> 
                   <div class="prod_collections">
                     {% for collection in product.collections %}
-                      {{ collection.title }} | 
+                      <span>{{ collection.title }}</span>
                     {% endfor %}
                   </div>
                   <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
