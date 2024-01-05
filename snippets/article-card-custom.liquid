@@ -146,7 +146,7 @@
           {%- endif -%}
           {%- if show_tags and article.tags.size > 0 -%}
             <div class="card__tags">
-              <div class="card__tags-title">Tags: </div>
+              <span class="card__tags-title">Tags: </span>
               {% for tag in article.tags %}
                 <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="card__tag">{{ tag }}</a>
               {% endfor %}
