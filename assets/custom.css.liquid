@@ -1145,10 +1145,7 @@ input[type=radio]:checked + .product-variant-options-custom {
   padding: 0;
   list-style: none;
 }
-.prod_collections li {
-  position: relative;
-}
-.prod_collections li::after {
+.prod_collections li:not(:last-child)::after {
   content: '|';
   margin-left: 5px;
 }
