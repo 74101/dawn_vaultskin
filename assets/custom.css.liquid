@@ -1093,7 +1093,6 @@ input[type=radio]:checked + .product-variant-options-custom {
   border-radius: 50px;
   border: none;
   background: none;
-  transition: 300ms;
 }
 .custom_dot::after {
   content: '';
@@ -1102,8 +1101,9 @@ input[type=radio]:checked + .product-variant-options-custom {
   max-width: 10px;
   height: 10px;
   background: #fff;
+  transition: 300ms;
 }
-.custom_dot_active {
+.custom_dot_active::after {
   background: #cd9b5c;
 }
 .shopify-policy__container {
