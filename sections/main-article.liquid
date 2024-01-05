@@ -140,7 +140,9 @@
     {% if article.metafields.featured_product.product_id-2 %}
       {% assign product_id = article.metafields.featured_product.product_id-2 %}
       <div class="article_featured_product">
-        <h3 class="section_title">FEATURED PRODUCT</h3>
+        {% if article.metafields.featured_product.product_id == blank %}
+          <h3 class="section_title">FEATURED PRODUCT</h3>
+        {% endif %}
         {% for product in collections.all.products %}
           {% if product.id == product_id %}
             <div class="prod">
