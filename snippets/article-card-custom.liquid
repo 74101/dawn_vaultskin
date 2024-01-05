@@ -111,11 +111,6 @@
               <span class="badge color-{{ settings.color_schemes | first }}">{{ 'blogs.article.blog' | t }}</span>
             </div>
           {%- endif -%}
-          {%- if show_tags -%}
-            <div class="card__tags">
-              {{ article.tags }}
-            </div>
-          {%- endif -%}
         </div>
       </div>
       <div class="card__content">
@@ -153,6 +148,11 @@
         {%- if show_badge -%}
           <div class="card__badge {{ settings.badge_position }}">
             <span class="badge color-{{ settings.color_schemes | first }}">{{ 'blogs.article.blog' | t }}</span>
+          </div>
+        {%- endif -%}
+        {%- if show_tags -%}
+          <div class="card__tags">
+            {{ article.tags }}
           </div>
         {%- endif -%}
       </div>
