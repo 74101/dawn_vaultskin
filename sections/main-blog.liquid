@@ -31,7 +31,7 @@
             style="--animation-order: {{ forloop.index }};"
           {% endif %}
         >
-          {%- render 'article-card',
+          {%- render 'article-card-custom',
             article: article,
             media_height: section.settings.image_height,
             media_aspect_ratio: article.image.aspect_ratio,
