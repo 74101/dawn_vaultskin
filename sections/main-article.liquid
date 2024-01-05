@@ -98,13 +98,15 @@
             <div class="prod_image">
               <img src="{{ product.featured_image | image_url: width: 100 }}" width="" height="">
             </div>
-            <h4 class="prod_title">{{ product.title }}</h4> 
-            <span class="prod_collections">
-              {% for collection in product.collections %}
-                {{ collection.title }} | 
-              {% endfor %}
-            </span>
-            <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
+            <div class="prod_inner">
+              <h4 class="prod_title">{{ product.title }}</h4> 
+              <span class="prod_collections">
+                {% for collection in product.collections %}
+                  {{ collection.title }} | 
+                {% endfor %}
+              </span>
+              <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
+            </div>
           {% endif %}
     
           {% for var in product.variants %}
@@ -112,13 +114,15 @@
               <div class="prod_image">
                 <img src="{{ var.featured_image | image_url: width: 100 }}" width="" height="">
               </div>
-              <h4 class="prod_title">{{ product.title }}</h4> 
-              <span class="prod_collections">
-                {% for collection in product.collections %}
-                  {{ collection.title }} | 
-                {% endfor %}
-              </span>
-              <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+              <div class="prod_inner">
+                <h4 class="prod_title">{{ product.title }}</h4> 
+                <span class="prod_collections">
+                  {% for collection in product.collections %}
+                    {{ collection.title }} | 
+                  {% endfor %}
+                </span>
+                <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+              </div>
             {% endif %}
           {% endfor %}
     
@@ -138,13 +142,15 @@
             <div class="prod_image">
               <img src="{{ product.featured_image | image_url: width: 100 }}" width="" height="">
             </div>
-            <h4 class="prod_title">{{ product.title }}</h4> 
-            <span class="prod_collections">
-              {% for collection in product.collections %}
-                {{ collection.title }} | 
-              {% endfor %}
-            </span>
-            <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
+            <div class="prod_inner">
+              <h4 class="prod_title">{{ product.title }}</h4> 
+              <span class="prod_collections">
+                {% for collection in product.collections %}
+                  {{ collection.title }} | 
+                {% endfor %}
+              </span>
+              <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
+            </div>
           {% endif %}
     
           {% for var in product.variants %}
@@ -152,13 +158,15 @@
               <div class="prod_image">
                 <img src="{{ var.featured_image | image_url: width: 100 }}" width="" height="">
               </div>
-              <h4 class="prod_title">{{ product.title }}</h4> 
-              <span class="prod_collections">
-                {% for collection in product.collections %}
-                  {{ collection.title }} | 
-                {% endfor %}
-              </span>
-              <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+              <div class="prod_inner">
+                <h4 class="prod_title">{{ product.title }}</h4> 
+                <span class="prod_collections">
+                  {% for collection in product.collections %}
+                    {{ collection.title }} | 
+                  {% endfor %}
+                </span>
+                <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+              </div>
             {% endif %}
           {% endfor %}
     
