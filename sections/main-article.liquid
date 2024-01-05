@@ -95,24 +95,9 @@
         <h3 class="section_title">FEATURED PRODUCT</h3>
         {% for product in collections.all.products %}
           {% if product.id == product_id %}
-            <div class="prod_image">
-              <img src="{{ product.featured_image | image_url: width: 100 }}" width="" height="">
-            </div>
-            <div class="prod_inner">
-              <h4 class="prod_title">{{ product.title }}</h4> 
-              <span class="prod_collections">
-                {% for collection in product.collections %}
-                  {{ collection.title }} | 
-                {% endfor %}
-              </span>
-              <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
-            </div>
-          {% endif %}
-    
-          {% for var in product.variants %}
-            {% if var.id == product_id %}
+            <div class="prod">
               <div class="prod_image">
-                <img src="{{ var.featured_image | image_url: width: 100 }}" width="" height="">
+                <img src="{{ product.featured_image | image_url: width: 100 }}" width="" height="">
               </div>
               <div class="prod_inner">
                 <h4 class="prod_title">{{ product.title }}</h4> 
@@ -121,7 +106,26 @@
                     {{ collection.title }} | 
                   {% endfor %}
                 </span>
-                <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+                <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
+              </div>
+            </div>
+          {% endif %}
+    
+          {% for var in product.variants %}
+            {% if var.id == product_id %}
+              <div class="prod">
+                <div class="prod_image">
+                  <img src="{{ var.featured_image | image_url: width: 100 }}" width="" height="">
+                </div>
+                <div class="prod_inner">
+                  <h4 class="prod_title">{{ product.title }}</h4> 
+                  <span class="prod_collections">
+                    {% for collection in product.collections %}
+                      {{ collection.title }} | 
+                    {% endfor %}
+                  </span>
+                  <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+                </div>
               </div>
             {% endif %}
           {% endfor %}
@@ -139,24 +143,9 @@
         <h3 class="section_title">FEATURED PRODUCT</h3>
         {% for product in collections.all.products %}
           {% if product.id == product_id %}
-            <div class="prod_image">
-              <img src="{{ product.featured_image | image_url: width: 100 }}" width="" height="">
-            </div>
-            <div class="prod_inner">
-              <h4 class="prod_title">{{ product.title }}</h4> 
-              <span class="prod_collections">
-                {% for collection in product.collections %}
-                  {{ collection.title }} | 
-                {% endfor %}
-              </span>
-              <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
-            </div>
-          {% endif %}
-    
-          {% for var in product.variants %}
-            {% if var.id == product_id %}
+            <div class="prod">
               <div class="prod_image">
-                <img src="{{ var.featured_image | image_url: width: 100 }}" width="" height="">
+                <img src="{{ product.featured_image | image_url: width: 100 }}" width="" height="">
               </div>
               <div class="prod_inner">
                 <h4 class="prod_title">{{ product.title }}</h4> 
@@ -165,7 +154,26 @@
                     {{ collection.title }} | 
                   {% endfor %}
                 </span>
-                <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+                <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
+              </div>
+            </div>
+          {% endif %}
+    
+          {% for var in product.variants %}
+            {% if var.id == product_id %}
+              <div class="prod">
+                <div class="prod_image">
+                  <img src="{{ var.featured_image | image_url: width: 100 }}" width="" height="">
+                </div>
+                <div class="prod_inner">
+                  <h4 class="prod_title">{{ product.title }}</h4> 
+                  <span class="prod_collections">
+                    {% for collection in product.collections %}
+                      {{ collection.title }} | 
+                    {% endfor %}
+                  </span>
+                  <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+                </div>
               </div>
             {% endif %}
           {% endfor %}
