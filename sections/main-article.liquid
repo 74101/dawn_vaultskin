@@ -87,54 +87,87 @@
   {%- endfor -%}
 
 {% if article.metafields.featured_product.product_id %}
-  <h3 class="">FEATURED PRODUCT</h3>
   {% assign product_id = article.metafields.featured_product.product_id %}
-  {% for product in collections.all.products %}
-    {% if product.id == article.metafields.featured_product.product_id %}
-      <img src="{{ product.featured_image | image_url }}">
-</div>
-<div class="col-9">
-<h4>{{ product.title }}</h4> 
-<span class="article_featured-product_collections">{% for collection in product.collections %}
-{{ collection.title }} | 
-{% endfor %}</span><br>
+  <div class="article_featured_product">
+    <h3 class="section_title">FEATURED PRODUCT</h3>
+    {% for product in collections.all.products %}
+      {% if product.id == product_id %}
+        <div class="prod_image">
+          <img src="{{ product.featured_image | image_url }}" width="" height="">
+        </div>
+        <h4 class="prod_title">{{ product.title }}</h4> 
+        <span class="prod_collections">
+          {% for collection in product.collections %}
+            {{ collection.title }} | 
+          {% endfor %}
+        </span>
+        <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
+      {% endif %}
 
-<a href="{{ product.url }}" class="btn article_featured-product_view-link">VIEW PRODUCT</a>
-</div>
-</div>
+      {% for var in product.variants %}
+        {% if var.id == product_id %}
+          <div class="prod_image">
+            <img src="{{ var.featured_image | image_url }}" width="" height="">
+          </div>
+          <h4 class="prod_title">{{ product.title }}</h4> 
+          <span class="prod_collections">
+            {% for collection in product.collections %}
+              {{ collection.title }} | 
+            {% endfor %}
+          </span>
+          <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+        {% endif %}
+      {% endfor %}
 
-{% endif %}
+    {% endfor %}
 
-{% for var in product.variants %}
-{% if var.id == article.metafields.featured_product.product_id %}
-<div class="row">
-<div class="col-3">
-<img src="{{ var.featured_image | img_url }}">
-</div>
-<div class="col-9">
-<h4>{{ product.title }}</h4> 
-<span class="article_featured-product_collections">{% for collection in product.collections %}
-{{ collection.title }} | 
-{% endfor %}</span><br>
-
-<a href="{{ var.url }}" class="btn article_featured-product_view-link">VIEW PRODUCT</a>
-</div>
-</div>
-{% endif %}
-{% endfor %}
-
-{% endfor %}
-
-</div>  
+  </div>
 
 {% endif %}
 
 
+{% if article.metafields.featured_product.product_id-2 %}
+  {% assign product_id = article.metafields.featured_product.product_id-2 %}
+  <div class="article_featured_product">
+    <h3 class="section_title">FEATURED PRODUCT</h3>
+    {% for product in collections.all.products %}
+      {% if product.id == product_id %}
+        <div class="prod_image">
+          <img src="{{ product.featured_image | image_url }}" width="" height="">
+        </div>
+        <h4 class="prod_title">{{ product.title }}</h4> 
+        <span class="prod_collections">
+          {% for collection in product.collections %}
+            {{ collection.title }} | 
+          {% endfor %}
+        </span>
+        <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
+      {% endif %}
+
+      {% for var in product.variants %}
+        {% if var.id == product_id %}
+          <div class="prod_image">
+            <img src="{{ var.featured_image | image_url }}" width="" height="">
+          </div>
+          <h4 class="prod_title">{{ product.title }}</h4> 
+          <span class="prod_collections">
+            {% for collection in product.collections %}
+              {{ collection.title }} | 
+            {% endfor %}
+          </span>
+          <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+        {% endif %}
+      {% endfor %}
+
+    {% endfor %}
+
+  </div>
+
+{% endif %}
 
 {% if article.metafields.featured_product.product_id-2 %}
 
 <div class="article_featured-product-block">
-<!--         <h2 class="h3 article_live-a-comment-title">FEATURED PRODUCT</h2> -->
 {% assign product_id = article.metafields.featured_product.product_id-2 %}
 
 {% for product in collections.all.products %}
