@@ -15,6 +15,11 @@
         "id": "mobile_menu",
         "default": "main-menu",
         "label": "t:sections.header.settings.menu.label"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Collection"
       }
     ]
   },
