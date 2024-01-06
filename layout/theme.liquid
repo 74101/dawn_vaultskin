@@ -281,7 +281,6 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-    {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
     {{ 'custom.css' | asset_url | stylesheet_tag }}
   </head>
 
@@ -351,7 +350,6 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    <script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
   </body>
 </html>
