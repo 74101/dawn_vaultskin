@@ -122,12 +122,11 @@
                 </li>
               {%- endfor -%}
             </ul>
-            <div class="menu-drawer__collection">
-                {% render 'card-product',
-                  card_product: settings.mobile_menu_collection,
-                  lazy_load: lazy_load
-                %}
-            </div>
+            {% if settings.mobile_menu_collection != blank %}
+              <div class="menu-drawer__collection">
+                {% render 'card-collection', card_collection: settings.mobile_menu_collection, columns: 1 %}
+              </div>
+            {% endif %}
           </nav>
           <div class="menu-drawer__utility-links">
             {%- if shop.customer_accounts_enabled -%}
