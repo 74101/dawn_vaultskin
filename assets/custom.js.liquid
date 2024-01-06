@@ -192,10 +192,9 @@ const checkElementInterval = setInterval(function() {
   const element = document.querySelector('.wc_review_list_section');
   if (element) {
     clearInterval(checkElementInterval);
-    console.dir(element.swiper.params.slidesPerGroup)
-    console.dir(element.swiper.params.slidesPerView)
-    element.swiper.params.slidesPerView = 1;
-    element.swiper.params.slidesPerGroup = 1;
-    element.swiper.updateSlides();
+    console.dir(element.swiper.params)
+    // element.swiper.params.slidesPerView = 1;
+    // element.swiper.params.slidesPerGroup = 1;
+    // element.swiper.updateSlides();
   }
 }, 1000);
