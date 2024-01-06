@@ -18,7 +18,7 @@
       },
       {
         "type": "collection",
-        "id": "collection",
+        "id": "mobile_menu_collection",
         "label": "Collection"
       }
     ]
