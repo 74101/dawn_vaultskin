@@ -192,8 +192,9 @@ const checkElementInterval = setInterval(function() {
   const element = document.querySelector('.wc_review_list_section');
   if (element) {
     clearInterval(checkElementInterval);
-    console.dir(element.swiper.params.breakpoints)
-    console.dir(element.swiper.params.breakpoints[576])
+    let breakpoints = element.swiper.params.breakpoints
+    Object.assign(breakpoints, { key3: 'value3' });
+    console.log(breakpoints)
     
     // element.swiper.params.slidesPerView = 1;
     // element.swiper.params.slidesPerGroup = 1;
