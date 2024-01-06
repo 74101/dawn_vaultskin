@@ -19,7 +19,7 @@
     ]
   },
   {
-    "name": "t:settings_schema.logo.name",
+    "name": "Mobile menu",
     "settings": [
       {
         "type": "image_picker",
