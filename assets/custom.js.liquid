@@ -187,3 +187,17 @@ if (vc_table_header_rows) {
     }
   })
 }
+
+function waitForElementToDisplay(selector, time) {
+    if(document.querySelector(selector) != null) {
+        console.log("Element found");
+        return;
+    } else {
+        setTimeout(function() {
+            waitForElementToDisplay(selector, time);
+        }, time);
+    }
+}
+
+waitForElementToDisplay('.wc_review_list_section', 1000);
+
