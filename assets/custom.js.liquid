@@ -191,7 +191,7 @@ if (vc_table_header_rows) {
 function waitForElementToDisplay(selector, time) {
     if(document.querySelector(selector) != null) {
         let element = document.querySelector(selector)
-        console.log(element)
+        console.dir(element)
         return
     } else {
         setTimeout(function() {
