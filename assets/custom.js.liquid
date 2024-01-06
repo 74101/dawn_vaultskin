@@ -193,6 +193,9 @@ function waitForReviewSlider(selector, time) {
     let element = document.querySelector(selector)
     console.dir(element.swiper.params.slidesPerGroup)
     console.dir(element.swiper.params.slidesPerView)
+    element.swiper.params.slidesPerView = 1;
+    element.swiper.params.slidesPerGroup = 1;
+    element.swiper.updateSlides();
     return
   } else {
     setTimeout(function() {
