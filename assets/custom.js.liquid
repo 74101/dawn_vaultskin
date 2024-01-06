@@ -191,7 +191,7 @@ if (vc_table_header_rows) {
 function waitForReviewSlider(selector, time) {
   if(document.querySelector(selector) != null) {
     let element = document.querySelector(selector)
-    console.dir(element)
+    console.dir(element.swiper)
     return
   } else {
     setTimeout(function() {
