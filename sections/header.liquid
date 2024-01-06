@@ -158,7 +158,7 @@
     {%- liquid
       if section.settings.menu != blank and section.settings.menu_type_desktop == 'drawer'
         render 'header-drawer'
-      else
+      elsif section.settings.menu != blank
         render 'header-drawer-custom'
       endif
 
