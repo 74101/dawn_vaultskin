@@ -1,7 +1,7 @@
 {
   "current": {
     "mobile_menu": "products",
-    "collection": "bestsellers",
+    "mobile_menu_collection": "bestsellers",
     "logo": "{{ shop.brand.logo }}",
     "logo_width": 130,
     "logo_scroll": "shopify:\/\/shop_images\/Vaultskin-Logo-Text.svg",
@@ -127,6 +127,7 @@
     "checkout_logo_size": "large",
     "checkout_accent_color": "#b58f5e",
     "checkout_button_color": "#b58f5e",
+    "collection": "bestsellers",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
