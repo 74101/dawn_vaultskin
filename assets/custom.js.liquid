@@ -195,6 +195,6 @@ const checkElementInterval = setInterval(function() {
     let breakpoints = element.swiper.params.breakpoints
     const zeroPoint = {slidesPerView: 1, slidesPerGroup: 1}
     Object.assign(breakpoints, { 0: zeroPoint })
-    element.swiper.updateSlides()
+    element.updateSlides()
   }
 }, 700);
