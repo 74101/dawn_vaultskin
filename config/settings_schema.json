@@ -8,6 +8,17 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
+    "name": "t:sections.header.settings.menu.label",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "mobile_menu",
+        "default": "main-menu",
+        "label": "t:sections.header.settings.menu.label"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.logo.name",
     "settings": [
       {
