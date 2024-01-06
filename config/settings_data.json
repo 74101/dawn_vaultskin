@@ -1,5 +1,6 @@
 {
   "current": {
+    "mobile_menu": "products",
     "logo": "{{ shop.brand.logo }}",
     "logo_width": 130,
     "logo_scroll": "shopify:\/\/shop_images\/Vaultskin-Logo-Text.svg",
