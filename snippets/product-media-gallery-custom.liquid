@@ -6,12 +6,15 @@
   {% endif %}
   {% if current_variant_product_images %}
     <div class="product_images {% if variant_product == product.selected_or_first_available_variant %} active{% endif %}">
-        <div class="slider_product_gallery scroll-trigger animate--fade-in">
-          {% for image in current_variant_product_images %}
-            <div class="slide">
-              {{ image | image_url: width: 512 | image_tag }}
-            </div>
-          {% endfor %}
+        <div class="swiper swiper_product_gallery scroll-trigger animate--fade-in">
+          <div class="swiper-wrapper">
+            {% for image in current_variant_product_images %}
+              <div class="swiper-slide">
+                {{ image | image_url: width: 512 | image_tag }}
+              </div>
+            {% endfor %}
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
     </div>
   {% endif %}
