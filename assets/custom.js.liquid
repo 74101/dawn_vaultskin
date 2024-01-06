@@ -193,12 +193,13 @@ const checkElementInterval = setInterval(function() {
   if (element) {
     clearInterval(checkElementInterval);
     const check = setInterval(function() {
-      let breakpoints = element.swiper.params.breakpoints;
-      if (breakpoints) {
+      let slider = element.swiper;
+      if (slider) {
         clearInterval(check);
+        let breakpoints = slider.params.breakpoints;
         const zeroPoint = {slidesPerView: 1, slidesPerGroup: 1};
         Object.assign(breakpoints, { 0: zeroPoint });
-        element.swiper.update();
+        slider.update();
       }
     }, 100);
   }
