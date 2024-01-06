@@ -188,15 +188,15 @@ if (vc_table_header_rows) {
   })
 }
 
-function waitForElementToDisplay(selector, time) {
-    if(document.querySelector(selector) != null) {
-        let element = document.querySelector(selector)
-        console.dir(element)
-        return
-    } else {
-        setTimeout(function() {
-            waitForElementToDisplay(selector, time)
-        }, time)
-    }
+function waitForReviewSlider(selector, time) {
+  if(document.querySelector(selector) != null) {
+    let element = document.querySelector(selector)
+    console.dir(element)
+    return
+  } else {
+    setTimeout(function() {
+        waitForReviewSlider(selector, time)
+    }, time)
+  }
 }
-waitForElementToDisplay('.wc_review_list_section', 1000)
+waitForReviewSlider('.wc_review_list_section', 1000)
