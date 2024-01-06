@@ -188,19 +188,14 @@ if (vc_table_header_rows) {
   })
 }
 
-function waitForReviewSlider(selector, time) {
-  if(document.querySelector(selector) != null) {
-    let element = document.querySelector(selector)
+const checkElementInterval = setInterval(function() {
+  const element = document.querySelector('.wc_review_list_section');
+  if (element) {
+    clearInterval(checkElementInterval);
     console.dir(element.swiper.params.slidesPerGroup)
     console.dir(element.swiper.params.slidesPerView)
     element.swiper.params.slidesPerView = 1;
     element.swiper.params.slidesPerGroup = 1;
     element.swiper.updateSlides();
-    return
-  } else {
-    setTimeout(function() {
-        waitForReviewSlider(selector, time)
-    }, time)
   }
-}
-waitForReviewSlider('.wc_review_list_section', 1000)
+}, 1000);
