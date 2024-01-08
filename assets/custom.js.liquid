@@ -218,7 +218,6 @@ window.colorChange = function() {
 
     console.log(colors)
     colors.forEach(color => {
-      const elementsWithColor = document.querySelectorAll(`.variant_btn.${color}`);
       if (custom_variants) {
         custom_variants.forEach(custom_variant => {
           const active_variant = custom_variant.querySelector(`.variant_btn.${color}`)
