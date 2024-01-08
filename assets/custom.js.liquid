@@ -209,10 +209,10 @@ let filter_checkboxes = document.querySelectorAll('.filter_label_color input')
 
 filter_checkboxes.forEach(checkbox => {
   checkbox.addEventListener('change', (evt) => {
+    console.log(checkbox.value);
     if (evt.currentTarget.checked) {
-      console.log(checkbox.value);
+      console.log('not checked');
     } else {
-      console.log(checkbox.value);
       console.log('not checked');
     }
   })
