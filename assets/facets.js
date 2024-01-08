@@ -17,7 +17,6 @@ class FacetFiltersForm extends HTMLElement {
   static setListeners() {
     const onHistoryChange = (event) => {
       const searchParams = event.state ? event.state.searchParams : FacetFiltersForm.searchParamsInitial;
-      window.filterSearchParams = searchParams;
       if (searchParams === FacetFiltersForm.searchParamsPrev) return;
       FacetFiltersForm.renderPage(searchParams, null, false);
     };
@@ -32,6 +31,7 @@ class FacetFiltersForm extends HTMLElement {
 
   static renderPage(searchParams, event, updateURLHash = true) {
     FacetFiltersForm.searchParamsPrev = searchParams;
+    window.filterSearchParams = searchParams;
     const sections = FacetFiltersForm.getSections();
     const countContainer = document.getElementById('ProductCount');
     const countContainerDesktop = document.getElementById('ProductCountDesktop');
@@ -112,7 +112,7 @@ class FacetFiltersForm extends HTMLElement {
         // }
       })
     }
-    console.dir(window.filterSearchParams)
+    console.log(window.filterSearchParams)
   }
 
   static renderFilters(html, event) {
