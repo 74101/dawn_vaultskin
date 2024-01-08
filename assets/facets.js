@@ -103,10 +103,14 @@ class FacetFiltersForm extends HTMLElement {
     const loadingSpinners = document.querySelectorAll('.facets-container .loading__spinner, facet-filters-form .loading__spinner');
     loadingSpinners.forEach((spinner) => spinner.classList.add('hidden'));
     const custom_variants = document.querySelectorAll('.custom_variants');
-    custom_variants.forEach(custom_variant => {
-      const active_variant = custom_variant.querySelector(`.variant_btn.${window.filter_color_checkbox_value}`);
-      active_variant.click();
-    });
+    if (custom_variants) {
+      custom_variants.forEach(custom_variant => {
+        const active_variant = custom_variant.querySelector(`.variant_btn.${window.filter_color_checkbox_value}`)
+        if (active_variant) { 
+          active_variant.click()
+        }
+      })
+    }
   }
 
   static renderFilters(html, event) {
