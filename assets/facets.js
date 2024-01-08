@@ -114,7 +114,7 @@ class FacetFiltersForm extends HTMLElement {
         // }
       })
     }
-    const facets_buttons = document.querySelectorAll('.active-facets__button-inner');
+    const facets_buttons = document.querySelectorAll('.active-facets-desktop .active-facets__button-inner');
     console.log(facets_buttons);
   }
 
