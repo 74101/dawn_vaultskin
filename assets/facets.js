@@ -112,7 +112,7 @@ class FacetFiltersForm extends HTMLElement {
         // }
       })
     }
-    console.dir(filterSearchParams)
+    console.dir(window.filterSearchParams)
   }
 
   static renderFilters(html, event) {
