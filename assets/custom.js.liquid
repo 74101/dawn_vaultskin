@@ -207,6 +207,11 @@ const checkElementInterval = setInterval(function() {
 
 
 function colorChange(checkbox) {
+  if(checkbox.checked) {
+    console.log('uncheck')
+  } else {
+    console.log('check')
+  }
   console.dir(checkbox.value.toLowerCase())
 }
 
