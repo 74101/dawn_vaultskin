@@ -90,7 +90,7 @@ class FacetFiltersForm extends HTMLElement {
       });
   }
 
-  static renderProductCount(html, searchParams) {
+  static renderProductCount(html) {
     const count = new DOMParser().parseFromString(html, 'text/html').getElementById('ProductCount').innerHTML;
     const container = document.getElementById('ProductCount');
     const containerDesktop = document.getElementById('ProductCountDesktop');
@@ -105,10 +105,9 @@ class FacetFiltersForm extends HTMLElement {
     const custom_variants = document.querySelectorAll('.custom_variants');
     if (custom_variants) {
       custom_variants.forEach(custom_variant => {
-        const active_variant = custom_variant.querySelector(`.variant_btn.${window.filter_color_checkbox_value}`)
-        if (active_variant) { 
+        // const active_variant = custom_variant.querySelector(`.variant_btn.${window.filter_color_checkbox_value}`)
+        if (active_variant) {
           active_variant.click()
-          console.log(searchParams)
         }
       })
     }
