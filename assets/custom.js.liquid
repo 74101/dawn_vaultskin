@@ -207,8 +207,9 @@ const checkElementInterval = setInterval(function() {
 
 
 window.colorChange = function() {
-    // custom
     const custom_variants = document.querySelectorAll('.custom_variants');
+    const facets_buttons = document.querySelectorAll('.active-facets-desktop .active-facets__button-inner');
+
     if (custom_variants) {
       custom_variants.forEach(custom_variant => {
         // const active_variant = custom_variant.querySelector(`.variant_btn.${window.filter_color_checkbox_value}`)
@@ -217,8 +218,12 @@ window.colorChange = function() {
         // }
       })
     }
-    const facets_buttons = document.querySelectorAll('.active-facets-desktop .active-facets__button-inner');
-    console.log(facets_buttons);
+
+    if (facets_buttons) {
+      facets_buttons.forEach(facets_button => {
+        console.log(facets_button.dataset.color);
+      })
+    }
 }
 colorChange()
 
