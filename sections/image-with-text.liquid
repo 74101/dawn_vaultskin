@@ -120,11 +120,11 @@
                   >
                   <style>
                     .block_id_{{- block.id }} {
-                      align-self:{{ block.settings.button_alignment_mobile }} !important
+                      align-self:{{ block.settings.button_alignment }} !important
                     }
-                    @media screen and (min-width: 750px) {
+                    @media screen and (max-width: 749px) {
                       .block_id_{{- block.id }} {
-                        align-self:{{ block.settings.button_alignment }}!important
+                        align-self:{{ block.settings.button_alignment_mobile }}!important
                       }
                     }
                   </style>
