@@ -1,7 +1,7 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="page-width">
+  <div class="article-template__container page-width">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
