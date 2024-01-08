@@ -103,6 +103,8 @@ class FacetFiltersForm extends HTMLElement {
     const loadingSpinners = document.querySelectorAll('.facets-container .loading__spinner, facet-filters-form .loading__spinner');
     loadingSpinners.forEach((spinner) => spinner.classList.add('hidden'));
     console.log(window.filter_color_checkbox_value)
+    const variant_btns = document.querySelectorAll('.variant_btn');
+    console.log(variant_btns)
   }
 
   static renderFilters(html, event) {
