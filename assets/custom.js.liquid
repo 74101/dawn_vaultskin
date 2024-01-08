@@ -208,6 +208,7 @@ const checkElementInterval = setInterval(function() {
 let filter_checkboxes = document.querySelectorAll('.filter_label_color input')
 
 filter_checkboxes.forEach(checkbox => {
+  console.log(checkbox);
   checkbox.addEventListener('change', (evt) => {
     if (evt.currentTarget.checked) {
       console.log(checkbox.value);
