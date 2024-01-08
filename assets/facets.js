@@ -106,9 +106,9 @@ class FacetFiltersForm extends HTMLElement {
     if (custom_variants) {
       custom_variants.forEach(custom_variant => {
         // const active_variant = custom_variant.querySelector(`.variant_btn.${window.filter_color_checkbox_value}`)
-        if (active_variant) {
-          active_variant.click()
-        }
+        // if (active_variant) {
+        //   active_variant.click()
+        // }
       })
     }
   }
