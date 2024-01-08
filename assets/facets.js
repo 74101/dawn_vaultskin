@@ -112,7 +112,26 @@ class FacetFiltersForm extends HTMLElement {
         // }
       })
     }
-    console.log(window.filterSearchParams)
+    // Исходная строка запроса
+    const queryString = window.filterSearchParams;
+    
+    // Разделяем строку по амперсанду (&)
+    const params = queryString.split('&');
+    
+    // Создаем пустой массив для хранения цветов
+    const colors = [];
+    
+    // Проходимся по каждому параметру
+    params.forEach(param => {
+        // Разделяем параметр по равно (=) и извлекаем значение цвета
+        const [key, value] = param.split('=');
+        if (key === 'filter.v.option.color') {
+            colors.push(value);
+        }
+    });
+    
+    // Выводим массив цветов
+    console.log(colors);  // ["Black", "Blue"]
   }
 
   static renderFilters(html, event) {
