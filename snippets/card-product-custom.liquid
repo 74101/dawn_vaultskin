@@ -167,12 +167,11 @@
               <button
                 onclick="changeImageCollectionCard(this)"
                 type="button"
-                class="variant_btn {% if forloop.index == 1 %}active{% endif %}" 
+                class="variant_btn {% if forloop.index == 1 %}active{% endif %} {{ variant.title | escape | downcase }}" 
                 style="background:{{ variant_color }}"
                 title="{{ variant.title }}"
                 data-image="https:{{ variant.featured_image | image_url: width: 533 }}"
                 data-url="{{ variant.url }}"
-                data-color="{{ variant.title | escape | downcase }}"
               ></button>
             {% endfor %}
           </div>
