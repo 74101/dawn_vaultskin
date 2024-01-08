@@ -111,14 +111,23 @@
                   </div>
                 {%- when 'button' -%}
                   <div
-                    class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                    class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} block_id_{{- block.id }}"
                     {{ block.shopify_attributes }}
-                    style="align-self:{{ block.settings.button_alignment }}"
                     {% if settings.animations_reveal_on_scroll %}
                       data-cascade
-                      style="--animation-order: {{ forloop.index }};align-self:{{ block.settings.button_alignment }}"
+                      style="--animation-order: {{ forloop.index }}"
                     {% endif %}
                   >
+                  <style>
+                    .block_id_{{- block.id }} {
+                      align-self:{{ block.settings.button_alignment_mobile }}
+                    }
+                    @media screen and (min-width: 750px) {
+                      .block_id_{{- block.id }} {
+                        align-self:{{ block.settings.button_alignment }}
+                      }
+                    }
+                  </style>
                     {%- if block.settings.button_label != blank -%}
                       <a
                         {% if block.settings.button_link == blank %}
