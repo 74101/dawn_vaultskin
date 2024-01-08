@@ -14,11 +14,8 @@
               {{ block.shopify_attributes }}
             >
               <div
-                class="article-template__hero-{{ block.settings.image_height }} media"
+                class="media"
                 itemprop="image"
-                {% if block.settings.image_height == 'adapt' and article.image %}
-                  style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
-                {% endif %}
               >
                 <img
                   srcset="
@@ -428,31 +425,6 @@
           "step": 20,
           "label": "Image width",
           "default": 600
-        },
-        {
-          "type": "select",
-          "id": "image_height",
-          "options": [
-            {
-              "value": "adapt",
-              "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__1.label"
-            },
-            {
-              "value": "small",
-              "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__2.label"
-            },
-            {
-              "value": "medium",
-              "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__3.label"
-            },
-            {
-              "value": "large",
-              "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__4.label"
-            }
-          ],
-          "default": "adapt",
-          "label": "t:sections.main-article.blocks.featured_image.settings.image_height.label",
-          "info": "t:sections.main-article.blocks.featured_image.settings.image_height.info"
         }
       ]
     },
