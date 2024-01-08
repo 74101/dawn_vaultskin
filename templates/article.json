@@ -13,7 +13,7 @@
         "featured_image": {
           "type": "featured_image",
           "settings": {
-            "image_width": 520,
+            "image_width": 600,
             "image_height": "adapt"
           }
         },
