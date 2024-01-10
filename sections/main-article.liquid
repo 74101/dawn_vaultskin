@@ -171,8 +171,14 @@
         {% endfor %}
     
       </div>
-    
+
     {% endif %}
+    <div class="card__tags">
+      <span class="card__tags-title">Tags: </span>
+      {% for tag in article.tags %}
+        <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="card__tag">{{ tag }}</a>
+      {% endfor %}
+    </div>
   </div>
   
   <div class="article-template__back element-margin-top center{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
