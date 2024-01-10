@@ -1,6 +1,6 @@
 {
   "current": {
-    "mobile_menu": "products",
+    "mobile_menu": "mobile-menu-v2",
     "mobile_menu_collection": "bestsellers",
     "logo": "{{ shop.brand.logo }}",
     "logo_width": 130,
