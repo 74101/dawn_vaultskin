@@ -173,7 +173,7 @@
       </div>
 
     {% endif %}
-    <div class="card__tags">
+    <div class="card__tags" style="max-width: {{ block.settings.image_width -}}px">
       <span class="card__tags-title">Tags: </span>
       {% for tag in article.tags %}
         <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="card__tag">{{ tag }}</a>
