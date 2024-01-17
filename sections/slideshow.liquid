@@ -2,6 +2,43 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 
+{% if section.settings.pagination_custom == 'on' %}
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+let slideshow_section = document.getElementById('shopify-section-{{ section.id }}')
+let slideshow_dots = slideshow_section.querySelectorAll('.slider-counter__link')
+let slideshow_text = slideshow_section.querySelectorAll('.slideshow__text')
+
+slideshow_text.forEach(element => {
+  let slideId = element.closest('.slideshow__slide').dataset.slide_id
+  let custom_dots = document.createElement('div')
+  custom_dots.className = 'custom_dots'
+  for(let i = 0; i < slideshow_dots.length; i++) {
+    let custom_dot = document.createElement('button')
+    custom_dot.className = 'custom_dot'
+    custom_dot.innerHTML = `slide-${i + 1}`
+    custom_dot.dataset.slide_id = i
+    if (slideId == i) {
+      custom_dot.classList.add('custom_dot_active')
+    }
+    custom_dot.addEventListener('click', function(evt) {
+      evt.preventDefault()
+      slideshow_dots[i].click()
+    })
+    
+    custom_dots.append(custom_dot)
+  }
+  let existingElement = element.querySelector('.banner__buttons')
+  element.insertBefore(custom_dots, existingElement)
+})
+
+})
+
+</script>
+{% endif %}
+
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
     @media screen and (max-width: 749px) {
@@ -26,7 +63,7 @@
 {%- endif -%}
 
 <slideshow-component
-  class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}"
+  class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}{% if section.settings.pagination_custom == 'on' %} custom_pagination{% endif %}"
   role="region"
   aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
   aria-label="{{ section.settings.accessibility_info | escape }}"
@@ -126,6 +163,7 @@
         aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
+        data-slide_id="{{ forloop.index0 }}"
       >
         <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
           {%- if block.settings.image -%}
@@ -338,7 +376,23 @@
         }
       ],
       "default": "on",
-      "label": "Pagination on/off"
+      "label": "Default pagination"
+    },
+    {
+      "type": "select",
+      "id": "pagination_custom",
+      "options": [
+        {
+          "value": "on",
+          "label": "On"
+        },
+        {
+          "value": "off",
+          "label": "Off"
+        }
+      ],
+      "default": "off",
+      "label": "Custom pagination"
     },
     {
       "type": "select",

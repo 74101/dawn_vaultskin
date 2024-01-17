@@ -6,6 +6,11 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  {% if section.settings.section_position == 'float' %}
+    .multicolumn_custom .page-width {
+      max-width: {{ section.settings.container_width -}}px;
+    }
+  {% endif %}
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -303,6 +308,16 @@
       "step": 1,
       "default": 3,
       "label": "t:sections.multicolumn.settings.columns_desktop.label"
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "min": 1000,
+      "max": 1600,
+      "step": 20,
+      "default": 1600,
+      "unit": "px",
+      "label": "Container width"
     },
     {
       "type": "select",

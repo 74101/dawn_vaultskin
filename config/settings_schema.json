@@ -8,6 +8,22 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
+    "name": "Mobile menu",
+    "settings": [
+      {
+        "type": "link_list",
+        "id": "mobile_menu",
+        "default": "main-menu",
+        "label": "t:sections.header.settings.menu.label"
+      },
+      {
+        "type": "collection",
+        "id": "mobile_menu_collection",
+        "label": "Collection"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.logo.name",
     "settings": [
       {

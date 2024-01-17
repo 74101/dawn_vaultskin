@@ -1,33 +1,26 @@
-function changeImageCollectionCard() { 
-  let variantBtnElements = document.querySelectorAll('.variant_btn')
-  variantBtnElements.forEach(buttonElement => {
-    buttonElement.addEventListener('click', () => {
-  
-      let cardElement = buttonElement.parentElement.parentElement.parentElement
-      let linkElements = cardElement.querySelectorAll('a')
-      let imageElement = cardElement.querySelector('.card__media img')
-      let imageUrl = buttonElement.dataset.image
-      let variantUrl = buttonElement.dataset.url
-  
-      linkElements.forEach(linkElement => {
-        linkElement.href = variantUrl
-      })
-  
-      Array.from(buttonElement.parentNode.children).forEach(sibling => {
-        if (sibling !== buttonElement) {
-          sibling.classList.remove('active')
-        }
-      })
-  
-      buttonElement.classList.add('active')
-      // imageElement.classList.add('loading')
-      // setTimeout(() => {imageElement.classList.remove('loading')}, 300)
-      
-      imageElement.src = imageUrl;
-    })
+function changeImageCollectionCard(element) {
+  let cardElement = element.parentElement.parentElement.parentElement
+  let linkElements = cardElement.querySelectorAll('a')
+  let imageElement = cardElement.querySelector('.card__media img')
+  let imageUrl = element.dataset.image
+  let variantUrl = element.dataset.url
+
+  linkElements.forEach(linkElement => {
+    linkElement.href = variantUrl
   })
+
+  Array.from(element.parentNode.children).forEach(sibling => {
+    if (sibling !== element) {
+      sibling.classList.remove('active')
+    }
+  })
+
+  element.classList.add('active')
+  // imageElement.classList.add('loading')
+  // setTimeout(() => {imageElement.classList.remove('loading')}, 300)
+  
+  imageElement.src = imageUrl;
 }
-changeImageCollectionCard()
 
 function changeVariant() { 
   let slideshowContainerElements = document.querySelectorAll('.slideshow_container')
@@ -194,3 +187,46 @@ if (vc_table_header_rows) {
     }
   })
 }
+
+const checkElementInterval = setInterval(function() {
+  const element = document.querySelector('.wc_review_list_section');
+  if (element) {
+    clearInterval(checkElementInterval);
+    const check = setInterval(function() {
+      let slider = element.swiper;
+      if (slider) {
+        clearInterval(check);
+        let breakpoints = slider.params.breakpoints;
+        const zeroPoint = {slidesPerView: 1, slidesPerGroup: 1};
+        Object.assign(breakpoints, { 0: zeroPoint });
+        slider.update();
+      }
+    }, 100);
+  }
+}, 100);
+
+
+window.colorChange = function() {
+    const custom_variants = document.querySelectorAll('.custom_variants');
+    const facets_buttons = document.querySelectorAll('.active-facets-desktop .active-facets__button-inner');
+    const colors = [];
+    if (facets_buttons) {
+      facets_buttons.forEach(facets_button => {
+        colors.push(facets_button.dataset.color);
+      })
+    }
+    colors.forEach(color => {
+      if (custom_variants) {
+        custom_variants.forEach(custom_variant => {
+          const active_variant = custom_variant.querySelector(`.variant_btn.${color}`)
+          if (active_variant) {
+            active_variant.click()
+          }
+        })
+      }
+    });
+
+}
+colorChange()
+
+

@@ -111,13 +111,23 @@
                   </div>
                 {%- when 'button' -%}
                   <div
-                    class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                    class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} block_id_{{- block.id }}"
                     {{ block.shopify_attributes }}
                     {% if settings.animations_reveal_on_scroll %}
                       data-cascade
-                      style="--animation-order: {{ forloop.index }};"
+                      style="--animation-order: {{ forloop.index }}"
                     {% endif %}
                   >
+                  <style>
+                    .block_id_{{- block.id }} {
+                      align-self:{{ block.settings.button_alignment }} !important
+                    }
+                    @media screen and (max-width: 749px) {
+                      .block_id_{{- block.id }} {
+                        align-self:{{ block.settings.button_alignment_mobile }}!important
+                      }
+                    }
+                  </style>
                     {%- if block.settings.button_label != blank -%}
                       <a
                         {% if block.settings.button_link == blank %}
@@ -565,6 +575,46 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+        },
+        {
+          "type": "select",
+          "id": "button_alignment",
+          "options": [
+            {
+              "value": "flex-start",
+              "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__2.label"
+            },
+            {
+              "value": "flex-end",
+              "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__3.label"
+            }
+          ],
+          "default": "flex-start",
+          "label": "Button alignment desktop"
+        },
+        {
+          "type": "select",
+          "id": "button_alignment_mobile",
+          "options": [
+            {
+              "value": "flex-start",
+              "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__2.label"
+            },
+            {
+              "value": "flex-end",
+              "label": "t:sections.image-with-text.settings.desktop_content_alignment.options__3.label"
+            }
+          ],
+          "default": "flex-start",
+          "label": "Button alignment mobile"
         }
       ]
     }

@@ -1,24 +1,16 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
-  {%- for block in section.blocks -%}
-    {%- case block.type -%}
-      {%- when '@app' -%}
-        <div class="page-width page-width--narrow">
+  <div class="article-template__container page-width">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when '@app' -%}
           {% render block %}
-        </div>
-      {%- when 'featured_image' -%}
-        {%- if article.image -%}
-          <div
-            class="article-template__hero-container{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-            {{ block.shopify_attributes }}
-          >
+        {%- when 'featured_image' -%}
+          {%- if article.image -%}
             <div
-              class="article-template__hero-{{ block.settings.image_height }} media"
-              itemprop="image"
-              {% if block.settings.image_height == 'adapt' and article.image %}
-                style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
-              {% endif %}
+              class="article-template__hero-container{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+              {{ block.shopify_attributes }}
             >
               <img
                 srcset="
@@ -39,52 +31,155 @@
                 alt="{{ article.image.alt | escape }}"
               >
             </div>
-          </div>
-        {%- endif -%}
-
-      {%- when 'title' -%}
-        <header
-          class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-          {{ block.shopify_attributes }}
-        >
-          <h1
-            class="article-template__title"
-            itemprop="headline"
+          {%- endif -%}
+  
+        {%- when 'title' -%}
+          <header
+            class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            {{ block.shopify_attributes }}
           >
-            {{ article.title | escape }}
-          </h1>
-          {%- if block.settings.blog_show_date -%}
-            <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
-              {{- article.published_at | time_tag: format: 'date' -}}
-            </span>
-          {%- endif -%}
-          {%- if block.settings.blog_show_author -%}
-            <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <span itemprop="name">{{ article.author }}</span>
-            </span>
-          {%- endif -%}
-        </header>
+            <h1
+              class="article-template__title"
+              itemprop="headline"
+            >
+              {{ article.title | escape }}
+            </h1>
+            {%- if block.settings.blog_show_date -%}
+              <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
+                {{- article.published_at | time_tag: format: 'date' -}}
+              </span>
+            {%- endif -%}
+            {%- if block.settings.blog_show_author -%}
+              <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <span itemprop="name">{{ article.author }}</span>
+              </span>
+            {%- endif -%}
+          </header>
+  
+        {%- when 'content' -%}
+          <div
+            class="article-template__content rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            itemprop="articleBody"
+            {{ block.shopify_attributes }}
+          >
+            {{ article.content }}
+          </div>
+  
+        {%- when 'share' -%}
+          <div
+            class="article-template__social-sharing {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {% assign share_url = request.origin | append: article.url %}
+            {% render 'share-button', block: block, share_link: share_url %}
+          </div>
+      {%- endcase -%}
+    {%- endfor -%}
 
-      {%- when 'content' -%}
-        <div
-          class="article-template__content page-width page-width--narrow rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          itemprop="articleBody"
-          {{ block.shopify_attributes }}
-        >
-          {{ article.content }}
-        </div>
+    {% if article.metafields.featured_product.product_id %}
+      {% assign product_id = article.metafields.featured_product.product_id %}
+      <div class="article_featured_product">
+        <h3 class="section_title">FEATURED PRODUCT</h3>
+        {% for product in collections.all.products %}
+          {% if product.id == product_id %}
+            <div class="prod">
+              <div class="prod_image">
+                <img src="{{ product.featured_image | image_url: width: 200 }}" width="" height="">
+              </div>
+              <div class="prod_inner">
+                <h4 class="prod_title">{{ product.title }}</h4> 
+                <ul class="prod_collections">
+                  {% for collection in product.collections %}
+                    <li>{{ collection.title }}</li>
+                  {% endfor %}
+                </ul>
+                <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
+              </div>
+            </div>
+          {% endif %}
+    
+          {% for var in product.variants %}
+            {% if var.id == product_id %}
+              <div class="prod">
+                <div class="prod_image">
+                  <img src="{{ var.featured_image | image_url: width: 200 }}" width="" height="">
+                </div>
+                <div class="prod_inner">
+                  <h4 class="prod_title">{{ product.title }}</h4> 
+                  <ul class="prod_collections">
+                    {% for collection in product.collections %}
+                      <li>{{ collection.title }}</li>
+                    {% endfor %}
+                  </ul>
+                  <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+    
+        {% endfor %}
+    
+      </div>
+    
+    {% endif %}
+    
+    
+    {% if article.metafields.featured_product.product_id-2 %}
+      {% assign product_id = article.metafields.featured_product.product_id-2 %}
+      <div class="article_featured_product">
+        {% if article.metafields.featured_product.product_id == blank %}
+          <h3 class="section_title">FEATURED PRODUCT</h3>
+        {% endif %}
+        {% for product in collections.all.products %}
+          {% if product.id == product_id %}
+            <div class="prod">
+              <div class="prod_image">
+                <img src="{{ product.featured_image | image_url: width: 200 }}" width="" height="">
+              </div>
+              <div class="prod_inner">
+                <h4 class="prod_title">{{ product.title }}</h4> 
+                <ul class="prod_collections">
+                  {% for collection in product.collections %}
+                    <li>{{ collection.title }}</li>
+                  {% endfor %}
+                </ul>
+                <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
+              </div>
+            </div>
+          {% endif %}
+    
+          {% for var in product.variants %}
+            {% if var.id == product_id %}
+              <div class="prod">
+                <div class="prod_image">
+                  <img src="{{ var.featured_image | image_url: width: 200 }}" width="" height="">
+                </div>
+                <div class="prod_inner">
+                  <h4 class="prod_title">{{ product.title }}</h4> 
+                  <ul class="prod_collections">
+                    {% for collection in product.collections %}
+                      <li>{{ collection.title }}</li>
+                    {% endfor %}
+                  </ul>
+                  <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+    
+        {% endfor %}
+    
+      </div>
 
-      {%- when 'share' -%}
-        <div
-          class="article-template__social-sharing page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {{ block.shopify_attributes }}
-        >
-          {% assign share_url = request.origin | append: article.url %}
-          {% render 'share-button', block: block, share_link: share_url %}
-        </div>
-    {%- endcase -%}
-  {%- endfor -%}
-
+    {% endif %}
+    <div class="card__tags">
+      <span class="card__tags-title">Tags: </span>
+      {% for tag in article.tags %}
+        <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="card__tag">{{ tag }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  
   <div class="article-template__back element-margin-top center{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
       <span class="icon-wrap">{% render 'icon-arrow' %}</span>
@@ -320,34 +415,7 @@
     {
       "type": "featured_image",
       "name": "t:sections.main-article.blocks.featured_image.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "select",
-          "id": "image_height",
-          "options": [
-            {
-              "value": "adapt",
-              "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__1.label"
-            },
-            {
-              "value": "small",
-              "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__2.label"
-            },
-            {
-              "value": "medium",
-              "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__3.label"
-            },
-            {
-              "value": "large",
-              "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__4.label"
-            }
-          ],
-          "default": "adapt",
-          "label": "t:sections.main-article.blocks.featured_image.settings.image_height.label",
-          "info": "t:sections.main-article.blocks.featured_image.settings.image_height.info"
-        }
-      ]
+      "limit": 1
     },
     {
       "type": "title",

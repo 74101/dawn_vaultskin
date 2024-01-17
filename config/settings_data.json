@@ -1,6 +1,8 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Vaultskin_London-Logo.svg",
+    "mobile_menu": "mobile-menu-v2",
+    "mobile_menu_collection": "bestsellers",
+    "logo": "{{ shop.brand.logo }}",
     "logo_width": 130,
     "logo_scroll": "shopify:\/\/shop_images\/Vaultskin-Logo-Text.svg",
     "logo_width_scroll": 300,
@@ -125,6 +127,7 @@
     "checkout_logo_size": "large",
     "checkout_accent_color": "#b58f5e",
     "checkout_button_color": "#b58f5e",
+    "collection": "bestsellers",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",

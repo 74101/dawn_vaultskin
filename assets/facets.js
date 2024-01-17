@@ -31,6 +31,7 @@ class FacetFiltersForm extends HTMLElement {
 
   static renderPage(searchParams, event, updateURLHash = true) {
     FacetFiltersForm.searchParamsPrev = searchParams;
+    window.filterSearchParams = searchParams;
     const sections = FacetFiltersForm.getSections();
     const countContainer = document.getElementById('ProductCount');
     const countContainerDesktop = document.getElementById('ProductCountDesktop');
@@ -102,6 +103,8 @@ class FacetFiltersForm extends HTMLElement {
     }
     const loadingSpinners = document.querySelectorAll('.facets-container .loading__spinner, facet-filters-form .loading__spinner');
     loadingSpinners.forEach((spinner) => spinner.classList.add('hidden'));
+
+    colorChange()
   }
 
   static renderFilters(html, event) {
