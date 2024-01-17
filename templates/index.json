@@ -30,7 +30,7 @@
             "subheading": "Slim, minimalist wallets, card holders and iPhone covers. Designed in Britain to combine elegance, convenience and RFID security.",
             "button_label": "SEE ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -48,7 +48,7 @@
             "subheading": "Slim, minimalist wallets, card holders and iPhone covers. Designed in Britain to combine elegance, convenience and RFID security.",
             "button_label": "SEE ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -167,7 +167,8 @@
           "type": "item",
           "settings": {
             "heading": "<p><strong>Practicality<\/strong><\/p>",
-            "description": "<p>We set exceptionally high standards for you. A beautiful wallet is useless if it doesn’t serve your purpose. We go a step beyond practicality into frictionless ease of use.<\/p>"
+            "description": "<p>We set exceptionally high standards for you. A beautiful wallet is useless if it doesn’t serve your purpose. We go a step beyond practicality into frictionless ease of use.<\/p>",
+            "icon": "shopify:\/\/shop_images\/feature_item1.svg"
           }
         },
         "336c9859-b653-4a34-ba8a-26993b3a0228": {
@@ -212,7 +213,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "top",
         "content_padding_top": 12,
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -291,7 +292,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "top",
         "content_padding_top": 5,
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -370,7 +371,7 @@
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "top",
         "content_padding_top": 5,
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
