@@ -4,6 +4,7 @@
     "mobile_menu_collection": "bestsellers",
     "logo": "{{ shop.brand.logo }}",
     "logo_width": 130,
+    "favicon": "shopify:\/\/shop_images\/Asset_21_4x_8ca1431b-ec65-4241-a226-09c07886ae7c.png",
     "logo_scroll": "shopify:\/\/shop_images\/Vaultskin-Logo-Text.svg",
     "logo_width_scroll": 300,
     "type_header_font": "pt_sans_n7",
