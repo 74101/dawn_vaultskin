@@ -68,7 +68,29 @@
       {% comment %}
       {% render 'product-media-gallery', variant_images: variant_images %}
       {% endcomment %}
-      {% render 'product-media-gallery-custom' %}
+      {% for variant_product in product.variants %}
+        {% if variant_product.metafields.variant.product_image_urls.value != blank %}
+          {% assign current_variant_product_images = variant_product.metafields.variant.product_image_urls.value %}
+        {% else %}
+          {% assign current_variant_product_images = product.first_available_variant.metafields.variant.product_image_urls.value %}
+        {% endif %}
+        {% if current_variant_product_images %}
+          <div class="product_images {% if variant_product == product.selected_or_first_available_variant %} active{% endif %}">
+              <div class="swiper swiper_product_gallery scroll-trigger animate--fade-in">
+                <div class="swiper-wrapper">
+                  {% for image in current_variant_product_images %}
+                    <div class="swiper-slide">
+                      {{ image | image_url: width: 512 | image_tag }}
+                    </div>
+                  {% endfor %}
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+          </div>
+        {% else %}
+          {% render 'product-media-gallery', variant_images: variant_images %}
+        {% endif %}
+      {% endfor %}
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <product-info
