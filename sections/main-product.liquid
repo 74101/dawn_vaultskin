@@ -88,7 +88,9 @@
               </div>
           </div>
         {% else %}
-          {% render 'product-media-gallery', variant_images: variant_images %}
+          {%- if forloop.first -%}
+            {% render 'product-media-gallery', variant_images: variant_images %}
+          {% endif %}
         {% endif %}
       {% endfor %}
     </div>
