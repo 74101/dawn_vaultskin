@@ -236,14 +236,16 @@ function sortCountries() {
 
     // priorityCountries.forEach(country => {
       countriesList.forEach(countrySelect => {
-        if (countrySelect.dateset.value) {
-          console.log(countrySelect.dateset.value)
+        if (countrySelect) {
+          if (countrySelect.dateset.value) {
+            console.log(countrySelect.dateset.value)
           // let options = countrySelect.dateset.value;
           // console.log(options)
       //       console.log(options)
       // //         option.detach();
       // //         countrySelect.prepend(option);
           }
+        }
       });
     // });
 }
