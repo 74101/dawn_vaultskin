@@ -229,17 +229,17 @@ window.colorChange = function() {
 }
 colorChange()
 
+
 function sortCountries() {
     let priorityCountries = ['United States', 'Canada', 'United Kingdom', 'Australia'];
-    let countrySelects = document.querySelectorAll('.disclosure__list');
-
+    let countrySelects = document.querySelectorAll('.disclosure__link');
+    
     priorityCountries.forEach(country => {
       countrySelects.forEach(countrySelect => {
-        let options = countrySelect.querySelectorAll('.disclosure__link');
+        let options = countrySelect.dateset.value;
 
         if (options) {
-          // console.log(option.dataset.value)
-          console.log(options[0].dataset.value)
+          console.log(options)
     //         option.detach();
     //         countrySelect.prepend(option);
         }
