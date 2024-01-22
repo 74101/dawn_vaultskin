@@ -239,9 +239,9 @@ function sortCountries() {
       countrySelects.forEach(countrySelect => {
         let options = countrySelect.querySelectorAll('.disclosure__link');
 
-        if (options.length) {
+        if (options) {
           // console.log(option.dataset.value)
-          console.log(options)
+          console.log(options[0])
     //         option.detach();
     //         countrySelect.prepend(option);
         }
