@@ -238,7 +238,7 @@ function sortCountries() {
       countriesList.forEach(countrySelect => {
         if (countrySelect.dataset.value == country) {
           let countryListItem = countrySelect.parentElement;
-          console.log(countryListItem.parentElement)
+          countryListItem.parentElement.prepend(countryListItem);
           countryListItem.remove();
         }
       });
