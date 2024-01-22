@@ -232,19 +232,18 @@ colorChange()
 
 function sortCountries() {
     let priorityCountries = ['United States', 'Canada', 'United Kingdom', 'Australia'];
-    let countryList = document.querySelectorAll('.disclosure__link');
-    console.log(countryList)
+    let countriesList = document.querySelectorAll('.disclosure__link');
 
     // priorityCountries.forEach(country => {
-    //   countryList.forEach(countrySelect => {
-    //     let options = countrySelect.dateset.value;
-
+      countriesList.forEach(countrySelect => {
+        let options = countrySelect.dateset.value;
+        console.log(options)
     //     if (options) {
     //       console.log(options)
     // //         option.detach();
     // //         countrySelect.prepend(option);
     //     }
-    //   });
+      });
     // });
 }
 sortCountries()
