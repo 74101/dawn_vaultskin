@@ -189,7 +189,7 @@
                     </div>
                   {%- endif -%}
                   <div class="banner__buttons">
-                    <button class="buy_now_btn button button--primary">Buy now</button>
+                    <button class="buy_now_btn button {% if section.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">Buy now</button>
                   </div>
                 </div>
               </div>
