@@ -237,8 +237,8 @@ function sortCountries() {
     priorityCountries.forEach(country => {
       countriesList.forEach(countrySelect => {
         if (countrySelect.dataset.value == country) {
-          countrySelect.parentElement.remove();
-          countrySelect.parentElement.parent.prepend(countrySelect.parentElement);
+          countrySelect.parent.remove();
+          countrySelect.parent.parent.prepend(countrySelect.parent);
         }
 
       // //         option.detach();
