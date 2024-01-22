@@ -237,13 +237,10 @@ function sortCountries() {
     priorityCountries.forEach(country => {
       countriesList.forEach(countrySelect => {
         if (countrySelect.dataset.value == country) {
-          countrySelect.parentElement.remove();
-          countrySelect.parentElement.parentElement.prepend(countrySelect.parentElement);
+          let countryListItem = countrySelect.parentElement;
+          countryListItem.remove();
+          console.log(countryListItem)
         }
-
-      // //         option.detach();
-      // //         countrySelect.prepend(option);
-
       });
     });
 }
