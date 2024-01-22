@@ -233,9 +233,10 @@ function sortCountries() {
     let priorityCountries = ['United States', 'Canada', 'United Kingdom', 'Australia'];
     let countrySelects = document.querySelectorAll('.disclosure__list');
     
-  console.log(countrySelect)
-    priorityCountries.forEach((i, country) => {
-      countrySelects.forEach((i, countrySelect) => {
+    console.log(countrySelects)
+
+    priorityCountries.forEach(country => {
+      countrySelects.forEach(countrySelect => {
         let option = countrySelect.querySelector('.disclosure__link');
         if (option.length) {
           console.log(option)
