@@ -239,6 +239,8 @@ function sortCountries() {
         if (countrySelect.dataset.value == country) {
           let countryListItem = countrySelect.parentElement;
           countryListItem.remove();
+
+          console.log(countrySelect.parent)
           console.log(countryListItem)
         }
       });
