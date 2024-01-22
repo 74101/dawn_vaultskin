@@ -237,8 +237,9 @@ function sortCountries() {
     priorityCountries.forEach(country => {
       countriesList.forEach(countrySelect => {
         if (countrySelect.dataset.value == country) {
-          console.log(countrySelect.parentElement)
-          console.log(countrySelect.dataset.value)
+          let countryListItem = countrySelect.parentElement;
+
+          console.log(countryListItem)
         }
 
       // //         option.detach();
