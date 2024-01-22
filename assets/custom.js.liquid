@@ -231,15 +231,18 @@ colorChange()
 
 function sortCountries() {
     let priorityCountries = ['United States', 'Canada', 'United Kingdom', 'Australia'];
-    let countrySelect = document.querySelectorAll('.disclosure__list');
-
+    let countrySelects = document.querySelectorAll('.disclosure__list');
+    
   console.log(countrySelect)
-    // priorityCountries.forEach((i, country) => {
-    //     let option = countrySelect.querySelector('option[value="' + country + '"]');
-    //     if (option.length) {
+    priorityCountries.forEach((i, country) => {
+      countrySelects.forEach((i, countrySelect) => {
+        let option = countrySelect.querySelector('.disclosure__link');
+        if (option.length) {
+          console.log(option)
     //         option.detach();
     //         countrySelect.prepend(option);
-    //     }
-    // });
+        }
+      });
+    });
 }
 sortCountries()
