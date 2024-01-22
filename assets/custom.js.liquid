@@ -236,13 +236,11 @@ function sortCountries() {
 
     priorityCountries.forEach(country => {
       countriesList.forEach(countrySelect => {
-
-        if (countrySelect.dataset.value == country) { 
+        if (countrySelect.dataset.value == country) {
+          console.log(countrySelect)
           console.log(countrySelect.dataset.value)
         }
-          // let options = countrySelect.dateset.value;
-          // console.log(options)
-      //       console.log(options)
+
       // //         option.detach();
       // //         countrySelect.prepend(option);
 
