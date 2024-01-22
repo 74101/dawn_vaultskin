@@ -238,7 +238,7 @@ function sortCountries() {
     priorityCountries.forEach(country => {
       countrySelects.forEach(countrySelect => {
         let option = countrySelect.querySelector('.disclosure__link');
-        console.log(option)
+        console.log(option.dataset.value)
         if (option.length) {
           console.log(option)
     //         option.detach();
