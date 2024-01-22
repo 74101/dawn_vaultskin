@@ -30,12 +30,12 @@
         {{ section.settings.heading }}
       </h2>
       <ul
-        class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
+        class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--1-col-tablet-down"
         role="list"
       >
         {% for recommendation in recommendations.products %}
           <li class="grid__item">
-            {% render 'card-product',
+            {% render 'card-product-custom',
               card_product: recommendation,
               media_aspect_ratio: section.settings.image_ratio,
               image_shape: section.settings.image_shape,
@@ -95,16 +95,16 @@
       "min": 2,
       "max": 10,
       "step": 1,
-      "default": 4,
+      "default": 3,
       "label": "t:sections.related-products.settings.products_to_show.label"
     },
     {
       "type": "range",
       "id": "columns_desktop",
       "min": 1,
-      "max": 5,
+      "max": 3,
       "step": 1,
-      "default": 4,
+      "default": 3,
       "label": "t:sections.related-products.settings.columns_desktop.label"
     },
     {
@@ -197,26 +197,6 @@
       "default": false,
       "label": "t:sections.related-products.settings.show_rating.label",
       "info": "t:sections.related-products.settings.show_rating.info"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.related-products.settings.header_mobile.content"
-    },
-    {
-      "type": "select",
-      "id": "columns_mobile",
-      "default": "2",
-      "label": "t:sections.related-products.settings.columns_mobile.label",
-      "options": [
-        {
-          "value": "1",
-          "label": "t:sections.related-products.settings.columns_mobile.options__1.label"
-        },
-        {
-          "value": "2",
-          "label": "t:sections.related-products.settings.columns_mobile.options__2.label"
-        }
-      ]
     },
     {
       "type": "header",
