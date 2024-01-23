@@ -307,13 +307,20 @@
         "padding_bottom": 0
       }
     },
-    "custom_liquid_AVqJDx": {
-      "type": "custom-liquid",
+    "subs_XNRc3K": {
+      "type": "subs",
+      "blocks": {
+        "form_BtLnz4": {
+          "type": "form",
+          "settings": {
+            "position": "left"
+          }
+        }
+      },
+      "block_order": [
+        "form_BtLnz4"
+      ],
       "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
@@ -326,6 +333,6 @@
     "product-grid",
     "9263f064-8755-4ae9-9964-4ad8111e5e0d",
     "image_with_text_B3mUVK",
-    "custom_liquid_AVqJDx"
+    "subs_XNRc3K"
   ]
 }
