@@ -94,6 +94,49 @@
         "padding_bottom": 0
       }
     },
+    "238def45-5c73-4941-b74d-71a1a44ecffb": {
+      "type": "halved",
+      "blocks": {
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<h2>UNCOVER THE JOY OF GIFTING WITH VAULTSKIN<\/h2>"
+          }
+        },
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Check<\/p>"
+          }
+        },
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-item-1": {
+          "type": "item",
+          "settings": {
+            "heading": "<p><strong>Effortless Elegance<\/strong><\/p>",
+            "description": "<p>Our wallets are not just an accessory, but an extension of her style. Crafted with a keen eye for design, these minimalist wallets bring a chic, streamlined look that complements her persona. Slipping effortlessly into any pocket, they exude an understated charm without adding unnecessary weight.<\/p>"
+          }
+        },
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-button-1": {
+          "type": "button",
+          "settings": {
+            "text": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-heading-1",
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-subheading-1",
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-item-1",
+        "template--17150051418352__238def45-5c73-4941-b74d-71a1a44ecffb-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 5,
+        "image_first": false,
+        "image": "shopify:\/\/shop_images\/VICTORIA-every-day-crossbody-wallet-bumper-iPhone-XS-Max-Chain-Strap-champagne-Vaultskin_3d3a962d-5a8b-4f15-9a8e-cd6f2654637c.jpg"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -167,6 +210,49 @@
         "padding_bottom": 36
       }
     },
+    "9263f064-8755-4ae9-9964-4ad8111e5e0d": {
+      "type": "halved",
+      "blocks": {
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<h2>FIND THE PERFECT GIFT<\/h2>"
+          }
+        },
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-item-1": {
+          "type": "item",
+          "settings": {
+            "heading": "",
+            "description": "<p>Give the ultimate freedom of choice with a Vaultskin gift card. Let her explore our collection and choose his ideal minimalist wallet or accessory. With a Vaultskin gift card, he's guaranteed to find the perfect style that matches his taste. Give the gift of endless possibilities and let her decide. Purchase a Vaultskin gift card today!<\/p>"
+          }
+        },
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-button-1": {
+          "type": "button",
+          "settings": {
+            "text": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-heading-1",
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-subheading-1",
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-item-1",
+        "template--17150051418352__9263f064-8755-4ae9-9964-4ad8111e5e0d-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 5,
+        "image_first": true,
+        "image": "shopify:\/\/shop_images\/iPhone-case-wallet-crossbody-strap-6-7-8-victoria-black-vaultskin-_0003_Generative_Fill.jpg"
+      }
+    },
     "image_with_text_B3mUVK": {
       "type": "image-with-text",
       "blocks": {
@@ -221,59 +307,25 @@
         "padding_bottom": 0
       }
     },
-    "newsletter_3txKkU": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_NyNdTJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe now and Get Exclusive Discount",
-            "heading_size": "h1"
-          }
-        },
-        "email_form_C7FBYC": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading_NyNdTJ",
-        "email_form_C7FBYC"
-      ],
+    "custom_liquid_RTg3Hc": {
+      "type": "custom-liquid",
       "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-TaZRXS\"><\/div>",
         "color_scheme": "",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "subs_XNRc3K": {
-      "type": "subs",
-      "blocks": {
-        "form_BtLnz4": {
-          "type": "form",
-          "settings": {
-            "position": "left"
-          }
-        }
-      },
-      "block_order": [
-        "form_BtLnz4"
-      ],
-      "disabled": true,
-      "settings": {
       }
     }
   },
   "order": [
     "7cc7c04b-f739-4d72-8e02-589de6e89044",
     "84662398-a32f-4286-85d1-ad176a77e469",
+    "238def45-5c73-4941-b74d-71a1a44ecffb",
     "banner",
     "236a7d86-cc82-4f4b-a78e-853f7b80701f",
     "product-grid",
+    "9263f064-8755-4ae9-9964-4ad8111e5e0d",
     "image_with_text_B3mUVK",
-    "newsletter_3txKkU",
-    "subs_XNRc3K"
+    "custom_liquid_RTg3Hc"
   ]
 }
