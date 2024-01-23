@@ -45,7 +45,7 @@
         "template--17150051418352__84662398-a32f-4286-85d1-ad176a77e469-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "UNCOVER THE JOY OF GIFTING WITH VAULTSKIN",
+            "heading": "Discover Luxurious Gifts from Vaultskin's Exclusive Gift Guide!",
             "heading_size": "h2"
           }
         },
@@ -152,7 +152,7 @@
         "template--17150051418352__236a7d86-cc82-4f4b-a78e-853f7b80701f-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Unlock the Top Picks in the Market",
             "heading_size": "h1"
           }
         },
@@ -186,7 +186,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 24,
+        "padding_top": 32,
         "padding_bottom": 0
       }
     },
@@ -252,6 +252,69 @@
         "image_first": true,
         "image": "shopify:\/\/shop_images\/iPhone-case-wallet-crossbody-strap-6-7-8-victoria-black-vaultskin-_0003_Generative_Fill.jpg"
       }
+    },
+    "image_with_text_B3mUVK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_gfaQkY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Experience Unmatched Style with Vaultskin Wallets and iPhone Cases",
+            "heading_size": "h2"
+          }
+        },
+        "text_r3PHBk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience unparalleled elegance and functionality with Vaultskin's premium collection of wallets and iPhone cases. Crafted from top-grain leather, Vaultskin products blend innovative design with unmatched practicality, offering a sophisticated accessory choice for the style-conscious individual. Dive into the world of Vaultskin for RFID-blocking wallets, slim bifold wallets, luxury leather card holders, and sleek iPhone wallet cases. Our meticulously designed products not only secure your essentials but also exude a refined charm, making Vaultskin the epitome of engineered elegance. Perfect for the modern, security-conscious individual, Vaultskin accessories provide a harmonious blend of style, comfort, and advanced RFID protection technology. Choose Vaultskin for a touch of luxury, superior functionality, and a commitment to safeguarding your personal information.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_CjLHC3": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "flex-start",
+            "button_alignment_mobile": "flex-start"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gfaQkY",
+        "text_r3PHBk",
+        "button_CjLHC3"
+      ],
+      "settings": {
+        "container_size": "default",
+        "image": "shopify:\/\/shop_images\/VICTORIA-every-day-crossbody-wallet-mobile-cover-iPhone-XS-Max-Chain-Strap-violet-Vaultskin_f3f5f59b-2840-49cc-9233-d31d9404a6e9.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "content_padding_top": 5,
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_AVqJDx": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -261,6 +324,8 @@
     "banner",
     "236a7d86-cc82-4f4b-a78e-853f7b80701f",
     "product-grid",
-    "9263f064-8755-4ae9-9964-4ad8111e5e0d"
+    "9263f064-8755-4ae9-9964-4ad8111e5e0d",
+    "image_with_text_B3mUVK",
+    "custom_liquid_AVqJDx"
   ]
 }
