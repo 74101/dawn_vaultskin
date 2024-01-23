@@ -6,10 +6,10 @@
         "template--17150051418352__7cc7c04b-f739-4d72-8e02-589de6e89044-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vaultskin-belgravia-rfid-wallet-red-5.jpg",
-            "heading": "STYLISH WALLET GIFT IDEAS FOR HER",
+            "image": "shopify:\/\/shop_images\/Vaultskin_Eton_15_Pro_Case_iPhone_wallet_leather_slim_protection_black-1.png",
+            "heading": "STYLISH WALLET GIFT IDEAS",
             "heading_size": "h1",
-            "subheading": "Elevate Her Style with Exquisite Wallets: Discover our collection of stylish wallets that make the perfect gift for her. Featuring premium materials and impeccable craftsmanship, these wallets exude sophistication and elegance. Choose from a range of designs that combine form and function, ensuring that she can carry her essentials in style.",
+            "subheading": "Elevate the Style with Exquisite Wallets: Discover our collection of stylish wallets that make the perfect gift. Featuring premium materials and impeccable craftsmanship, these wallets exude sophistication and elegance. Choose from a range of designs that combine form and function, ensuring that she can carry her essentials in style.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -52,7 +52,7 @@
         "item_akekgz": {
           "type": "item",
           "settings": {
-            "heading": "<p><strong>Effortless Elegance<\/strong><\/p>",
+            "heading": "",
             "description": "<p>Our wallets are not just an accessory, but an extension of her style. Crafted with a keen eye for design, these minimalist wallets bring a chic, streamlined look that complements her persona. Slipping effortlessly into any pocket, they exude an understated charm without adding unnecessary weight.<\/p>"
           }
         },
@@ -78,7 +78,7 @@
       ],
       "settings": {
         "container_size": "full",
-        "image": "shopify:\/\/shop_images\/BELGRAVIA-modern-RFID-blocking-card-holder-brown-Vaultskin.jpg",
+        "image": "shopify:\/\/shop_images\/20230114-carousel.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
