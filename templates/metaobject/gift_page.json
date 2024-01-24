@@ -94,16 +94,39 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_xLHcx7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EVK3Hj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unlock the Top Picks in the Market",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EVK3Hj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "featured_collection_z6bLE3": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "{{ metaobject.featured_products.value }}",
-        "products_to_show": 4,
+        "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -162,7 +185,7 @@
       "settings": {
         "container_size": "full",
         "image": "{{ metaobject.feature_2.value.image.value }}",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -190,6 +213,7 @@
   "order": [
     "slideshow_ajbbYm",
     "image_with_text_qiBq8H",
+    "rich_text_xLHcx7",
     "featured_collection_z6bLE3",
     "image_with_text_GPKaGg",
     "custom_liquid_L7w3W3"
