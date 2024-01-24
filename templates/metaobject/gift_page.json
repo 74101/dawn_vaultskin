@@ -9,7 +9,7 @@
             "image": "{{ metaobject.slide_image.value }}",
             "heading": "{{ metaobject.header.value }}",
             "heading_size": "h1",
-            "subheading": "",
+            "subheading": "{{ metaobject.subheader.value }}",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
