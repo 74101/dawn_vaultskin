@@ -10,14 +10,14 @@
             "heading": "{{ metaobject.header.value }}",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Button label",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "image_overlay_opacity": 30,
+            "color_scheme": "inverse",
             "text_alignment_mobile": "center"
           }
         }
@@ -79,7 +79,7 @@
       "settings": {
         "container_size": "full",
         "image": "{{ metaobject.feature.value.image.value }}",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
