@@ -6,6 +6,7 @@
   --swiper-theme-color: #cd9b5c;
   --swiper-pagination-bullet-horizontal-gap: 10px;
   --swiper-pagination-bullet-size: 10px;
+  --grid-spacing: 0.2rem;
 }
 
 body {
@@ -1352,24 +1353,24 @@ input[type=radio]:checked + .product-variant-options-custom {
     opacity: 1;
   }
   .multicolumn_full_bg .grid--6-col-desktop .grid__item {
-    width: calc(16.66% - 0.2rem) !important;
-    max-width: calc(16.66% - 0.2rem) !important;
+    width: calc(16.66% - var(--grid-spacing) * 5 / 6) !important;
+    max-width: calc(16.66% - var(--grid-spacing) * 5 / 6) !important;
   }
   .multicolumn_full_bg .grid--5-col-desktop .grid__item {
-    width: calc(20% - 0.2rem) !important;
-    max-width: calc(20% - 0.2rem) !important;
+    width: calc(20% - var(--grid-spacing) * 4 / 5) !important;
+    max-width: calc(20% - var(--grid-spacing) * 4 / 5) !important;
   }
   .multicolumn_full_bg .grid--4-col-desktop .grid__item {
-    width: calc(25% - 0.2rem) !important;
-    max-width: calc(25% - 0.2rem) !important;
+    width: calc(25% - var(--grid-spacing) * 3 / 4) !important;
+    max-width: calc(25% - var(--grid-spacing) * 3 / 4) !important;
   }
   .multicolumn_full_bg .grid--3-col-desktop .grid__item {
-    width: calc(33.33% - 0.2rem) !important;
-    max-width: calc(33.33% - 0.2rem) !important;
+    width: calc(33.33% - var(--grid-spacing) * 2 / 3) !important;
+    max-width: calc(33.33% - var(--grid-spacing) * 2 / 3) !important;
   }
   .multicolumn_full_bg .grid--2-col-desktop .grid__item {
-    width: calc(50% - 0.2rem) !important;
-    max-width: calc(50% - 0.2rem) !important;
+    width: calc(50% - var(--grid-spacing) / 2) !important;
+    max-width: calc(50% - var(--grid-spacing) / 2) !important;
   }
   .multicolumn_custom:not(.multicolumn_full_bg) .page-width::after {
     top: -3%;
