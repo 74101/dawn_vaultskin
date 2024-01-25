@@ -136,7 +136,7 @@
         "columns_desktop": 4,
         "container_width": 1200,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "accent-1",
