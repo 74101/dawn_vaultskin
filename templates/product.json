@@ -98,6 +98,7 @@
     "texnical_details": {
       "type": "texnical-details",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Vaultskin-Technical-Details.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "heading": "Technical details",
