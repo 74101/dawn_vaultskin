@@ -83,8 +83,8 @@
         "template--17041032544496__abdbc101-3d61-44ba-bb6b-e9aee1c11989-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/feature1.png",
-            "title": "<strong>SMART WALLETS<\/strong>",
+            "image": "shopify:\/\/shop_images\/HomepageFeature-Wallets.jpg",
+            "title": "<strong>Smart WALLETS<\/strong>",
             "text": "<p>With invisibly integrated RFID protection. Secure your cards.<\/p>",
             "link_label": "VIEW MORE",
             "link": "shopify:\/\/collections\/smart-wallets"
@@ -93,7 +93,7 @@
         "template--17041032544496__abdbc101-3d61-44ba-bb6b-e9aee1c11989-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/feature2.png",
+            "image": "shopify:\/\/shop_images\/HomepageFeature-PhoneCases.jpg",
             "title": "<strong>iPhone CASES<\/strong>",
             "text": "<p>Slim iPhone wallets and sleeves for the minimalist.<\/p>",
             "link_label": "VIEW MORE",
@@ -103,7 +103,7 @@
         "template--17041032544496__abdbc101-3d61-44ba-bb6b-e9aee1c11989-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/feature3.png",
+            "image": "shopify:\/\/shop_images\/HomepageFeature-Vaultcard.jpg",
             "title": "<strong>VAULTCARD<\/strong>",
             "text": "<p>World-class RFID-blocking technology to protect your cards.<\/p>",
             "link_label": "VIEW MORE",
@@ -113,7 +113,7 @@
         "59b71136-b8c0-4b96-b86d-776275950e36": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/feature4.png",
+            "image": "shopify:\/\/shop_images\/HomepageFeature-Victoria.jpg",
             "title": "<strong>VICTORIA<\/strong>",
             "text": "<p>Crossbody iPhone wallet. Stay in touch, in style.<\/p>",
             "link_label": "GET INSPIRED",
@@ -134,16 +134,16 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "container_width": 1240,
+        "container_width": 1200,
         "column_alignment": "left",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "accent-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "63b1d84f-fc30-4e99-befe-6c9a0e2f6436": {
@@ -195,7 +195,9 @@
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "shopify:\/\/collections\/all",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_alignment": "flex-start",
+            "button_alignment_mobile": "flex-start"
           }
         }
       },
@@ -274,7 +276,9 @@
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_alignment": "flex-start",
+            "button_alignment_mobile": "flex-start"
           }
         }
       },
@@ -353,7 +357,9 @@
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_alignment": "flex-start",
+            "button_alignment_mobile": "flex-start"
           }
         }
       },
