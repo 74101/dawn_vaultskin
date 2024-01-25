@@ -86,7 +86,7 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            {% render 'card-product',
+            {% render 'card-product-custom',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
               image_shape: section.settings.image_shape,
@@ -107,7 +107,7 @@
               {% endif %}
             >
               {%- assign placeholder_image = 'product-apparel-' | append: forloop.rindex -%}
-              {% render 'card-product',
+              {% render 'card-product-custom',
                 show_vendor: section.settings.show_vendor,
                 placeholder_image: placeholder_image
               %}
@@ -239,16 +239,16 @@
       "min": 2,
       "max": 25,
       "step": 1,
-      "default": 4,
+      "default": 3,
       "label": "t:sections.featured-collection.settings.products_to_show.label"
     },
     {
       "type": "range",
       "id": "columns_desktop",
       "min": 1,
-      "max": 5,
+      "max": 3,
       "step": 1,
-      "default": 4,
+      "default": 3,
       "label": "t:sections.featured-collection.settings.columns_desktop.label"
     },
     {
