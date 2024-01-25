@@ -124,6 +124,7 @@
     "cart_drawer_collection": "bestsellers",
     "cart_color_scheme": "accent-1",
     "checkout_header_image": "shopify:\/\/shop_images\/Vaultskin_Title_Image.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Asset_21_4x_8ca1431b-ec65-4241-a226-09c07886ae7c.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_accent_color": "#b58f5e",
