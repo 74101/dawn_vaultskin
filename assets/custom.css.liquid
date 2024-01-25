@@ -1513,8 +1513,8 @@ input[type=radio]:checked + .product-variant-options-custom {
   .multicolumn_custom {
     position: relative;
   }
-  .multicolumn_custom::before,
-  .multicolumn_custom::after {
+  .multicolumn_custom:not(.multicolumn_full_bg):before,
+  .multicolumn_custom:not(.multicolumn_full_bg):after {
     content: '';
     position: absolute;
     top: 0;
@@ -1525,7 +1525,7 @@ input[type=radio]:checked + .product-variant-options-custom {
     opacity: 0.2;
     pointer-events: none;
   }
-  .multicolumn_custom::after {
+  .multicolumn_custom:not(.multicolumn_full_bg):after {
     top: 50%;
     left: 0;
     right: 0;
