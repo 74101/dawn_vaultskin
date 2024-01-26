@@ -106,11 +106,13 @@
         "menu_item_icon_PB4HGF": {
           "type": "menu_item_icon",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/shirt-folded.svg"
           }
         },
         "menu_item_icon_Rymd6C": {
           "type": "menu_item_icon",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/gift.svg"
           }
         }
       },
