@@ -52,31 +52,25 @@
         "1f52a879-c676-4f39-8e5d-7b3f3f028419": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/wallet-app-100.png"
-          }
-        },
-        "cf071369-6f6c-4344-8e59-0ca0b414e870": {
-          "type": "mob_menu",
-          "settings": {
-            "menu": "main-menu"
+            "icon": "shopify:\/\/shop_images\/cardholder.svg"
           }
         },
         "cace3ca6-4968-4e7f-9520-b7cf5bc47306": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icons8-wallet-100.png"
+            "icon": "shopify:\/\/shop_images\/wallet.svg"
           }
         },
         "a354b442-c1a7-43bb-a99e-9f78561e886c": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icons8-phone-case-100.png"
+            "icon": "shopify:\/\/shop_images\/device-mobile-camera.svg"
           }
         },
         "de508342-f54d-444e-bcdb-8670ddbce739": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icons8-card-security-100.png"
+            "icon": "shopify:\/\/shop_images\/credit-card.svg"
           }
         },
         "1da11b30-1728-4068-ba08-b1dbb2f5b1db": {
@@ -94,7 +88,7 @@
         "11851cb4-88b6-4b7c-a766-691c93f6ec6b": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icons8-phone-case-100.png"
+            "icon": "shopify:\/\/shop_images\/device-mobile_1.svg"
           }
         },
         "48a1b6d4-2ed3-4ba4-b159-a0c7ed5d193a": {
@@ -106,7 +100,6 @@
       },
       "block_order": [
         "1f52a879-c676-4f39-8e5d-7b3f3f028419",
-        "cf071369-6f6c-4344-8e59-0ca0b414e870",
         "cace3ca6-4968-4e7f-9520-b7cf5bc47306",
         "a354b442-c1a7-43bb-a99e-9f78561e886c",
         "de508342-f54d-444e-bcdb-8670ddbce739",
