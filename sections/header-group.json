@@ -76,13 +76,13 @@
         "1da11b30-1728-4068-ba08-b1dbb2f5b1db": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/star-100.png"
+            "icon": "shopify:\/\/shop_images\/star.svg"
           }
         },
         "9eff77fc-47d0-4f19-9c15-e2b946e0ed4e": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/remove-rfid-100.png"
+            "icon": "shopify:\/\/shop_images\/contactless-payment.svg"
           }
         },
         "11851cb4-88b6-4b7c-a766-691c93f6ec6b": {
@@ -94,7 +94,23 @@
         "48a1b6d4-2ed3-4ba4-b159-a0c7ed5d193a": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/icons8-phone-case-100.png"
+            "icon": "shopify:\/\/shop_images\/device-mobile-speaker.svg"
+          }
+        },
+        "menu_item_icon_9wCXUF": {
+          "type": "menu_item_icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/flower-lotus.svg"
+          }
+        },
+        "menu_item_icon_PB4HGF": {
+          "type": "menu_item_icon",
+          "settings": {
+          }
+        },
+        "menu_item_icon_Rymd6C": {
+          "type": "menu_item_icon",
+          "settings": {
           }
         }
       },
@@ -106,7 +122,10 @@
         "1da11b30-1728-4068-ba08-b1dbb2f5b1db",
         "9eff77fc-47d0-4f19-9c15-e2b946e0ed4e",
         "11851cb4-88b6-4b7c-a766-691c93f6ec6b",
-        "48a1b6d4-2ed3-4ba4-b159-a0c7ed5d193a"
+        "48a1b6d4-2ed3-4ba4-b159-a0c7ed5d193a",
+        "menu_item_icon_9wCXUF",
+        "menu_item_icon_PB4HGF",
+        "menu_item_icon_Rymd6C"
       ],
       "custom_css": [
 
