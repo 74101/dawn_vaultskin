@@ -7,7 +7,7 @@
         "slide_height": "medium",
         "pagination_switcher": "off",
         "slider_visual": "counter",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "ambient",
         "show_text_below": false,
