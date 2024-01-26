@@ -12,7 +12,7 @@
         "image_behavior": "ambient",
         "show_text_below": false,
         "desktop_content_width": 100,
-        "accessibility_info": "Slideshow product variant images",
+        "accessibility_info": "Vaultskin {{ product.metafields.product.title.value }}",
         "heading_size": "h1",
         "button_style_secondary": false,
         "box_align": "middle-center",
