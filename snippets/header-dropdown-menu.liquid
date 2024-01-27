@@ -55,7 +55,7 @@
                               {% assign icon = section.blocks[forloop.index0].settings.icon %}
                             {% when 1 %}
                               {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
-                              {% assign icon = section.blocks[11].settings.icon %}
+                              {% assign icon = section.blocks[step].settings.icon %}
                           {% endcase %}
                           {% if icon %}
                             {{ icon | image_url: width: 20 | image_tag: class: 'header__menu-icon' }}
@@ -74,7 +74,7 @@
                                   {% assign icon = section.blocks[forloop.index0].settings.icon %}
                                 {% when 1 %}
                                   {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
-                                  {% assign icon = section.blocks[11].settings.icon %}
+                                  {% assign icon = section.blocks[step].settings.icon %}
                               {% endcase %}
                               {% if icon %}
                                 {{ icon | image_url: width: 20 | image_tag: class: 'header__menu-icon' }}
