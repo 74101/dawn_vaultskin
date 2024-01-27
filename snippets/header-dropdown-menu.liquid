@@ -3,7 +3,7 @@
   Usage:
   {% render 'header-dropdown-menu' %}
 {% endcomment %}
-
+{% assign i = 0 %}
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
     {%- for link in section.settings.menu.links -%}
@@ -33,6 +33,7 @@
                 >
                   {%- for childlink in link.links -%}
                     {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
+                    {% assign i = i | plus: 1 %}
                     <li>
                         {%- if childlink.links == blank -%}
                         <a
