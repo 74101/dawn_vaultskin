@@ -41,7 +41,7 @@
                   tabindex="-1"
                 >
                   {%- for childlink in link.links -%}
-                    {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
+                    {% assign step = forloop.index0 | plus: forloop.parentloop.length | plus: step %}
                     <li>
                         {%- if childlink.links == blank -%}
                         <a
