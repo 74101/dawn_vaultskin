@@ -76,7 +76,7 @@
       {% assign virtual_variants = product.metafields.variant.virtual_variants.value %}
     {% endif %}
 
-    {%- for option in product.options_with_values limit: 2 -%}
+    {%- for option in product.options_with_values -%}
       {% assign option_name = option.name %}
       {% assign option_name_downcase = option.name | downcase %}
       {% assign option_with_num = 'option' | append: option.position %}
