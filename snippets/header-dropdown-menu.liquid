@@ -35,7 +35,9 @@
                   {%- for childlink in link.links -%}
                     {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
                     <li class="{{ forloop_length }}">
-                      {% assign forloop_length = forloop.length %}
+                      {% if forloop.index == forloop.length %}
+                        {% assign forloop_length = forloop.length %}
+                      {% endif %}
                         {%- if childlink.links == blank -%}
                         <a
                           id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
