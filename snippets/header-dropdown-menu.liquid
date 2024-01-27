@@ -43,7 +43,7 @@
                 >
                   {%- for childlink in link.links -%}
                     {% assign icon = section.blocks[step].settings.icon %}
-                    {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
+                    {% assign step = step | plus: forloop.parentloop.length %}
                     <li>
                         {%- if childlink.links == blank -%}
                         <a
