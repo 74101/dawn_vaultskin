@@ -58,9 +58,6 @@
                               {% assign icon = section.blocks[step].settings.icon %}
                           {% endcase %}
                           {% if icon %}
-                            {% assign step1 = forloop.index0 | plus: forloop.parentloop.length %}
-                            {% assign step2 = step1 | plus: forloop.parentloop.length %}
-                            <span class="{{ step2 }}"></span>
                             {{ icon | image_url: width: 20 | image_tag: class: 'header__menu-icon' }}
                           {% endif %}
                           {{ childlink.title | escape }}
@@ -80,7 +77,6 @@
                                   {% assign icon = section.blocks[step].settings.icon %}
                               {% endcase %}
                               {% if icon %}
-                                <span class="{{ step2 }}"></span>
                                 {{ icon | image_url: width: 20 | image_tag: class: 'header__menu-icon' }}
                               {% endif %}
                               {{ childlink.title | escape }}
