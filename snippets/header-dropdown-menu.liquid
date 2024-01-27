@@ -35,7 +35,7 @@
                   {%- for childlink in link.links -%}
                     {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
                     <li class="{{ forloop_length }}">
-                      {% if forloop.index == forloop.length %}
+                      {% if forloop.index <= forloop.length %}
                         {% assign forloop_length = forloop.length %}
                       {% endif %}
                         {%- if childlink.links == blank -%}
