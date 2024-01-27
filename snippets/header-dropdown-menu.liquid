@@ -53,7 +53,7 @@
                           {% case forloop.parentloop.index0 %}
                             {% when 0 %}
                               {% assign icon = section.blocks[forloop.index0].settings.icon %}
-                            {% when 1 %}
+                            {% else %}
                               {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
                               {% assign icon = section.blocks[step].settings.icon %}
                           {% endcase %}
@@ -72,7 +72,7 @@
                               {% case forloop.parentloop.index0 %}
                                 {% when 0 %}
                                   {% assign icon = section.blocks[forloop.index0].settings.icon %}
-                                {% when 1 %}
+                                {% else %}
                                   {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
                                   {% assign icon = section.blocks[step].settings.icon %}
                               {% endcase %}
