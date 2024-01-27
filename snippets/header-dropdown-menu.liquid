@@ -40,6 +40,7 @@
                   tabindex="-1"
                 >
                   {%- for childlink in link.links -%}
+                    {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
                     <li>
                         {%- if childlink.links == blank -%}
                         <a
@@ -54,7 +55,6 @@
                             {% when 0 %}
                               {% assign icon = section.blocks[forloop.index0].settings.icon %}
                             {% when 1 %}
-                              {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
                               {% assign icon = section.blocks[step].settings.icon %}
                           {% endcase %}
                           {% if icon %}
@@ -73,7 +73,6 @@
                                 {% when 0 %}
                                   {% assign icon = section.blocks[forloop.index0].settings.icon %}
                                 {% when 1 %}
-                                  {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
                                   {% assign icon = section.blocks[step].settings.icon %}
                               {% endcase %}
                               {% if icon %}
