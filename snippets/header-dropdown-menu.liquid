@@ -32,7 +32,7 @@
                   tabindex="-1"
                 >
                   {%- for childlink in link.links -%}
-                    {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
+                    {% assign step = forloop.length %}
                     <li class="{{ forloop.parentloop.index0 | plus: forloop.index }}">
                         {%- if childlink.links == blank -%}
                         <a
