@@ -33,8 +33,7 @@
                 >
                   {%- for childlink in link.links -%}
                     {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
-                    <span class="{{ step }}"></span>
-                    <li>
+                    <li class="step={{ step }}">
                         {%- if childlink.links == blank -%}
                         <a
                           id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
