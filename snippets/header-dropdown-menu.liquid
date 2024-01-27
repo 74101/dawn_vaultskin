@@ -1,13 +1,5 @@
 {% comment %}
   Renders a standard dropdown style menu for the header.
-
-
-        {% assign icon = section.blocks[forloop.index0].settings.icon %}
-        {% if icon %}
-          {{ icon | image_url: width: 20 | image_tag }}
-        {% endif %}
-
-
   Usage:
   {% render 'header-dropdown-menu' %}
 {% endcomment %}
