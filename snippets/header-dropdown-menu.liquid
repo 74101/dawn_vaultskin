@@ -44,6 +44,7 @@
                           {% endif %}
                         >
                           {% assign icon = section.blocks[step].settings.icon %}
+                          {% assign step = step | plus: 1 %}
                           {% if icon %}
                             {{ icon | image_url: width: 20 | image_tag: class: 'header__menu-icon' }}
                           {% endif %}
@@ -57,6 +58,7 @@
                           >
                             <span class="item_with_icon">
                               {% assign icon = section.blocks[step].settings.icon %}
+                              {% assign step = step | plus: 1 %}
                               {% if icon %}
                                 {{ icon | image_url: width: 20 | image_tag: class: 'header__menu-icon' }}
                               {% endif %}
