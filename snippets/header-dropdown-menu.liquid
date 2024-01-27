@@ -31,9 +31,10 @@
                   role="list"
                   tabindex="-1"
                 >
+                  {% assign step = 0 %}
                   {%- for childlink in link.links -%}
-                    {% assign step = forloop.length %}
-                    <li class="{{ forloop.parentloop.index0 | plus: forloop.index }}">
+                    {% assign step = step | plus: forloop.length %}
+                    <li class="{{ step }}">
                         {%- if childlink.links == blank -%}
                         <a
                           id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
