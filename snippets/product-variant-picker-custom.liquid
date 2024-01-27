@@ -69,7 +69,7 @@
     </variant-selects>
   {%- endif -%}
 
-  {% for variant_product in product.variants limit: 1 %}
+  {% for variant_product in product.variants %}
     {% if variant_product.metafields.variant.virtual_variants.value != blank %}
       {% assign virtual_variants = variant_product.metafields.variant.virtual_variants.value %}
     {% else %}
