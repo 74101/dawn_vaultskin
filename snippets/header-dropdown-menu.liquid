@@ -33,6 +33,7 @@
                 >
                   {%- for childlink in link.links -%}
                     {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
+                    <span class="{{ step }}"></span>
                     <li>
                         {%- if childlink.links == blank -%}
                         <a
