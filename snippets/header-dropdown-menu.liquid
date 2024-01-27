@@ -1,16 +1,9 @@
 {% comment %}
   Renders a standard dropdown style menu for the header.
-
-
-        {% assign icon = section.blocks[forloop.index0].settings.icon %}
-        {% if icon %}
-          {{ icon | image_url: width: 20 | image_tag }}
-        {% endif %}
-
-
   Usage:
   {% render 'header-dropdown-menu' %}
 {% endcomment %}
+{% assign step = 0 %}
 
 <nav class="header__inline-menu">
   <ul class="list-menu list-menu--inline" role="list">
@@ -50,13 +43,8 @@
                             aria-current="page"
                           {% endif %}
                         >
-                          {% case forloop.parentloop.index0 %}
-                            {% when 0 %}
-                              {% assign icon = section.blocks[forloop.index0].settings.icon %}
-                            {% when 1 %}
-                              {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
-                              {% assign icon = section.blocks[step].settings.icon %}
-                          {% endcase %}
+                          {% assign icon = section.blocks[step].settings.icon %}
+                          {% assign step = step | plus: 1 %}
                           {% if icon %}
                             {{ icon | image_url: width: 20 | image_tag: class: 'header__menu-icon' }}
                           {% endif %}
@@ -69,13 +57,8 @@
                             class="header__menu-item link link--text list-menu__item focus-inset caption-large"
                           >
                             <span class="item_with_icon">
-                              {% case forloop.parentloop.index0 %}
-                                {% when 0 %}
-                                  {% assign icon = section.blocks[forloop.index0].settings.icon %}
-                                {% when 1 %}
-                                  {% assign step = forloop.index0 | plus: forloop.parentloop.length %}
-                                  {% assign icon = section.blocks[step].settings.icon %}
-                              {% endcase %}
+                              {% assign icon = section.blocks[step].settings.icon %}
+                              {% assign step = step | plus: 1 %}
                               {% if icon %}
                                 {{ icon | image_url: width: 20 | image_tag: class: 'header__menu-icon' }}
                               {% endif %}
