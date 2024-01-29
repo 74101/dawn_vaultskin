@@ -280,6 +280,29 @@
     {%- endif -%}
 
     {%- if template.name == 'collection' -%}
+      {% if collection.products.size > 0 %}
+        <script type="application/ld+json">
+          {
+            "@context":"https://schema.org",
+            "@type":"ItemList",
+            "itemListElement":[
+              {
+                "@context": "http://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [
+                  {%- for product in collection.products -%}
+                  {
+                  "@type": "ListItem",
+                  "position": {{ forloop.index | json }},
+                  "url": "{{ request.origin | append: product.url }}"
+                  }{%- unless forloop.last -%},{%- endunless -%}
+                  {%- endfor -%}
+                ]
+              }
+            ]
+          }
+        </script>
+      {% endif %}
     {%- endif -%}
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
