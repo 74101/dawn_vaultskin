@@ -250,10 +250,11 @@ let headerSubmenuItem = document.querySelectorAll('.header__submenu details');
 
 headerSubmenuItem.forEach(item => {
   item.addEventListener('mouseenter', function(evt) {
-    headerSubmenuItem.forEach(elem => {
-      if (elem != this) {
-        elem.removeAttribute('open');
-      }
-    })
+    console.log('onmouseenter')
+    // headerSubmenuItem.forEach(elem => {
+    //   if (elem != this) {
+    //     elem.removeAttribute('open');
+    //   }
+    // })
   })
 });
