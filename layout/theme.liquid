@@ -345,20 +345,20 @@
     
     {% comment %} RETURNS How long is your returns policy in days? {% endcomment %}
     {%- assign fa_return_days = 28 -%}
-    
+
     {% comment %} SHIPPING How much do customer need to spend for free returns, assign your currency? {% endcomment %}
     {% if cart.currency.iso_code == 'USD' %}
         {%- assign fa_shipping_currency = "USD" -%}
-        {% if fa_product_price >= "75" %}
+        {% if fa_product_price >= "50" %}
             {%- assign fa_shipping_price = 0.00 -%}
         {%- else -%}
-            {%- assign fa_shipping_price = 4.50 -%}
+            {%- assign fa_shipping_price = 2.99 -%}
         {%- endif -%}
     {%- endif -%}
     {%- assign fa_shipping_handling_time_min = 0 -%}
-    {%- assign fa_shipping_handling_time_max = 1 -%}
-    {%- assign fa_shipping_shipping_time_min = 2 -%}
-    {%- assign fa_shipping_shipping_time_max = 5 -%}
+    {%- assign fa_shipping_handling_time_max = 3 -%}
+    {%- assign fa_shipping_shipping_time_min = 5 -%}
+    {%- assign fa_shipping_shipping_time_max = 10 -%}
     
     {% comment %} Disable / Enable shipping or returns true for enabled, false for disabled{% endcomment %}
     {%- assign fa_returns = 'true' -%}
