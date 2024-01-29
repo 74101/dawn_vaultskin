@@ -345,7 +345,7 @@
     
     {% comment %} RETURNS How long is your returns policy in days? {% endcomment %}
     {%- assign fa_return_days = 28 -%}
-    
+
     {% comment %} SHIPPING How much do customer need to spend for free returns, assign your currency? {% endcomment %}
     {% if cart.currency.iso_code == 'USD' %}
         {%- assign fa_shipping_currency = "USD" -%}
