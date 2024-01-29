@@ -247,9 +247,13 @@ sortCountries()
 
 
 let headerSubmenuItem = document.querySelectorAll('.header__submenu details');
-console.log(headerSubmenuItem);
+
 headerSubmenuItem.forEach(item => {
   item.addEventListener('click', function(evt) {
-    console.log(this)
+    headerSubmenuItem.forEach(elem => {
+      if (elem != this) {
+        elem.removeAttribute('open');
+      }
+    })
   })
 });
