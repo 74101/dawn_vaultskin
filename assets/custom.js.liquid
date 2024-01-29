@@ -251,10 +251,10 @@ let headerSubmenuItem = document.querySelectorAll('.header__submenu details');
 headerSubmenuItem.forEach(item => {
   item.addEventListener('mouseenter', function(evt) {
     this.setAttribute('open', '');
-    // headerSubmenuItem.forEach(elem => {
-    //   if (elem != this) {
-    //     elem.removeAttribute('open');
-    //   }
-    // })
+    headerSubmenuItem.forEach(elem => {
+      if (elem != this) {
+        elem.removeAttribute('open');
+      }
+    })
   })
 });
