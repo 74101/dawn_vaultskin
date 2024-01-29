@@ -287,13 +287,13 @@
               "@type": "ItemList",
               "name": {{ collection.title | json }},
               "itemListElement": [
-                {%- for product in collection.products -%}
+                {% for product in collection.products %}
                   {
                     "@type": "ListItem",
                     "position": {{ forloop.index | json }},
                     "url": "{{ request.origin | append: product.url }}"
-                  }{%- unless forloop.last -%},{%- endunless -%}
-                {%- endfor -%}
+                  }{%- unless forloop.last %},{% endunless %}
+                {% endfor %}
               ]
             }
         </script>
