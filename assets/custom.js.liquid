@@ -248,6 +248,6 @@ let headerSubmenuItem = document.querySelectorAll('.header__submenu details');
 console.log(headerSubmenuItem);
 headerSubmenuItem.forEach(item => {
   item.addEventListener('click', evt => {
-    console.log(item);
+    console.log(item.attributes);
   })
 });
