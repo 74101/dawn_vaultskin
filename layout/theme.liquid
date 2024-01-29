@@ -289,7 +289,7 @@
               "@context": "http://schema.org",
               "@type": "ItemList",
               "itemListElement": [
-                {%- for product in collection.products -%}
+                {% for product in collection.products -%}
                   {
                     "@type": "ListItem",
                     "position": {{ forloop.index | json }},
