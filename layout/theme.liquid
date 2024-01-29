@@ -283,23 +283,25 @@
       <script class="collectionJS"></script>
         {% if collection.products.size > 0 %}
           <script type="application/ld+json">
-     {
-      "@context":"https://schema.org",
-      "@type":"ItemList",
-      "itemListElement":[
            {
-              "@context": "http://schema.org",
-              "@type": "ItemList",
-              "itemListElement": [
-                {%- for product in collection.products -%}
-                  {
-                    "@type": "ListItem",
-                    "position": {{ forloop.index | json }},
-                    "url": "{{ request.origin | append: product.url | append: '.html' }}"
-                  }{%- unless forloop.last -%},{%- endunless -%}
-                {%- endfor -%}
-              ]
-            }  
+            "@context":"https://schema.org",
+            "@type":"ItemList",
+            "itemListElement":[
+                 {
+                    "@context": "http://schema.org",
+                    "@type": "ItemList",
+                    "itemListElement": [
+                      {%- for product in collection.products -%}
+                        {
+                          "@type": "ListItem",
+                          "position": {{ forloop.index | json }},
+                          "url": "{{ request.origin | append: product.url }}",
+                        }{%- unless forloop.last -%},{%- endunless -%}
+                      {%- endfor -%}
+                    ]
+                  }
+                ]
+              }
           </script>
         {% endif %}
     {%- endif -%}
