@@ -444,7 +444,7 @@
         "template--17041032544496__56a5d040-3ca0-4bf0-a019-fd501c81d225-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/forbes_13ff30cc-b973-45aa-aeed-876be245aec2.png",
+            "image": "shopify:\/\/shop_images\/forbes-logo.svg",
             "title": "",
             "text": "<p>“Vaultskin specializes in RFID-blocking wallets, offering an extra layer of protection with a sleek and compact design.”<\/p>",
             "link_label": "",
@@ -454,19 +454,9 @@
         "template--17041032544496__56a5d040-3ca0-4bf0-a019-fd501c81d225-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CNET-Logo_1.png",
+            "image": "shopify:\/\/shop_images\/CNET-logo.svg",
             "title": "",
             "text": "<p>“Elevate your everyday carry with Vaultskin's Notting Hill wallet – where style meets security, offering a tasteful design and a zippered compartment for ultimate organization.”<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--17041032544496__56a5d040-3ca0-4bf0-a019-fd501c81d225-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/the-manual-logo.jpg",
-            "title": "",
-            "text": "<p>“The Vaultskin wallet has the best of all worlds. It’s slim and bi-fold for easy management, and it has RFID protection to offer high-level security to your personal items.”<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -474,9 +464,19 @@
         "9586ac5e-13f7-40b2-b25d-2a6024858ab2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo.20861e6.svg",
+            "image": "shopify:\/\/shop_images\/esquire-logo.svg",
             "title": "",
             "text": "<p>“The fact is that passport holders look and function roughly the same. But the key difference here is you've got RFID protection built into the leather case.”<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--17041032544496__56a5d040-3ca0-4bf0-a019-fd501c81d225-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/themanual-logo.png",
+            "title": "",
+            "text": "<p>“The Vaultskin wallet has the best of all worlds. It’s slim and bi-fold for easy management, and it has RFID protection to offer high-level security to your personal items.”<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -485,8 +485,8 @@
       "block_order": [
         "template--17041032544496__56a5d040-3ca0-4bf0-a019-fd501c81d225-column-1",
         "template--17041032544496__56a5d040-3ca0-4bf0-a019-fd501c81d225-column-2",
-        "template--17041032544496__56a5d040-3ca0-4bf0-a019-fd501c81d225-column-3",
-        "9586ac5e-13f7-40b2-b25d-2a6024858ab2"
+        "9586ac5e-13f7-40b2-b25d-2a6024858ab2",
+        "template--17041032544496__56a5d040-3ca0-4bf0-a019-fd501c81d225-column-3"
       ],
       "settings": {
         "section_position": "default",
