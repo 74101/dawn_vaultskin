@@ -294,7 +294,7 @@
                     "@type": "ListItem",
                     "position": {{ forloop.index | json }},
                     "url": {{ product.url | json }},
-                  }{% unless forloop.last %},{% endunless %}
+                  }{%- unless forloop.last -%},{%- endunless -%}
                 {% endfor %}
               ]
             }
