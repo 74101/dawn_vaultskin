@@ -285,6 +285,7 @@
             {
               "@context": "http://schema.org",
               "@type": "ItemList",
+              "name": {{ collection.title | json }},
               "itemListElement": [
                 {%- for product in collection.products -%}
                 {
