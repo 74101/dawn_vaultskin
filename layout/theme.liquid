@@ -291,7 +291,7 @@
                 {
                 "@type": "ListItem",
                 "position": {{ forloop.index | json }},
-                "url": "{{ request.origin | append: product.url | append: '.html' }}"
+                "url": "{{ request.origin | append: product.url }}"
                 }{%- unless forloop.last -%},{%- endunless -%}
                 {%- endfor -%}
               ]
