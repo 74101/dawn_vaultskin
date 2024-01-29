@@ -280,9 +280,7 @@
     {%- endif -%}
 
     {%- if template.name == 'collection' -%}
-      <script class="collectionJS">
-        
-      </script>
+      <script class="collectionJS"></script>
         {% if collection.products.size > 0 %}
           <script type="application/ld+json">
             {
@@ -293,11 +291,12 @@
                   {
                     "@type": "ListItem",
                     "position": {{ forloop.index | json }},
-                    "url": {{ product.url | json }},
+                    "url": "{{ shop.permanent_domain -}}{{- product.url }}",
                   }{% unless forloop.last %},{%- endunless -%}
                 {%- endfor %}
               ]
             }
+            
           </script>
         {% endif %}
     {%- endif -%}
