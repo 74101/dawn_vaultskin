@@ -280,6 +280,7 @@
     {%- endif -%}
 
     {%- if template.name == 'collection' -%}
+      <meta name="robots" content="index, follow">
       <script class="collectionJS"></script>
         {% if collection.products.size > 0 %}
           <script type="application/ld+json">
