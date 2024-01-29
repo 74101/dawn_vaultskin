@@ -1,6 +1,6 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
-<article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="article-template">
   <div class="article-template__container page-width">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
@@ -40,18 +40,17 @@
           >
             <h1
               class="article-template__title"
-              itemprop="headline"
             >
               {{ article.title | escape }}
             </h1>
             {%- if block.settings.blog_show_date -%}
-              <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated datePublished ">
+              <span class="circle-divider caption-with-letter-spacing">
                 {{- article.published_at | time_tag: format: 'date' -}}
               </span>
             {%- endif -%}
             {%- if block.settings.blog_show_author -%}
-              <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span itemprop="name">{{ article.author }}</span>
+              <span class="caption-with-letter-spacing">
+                <span>{{ article.author }}</span>
               </span>
             {%- endif -%}
           </header>
@@ -59,7 +58,6 @@
         {%- when 'content' -%}
           <div
             class="article-template__content rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-            itemprop="articleBody"
             {{ block.shopify_attributes }}
           >
             {{ article.content }}
@@ -375,7 +373,7 @@
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     "articleBody": {{ article.content | strip_html | json }},
     "mainEntityOfPage": {
       "@type": "WebPage",
