@@ -249,7 +249,7 @@ sortCountries()
 let headerSubmenuItem = document.querySelectorAll('.header__submenu details');
 
 headerSubmenuItem.forEach(item => {
-  item.addEventListener('click', function(evt) {
+  item.addEventListener('mouseenter', function(evt) {
     headerSubmenuItem.forEach(elem => {
       if (elem != this) {
         elem.removeAttribute('open');
