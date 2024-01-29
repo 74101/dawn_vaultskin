@@ -581,6 +581,7 @@
       </div>
     {%- endif -%}
   </div>
+  <div id="shopify-product-reviews" data-id="{{product.id}}"></div>
 
   {% render 'product-media-modal' variant_images: variant_images %}
 
@@ -648,7 +649,7 @@
       });
     });
   </script>
-
+{% comment %}
   {%- liquid
     if product.selected_or_first_available_variant.featured_media
       assign seo_media = product.selected_or_first_available_variant.featured_media
@@ -701,6 +702,7 @@
       ]
     }
   </script>
+{% endcomment %}
   </div>
 </section>
 
