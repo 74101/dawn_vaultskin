@@ -311,22 +311,22 @@
       <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
     </ul>
     
-    <!-- Copyright FeedArmy 2023 Version 3.22 -->
-    <!-- FeedArmy tutorial found at https://feedarmy.com/kb/shopify-microdata-for-google-shopping/ -->
+    {% comment %} Copyright FeedArmy 2023 Version 3.22 {% endcomment %}
+    {% comment %} FeedArmy tutorial found at https://feedarmy.com/kb/shopify-microdata-for-google-shopping/ {% endcomment %}
     
-    <!-- CODE SETTINGS START -->
-    <!-- CODE SETTINGS START -->
+    {% comment %} CODE SETTINGS START {% endcomment %}
+    {% comment %} CODE SETTINGS START {% endcomment %}
     
-    <!-- ALPHA2 CODE Please add your alpha2 code, you can find it here: https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode -->
+    {% comment %} ALPHA2 CODE Please add your alpha2 code, you can find it here: https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode {% endcomment %}
     {%- assign fa_product_id_alpha2_code = 'US' -%}
     
-    <!-- PRODUCT IDset your product id values are default, product_id, parent_id, sku-->
+    {% comment %} PRODUCT IDset your product id values are default, product_id, parent_id, sku{% endcomment %}
     {%- assign fa_product_id = 'default' -%}
     
-    <!-- RETURNS How long is your returns policy in days? -->
+    {% comment %} RETURNS How long is your returns policy in days? {% endcomment %}
     {%- assign fa_return_days = 28 -%}
     
-    <!-- SHIPPING How much do customer need to spend for free returns, assign your currency? -->
+    {% comment %} SHIPPING How much do customer need to spend for free returns, assign your currency? {% endcomment %}
     {% if cart.currency.iso_code == 'USD' %}
         {%- assign fa_shipping_currency = "USD" -%}
         {% if fa_product_price >= "75" %}
@@ -340,15 +340,15 @@
     {%- assign fa_shipping_shipping_time_min = 2 -%}
     {%- assign fa_shipping_shipping_time_max = 5 -%}
     
-    <!-- Disable / Enable shipping or returns true for enabled, false for disabled-->
+    {% comment %} Disable / Enable shipping or returns true for enabled, false for disabled{% endcomment %}
     {%- assign fa_returns = 'true' -%}
     {%- assign fa_shipping = 'true' -%}
     
-    <!-- CODE SETTINGS END -->
-    <!-- CODE SETTINGS END -->
+    {% comment %} CODE SETTINGS END {% endcomment %}
+    {% comment %} CODE SETTINGS END {% endcomment %}
     
-    <!-- ==================================== -->
-    <!-- DO NOT EDIT ANYTHING BELOW THIS LINE -->
+    {% comment %} ==================================== {% endcomment %}
+    {% comment %} DO NOT EDIT ANYTHING BELOW THIS LINE {% endcomment %}
     
     {%- if template contains 'product' -%}
     
@@ -483,7 +483,7 @@
     }
     </script>
     {%- endif -%}
-    <!-- Copyright FeedArmy 2023 Version 3.22 -->
+    {% comment %} Copyright FeedArmy 2023 Version 3.22 {% endcomment %}
     
     <script>
       window.shopUrl = '{{ request.origin }}';
