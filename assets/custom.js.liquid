@@ -257,4 +257,7 @@ headerSubmenuItem.forEach(item => {
       }
     })
   })
+  item.addEventListener('mouseleave', function(evt) {
+    this.removeAttribute('open');
+  })
 });
