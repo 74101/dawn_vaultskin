@@ -243,3 +243,23 @@ function sortCountries() {
     });
 }
 sortCountries()
+
+function headerSubmenuHover() {
+  let headerSubmenuItem = document.querySelectorAll('.header__submenu details');
+  if (headerSubmenuItem) {
+    headerSubmenuItem.forEach(item => {
+      item.addEventListener('mouseenter', function(evt) {
+        this.setAttribute('open', '');
+        headerSubmenuItem.forEach(elem => {
+          if (elem != this) {
+            elem.removeAttribute('open');
+          }
+        })
+      })
+      item.addEventListener('mouseleave', function(evt) {
+        this.removeAttribute('open');
+      })
+    });
+  }
+}
+headerSubmenuHover()

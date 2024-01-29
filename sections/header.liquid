@@ -506,7 +506,19 @@
       {{ settings.social_youtube_link | json }},
       {{ settings.social_vimeo_link | json }}
     ],
-    "url": {{ request.origin | append: page.url | json }}
+    "url": {{ request.origin | append: page.url | json }},
+    "alternateName": "Vaultskin London",
+    "description": {{ shop.brand.short_description | json }},
+    "email": "info@vaultskin.com",
+        "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Suite 93, 235 Earls Court Road",
+        "addressLocality": "London",
+        "addressCountry": "GB",
+        "postalCode": "SW5 9FE"
+      },
+    "vatID": "GB272596864",
+    "iso6523Code": "0060:218293410"
   }
 </script>
 
