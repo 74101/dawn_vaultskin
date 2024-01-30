@@ -5,8 +5,7 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
-        "pagination_switcher": "off",
-        "pagination_custom": "on",
+        "pagination_switcher": "on",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
