@@ -56,7 +56,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sketch-logo-duotone.svg",
             "title": "Bestseller",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Explore our top-selling products, favored for their exceptional quality and stylish designs. Discover why these are the favorites among our discerning customers.<\/p>",
             "link_label": "View",
             "link": "shopify:\/\/collections\/bestsellers"
           }
@@ -66,7 +66,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/wallet-duotone.svg",
             "title": "Smart WALLETS",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Browse our range of Smart Wallets, combining sleek style with innovative functionality. Perfect for the tech-savvy individual valuing security and efficiency.<\/p>",
             "link_label": "View",
             "link": "shopify:\/\/collections\/rfid-wallets"
           }
@@ -76,7 +76,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/device-mobile-duotone.svg",
             "title": "iPhone CASES",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Protect your iPhone in style with our premium leather cases. Designed for durability and elegance, they're the perfect blend of fashion and function.<\/p>",
             "link_label": "View",
             "link": "shopify:\/\/collections\/iphone-cases"
           }
@@ -86,7 +86,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/contactless-payment-duotone.svg",
             "title": "VAULTCARD",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Secure your digital information with VAULTCARD, utilizing advanced RFID blocking technology. A smart solution for safeguarding your personal data.<\/p>",
             "link_label": "Learn more",
             "link": "shopify:\/\/products\/vaultcard"
           }
@@ -110,7 +110,7 @@
         "background_style": "primary",
         "button_label": "See all products",
         "button_link": "shopify:\/\/collections\/all",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
