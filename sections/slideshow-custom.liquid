@@ -2,43 +2,6 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 
-{% if section.settings.pagination_custom == 'on' %}
-<script>
-
-document.addEventListener('DOMContentLoaded', function() {
-
-let slideshow_section = document.getElementById('shopify-section-{{ section.id }}')
-let slideshow_dots = slideshow_section.querySelectorAll('.slider-counter__link')
-let slideshow_text = slideshow_section.querySelectorAll('.slideshow__text')
-
-slideshow_text.forEach(element => {
-  let slideId = element.closest('.slideshow__slide').dataset.slide_id
-  let custom_dots = document.createElement('div')
-  custom_dots.className = 'custom_dots'
-  for(let i = 0; i < slideshow_dots.length; i++) {
-    let custom_dot = document.createElement('button')
-    custom_dot.className = 'custom_dot'
-    custom_dot.innerHTML = `slide-${i + 1}`
-    custom_dot.dataset.slide_id = i
-    if (slideId == i) {
-      custom_dot.classList.add('custom_dot_active')
-    }
-    custom_dot.addEventListener('click', function(evt) {
-      evt.preventDefault()
-      slideshow_dots[i].click()
-    })
-    
-    custom_dots.append(custom_dot)
-  }
-  let existingElement = element.querySelector('.banner__buttons')
-  element.insertBefore(custom_dots, existingElement)
-})
-
-})
-
-</script>
-{% endif %}
-
 {% for product_variant in product.variants %}
   {% if product_variant.metafields.variant.title_image_urls.value != blank %}
     {% assign current_variant_title_images = product_variant.metafields.variant.title_image_urls.value %}
@@ -73,7 +36,7 @@ slideshow_text.forEach(element => {
       {%- endif -%}
       
       <slideshow-component
-        class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}{% if section.settings.pagination_custom == 'on' %} custom_pagination{% endif %}"
+        class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}"
         role="region"
         aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
         aria-label="{{ section.settings.accessibility_info | escape }}"
@@ -226,7 +189,7 @@ slideshow_text.forEach(element => {
                     </div>
                   {%- endif -%}
                   <div class="banner__buttons">
-                    <button class="buy_now_btn button {% if section.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">Buy now</button>
+                    <button class="buy_now_btn button button--primary">Buy now</button>
                   </div>
                 </div>
               </div>
@@ -382,22 +345,6 @@ slideshow_text.forEach(element => {
       ],
       "default": "off",
       "label": "Pagination off / on"
-    },
-    {
-      "type": "select",
-      "id": "pagination_custom",
-      "options": [
-        {
-          "value": "on",
-          "label": "On"
-        },
-        {
-          "value": "off",
-          "label": "Off"
-        }
-      ],
-      "default": "off",
-      "label": "Custom pagination"
     },
     {
       "type": "select",
