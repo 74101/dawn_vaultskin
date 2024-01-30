@@ -54,38 +54,41 @@
         "template--17136463610096__95660ae3-3022-484b-8a0e-29563c80b513-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/feature_item8.svg",
+            "image": "shopify:\/\/shop_images\/sketch-logo-duotone.svg",
             "title": "Bestseller",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "link_label": "View",
             "link": "shopify:\/\/collections\/bestsellers"
           }
         },
         "template--17136463610096__95660ae3-3022-484b-8a0e-29563c80b513-column-1": {
           "type": "column",
           "settings": {
-            "title": "Smart Wallets",
+            "image": "shopify:\/\/shop_images\/wallet-duotone.svg",
+            "title": "Smart WALLETS",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "link_label": "View",
             "link": "shopify:\/\/collections\/rfid-wallets"
           }
         },
         "template--17136463610096__95660ae3-3022-484b-8a0e-29563c80b513-column-3": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/device-mobile-duotone.svg",
+            "title": "iPhone CASES",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "View",
+            "link": "shopify:\/\/collections\/iphone-cases"
           }
         },
         "a28ada94-0a60-4fa0-958f-5b01b249cb87": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/contactless-payment-duotone.svg",
+            "title": "VAULTCARD",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Learn more",
+            "link": "shopify:\/\/products\/vaultcard"
           }
         }
       },
@@ -102,7 +105,8 @@
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "column_alignment": "left",
+        "container_width": 1600,
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "See all products",
         "button_link": "shopify:\/\/collections\/all",
