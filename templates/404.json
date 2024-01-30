@@ -76,7 +76,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/device-mobile-duotone.svg",
             "title": "iPhone CASES",
-            "text": "<p>Protect your iPhone in style with our premium leather cases. Designed for durability and elegance, they're the perfect blend of fashion and function.<\/p>",
+            "text": "<p>Protect your iPhone in style with our premium leather wallet cases. <br\/>Designed for durability and elegance, they're the perfect blend of fashion and function.<br\/><br\/><\/p><p><\/p>",
             "link_label": "View",
             "link": "shopify:\/\/collections\/iphone-cases"
           }
@@ -86,7 +86,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/contactless-payment-duotone.svg",
             "title": "VAULTCARD",
-            "text": "<p>Secure your digital information with VAULTCARD, utilizing advanced RFID blocking technology. A smart solution for safeguarding your personal data.<\/p>",
+            "text": "<p>Secure your digital information with VAULTCARD, utilizing advanced RFID blocking technology. A smart solution for safeguarding your personal data.<br\/><br\/><\/p>",
             "link_label": "Learn more",
             "link": "shopify:\/\/products\/vaultcard"
           }
