@@ -1,7 +1,62 @@
 {
   "sections": {
+    "image_with_text_VEAgNW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mAy3qk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h1"
+          }
+        },
+        "text_VeA7Uj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For media related inquiries contact: <br\/><strong>Artem Kaprov<\/strong> | <strong>Vaultskin<br\/><\/strong><a href=\"mailto:artem@vaultskin.com\">artem@vaultskin.com<br\/><br\/><\/a>Creative Ideas UN Ltd t\/a Vaultskin<br\/>235 Earls Court Road, Suite 93<br\/>London, SW5 9FE<br\/>United Kingdom<br\/>Registered in England under registration number 07991840<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_BgbPxm": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "flex-start",
+            "button_alignment_mobile": "flex-start"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mAy3qk",
+        "text_VeA7Uj",
+        "button_BgbPxm"
+      ],
+      "settings": {
+        "container_size": "default",
+        "image": "shopify:\/\/shop_images\/Vaultskin-ETON15-features_0014_Vaultskin-ETON15-black_2.png",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "content_padding_top": 5,
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -12,13 +67,14 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "image_with_text_VEAgNW",
     "main",
     "form"
   ]
