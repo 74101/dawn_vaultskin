@@ -13,11 +13,13 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {}
+          "settings": {
+          }
         },
         "buttons": {
           "type": "buttons",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -29,10 +31,80 @@
         "padding_top": 20,
         "padding_bottom": 40
       }
+    },
+    "multicolumn_RWTNnD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wkPBct": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fingerprint-duotone.svg",
+            "title": "Secure Transactions",
+            "text": "<p><strong>Shop with Confidence<\/strong><br\/>Experience peace of mind with our advanced secure payment system, ensuring every purchase is safe and protected.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mNm43y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/basket-duotone.svg",
+            "title": "30-Day Satisfaction Guarantee",
+            "text": "<p><strong>Shop Risk-Free<\/strong><br\/>Enjoy the freedom of our 30-day money-back policy. If you're not completely satisfied, we make returns easy and hassle-free.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4xJCAT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/globe-duotone.svg",
+            "title": "Global Shipping",
+            "text": "<p><strong>Worldwide Delivery at Your Doorstep<\/strong><br\/>Wherever you are, Vaultskin comes to you. We offer reliable and efficient global shipping, ensuring your favorite products reach you no matter where you're located.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_G8cRdd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/clock-clockwise-duotone.svg",
+            "title": "Swift Order Processing",
+            "text": "<p><strong>Speed and Efficiency in Every Order<\/strong><br\/>Experience the efficiency of Vaultskin with our fast order processing. We prioritize quick dispatch to ensure your selections arrive promptly, making shopping with us not just a luxury, but a convenience.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wkPBct",
+        "column_mNm43y",
+        "column_4xJCAT",
+        "column_G8cRdd"
+      ],
+      "settings": {
+        "section_position": "default",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "container_width": 1600,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "cart-footer",
+    "multicolumn_RWTNnD"
   ]
 }
