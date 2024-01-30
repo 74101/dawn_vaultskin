@@ -20,8 +20,8 @@
         "button_BgbPxm": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": "",
+            "button_label": "Email Customer Service",
+            "button_link": "mailto:info@vaultskin.com",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
