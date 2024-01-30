@@ -41,79 +41,77 @@
         aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
         aria-label="{{ section.settings.accessibility_info | escape }}"
       >
-        {%- if section.settings.pagination_switcher == 'on' -%}
-          {%- if section.settings.auto_rotate and current_variant_title_images_size > 1 -%}
-            <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
-              <button
-                type="button"
-                class="slider-button slider-button--prev"
-                name="previous"
-                aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
-                aria-controls="Slider-{{ section.id }}"
-              >
-                {% render 'icon-caret' %}
-              </button>
-              <div class="slider-counter slider-counter--{{ section.settings.slider_visual }}{% if section.settings.slider_visual == 'counter' or section.settings.slider_visual == 'numbers' %} caption{% endif %}">
-                {%- if section.settings.slider_visual == 'counter' -%}
-                  <span class="slider-counter--current">1</span>
-                  <span aria-hidden="true"> / </span>
-                  <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
-                  <span class="slider-counter--total">{{ current_variant_title_images_size }}</span>
-                {%- else -%}
-                  <div class="slideshow__control-wrapper">
-                    {%- for current_variant_image in current_variant_title_images -%}
-                      <button
-                        class="slider-counter__link slider-counter__link--{{ section.settings.slider_visual }} link"
-                        aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
-                        aria-controls="Slider-{{ section.id }}"
-                      >
-                        {%- if section.settings.slider_visual == 'numbers' -%}
-                          {{ forloop.index -}}
-                        {%- else -%}
-                          <span class="dot"></span>
-                        {%- endif -%}
-                      </button>
-                    {%- endfor -%}
-                  </div>
-                {%- endif -%}
-              </div>
-              <button
-                type="button"
-                class="slider-button slider-button--next"
-                name="next"
-                aria-label="{{ 'sections.slideshow.next_slideshow' | t }}"
-                aria-controls="Slider-{{ section.id }}"
-              >
-                {% render 'icon-caret' %}
-              </button>
-        
-              {%- if section.settings.auto_rotate -%}
-                <button
-                  type="button"
-                  class="slideshow__autoplay slider-button no-js-hidden{% if section.settings.auto_rotate == false %} slideshow__autoplay--paused{% endif %}"
-                  aria-label="{{ 'sections.slideshow.pause_slideshow' | t }}"
-                >
-                  {%- render 'icon-pause' -%}
-                  {%- render 'icon-play' -%}
-                </button>
-              {%- endif -%}
-            </div>
-            <noscript>
-              <div class="slider-buttons">
-                <div class="slider-counter">
+        {%- if section.settings.auto_rotate and current_variant_title_images_size > 1 -%}
+          <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}">
+            <button
+              type="button"
+              class="slider-button slider-button--prev"
+              name="previous"
+              aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
+              aria-controls="Slider-{{ section.id }}"
+            >
+              {% render 'icon-caret' %}
+            </button>
+            <div class="slider-counter slider-counter--{{ section.settings.slider_visual }}{% if section.settings.slider_visual == 'counter' or section.settings.slider_visual == 'numbers' %} caption{% endif %}">
+              {%- if section.settings.slider_visual == 'counter' -%}
+                <span class="slider-counter--current">1</span>
+                <span aria-hidden="true"> / </span>
+                <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+                <span class="slider-counter--total">{{ current_variant_title_images_size }}</span>
+              {%- else -%}
+                <div class="slideshow__control-wrapper">
                   {%- for current_variant_image in current_variant_title_images -%}
-                    <a
-                      href="#Slide-{{ section.id }}-{{ forloop.index }}"
-                      class="slider-counter__link link"
+                    <button
+                      class="slider-counter__link slider-counter__link--{{ section.settings.slider_visual }} link"
                       aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                      aria-controls="Slider-{{ section.id }}"
                     >
-                      {{ forloop.index }}
-                    </a>
+                      {%- if section.settings.slider_visual == 'numbers' -%}
+                        {{ forloop.index -}}
+                      {%- else -%}
+                        <span class="dot"></span>
+                      {%- endif -%}
+                    </button>
                   {%- endfor -%}
                 </div>
+              {%- endif -%}
+            </div>
+            <button
+              type="button"
+              class="slider-button slider-button--next"
+              name="next"
+              aria-label="{{ 'sections.slideshow.next_slideshow' | t }}"
+              aria-controls="Slider-{{ section.id }}"
+            >
+              {% render 'icon-caret' %}
+            </button>
+      
+            {%- if section.settings.auto_rotate -%}
+              <button
+                type="button"
+                class="slideshow__autoplay slider-button no-js-hidden{% if section.settings.auto_rotate == false %} slideshow__autoplay--paused{% endif %}"
+                aria-label="{{ 'sections.slideshow.pause_slideshow' | t }}"
+              >
+                {%- render 'icon-pause' -%}
+                {%- render 'icon-play' -%}
+              </button>
+            {%- endif -%}
+          </div>
+          <noscript>
+            <div class="slider-buttons">
+              <div class="slider-counter">
+                {%- for current_variant_image in current_variant_title_images -%}
+                  <a
+                    href="#Slide-{{ section.id }}-{{ forloop.index }}"
+                    class="slider-counter__link link"
+                    aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                  >
+                    {{ forloop.index }}
+                  </a>
+                {%- endfor -%}
               </div>
-            </noscript>
-          {%- endif -%}
+            </div>
+          </noscript>
         {%- endif -%}
       
         <div
@@ -189,87 +187,85 @@
                     </div>
                   {%- endif -%}
                   <div class="banner__buttons">
-                    <button class="buy_now_btn button {% if section.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">Buy now</button>
+                    <button class="buy_now_btn button button--primary">Buy now</button>
                   </div>
                 </div>
               </div>
             </div>
           {%- endfor -%}
         </div>
-      
-        {%- if section.settings.pagination_switcher == 'on' -%}
-          {%- if current_variant_title_images_size > 1 and section.settings.auto_rotate == false -%}
-            <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
-              <button
-                type="button"
-                class="slider-button slider-button--prev"
-                name="previous"
-                aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
-                aria-controls="Slider-{{ section.id }}"
-              >
-                {% render 'icon-caret' %}
-              </button>
-              <div class="slider-counter slider-counter--{{ section.settings.slider_visual }}{% if section.settings.slider_visual == 'counter' or section.settings.slider_visual == 'numbers' %} caption{% endif %}">
-                {%- if section.settings.slider_visual == 'counter' -%}
-                  <span class="slider-counter--current">1</span>
-                  <span aria-hidden="true"> / </span>
-                  <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
-                  <span class="slider-counter--total">{{ current_variant_title_images_size }}</span>
-                {%- else -%}
-                  <div class="slideshow__control-wrapper">
-                    {%- for current_variant_image in current_variant_title_images -%}
-                      <button
-                        class="slider-counter__link slider-counter__link--{{ section.settings.slider_visual }} link"
-                        aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
-                        aria-controls="Slider-{{ section.id }}"
-                      >
-                        {%- if section.settings.slider_visual == 'numbers' -%}
-                          {{ forloop.index -}}
-                        {%- else -%}
-                          <span class="dot"></span>
-                        {%- endif -%}
-                      </button>
-                    {%- endfor -%}
-                  </div>
-                {%- endif -%}
-              </div>
-              <button
-                type="button"
-                class="slider-button slider-button--next"
-                name="next"
-                aria-label="{{ 'sections.slideshow.next_slideshow' | t }}"
-                aria-controls="Slider-{{ section.id }}"
-              >
-                {% render 'icon-caret' %}
-              </button>
-        
-              {%- if section.settings.auto_rotate -%}
-                <button
-                  type="button"
-                  class="slideshow__autoplay slider-button no-js-hidden{% if section.settings.auto_rotate == false %} slideshow__autoplay--paused{% endif %}"
-                  aria-label="{{ 'sections.slideshow.pause_slideshow' | t }}"
-                >
-                  {%- render 'icon-pause' -%}
-                  {%- render 'icon-play' -%}
-                </button>
-              {%- endif -%}
-            </div>
-            <noscript>
-              <div class="slider-buttons">
-                <div class="slider-counter">
+
+        {%- if current_variant_title_images_size > 1 and section.settings.auto_rotate == false -%}
+          <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}">
+            <button
+              type="button"
+              class="slider-button slider-button--prev"
+              name="previous"
+              aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
+              aria-controls="Slider-{{ section.id }}"
+            >
+              {% render 'icon-caret' %}
+            </button>
+            <div class="slider-counter slider-counter--{{ section.settings.slider_visual }}{% if section.settings.slider_visual == 'counter' or section.settings.slider_visual == 'numbers' %} caption{% endif %}">
+              {%- if section.settings.slider_visual == 'counter' -%}
+                <span class="slider-counter--current">1</span>
+                <span aria-hidden="true"> / </span>
+                <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+                <span class="slider-counter--total">{{ current_variant_title_images_size }}</span>
+              {%- else -%}
+                <div class="slideshow__control-wrapper">
                   {%- for current_variant_image in current_variant_title_images -%}
-                    <a
-                      href="#Slide-{{ section.id }}-{{ forloop.index }}"
-                      class="slider-counter__link link"
+                    <button
+                      class="slider-counter__link slider-counter__link--{{ section.settings.slider_visual }} link"
                       aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                      aria-controls="Slider-{{ section.id }}"
                     >
-                      {{ forloop.index }}
-                    </a>
+                      {%- if section.settings.slider_visual == 'numbers' -%}
+                        {{ forloop.index -}}
+                      {%- else -%}
+                        <span class="dot"></span>
+                      {%- endif -%}
+                    </button>
                   {%- endfor -%}
                 </div>
+              {%- endif -%}
+            </div>
+            <button
+              type="button"
+              class="slider-button slider-button--next"
+              name="next"
+              aria-label="{{ 'sections.slideshow.next_slideshow' | t }}"
+              aria-controls="Slider-{{ section.id }}"
+            >
+              {% render 'icon-caret' %}
+            </button>
+      
+            {%- if section.settings.auto_rotate -%}
+              <button
+                type="button"
+                class="slideshow__autoplay slider-button no-js-hidden{% if section.settings.auto_rotate == false %} slideshow__autoplay--paused{% endif %}"
+                aria-label="{{ 'sections.slideshow.pause_slideshow' | t }}"
+              >
+                {%- render 'icon-pause' -%}
+                {%- render 'icon-play' -%}
+              </button>
+            {%- endif -%}
+          </div>
+          <noscript>
+            <div class="slider-buttons">
+              <div class="slider-counter">
+                {%- for current_variant_image in current_variant_title_images -%}
+                  <a
+                    href="#Slide-{{ section.id }}-{{ forloop.index }}"
+                    class="slider-counter__link link"
+                    aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                  >
+                    {{ forloop.index }}
+                  </a>
+                {%- endfor -%}
               </div>
-            </noscript>
-          {%- endif -%}
+            </div>
+          </noscript>
         {%- endif -%}
       </slideshow-component>
       
@@ -332,19 +328,19 @@
     },
     {
       "type": "select",
-      "id": "pagination_switcher",
+      "id": "pagination",
       "options": [
-        {
-          "value": "off",
-          "label": "Off"
-        },
         {
           "value": "on",
           "label": "On"
+        },
+        {
+          "value": "off",
+          "label": "Off"
         }
       ],
-      "default": "off",
-      "label": "Pagination off / on"
+      "default": "on",
+      "label": "Default pagination"
     },
     {
       "type": "select",
