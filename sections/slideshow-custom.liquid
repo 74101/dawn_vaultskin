@@ -36,7 +36,7 @@
       {%- endif -%}
       
       <slideshow-component
-        class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}{% if section.settings.pagination_custom == 'on' %} custom_pagination{% endif %}"
+        class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}"
         role="region"
         aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
         aria-label="{{ section.settings.accessibility_info | escape }}"
@@ -343,22 +343,6 @@
       ],
       "default": "on",
       "label": "Default pagination"
-    },
-    {
-      "type": "select",
-      "id": "pagination_custom",
-      "options": [
-        {
-          "value": "on",
-          "label": "On"
-        },
-        {
-          "value": "off",
-          "label": "Off"
-        }
-      ],
-      "default": "off",
-      "label": "Custom pagination"
     },
     {
       "type": "select",
