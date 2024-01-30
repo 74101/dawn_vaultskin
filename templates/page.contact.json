@@ -17,6 +17,14 @@
             "text_style": "body"
           }
         },
+        "caption_mkVyHT": {
+          "type": "caption",
+          "settings": {
+            "caption": "We are happy to help!",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
         "button_BgbPxm": {
           "type": "button",
           "settings": {
@@ -34,6 +42,7 @@
       "block_order": [
         "heading_mAy3qk",
         "text_VeA7Uj",
+        "caption_mkVyHT",
         "button_BgbPxm"
       ],
       "settings": {
