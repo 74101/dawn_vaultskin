@@ -13,8 +13,8 @@
         "template--17147770241264__5fe72802-4272-4080-bf23-ac5d02dfec7c-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>FOR YOUR WALLET<\/p>",
-            "text_style": "body"
+            "text": "<p>FOR YOUR WALLET<br\/>Patented Protection for Your Digital Peace of Mind<\/p>",
+            "text_style": "subtitle"
           }
         }
       },
