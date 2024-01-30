@@ -5,7 +5,14 @@
     </li>
     /
     <li aria-current="page">
-      <a href="{{ request.path }}" aria-current="page">{{ item_title }}</a>
+      {% if product_collection %}
+        <h1 class="collection-hero__title">
+          <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
+          {{- collection.title | escape -}}
+        </h1>
+      {% else %}
+        <a href="{{ request.path }}" aria-current="page">{{ item_title }}</a>
+      {% endif %}
     </li>
   </ul>
 </nav>
