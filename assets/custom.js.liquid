@@ -118,8 +118,10 @@ function productNavigationFix() {
       if (scrollPosition >= elementOffset - headerHeight) {
         element.classList.add('fixed');
         element.style.top = `${headerHeight}px`;
+        element.nextElementSibling.style.marginTop = `${element.offsetHeight}px`;
       } else {
         element.classList.remove('fixed');
+        element.nextElementSibling.removeAttr('style');
       }
     }
     window.addEventListener('scroll', handleScroll);
