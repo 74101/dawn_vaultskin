@@ -121,7 +121,7 @@ function productNavigationFix() {
         element.nextElementSibling.style.marginTop = `${element.offsetHeight}px`;
       } else {
         element.classList.remove('fixed');
-        element.nextElementSibling.removeAttr('style');
+        element.nextElementSibling.removeAttribute('style');
       }
     }
     window.addEventListener('scroll', handleScroll);
