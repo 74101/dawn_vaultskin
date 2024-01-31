@@ -299,6 +299,109 @@
         </script>
       {% endif %}
     {%- endif -%}
+
+    {% comment %} Google Ads Remarketing Tag By FeedArmy Version 2.17 START {% endcomment %}
+    {% comment %} FeedArmy tutorial found at https://feedarmy.com/kb/adding-google-adwords-remarketing-tag-to-shopify/ {% endcomment %}
+    
+    {% comment %} CODE SETTINGS START {% endcomment %}
+    {% comment %} CODE SETTINGS START {% endcomment %}
+    
+    {% comment %} Please add your Google Ads Audience Source Tag ID {% endcomment %}
+    {% assign fa_google_ads_audience_tag_id = 1004893800 %}
+    
+    {% comment %} Please add your alpha2 code, you can find it here: https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode {% endcomment %}
+    {% assign fa_product_id_alpha2_code = 'US' %}
+    
+    {% comment %} set your product id values are default, product_id, parent_id, sku{% endcomment %}
+    {% assign fa_product_id = 'sku' %}
+    
+    {% comment %} CODE SETTINGS END {% endcomment %}
+    {% comment %} CODE SETTINGS END {% endcomment %}
+    
+    {% comment %} ==================================== {% endcomment %}
+    {% comment %} DO NOT EDIT ANYTHING BELOW THIS LINE {% endcomment %}
+    {% if fa_google_coding %}{% assign fa_google_coding = true %}{%- else -%}{% assign fa_google_coding = false %}{%- endif -%}
+    {% if fa_google_coding == false %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-{{ fa_google_ads_audience_tag_id }}"></script>
+    {%- endif -%}
+    {%- assign fa_current_variant = product.selected_or_first_available_variant -%}
+    {%- if cart.currency.iso_code == 'GBP' or cart.currency.iso_code == 'USD' or cart.currency.iso_code == 'CAD' or cart.currency.iso_code == 'AUD' or cart.currency.iso_code == 'BWP' or cart.currency.iso_code == 'BND' or cart.currency.iso_code == 'DOP' or cart.currency.iso_code == 'GTQ' or cart.currency.iso_code == 'HKD' or cart.currency.iso_code == 'INR' or cart.currency.iso_code == 'ILS' or cart.currency.iso_code == 'YEN' or cart.currency.iso_code == 'KES' or cart.currency.iso_code == 'KOR' or cart.currency.iso_code == 'LBP' or cart.currency.iso_code == 'MYR' or cart.currency.iso_code == 'MXN' or cart.currency.iso_code == 'NPR' or cart.currency.iso_code == 'NZD' or cart.currency.iso_code == 'NIO' or cart.currency.iso_code == 'NGN' or cart.currency.iso_code == 'PKR' or cart.currency.iso_code == 'CNY' or cart.currency.iso_code == 'PHP' or cart.currency.iso_code == 'SGD' or cart.currency.iso_code == 'LKR' or cart.currency.iso_code == 'CHF' or cart.currency.iso_code == 'TWD' or cart.currency.iso_code == 'TSH' or cart.currency.iso_code == 'THB' or cart.currency.iso_code == 'UGX' or cart.currency.iso_code == 'KWD' -%}
+    {% if template contains 'product' %}
+    {%- assign fa_product_price = fa_current_variant.price | money_without_currency | remove:',' -%}
+    {% elsif template contains 'cart' %}
+    {%- assign fa_product_price = cart.total_price | money_without_currency | remove:',' -%}
+    {% endif %}
+    {%- else -%}
+    {% if template contains 'product' %}
+    {%- assign fa_product_price = fa_current_variant.price | money_without_currency | remove:'.' | replace: ',', '.' -%}
+    {% elsif template contains 'cart' %}
+    {%- assign fa_product_price = cart.total_price | money_without_currency | remove:'.' | replace: ',', '.' -%}
+    {% endif %}
+    {%- endif -%}
+    
+    {%- if fa_product_id == 'default' -%}
+    {%- capture fa_product_id_value -%}shopify_{{ fa_product_id_alpha2_code }}_{{ product.id }}_{{ fa_current_variant.id }}{%- endcapture -%}
+    {%- elsif fa_product_id == 'product_id' -%}
+    {%- capture fa_product_id_value -%}{{ fa_current_variant.id }}{%- endcapture -%}
+    {%- elsif fa_product_id == 'parent_id' -%}
+    {%- capture fa_product_id_value -%}{{product.id }}{%- endcapture -%}
+    {%- elsif fa_product_id == 'sku' -%}
+    {%- capture fa_product_id_value -%}{{ fa_current_variant.sku }}{%- endcapture -%}
+    {%- endif -%}
+    
+    
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-{{ fa_google_ads_audience_tag_id }}');
+    </script>
+    
+    {% if template contains 'collection' %}
+    {% assign fa_event = 'view_item_list' %}
+    {% elsif template contains 'product' %}
+    {% assign fa_event = 'view_item' %}
+    {% elsif template contains 'search' %}
+    {% assign fa_event = 'view_search_results' %}
+    {% elsif template contains 'cart' %}
+    {% assign fa_event = 'add_to_cart' %}
+    {% elsif template contains 'index' %}
+    {% assign fa_event = 'home' %}
+    {% else %}
+    {% assign fa_event = 'other' %}
+    {% endif %}
+    
+    <script>
+      gtag('event', '{{ fa_event }}', {
+        'send_to': 'AW-{{ fa_google_ads_audience_tag_id }}',
+      	  {% if template contains 'product' or template contains 'cart' %}'value': {{ fa_product_price }},{% endif %}
+    	{% if template contains 'product' %}
+        'items': [{
+    			'id': '{{fa_product_id_value}}',
+          'google_business_vertical': 'retail'
+        }]
+    	{% elsif template contains 'cart' %}
+    	'items': [
+    	{% for item in cart.items %}
+    	{
+    		{% if fa_product_id == 'default' %}
+    			'id': 'shopify_{{ fa_product_id_alpha2_code }}_{{ item.product_id }}_{{ item.variant_id }}',
+    		{% elsif fa_product_id == 'product_id' %}
+    			'id': '{{ item.variant_id }}',
+    		{% elsif fa_product_id == 'parent_id' %}
+    			'id': '{{ item.product_id }}',
+    		{% elsif fa_product_id == 'sku' %}
+    			'id': '{{ item.sku }}',
+    		{% endif %}
+          'google_business_vertical': 'retail'
+        },
+    	{% endfor %}
+    	]
+    	{% endif %}
+      });
+    </script>
+    {% comment %} Google Ads Remarketing Tag By FeedArmy Version 2.17 END {% endcomment %}
+  
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
       if (Shopify.designMode) {
