@@ -103,6 +103,24 @@ function productTabsScroll() {
 }
 productTabsScroll()
 
+function productNavigationFix() {
+  let header = document.querySelector('sticky-header');
+  let headerHeight = header.offsetHeight;
+  let element = document.querySelector('.product_navigation');
+  let elementOffset = element.offsetTop;
+
+  function handleScroll() {
+    let scrollPosition = window.scrollY || window.pageYOffset;
+    if (scrollPosition >= elementOffset - headerHeight) {
+      element.classList.add('fixed');
+    } else {
+      element.classList.remove('fixed');
+    }
+  }
+  window.addEventListener('scroll', handleScroll);
+}
+productNavigationFix();
+
 const swiper_product_gallery = new Swiper(".swiper_product_gallery", {
   spaceBetween: 20,
   pagination: {
