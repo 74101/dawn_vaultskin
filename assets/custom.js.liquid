@@ -62,7 +62,7 @@ function offset(el) {
 }
 
 function productTabsScroll() {
-  const anchors = document.querySelectorAll('.product_tabs a[href*="#"]')
+  const anchors = document.querySelectorAll('.product_navigation a[href*="#"]')
   for (let anchor of anchors) {
     anchor.addEventListener('click', function (evt) {
       // evt.preventDefault()
@@ -102,6 +102,32 @@ function productTabsScroll() {
   }
 }
 productTabsScroll()
+
+function productNavigationFix() {
+  let header = document.querySelector('sticky-header');
+  let headerHeight = 0;
+  let element = document.querySelector('.product_navigation');
+  if (element) {
+    let elementOffset = element.offsetTop;
+  
+    function handleScroll() {
+      let scrollPosition = window.scrollY || window.pageYOffset;
+      if (header) {
+        headerHeight = header.offsetHeight - 10;
+      }
+      if (scrollPosition >= elementOffset - headerHeight) {
+        element.classList.add('fixed');
+        element.style.top = `${headerHeight}px`;
+        element.nextElementSibling.style.marginTop = `${element.offsetHeight}px`;
+      } else {
+        element.classList.remove('fixed');
+        element.nextElementSibling.removeAttribute('style');
+      }
+    }
+    window.addEventListener('scroll', handleScroll);
+  }
+}
+productNavigationFix();
 
 const swiper_product_gallery = new Swiper(".swiper_product_gallery", {
   spaceBetween: 20,
