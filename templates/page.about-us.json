@@ -84,7 +84,9 @@
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_alignment": "flex-start",
+            "button_alignment_mobile": "flex-start"
           }
         }
       },
