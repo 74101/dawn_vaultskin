@@ -49,7 +49,7 @@
         "container_size": "full",
         "image": "shopify:\/\/shop_images\/Vaultskin-ETON15-features_0014_Vaultskin-ETON15-black_2.png",
         "height": "medium",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "content_padding_top": 6,
