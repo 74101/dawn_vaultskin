@@ -115,9 +115,9 @@ function productNavigationFix() {
   
     function handleScroll() {
       let scrollPosition = window.scrollY || window.pageYOffset;
-      if (scrollPosition >= elementOffset - headerHeight) {
+      if (scrollPosition >= elementOffset - headerHeight - 10) {
         element.classList.add('fixed');
-        element.style.top = `${headerHeight}px`;
+        element.style.top = `${headerHeight - 10}px`;
       } else {
         element.classList.remove('fixed');
       }
