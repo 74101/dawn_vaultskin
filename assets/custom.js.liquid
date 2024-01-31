@@ -105,19 +105,24 @@ productTabsScroll()
 
 function productNavigationFix() {
   let header = document.querySelector('sticky-header');
-  let headerHeight = header.offsetHeight;
-  let element = document.querySelector('.product_navigation');
-  let elementOffset = element.offsetTop;
-
-  function handleScroll() {
-    let scrollPosition = window.scrollY || window.pageYOffset;
-    if (scrollPosition >= elementOffset - headerHeight) {
-      element.classList.add('fixed');
-    } else {
-      element.classList.remove('fixed');
-    }
+  let headerHeight = 0;
+  if (header) {
+    headerHeight = header.offsetHeight;
   }
-  window.addEventListener('scroll', handleScroll);
+  let element = document.querySelector('.product_navigation');
+  if (element) {
+    let elementOffset = element.offsetTop;
+  
+    function handleScroll() {
+      let scrollPosition = window.scrollY || window.pageYOffset;
+      if (scrollPosition >= elementOffset - headerHeight) {
+        element.classList.add('fixed');
+      } else {
+        element.classList.remove('fixed');
+      }
+    }
+    window.addEventListener('scroll', handleScroll);
+  }
 }
 productNavigationFix();
 
