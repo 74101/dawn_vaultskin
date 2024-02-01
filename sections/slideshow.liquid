@@ -226,7 +226,7 @@ slideshow_text.forEach(element => {
                 {{ block.settings.heading }}
               </h1>
             {%- endif -%}
-            {%- if block.settings.subheading != blank and section.settings.subheading != blank -%}
+            {%- if block.settings.subheading != blank and section.settings.subheading == blank -%}
               <div class="banner__text rte" {{ block.shopify_attributes }}>
                 <p>{{ block.settings.subheading }}</p>
               </div>
