@@ -72,7 +72,7 @@
           </div>
         </div>
         {%- if section.settings.auto_rotate and current_variant_title_images_size > 1 -%}
-          <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}">
+          <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}" style="bottom:{{ section.settings.custom_dots_margin_bottom -}}rem">
             <button
               type="button"
               class="slider-button slider-button--prev"
@@ -226,7 +226,7 @@
         </div>
 
         {%- if current_variant_title_images_size > 1 and section.settings.auto_rotate == false -%}
-          <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}">
+          <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}" style="bottom:{{ section.settings.custom_dots_margin_bottom -}}rem">
             <button
               type="button"
               class="slider-button slider-button--prev"
