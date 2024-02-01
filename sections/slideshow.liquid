@@ -2,45 +2,6 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 
-{% comment %}
-{% if section.settings.pagination_custom == 'on' %}
-<script>
-
-document.addEventListener('DOMContentLoaded', function() {
-
-let slideshow_section = document.getElementById('shopify-section-{{ section.id }}')
-let slideshow_dots = slideshow_section.querySelectorAll('.slider-counter__link')
-let slideshow_text = slideshow_section.querySelectorAll('.slideshow.banner .slideshow__text')
-
-slideshow_text.forEach(element => {
-  let slideId = element.closest('.slideshow__slide').dataset.slide_id
-  let custom_dots = document.createElement('div')
-  custom_dots.className = 'custom_dots'
-  for(let i = 0; i < slideshow_dots.length; i++) {
-    let custom_dot = document.createElement('button')
-    custom_dot.className = 'custom_dot'
-    custom_dot.innerHTML = `slide-${i + 1}`
-    custom_dot.dataset.slide_id = i
-    if (slideId == i) {
-      custom_dot.classList.add('custom_dot_active')
-    }
-    custom_dot.addEventListener('click', function(evt) {
-      evt.preventDefault()
-      slideshow_dots[i].click()
-    })
-    
-    custom_dots.append(custom_dot)
-  }
-  let existingElement = element.querySelector('.banner__buttons')
-  element.insertBefore(custom_dots, existingElement)
-})
-
-})
-
-</script>
-{% endif %}
-{% endcomment %}
-
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
     @media screen and (max-width: 749px) {
@@ -65,7 +26,7 @@ slideshow_text.forEach(element => {
 {%- endif -%}
 
 <slideshow-component
-  class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}{% if section.settings.pagination_custom == 'on' %} custom_pagination{% endif %}"
+  class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}{% if section.settings.custom_dots == 'on' %} custom_dots{% endif %}"
   role="region"
   aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
   aria-label="{{ section.settings.accessibility_info | escape }}"
@@ -396,22 +357,6 @@ slideshow_text.forEach(element => {
     },
     {
       "type": "select",
-      "id": "pagination_custom",
-      "options": [
-        {
-          "value": "on",
-          "label": "On"
-        },
-        {
-          "value": "off",
-          "label": "Off"
-        }
-      ],
-      "default": "off",
-      "label": "Custom pagination"
-    },
-    {
-      "type": "select",
       "id": "slider_visual",
       "options": [
         {
@@ -429,6 +374,12 @@ slideshow_text.forEach(element => {
       ],
       "default": "counter",
       "label": "t:sections.slideshow.settings.slider_visual.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "custom_dots",
+      "default": false,
+      "label": "Custom dots"
     },
     {
       "type": "checkbox",
