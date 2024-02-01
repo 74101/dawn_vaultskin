@@ -235,19 +235,17 @@ slideshow_text.forEach(element => {
         </div>
         <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}" style="max-width:{{ section.settings.desktop_content_width -}}rem">
-             {% comment %} {%- if block.settings.heading != blank and section.settings.heading == blank -%}  {% endcomment %}
-            {%- if block.settings.heading != blank -%}
+             {%- if block.settings.heading != blank and section.settings.heading == blank -%}
               <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
                 {{ block.settings.heading }}
               </h2>
             {%- endif -%}
-             {% comment %} {%- if block.settings.subheading != blank and section.settings.subheading == blank -%} {% endcomment %}
-            {%- if block.settings.subheading != blank -%}
+             {%- if block.settings.subheading != blank and section.settings.subheading == blank -%}
               <div class="banner__text rte" {{ block.shopify_attributes }}>
                 <p>{{ block.settings.subheading }}</p>
               </div>
             {%- endif -%}
-            {%- if block.settings.button_label != blank -%}
+             {%- if block.settings.button_label != blank and section.settings.button_label == blank -%}
               <div class="banner__buttons">
                 <a
                   {% if block.settings.link %}
