@@ -2,6 +2,7 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 
+{% comment %}
 {% if section.settings.pagination_custom == 'on' %}
 <script>
 
@@ -38,6 +39,7 @@ slideshow_text.forEach(element => {
 
 </script>
 {% endif %}
+{% endcomment %}
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
