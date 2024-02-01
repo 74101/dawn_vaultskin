@@ -81,6 +81,20 @@ slideshow_text.forEach(element => {
             <p>{{ section.settings.subheading }}</p>
           </div>
         {%- endif -%}
+        {%- if section.settings.button_label != blank -%}
+          <div class="banner__buttons">
+            <a
+              {% if section.settings.link %}
+                href="{{ section.settings.link }}"
+              {% else %}
+                role="link" aria-disabled="true"
+              {% endif %}
+              class="button {% if section.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
+            >
+              {{- section.settings.button_label | escape -}}
+            </a>
+          </div>
+        {%- endif -%}
       </div>
     </div>
   </div>
