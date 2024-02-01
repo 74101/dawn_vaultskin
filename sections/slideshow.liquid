@@ -245,7 +245,7 @@ slideshow_text.forEach(element => {
                 <p>{{ block.settings.subheading }}</p>
               </div>
             {%- endif -%}
-             {%- if block.settings.button_label != blank and section.settings.button_label == blank -%}
+             {%- if block.settings.button_label != blank -%}
               <div class="banner__buttons">
                 <a
                   {% if block.settings.link %}
