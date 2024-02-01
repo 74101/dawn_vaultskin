@@ -101,7 +101,7 @@ slideshow_text.forEach(element => {
     </div>
   </div>
   {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
-    <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}">
+    <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
       <button
         type="button"
         class="slider-button slider-button--prev"
@@ -268,7 +268,7 @@ slideshow_text.forEach(element => {
   </div>
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
-    <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}">
+    <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
       <button
         type="button"
         class="slider-button slider-button--prev"
@@ -393,22 +393,6 @@ slideshow_text.forEach(element => {
       ],
       "default": "medium",
       "label": "t:sections.slideshow.settings.slide_height.label"
-    },
-    {
-      "type": "select",
-      "id": "pagination",
-      "options": [
-        {
-          "value": "on",
-          "label": "On"
-        },
-        {
-          "value": "off",
-          "label": "Off"
-        }
-      ],
-      "default": "on",
-      "label": "Default pagination"
     },
     {
       "type": "select",
