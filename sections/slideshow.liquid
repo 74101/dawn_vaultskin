@@ -9,15 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 let slideshow_section = document.getElementById('shopify-section-{{ section.id }}')
 let slideshow_dots = slideshow_section.querySelectorAll('.slider-counter__link')
-let slide_header = slideshow_section.querySelectorAll('.slideshow.banner .banner__heading')
-let slideshow_text;
-if (slide_header.lenght > 0) {
-  console.log('slide_header')
-  slideshow_text = slideshow_section.querySelectorAll('.slideshow.banner .slideshow__text')
-} else {
-  console.log('slide_header no')
-  slideshow_text = slideshow_section.querySelectorAll('.slideshow__text')
-}
+let slideshow_text = slideshow_section.querySelectorAll('.slideshow.banner .slideshow__text')
 
 slideshow_text.forEach(element => {
   let slideId = element.closest('.slideshow__slide').dataset.slide_id
