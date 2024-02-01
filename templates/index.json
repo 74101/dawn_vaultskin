@@ -67,7 +67,7 @@
         "layout": "full_bleed",
         "slide_height": "large",
         "pagination": "on",
-        "slider_visual": "counter",
+        "slider_visual": "numbers",
         "custom_dots": true,
         "pagination_margin_bottom": 13,
         "auto_rotate": true,
