@@ -69,7 +69,7 @@
         "pagination": "on",
         "slider_visual": "dots",
         "custom_dots": true,
-        "custom_dots_margin_bottom": 25,
+        "pagination_margin_bottom": 13,
         "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "ambient",
