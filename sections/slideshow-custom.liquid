@@ -193,6 +193,7 @@
                   {%- endif -%}
                 {%- endif -%}
               </div>
+              <div class="slideshow__text-wrapper banner__content banner__content--{{ section.settings.box_align }} page-width{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}"></div>
             </div>
           {%- endfor -%}
         </div>
