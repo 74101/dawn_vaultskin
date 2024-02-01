@@ -74,7 +74,19 @@
         "image_behavior": "ambient",
         "show_text_below": false,
         "desktop_content_width": 100,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "Slideshow about our brand",
+        "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL.<\/strong>",
+        "heading_size": "h1",
+        "subheading": "Slim, minimalist wallets, card holders and iPhone covers. Designed in Britain to combine elegance, convenience and RFID security.",
+        "button_label": "SEE ALL PRODUCTS",
+        "link": "shopify:\/\/collections\/all",
+        "button_style_secondary": false,
+        "box_align": "middle-center",
+        "show_text_box": false,
+        "text_alignment": "center",
+        "image_overlay_opacity": 20,
+        "color_scheme": "inverse",
+        "text_alignment_mobile": "center"
       }
     },
     "abdbc101-3d61-44ba-bb6b-e9aee1c11989": {
