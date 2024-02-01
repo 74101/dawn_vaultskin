@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 let slideshow_section = document.getElementById('shopify-section-{{ section.id }}')
 let slideshow_dots = slideshow_section.querySelectorAll('.slider-counter__link')
-let slideshow_text = slideshow_section.querySelectorAll('.slideshow__text')
+let slideshow_text = slideshow_section.querySelectorAll('div:not(.banner_main_content) .slideshow__text')
 
 slideshow_text.forEach(element => {
   let slideId = element.closest('.slideshow__slide').dataset.slide_id
@@ -68,6 +68,22 @@ slideshow_text.forEach(element => {
   aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
   aria-label="{{ section.settings.accessibility_info | escape }}"
 >
+  <div class="banner_main_content">
+    <div class="banner__content banner__content--{{ section.settings.box_align }} page-width{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
+      <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient slideshow__text--{{ section.settings.text_alignment }} slideshow__text-mobile--{{ section.settings.text_alignment_mobile }}" style="max-width:{{ section.settings.desktop_content_width -}}rem">
+        {%- if section.settings.heading != blank -%}
+          <h1 class="banner__heading inline-richtext {{ section.settings.heading_size }}">
+            {{ section.settings.heading }}
+          </h1>
+        {%- endif -%}
+        {%- if section.settings.subheading != blank -%}
+          <div class="banner__text rte" {{ section.shopify_attributes }}>
+            <p>{{ section.settings.subheading }}</p>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
   {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
     <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}">
       <button
