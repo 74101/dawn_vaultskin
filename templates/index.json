@@ -66,14 +66,15 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "large",
-        "pagination": "off",
-        "pagination_custom": "on",
-        "slider_visual": "numbers",
+        "pagination": "on",
+        "slider_visual": "dots",
+        "custom_dots": true,
         "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "ambient",
         "show_text_below": false,
         "desktop_content_width": 100,
+        "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand",
         "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL.<\/strong>",
         "heading_size": "h1",
@@ -84,9 +85,7 @@
         "box_align": "middle-center",
         "show_text_box": false,
         "text_alignment": "center",
-        "image_overlay_opacity": 20,
-        "color_scheme": "inverse",
-        "text_alignment_mobile": "center"
+        "color_scheme": "inverse"
       }
     },
     "abdbc101-3d61-44ba-bb6b-e9aee1c11989": {
