@@ -206,12 +206,12 @@
               </div>
               <div class="slideshow__text-wrapper banner__content banner__content--{{ section.settings.box_align }} page-width{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
                 <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient slideshow__text--{{ section.settings.text_alignment }} slideshow__text-mobile--{{ section.settings.text_alignment_mobile }}" style="max-width:{{ section.settings.desktop_content_width -}}rem">
-                  {%- if product.metafields.product.hero_title != blank -%}
+                  {%- if product.metafields.product.hero_title != blank and section.settings.heading == blank -%}
                     <h2 class="banner__heading inline-richtext {{ section.settings.heading_size }}">
                       {{ product.metafields.product.hero_title }}
                     </h2>
                   {%- endif -%}
-                  {%- if product.metafields.product.hero_subtitle != blank -%}
+                  {%- if product.metafields.product.hero_subtitle != blank and section.settings.subheading == blank -%}
                     <div class="banner__text rte">
                       <p>{{ product.metafields.product.hero_subtitle }}</p>
                     </div>
