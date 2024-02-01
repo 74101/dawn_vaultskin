@@ -44,21 +44,19 @@
         <div class="banner_main_content">
           <div class="slideshow__text-wrapper banner__content banner__content--{{ section.settings.box_align }} page-width{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
             <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient slideshow__text--{{ section.settings.text_alignment }} slideshow__text-mobile--{{ section.settings.text_alignment_mobile }}" style="max-width:{{ section.settings.desktop_content_width -}}rem">
-              {%- if section.settings.heading != blank -%}
-                <h1 class="banner__heading inline-richtext {{ section.settings.heading_size }}">
-                  {{ section.settings.heading }}
-                </h1>
+              {%- if product.metafields.product.hero_title != blank -%}
+                <h2 class="banner__heading inline-richtext {{ section.settings.heading_size }}">
+                  {{ product.metafields.product.hero_title }}
+                </h2>
               {%- endif -%}
-              {%- if section.settings.subheading != blank -%}
-                <div class="banner__text rte" {{ section.shopify_attributes }}>
-                  <p>{{ section.settings.subheading }}</p>
+              {%- if product.metafields.product.hero_subtitle != blank -%}
+                <div class="banner__text rte">
+                  <p>{{ product.metafields.product.hero_subtitle }}</p>
                 </div>
               {%- endif -%}
-              {%- if section.settings.button_label != blank -%}
-                <div class="banner__buttons">
-                  <button class="buy_now_btn button button--primary">Buy now</button>
-                </div>
-              {%- endif -%}
+              <div class="banner__buttons">
+                <button class="buy_now_btn button button--primary">Buy now</button>
+              </div>
             </div>
           </div>
         </div>
@@ -194,20 +192,6 @@
                     {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
                   {%- endif -%}
                 {%- endif -%}
-              </div>
-              <div class="slideshow__text-wrapper banner__content banner__content--{{ section.settings.box_align }} page-width{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
-                <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient slideshow__text--{{ section.settings.text_alignment }} slideshow__text-mobile--{{ section.settings.text_alignment_mobile }}" style="max-width:{{ section.settings.desktop_content_width -}}rem">
-                  {%- if product.metafields.product.hero_title != blank and section.settings.heading == blank -%}
-                    <h2 class="banner__heading inline-richtext {{ section.settings.heading_size }}">
-                      {{ product.metafields.product.hero_title }}
-                    </h2>
-                  {%- endif -%}
-                  {%- if product.metafields.product.hero_subtitle != blank and section.settings.subheading == blank -%}
-                    <div class="banner__text rte">
-                      <p>{{ product.metafields.product.hero_subtitle }}</p>
-                    </div>
-                  {%- endif -%}
-                </div>
               </div>
             </div>
           {%- endfor -%}
