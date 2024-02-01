@@ -83,6 +83,7 @@
                 {{ 'products.product.sold_out' | t }}
               {%- else -%}
                 {{ 'products.product.add_to_cart' | t }}
+                {{ product.price }}
               {%- endif -%}
             </span>
             {%- render 'loading-spinner' -%}
