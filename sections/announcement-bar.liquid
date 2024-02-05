@@ -429,24 +429,24 @@
 
 {% for item in section.blocks %}
   <script>
-    window['announcement_text{{- forloop.index0 -}}'] = '{{ item.settings.text }}';
-    window['announcement_text_US{{- forloop.index0 -}}'] = '{{ item.settings.text_US }}';
-    window['announcement_text_GB{{- forloop.index0 -}}'] = '{{ item.settings.text_GB }}';
-    window['announcement_text_DE{{- forloop.index0 -}}'] = '{{ item.settings.text_DE }}';
-    window['announcement_text_BH{{- forloop.index0 -}}'] = '{{ item.settings.text_BH }}';
-    window['announcement_text_AU{{- forloop.index0 -}}'] = '{{ item.settings.text_AU }}';
-    window['announcement_text_CA{{- forloop.index0 -}}'] = '{{ item.settings.text_CA }}';
-    window['announcement_text_JO{{- forloop.index0 -}}'] = '{{ item.settings.text_JO }}';
-    window['announcement_text_KW{{- forloop.index0 -}}'] = '{{ item.settings.text_KW }}';
-    window['announcement_text_LB{{- forloop.index0 -}}'] = '{{ item.settings.text_LB }}';
-    window['announcement_text_OM{{- forloop.index0 -}}'] = '{{ item.settings.text_OM }}';
-    window['announcement_text_PK{{- forloop.index0 -}}'] = '{{ item.settings.text_PK }}';
-    window['announcement_text_PS{{- forloop.index0 -}}'] = '{{ item.settings.text_PS }}';
-    window['announcement_text_QA{{- forloop.index0 -}}'] = '{{ item.settings.text_QA }}';
-    window['announcement_text_SA{{- forloop.index0 -}}'] = '{{ item.settings.text_SA }}';
-    window['announcement_text_IQ{{- forloop.index0 -}}'] = '{{ item.settings.text_IQ }}';
-    window['announcement_text_AE{{- forloop.index0 -}}'] = '{{ item.settings.text_AE }}';
-    window['announcement_text_YE{{- forloop.index0 -}}'] = '{{ item.settings.text_YE }}';
+    window['announcement_text_{{- forloop.index0 -}}'] = '{{ item.settings.text }}';
+    window['announcement_text_US_{{- forloop.index0 -}}'] = '{{ item.settings.text_US }}';
+    window['announcement_text_GB_{{- forloop.index0 -}}'] = '{{ item.settings.text_GB }}';
+    window['announcement_text_DE_{{- forloop.index0 -}}'] = '{{ item.settings.text_DE }}';
+    window['announcement_text_BH_{{- forloop.index0 -}}'] = '{{ item.settings.text_BH }}';
+    window['announcement_text_AU_{{- forloop.index0 -}}'] = '{{ item.settings.text_AU }}';
+    window['announcement_text_CA_{{- forloop.index0 -}}'] = '{{ item.settings.text_CA }}';
+    window['announcement_text_JO_{{- forloop.index0 -}}'] = '{{ item.settings.text_JO }}';
+    window['announcement_text_KW_{{- forloop.index0 -}}'] = '{{ item.settings.text_KW }}';
+    window['announcement_text_LB_{{- forloop.index0 -}}'] = '{{ item.settings.text_LB }}';
+    window['announcement_text_OM_{{- forloop.index0 -}}'] = '{{ item.settings.text_OM }}';
+    window['announcement_text_PK_{{- forloop.index0 -}}'] = '{{ item.settings.text_PK }}';
+    window['announcement_text_PS_{{- forloop.index0 -}}'] = '{{ item.settings.text_PS }}';
+    window['announcement_text_QA_{{- forloop.index0 -}}'] = '{{ item.settings.text_QA }}';
+    window['announcement_text_SA_{{- forloop.index0 -}}'] = '{{ item.settings.text_SA }}';
+    window['announcement_text_IQ_{{- forloop.index0 -}}'] = '{{ item.settings.text_IQ }}';
+    window['announcement_text_AE_{{- forloop.index0 -}}'] = '{{ item.settings.text_AE }}';
+    window['announcement_text_YE_{{- forloop.index0 -}}'] = '{{ item.settings.text_YE }}';
   </script>
 {% endfor %}
 
@@ -461,58 +461,58 @@ document.addEventListener("DOMContentLoaded", function() {
       announcementText.forEach((elem, index) => {
         switch (countryCode) {
           case 'US':
-            elem.textContent = eval(`announcement_text_US${index}`);
+            elem.textContent = eval(`announcement_text_US_${index}`);
             break;
           case 'GB':
-            elem.textContent = eval(`announcement_text_GB${index}`);
+            elem.textContent = eval(`announcement_text_GB_${index}`);
             break;
           case 'DE':
-            elem.textContent = eval(`announcement_text_DE${index}`);
+            elem.textContent = eval(`announcement_text_DE_${index}`);
             break;
           case 'BH':
-            elem.textContent = eval(`announcement_text_BH${index}`);
+            elem.textContent = eval(`announcement_text_BH_${index}`);
             break;
           case 'AU':
-            elem.textContent = eval(`announcement_text_AU${index}`);
+            elem.textContent = eval(`announcement_text_AU_${index}`);
             break;
           case 'CA':
-            elem.textContent = eval(`announcement_text_CA${index}`);
+            elem.textContent = eval(`announcement_text_CA_${index}`);
             break;
           case 'JO':
-            elem.textContent = eval(`announcement_text_JO${index}`);
+            elem.textContent = eval(`announcement_text_JO_${index}`);
             break;
           case 'KW':
-            elem.textContent = eval(`announcement_text_KW${index}`);
+            elem.textContent = eval(`announcement_text_KW_${index}`);
             break;
           case 'LB':
-            elem.textContent = eval(`announcement_text_LB${index}`);
+            elem.textContent = eval(`announcement_text_LB_${index}`);
             break;
           case 'OM':
-            elem.textContent = eval(`announcement_text_OM${index}`);
+            elem.textContent = eval(`announcement_text_OM_${index}`);
             break;
           case 'PK':
-            elem.textContent = eval(`announcement_text_PK${index}`);
+            elem.textContent = eval(`announcement_text_PK_${index}`);
             break;
           case 'PS':
-            elem.textContent = eval(`announcement_text_PS${index}`);
+            elem.textContent = eval(`announcement_text_PS_${index}`);
             break;
           case 'QA':
-            elem.textContent = eval(`announcement_text_QA${index}`);
+            elem.textContent = eval(`announcement_text_QA_${index}`);
             break;
           case 'SA':
-            elem.textContent = eval(`announcement_text_SA${index}`);
+            elem.textContent = eval(`announcement_text_SA_${index}`);
             break;
           case 'IQ':
-            elem.textContent = eval(`announcement_text_IQ${index}`);
+            elem.textContent = eval(`announcement_text_IQ_${index}`);
             break;
           case 'AE':
-            elem.textContent = eval(`announcement_text_AE${index}`);
+            elem.textContent = eval(`announcement_text_AE_${index}`);
             break;
           case 'YE':
-            elem.textContent = eval(`announcement_text_YE${index}`);
+            elem.textContent = eval(`announcement_text_YE_${index}`);
             break;
            default:
-            elem.textContent = eval(`announcement_text${index}`);
+            elem.textContent = eval(`announcement_text_${index}`);
         }
 
       })
