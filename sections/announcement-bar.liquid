@@ -452,13 +452,12 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  fetch('/browsing_context_suggestions.json')
-    .then(response => response.json())
-    .then(data => {
-      const countryCode = data.detected_values.country.handle;
-      const countryCode2 = document.querySelector('localization-form input[name="country_code"]').value;
+  // fetch('/browsing_context_suggestions.json')
+    // .then(response => response.json())
+    // .then(data => {
+      // const countryCode = data.detected_values.country.handle;
+      const countryCode = document.querySelector('localization-form input[name="country_code"]').value;
       const announcementText = document.querySelectorAll('.announcement-bar__message span');
-      console.log('countryCode: ' + countryCode2)
 
       announcementText.forEach((elem, index) => {
         switch (countryCode) {
@@ -517,12 +516,12 @@ document.addEventListener("DOMContentLoaded", function() {
             elem.textContent = eval(`announcement_text_${index}`);
         }
 
-      })
+      // })
 
-    })
-    .catch(error => {
-      console.error('Error fetching geolocation data:', error);
-    });
+    // })
+    // .catch(error => {
+    //   console.error('Error fetching geolocation data:', error);
+    // });
 });
 
   
