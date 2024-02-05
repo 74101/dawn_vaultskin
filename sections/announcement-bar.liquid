@@ -429,24 +429,24 @@
 
 {% for item in section.blocks %}
   <script>
-    window['announcement_text' + {{ forloop.index0 -}}] = '{{ item.settings.text }}';
-    window['announcement_text_US' + {{ forloop.index0 -}}] = '{{ item.settings.text_US }}';
-    window['announcement_text_GB' + {{ forloop.index0 -}}] = '{{ item.settings.text_GB }}';
-    window['announcement_text_DE' + {{ forloop.index0 -}}] = '{{ item.settings.text_DE }}';
-    window['announcement_text_BH' + {{ forloop.index0 -}}] = '{{ item.settings.text_BH }}';
-    window['announcement_text_AU' + {{ forloop.index0 -}}] = '{{ item.settings.text_AU }}';
-    window['announcement_text_CA' + {{ forloop.index0 -}}] = '{{ item.settings.text_CA }}';
-    window['announcement_text_JO' + {{ forloop.index0 -}}] = '{{ item.settings.text_JO }}';
-    window['announcement_text_KW' + {{ forloop.index0 -}}] = '{{ item.settings.text_KW }}';
-    window['announcement_text_LB' + {{ forloop.index0 -}}] = '{{ item.settings.text_LB }}';
-    window['announcement_text_OM' + {{ forloop.index0 -}}] = '{{ item.settings.text_OM }}';
-    window['announcement_text_PK' + {{ forloop.index0 -}}] = '{{ item.settings.text_PK }}';
-    window['announcement_text_PS' + {{ forloop.index0 -}}] = '{{ item.settings.text_PS }}';
-    window['announcement_text_QA' + {{ forloop.index0 -}}] = '{{ item.settings.text_QA }}';
-    window['announcement_text_SA' + {{ forloop.index0 -}}] = '{{ item.settings.text_SA }}';
-    window['announcement_text_IQ' + {{ forloop.index0 -}}] = '{{ item.settings.text_IQ }}';
-    window['announcement_text_AE' + {{ forloop.index0 -}}] = '{{ item.settings.text_AE }}';
-    window['announcement_text_YE' + {{ forloop.index0 -}}] = '{{ item.settings.text_YE }}';
+    window['announcement_text' + '{{ forloop.index0 -}}'] = '{{ item.settings.text }}';
+    window['announcement_text_US' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_US }}';
+    window['announcement_text_GB' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_GB }}';
+    window['announcement_text_DE' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_DE }}';
+    window['announcement_text_BH' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_BH }}';
+    window['announcement_text_AU' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_AU }}';
+    window['announcement_text_CA' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_CA }}';
+    window['announcement_text_JO' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_JO }}';
+    window['announcement_text_KW' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_KW }}';
+    window['announcement_text_LB' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_LB }}';
+    window['announcement_text_OM' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_OM }}';
+    window['announcement_text_PK' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_PK }}';
+    window['announcement_text_PS' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_PS }}';
+    window['announcement_text_QA' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_QA }}';
+    window['announcement_text_SA' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_SA }}';
+    window['announcement_text_IQ' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_IQ }}';
+    window['announcement_text_AE' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_AE }}';
+    window['announcement_text_YE' + '{{ forloop.index0 -}}'] = '{{ item.settings.text_YE }}';
   </script>
 {% endfor %}
 
