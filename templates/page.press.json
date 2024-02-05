@@ -6,9 +6,146 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "multicolumn_Wiynj6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_tYKYGx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/forbes-logo.svg",
+            "title": "",
+            "text": "<p>“Vaultskin specializes in RFID-blocking wallets, offering an extra layer of protection with a sleek and compact design.”<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WKrAnT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CNET-logo.svg",
+            "title": "",
+            "text": "<p>“Elevate your everyday carry with Vaultskin's Notting Hill wallet – where style meets security, offering a tasteful design and a zippered compartment for ultimate organization.”<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xRaYXV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/esquire-logo.svg",
+            "title": "",
+            "text": "<p>“The fact is that passport holders look and function roughly the same. But the key difference here is you've got RFID protection built into the leather case.”<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yPdKXY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/luxe-digital-logo-grey.png",
+            "title": "",
+            "text": "<p>«...slim wallet delivers <a href=\"https:\/\/luxe.digital\/lifestyle\/style\/best-men-wallets\/#Vaultskin-Manhattan\" title=\"https:\/\/luxe.digital\/lifestyle\/style\/best-men-wallets\/#Vaultskin-Manhattan\">exceptional value for money<\/a> in a clean and minimalist package»<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_A6cGzh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/themanual-logo.png",
+            "title": "",
+            "text": "<p>“The Vaultskin wallet has the best of all worlds. It’s slim and bi-fold for easy management, and it has RFID protection to offer high-level security to your personal items.”<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6ifAHi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unbox-therapy_a3c284ff-fae7-4718-ba5a-d75efa4cba23.png",
+            "title": "",
+            "text": "<p>«...most affordable, slim, RFID, <a href=\"https:\/\/youtu.be\/tFhrBqlhsok\" title=\"https:\/\/youtu.be\/tFhrBqlhsok\">stylish and professional<\/a>... pull the strap and you're ready to go»<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tkM7hx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vg.png",
+            "title": "",
+            "text": "<p>«Stylish functionality in a comfortably slender design - all you need in one secure place»<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8Mpbc4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wi.png",
+            "title": "",
+            "text": "<p>«Not only is it a protective phone case, it’s also a functioning wallet designed to hold up to 8 cards, cash or other valuables... Condense your essentials in a slim, stylish way!»<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_K8JAQc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yd.png",
+            "title": "",
+            "text": "<p>«This all-in-one solution is a great grab when you are nipping down the street for a quick purchase or simply out of the house!»<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dRJKAk": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tnn.png",
+            "title": "",
+            "text": "<p>«Stylish design, practical functions undoubtedly the leather iPhone wallet has caught our eyes!»<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_tYKYGx",
+        "column_WKrAnT",
+        "column_xRaYXV",
+        "column_yPdKXY",
+        "column_A6cGzh",
+        "column_6ifAHi",
+        "column_tkM7hx",
+        "column_8Mpbc4",
+        "column_K8JAQc",
+        "column_dRJKAk"
+      ],
+      "settings": {
+        "section_position": "default",
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "container_width": 1600,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multicolumn_Wiynj6"
   ]
 }
