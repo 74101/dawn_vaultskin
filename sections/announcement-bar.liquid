@@ -458,7 +458,8 @@ document.addEventListener("DOMContentLoaded", function() {
       const countryCode = data.detected_values.country.handle;
       const countryCode2 = document.querySelector('localization-form input[name="country_code"]').value;
       const announcementText = document.querySelectorAll('.announcement-bar__message span');
-      console.log('countryCode: ' + countryCode2)
+      console.log('countryCode: ' + countryCode)
+      console.log('countryCode2: ' + countryCode2)
 
       announcementText.forEach((elem, index) => {
         switch (countryCode) {
