@@ -457,6 +457,8 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(data => {
       const countryCode = data.detected_values.country.handle;
       const announcementText = document.querySelectorAll('.announcement-bar__message span');
+      console.log('countryCode: ' + countryCode)
+      console.log('announcementText: ' + announcementText)
 
       announcementText.forEach((elem, index) => {
         switch (countryCode) {
