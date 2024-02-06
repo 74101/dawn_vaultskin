@@ -8,36 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_acTUqb": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_iLVBAB": {
-          "type": "heading",
-          "settings": {
-            "heading": "Press",
-            "heading_size": "h1"
-          }
-        },
-        "text_MNQzhH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>For media enquiries contact:<br\/><strong>Artem Kaprov <\/strong><a href=\"mailto:artem@vaultskin.com\">artem@vaultskin.com<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_iLVBAB",
-        "text_MNQzhH"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 32,
-        "padding_bottom": 24
-      }
-    },
     "multicolumn_Wiynj6": {
       "type": "multicolumn",
       "blocks": {
@@ -170,14 +140,46 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "description_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_acTUqb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iLVBAB": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Press",
+            "heading_size": "h1"
+          }
+        },
+        "text_MNQzhH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For media enquiries contact:<br\/><strong>Artem Kaprov <\/strong><a href=\"mailto:artem@vaultskin.com\">artem@vaultskin.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iLVBAB",
+        "text_MNQzhH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 44
       }
     }
   },
   "order": [
     "main",
-    "rich_text_acTUqb",
-    "multicolumn_Wiynj6"
+    "multicolumn_Wiynj6",
+    "rich_text_acTUqb"
   ]
 }
