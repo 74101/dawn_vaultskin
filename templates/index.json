@@ -68,8 +68,8 @@
         "slide_height": "large",
         "pagination": "on",
         "slider_visual": "dots",
-        "custom_dots": true,
-        "pagination_margin_bottom": 13,
+        "custom_dots": false,
+        "pagination_margin_bottom": 0,
         "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "ambient",
@@ -86,7 +86,7 @@
         "box_align": "middle-center",
         "show_text_box": false,
         "text_alignment": "center",
-        "color_scheme": "inverse"
+        "color_scheme": ""
       }
     },
     "abdbc101-3d61-44ba-bb6b-e9aee1c11989": {
@@ -154,7 +154,7 @@
         "color_scheme": "accent-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "description_on_mobile": true,
+        "description_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 0
       }
