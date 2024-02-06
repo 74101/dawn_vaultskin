@@ -179,6 +179,12 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
+      },
+      "16936614187718193802": {
+        "type": "shopify:\/\/apps\/multifeeds\/blocks\/app_embed\/f3e7ca1d-2d5a-45a7-97dd-2fd45843acef",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
