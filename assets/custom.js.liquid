@@ -102,9 +102,9 @@ function productTabsScroll() {
   }
   document.addEventListener("DOMContentLoaded", function() {
     if(window.location.hash === '#overview') {
-      const element = document.querySelector('.overview');
-      if(element) {
-        const blockTop = offset(element) - headerHeight - NAV_HEIGHT;
+      const block = document.querySelector('.overview');
+      if(block) {
+        const blockTop = offset(block) - headerHeight - NAV_HEIGHT;
         window.scrollTo({
           top: blockTop,
           left: 0,
