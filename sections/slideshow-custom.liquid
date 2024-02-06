@@ -36,13 +36,32 @@
       {%- endif -%}
       
       <slideshow-component
-        class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}"
+        class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}{% if section.settings.custom_dots %} custom_dots{% endif %}"
         role="region"
         aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
         aria-label="{{ section.settings.accessibility_info | escape }}"
       >
+        <div class="banner_main_content">
+          <div class="slideshow__text-wrapper banner__content banner__content--{{ section.settings.box_align }} page-width{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
+            <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient slideshow__text--{{ section.settings.text_alignment }} slideshow__text-mobile--{{ section.settings.text_alignment_mobile }}" style="max-width:{{ section.settings.desktop_content_width -}}rem">
+              {%- if product.metafields.product.hero_title != blank -%}
+                <h2 class="banner__heading inline-richtext {{ section.settings.heading_size }}">
+                  {{ product.metafields.product.hero_title }}
+                </h2>
+              {%- endif -%}
+              {%- if product.metafields.product.hero_subtitle != blank -%}
+                <div class="banner__text rte">
+                  <p>{{ product.metafields.product.hero_subtitle }}</p>
+                </div>
+              {%- endif -%}
+              <div class="banner__buttons">
+                <button class="buy_now_btn button button--primary">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
         {%- if section.settings.auto_rotate and current_variant_title_images_size > 1 -%}
-          <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}">
+          <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}" style="bottom:{{ section.settings.pagination_margin_bottom -}}rem">
             <button
               type="button"
               class="slider-button slider-button--prev"
@@ -174,29 +193,13 @@
                   {%- endif -%}
                 {%- endif -%}
               </div>
-              <div class="slideshow__text-wrapper banner__content banner__content--{{ section.settings.box_align }} page-width{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
-                <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient slideshow__text--{{ section.settings.text_alignment }} slideshow__text-mobile--{{ section.settings.text_alignment_mobile }}" style="max-width:{{ section.settings.desktop_content_width -}}rem">
-                  {%- if product.metafields.product.hero_title != blank -%}
-                    <h2 class="banner__heading inline-richtext {{ section.settings.heading_size }}">
-                      {{ product.metafields.product.hero_title }}
-                    </h2>
-                  {%- endif -%}
-                  {%- if product.metafields.product.hero_subtitle != blank -%}
-                    <div class="banner__text rte">
-                      <p>{{ product.metafields.product.hero_subtitle }}</p>
-                    </div>
-                  {%- endif -%}
-                  <div class="banner__buttons">
-                    <button class="buy_now_btn button button--primary">Buy now</button>
-                  </div>
-                </div>
-              </div>
+              <div class="slideshow__text-wrapper banner__content banner__content--{{ section.settings.box_align }} page-width{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}"></div>
             </div>
           {%- endfor -%}
         </div>
 
         {%- if current_variant_title_images_size > 1 and section.settings.auto_rotate == false -%}
-          <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}">
+          <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %} {% if section.settings.pagination == "off" %}visually-hidden{% endif %}" style="bottom:{{ section.settings.pagination_margin_bottom -}}rem">
             <button
               type="button"
               class="slider-button slider-button--prev"
@@ -361,6 +364,21 @@
       ],
       "default": "counter",
       "label": "t:sections.slideshow.settings.slider_visual.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "custom_dots",
+      "default": false,
+      "label": "Custom pagination"
+    },
+    {
+      "type": "range",
+      "id": "pagination_margin_bottom",
+      "label": "Pagination margin bottom",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 0
     },
     {
       "type": "checkbox",

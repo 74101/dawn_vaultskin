@@ -86,7 +86,7 @@
             <legend class="form__label">{{ option_name }}</legend>
             <div class="virtual_variant_links">
               {% for phone in virtual_variants[option_name_downcase].value %}
-                <a href="{{ phone.product.url }}" class="virtual_variant_link {% if phone.product == product %}active{% endif %}">
+                <a href="{{ phone.product.url -}}#overview" class="virtual_variant_link {% if phone.product == product %}active{% endif %}">
                   {{ phone[option_with_num] }}
                 </a>
               {% endfor %}
