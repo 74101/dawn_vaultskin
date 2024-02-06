@@ -1,0 +1,15 @@
+{
+  "parent": "metaobject\/gift_page.json",
+  "context": {
+    "market": "us"
+  },
+  "sections": {
+    "slideshow_ajbbYm": {
+      "settings": {
+        "custom_dots": true
+      },
+      "blocks": {
+      }
+    }
+  }
+}
