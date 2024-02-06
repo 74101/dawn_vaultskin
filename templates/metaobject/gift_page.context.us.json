@@ -6,7 +6,8 @@
   "sections": {
     "slideshow_ajbbYm": {
       "settings": {
-        "custom_dots": true
+        "custom_dots": true,
+        "slider_visual": "dots"
       },
       "blocks": {
       }
