@@ -62,16 +62,16 @@ function offset(el) {
 }
 
 function productTabsScroll() {
-  const anchors = document.querySelectorAll('.product_navigation a[href*="#"]')
+  const anchors = document.querySelectorAll('.product_navigation a[href*="#"]');
+  const headerHeight = document.querySelector('.section-header').offsetHeight;
+  const NAV_HEIGHT = 37;
   for (let anchor of anchors) {
     anchor.addEventListener('click', function (evt) {
       // evt.preventDefault()
-      const is_scroll_link = anchor.classList.contains('scroll_link')
-      const is_tab_link = anchor.classList.contains('tab_link')
-      const blockID = anchor.getAttribute('href').substr(1)
-      const block = document.querySelector(`.${blockID}`)
-      const headerHeight = document.querySelector('.section-header').offsetHeight
-      const NAV_HEIGHT = 37
+      const is_scroll_link = anchor.classList.contains('scroll_link');
+      const is_tab_link = anchor.classList.contains('tab_link');
+      const blockID = anchor.getAttribute('href').substr(1);
+      const block = document.querySelector(`.${blockID}`);
 
       if (is_scroll_link) {
         if (blockID == 'home') {
@@ -82,7 +82,7 @@ function productTabsScroll() {
           });
         } else if (block) {
           setTimeout(() => {
-            const blockTop = offset(block) - headerHeight - NAV_HEIGHT
+            const blockTop = offset(block) - headerHeight - NAV_HEIGHT;
             window.scrollTo({
               top: blockTop,
               left: 0,
@@ -104,9 +104,11 @@ function productTabsScroll() {
     if(window.location.hash === '#overview') {
       const element = document.querySelector('.overview');
       if(element) {
-        element.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
+        const blockTop = offset(element) - headerHeight - NAV_HEIGHT;
+        window.scrollTo({
+          top: blockTop,
+          left: 0,
+          behavior: "smooth"
         });
       }
     }
