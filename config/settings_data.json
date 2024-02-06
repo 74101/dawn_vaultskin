@@ -176,7 +176,7 @@
           "button_icon": "chat_bubble",
           "button_text": "no_text",
           "button_horizontal_position": "bottom_left",
-          "button_vertical_position": "highest",
+          "button_vertical_position": "lowest",
           "greeting_message": ""
         }
       }
