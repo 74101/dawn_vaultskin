@@ -1,7 +1,7 @@
 {% render 'product-navigation' %}
 <section
   id="MainProduct-{{ section.id }}"
-  class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }} {% for var_product in product.variants limit: 1 %}{% if var_product.metafields.variant.product_image_urls.value != blank %}gallery_custom{% endif %}{% endfor %}"
+  class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }} {% for var_product in product.variants limit: 1 %}{% if var_product.metafields.variant.product_image_urls.value != blank %}gallery_custom overview{% endif %}{% endfor %}"
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
