@@ -134,7 +134,7 @@
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte">{{ block.settings.text }}</div>
+                  <div class="multicolumn-card__description rte {% if section.settings.description_on_mobile %}description_on_mobile{% endif %}">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank and section.settings.section_position != 'float' -%}
                   <a
