@@ -97,7 +97,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HomepageFeature-Wallets.jpg",
             "title": "<strong>Smart WALLETS<\/strong>",
-            "text": "<p>Slim RFID-protected wallets for secure, smart card storage.<\/p>",
+            "text": "<p>Slim RFID-protected wallets for secure, smart card storage.<\/p><p><\/p>",
             "link_label": "VIEW MORE",
             "link": "shopify:\/\/collections\/smart-wallets"
           }

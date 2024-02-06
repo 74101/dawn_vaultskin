@@ -8,6 +8,7 @@
         "pagination": "on",
         "slider_visual": "dots",
         "custom_dots": true,
+        "pagination_margin_bottom": 0,
         "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "ambient",
