@@ -154,7 +154,7 @@
         "color_scheme": "accent-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "description_on_mobile": false,
+        "description_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
