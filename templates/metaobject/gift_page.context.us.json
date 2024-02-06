@@ -6,8 +6,10 @@
   "sections": {
     "slideshow_ajbbYm": {
       "settings": {
+        "slider_visual": "dots",
         "custom_dots": true,
-        "slider_visual": "dots"
+        "show_text_below": true,
+        "color_scheme": "inverse"
       },
       "blocks": {
       }
