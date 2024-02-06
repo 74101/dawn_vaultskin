@@ -107,7 +107,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HomepageFeature-PhoneCases.jpg",
             "title": "<strong>iPhone CASES<\/strong>",
-            "text": "<p>Streamlined leather iPhone <br\/>wallet cases for minimalists.<\/p>",
+            "text": "<p>Streamlined iPhone <br\/>wallet cases for minimalists.<\/p>",
             "link_label": "VIEW MORE",
             "link": "shopify:\/\/collections\/iphone-cases"
           }
@@ -117,7 +117,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HomepageFeature-Vaultcard.jpg",
             "title": "<strong>VAULTCARD<\/strong>",
-            "text": "<p>Patented top-tier RFID blocking <br\/>for contactless card protection. <\/p>",
+            "text": "<p>Тop-tier RFID blocking <br\/>for contactless card protection. <\/p>",
             "link_label": "VIEW MORE",
             "link": "shopify:\/\/products\/vaultcard"
           }
