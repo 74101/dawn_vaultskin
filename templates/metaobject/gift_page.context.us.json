@@ -4,17 +4,5 @@
     "market": "us"
   },
   "sections": {
-    "slideshow_ajbbYm": {
-      "settings": {
-        "slider_visual": "dots",
-        "custom_dots": true,
-        "show_text_below": true,
-        "color_scheme": "inverse",
-        "heading": "{{ metaobject.header_title.value }}",
-        "subheading": "{{ metaobject.subheader.value }}"
-      },
-      "blocks": {
-      }
-    }
   }
 }
