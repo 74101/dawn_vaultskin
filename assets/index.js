@@ -49,38 +49,38 @@ $(document).ready(function() {
 		interval = setInterval(intervalFunction, 10500);
 	});
 
-	$('.feature-link').on('click', function(e) {
-		if (!isMobile()) {
-			e.preventDefault();
+	// $('.feature-link').on('click', function(e) {
+	// 	if (!isMobile()) {
+	// 		e.preventDefault();
 
-			var $v = $('.modal video');
+	// 		var $v = $('.modal video');
 
-			if ($v.length) {
-				$('.modal').addClass('modal--show');
-				$v.get(0).play();
-			} else {
-				var $source = $('<source>')
-					.attr('src', $('.modal-content').find('span[data-video-url]').data('videoUrl'))
-					.attr('type', 'video/mp4');
+	// 		if ($v.length) {
+	// 			$('.modal').addClass('modal--show');
+	// 			$v.get(0).play();
+	// 		} else {
+	// 			var $source = $('<source>')
+	// 				.attr('src', $('.modal-content').find('span[data-video-url]').data('videoUrl'))
+	// 				.attr('type', 'video/mp4');
 
-				$('<video>')
-					.attr('autoplay', true)
-					.attr('loop', true)
-					.attr('controls', true)
-					.on('loadeddata', function() {
-						$('.modal').addClass('modal--show');
-					})
-					.append($source)
-					.appendTo($('.modal-content'));
-			}
-			$('.' + featuresListItemsClassName + '--active').find('video').get(0).pause();
-			$('.' + featuresNavItemsClassName + '--active').find('.features-nav-progress').css({
-				'animation-play-state': 'paused'
-			});
-			clearInterval(interval);
-			clearTimeout(timeout);
-		}
-	});
+	// 			$('<video>')
+	// 				.attr('autoplay', true)
+	// 				.attr('loop', true)
+	// 				.attr('controls', true)
+	// 				.on('loadeddata', function() {
+	// 					$('.modal').addClass('modal--show');
+	// 				})
+	// 				.append($source)
+	// 				.appendTo($('.modal-content'));
+	// 		}
+	// 		$('.' + featuresListItemsClassName + '--active').find('video').get(0).pause();
+	// 		$('.' + featuresNavItemsClassName + '--active').find('.features-nav-progress').css({
+	// 			'animation-play-state': 'paused'
+	// 		});
+	// 		clearInterval(interval);
+	// 		clearTimeout(timeout);
+	// 	}
+	// });
 
 	$('.modal-close').on('click', function(e) {
 		e.preventDefault();
