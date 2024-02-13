@@ -161,10 +161,10 @@
                     assign height = current_variant_image.width | divided_by: current_variant_image.aspect_ratio | round
                     if section.settings.image_behavior == 'ambient'
                       assign sizes = '120vw'
-                      assign widths = '450, 660, 900, 1320, 1800'
+                      assign widths = '450, 660, 900, 1360, 1920'
                     else
                       assign sizes = '100vw'
-                      assign widths = '375, 550, 750, 1100, 1500, 1780'
+                      assign widths = '375, 550, 750, 1100, 1360, 1920'
                     endif
                     assign fetch_priority = 'auto'
                     if section.index == 1
