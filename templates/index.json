@@ -588,7 +588,7 @@
           "type": "content",
           "settings": {
             "position": "right",
-            "content": "<p>* Check our <a href=\"https:\/\/vaultskin.com\/pages\/terms\" target=\"_self\" title=\"Vaultskin Terms and Conditions\">Terms and Conditions<\/a><\/p>"
+            "content": "<p>* Check our <a href=\"https:\/\/vaultskin.com\/policies\/terms-of-service\" title=\"https:\/\/vaultskin.com\/policies\/terms-of-service\">Terms and Conditions<\/a><\/p>"
           }
         }
       },
