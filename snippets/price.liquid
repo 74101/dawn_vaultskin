@@ -39,8 +39,7 @@
   endif
 {% endcomment %}
 <script>
-  console.log(`product: {{ product | json }}`)
-  console.log(`price: {{ product.price | money }}`)
+  console.log(`product: {{ product.compare_at_price }}`)
 </script>
 <div
   class="
