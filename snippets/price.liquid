@@ -38,9 +38,6 @@
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
 {% endcomment %}
-<script>
-  console.log(`product: {{ product.compare_at_price }}`)
-</script>
 <div
   class="
     price
