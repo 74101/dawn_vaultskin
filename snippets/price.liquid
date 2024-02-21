@@ -39,8 +39,8 @@
   endif
 {% endcomment %}
 <script>
-  console.log(`product: {{ product }}`)
-  console.log(`price: {{ product.price }}`)
+  console.log(`product: {{ product | json }}`)
+  console.log(`price: {{ product.price | money }}`)
 </script>
 <div
   class="
