@@ -370,6 +370,13 @@
               {{- 'products.product.on_sale' | t -}}
             </span>
           {%- endif -%}
+          {% if card_product.metafields.product.badge.value != blank %}
+            <span
+              class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+            >
+              {{ card_product.metafields.product.badge.value }}
+            </span>
+          {%- endif -%}
         </div>
       </div>
     </div>
