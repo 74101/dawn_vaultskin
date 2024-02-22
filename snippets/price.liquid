@@ -133,5 +133,13 @@
     <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
       {{ 'products.product.sold_out' | t }}
     </span>
+  
+    {% if product.metafields.product.badge.value != blank %}
+      <span
+        class="badge color-{{ settings.sale_badge_color_scheme }}"
+      >
+        {{ product.metafields.product.badge.value }}
+      </span>
+    {%- endif -%}
   {%- endif -%}
 </div>
