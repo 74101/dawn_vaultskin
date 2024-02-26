@@ -81,9 +81,9 @@
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span class="price-item price-item--regular">
           {% if target == product and product.price_varies %}
-            <span class="from_price">{{ 'products.product.price.from_price_html' | t: price: '' }}</span> {{ money_price }}
+            <span class="from_price">{{ 'products.product.price.from_price_html' | t: price: '' }}</span> <span class="money">{{ money_price }}</span>
           {% else %}
-            {{ money_price }}
+            <span class="money">{{ money_price }}</span>
           {% endif %}
         </span>
       {%- endif -%}
@@ -92,9 +92,9 @@
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
       <span class="price-item price-item--sale price-item--last">
           {% if target == product and product.price_varies %}
-            <span class="from_price">{{ 'products.product.price.from_price_html' | t: price: '' }}</span> {{ money_price }}
+            <span class="from_price">{{ 'products.product.price.from_price_html' | t: price: '' }}</span> <span class="money">{{ money_price }}</span>
           {% else %}
-            {{ money_price }}
+            <span class="money">{{ money_price }}</span>
           {% endif %}
       </span>
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
