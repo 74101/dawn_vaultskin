@@ -83,7 +83,7 @@
           {% if target == product and product.price_varies %}
             <span class="from_price">{{ 'products.product.price.from_price_html' | t: price: '' }}</span> {{ money_price }}
           {% else %}
-            {{ money_price }}zz
+            {{ price }}
           {% endif %}
         </span>
       {%- endif -%}
