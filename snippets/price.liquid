@@ -60,16 +60,16 @@
         {%- if show_compare_at_price and compare_at_price -%}
           {%- unless product.price_varies == false and product.compare_at_price_varies %}
             <span class="visually-hidden visually-hidden--inline">
-              {{- 'products.product.price.regular_price' | t -}}x
+              {{- 'products.product.price.regular_price' | t -}}
             </span>
             <span>
-              <s class="price-item price-item--regular variant-item__old-price">
+              <span class="price-item price-item--regular variant-item__old-price">x
                 {% if settings.currency_code_enabled %}
                   {{ compare_at_price | money_with_currency }}
                 {% else %}
                   {{ compare_at_price | money }}
                 {% endif %}
-              </s>
+              </span>
             </span>
           {%- endunless -%}
         {%- endif -%}
