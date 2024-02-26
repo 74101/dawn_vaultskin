@@ -60,7 +60,7 @@
         {%- if show_compare_at_price and compare_at_price -%}
           {%- unless product.price_varies == false and product.compare_at_price_varies %}
             <span class="visually-hidden visually-hidden--inline">
-              {{- 'products.product.price.regular_price' | t -}}
+              {{- 'products.product.price.regular_price' | t -}}x
             </span>
             <span>
               <s class="price-item price-item--regular variant-item__old-price">
