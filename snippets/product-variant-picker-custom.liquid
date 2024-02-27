@@ -24,7 +24,7 @@
       {{ block.shopify_attributes }}
     >
       {%- for option in product.options_with_values -%}
-        <fieldset class="js product-form__input {% if option.name != 'Color' %}product-form__input--hide{% endif %}">
+        <fieldset class="js product-form__input {% if option.name != 'Color' %}product-form__input--hide{% else %}product-form__input--color{% endif %}">
           <div class="form__legend">
             <legend class="form__label">{{ option.name }}</legend>
           </div>
