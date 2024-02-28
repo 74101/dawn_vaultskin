@@ -532,7 +532,7 @@
         "collection": "bestsellers",
         "products_to_show": 2,
         "columns_desktop": 2,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
