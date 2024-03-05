@@ -40,6 +40,7 @@
         "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand",
         "heading": "{{ metaobject.header_title.value }}",
+        "heading_tag": "h1",
         "heading_size": "h1",
         "subheading": "{{ metaobject.subheader.value }}",
         "button_label": "",
