@@ -78,6 +78,7 @@
         "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand",
         "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL.<\/strong>",
+        "heading_tag": "h1",
         "heading_size": "h1",
         "subheading": "Slim, minimalist wallets, card holders and iPhone covers. Designed in Britain to combine elegance, convenience and RFID security.",
         "button_label": "SEE ALL PRODUCTS",
