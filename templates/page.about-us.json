@@ -48,6 +48,7 @@
         "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand",
         "heading": "WHY CHOOSE VAULTSKIN",
+        "heading_tag": "h1",
         "heading_size": "h1",
         "subheading": "Give customers details about the banner image(s) or content on the template.",
         "button_label": "",
