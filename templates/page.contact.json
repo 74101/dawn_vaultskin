@@ -84,7 +84,7 @@
     "custom_liquid_iRhBee": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"\"><h1>Send us a message<\/h1><\/div>",
+        "custom_liquid": "<div style=\"text-align:center;\"><h1>Send us a message<\/h1><\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
