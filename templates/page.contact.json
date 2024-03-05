@@ -73,11 +73,14 @@
     },
     "custom_liquid_iRhBee": {
       "type": "custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
         "custom_liquid": "<div style=\"text-align:center;\"><h1>Send us a message<\/h1><\/div>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "color_scheme": "background-2",
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "form": {
@@ -87,7 +90,7 @@
         "heading_size": "h1",
         "color_scheme": "background-2",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 32
       }
     }
   },
