@@ -379,6 +379,15 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "custom_liquid_GX4d43": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 style=\"display:none\">about us <\/h1>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -390,6 +399,7 @@
     "image_with_text_FYQmYt",
     "image_with_text_kVg6EM",
     "image_with_text_KiB6Rp",
-    "ab568e55-d1b1-42df-bdc1-103ee5b2d616"
+    "ab568e55-d1b1-42df-bdc1-103ee5b2d616",
+    "custom_liquid_GX4d43"
   ]
 }
