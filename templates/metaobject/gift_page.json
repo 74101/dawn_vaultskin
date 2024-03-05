@@ -7,9 +7,9 @@
           "type": "slide",
           "settings": {
             "image": "{{ metaobject.slide_image.value }}",
-            "heading": "{{ metaobject.header_title.value }}",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "{{ metaobject.subheader.value }}",
+            "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -39,16 +39,16 @@
         "desktop_content_width": 100,
         "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand",
-        "heading": "",
+        "heading": "{{ metaobject.header_title.value }}",
         "heading_size": "h1",
-        "subheading": "",
+        "subheading": "{{ metaobject.subheader.value }}",
         "button_label": "",
         "link": "",
         "button_style_secondary": false,
         "box_align": "middle-center",
         "show_text_box": false,
         "text_alignment": "center",
-        "color_scheme": ""
+        "color_scheme": "inverse"
       }
     },
     "multicolumn_rDjECV": {
