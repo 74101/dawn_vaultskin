@@ -8,6 +8,57 @@
         "padding_bottom": 28
       }
     },
+    "slideshow_K8EAND": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_mfA3pd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/header_bg_main_2_1_e80b3aae-ae24-4c16-b221-1eeb27d13f4e.jpg",
+            "heading": "WHY CHOOSE VAULTSKIN",
+            "heading_size": "h1",
+            "subheading": "Give customers details about the banner image(s) or content on the template.",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_mfA3pd"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "pagination": "off",
+        "slider_visual": "counter",
+        "custom_dots": false,
+        "pagination_margin_bottom": 0,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "desktop_content_width": 100,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand",
+        "heading": "",
+        "heading_size": "h1",
+        "subheading": "",
+        "button_label": "Button label",
+        "link": "",
+        "button_style_secondary": false,
+        "box_align": "middle-center",
+        "show_text_box": false,
+        "text_alignment": "center",
+        "color_scheme": ""
+      }
+    },
     "9532899a-1428-48ca-996d-e12c7ec46d0b": {
       "type": "image-banner",
       "blocks": {
@@ -43,6 +94,7 @@
         "template--17150325457136__9532899a-1428-48ca-996d-e12c7ec46d0b-text-1",
         "template--17150325457136__9532899a-1428-48ca-996d-e12c7ec46d0b-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/header_bg_main_2_1_e80b3aae-ae24-4c16-b221-1eeb27d13f4e.jpg",
         "image_overlay_opacity": 0,
@@ -331,6 +383,7 @@
   },
   "order": [
     "main",
+    "slideshow_K8EAND",
     "9532899a-1428-48ca-996d-e12c7ec46d0b",
     "e1bbb2f4-3b1c-44f0-b22b-d4307f3c9432",
     "c3ba44dc-5a5f-4af2-ae7b-8e8cecd578a0",
