@@ -191,6 +191,13 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "734556878661012776": {
+        "type": "shopify:\/\/apps\/image-sitemap\/blocks\/google-verify\/7f21250b-d915-4143-91b8-090f195e7204",
+        "disabled": false,
+        "settings": {
+          "google_verify_code": "<meta name=\"google-site-verification\" content=\"qTrR_XqRIamQaI5Ir_3-aWKbeWxjd1skFGPnT-AnQkI\">"
+        }
       }
     },
     "color_schemes": {
