@@ -73,6 +73,12 @@
             "icon": "shopify:\/\/shop_images\/credit-card.svg"
           }
         },
+        "menu_item_icon_xbUrmB": {
+          "type": "menu_item_icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/arrows-left-right-comparison-icon_5dfb4179-1812-432f-94a6-d68489728987.svg"
+          }
+        },
         "1da11b30-1728-4068-ba08-b1dbb2f5b1db": {
           "type": "menu_item_icon",
           "settings": {
@@ -121,6 +127,7 @@
         "cace3ca6-4968-4e7f-9520-b7cf5bc47306",
         "a354b442-c1a7-43bb-a99e-9f78561e886c",
         "de508342-f54d-444e-bcdb-8670ddbce739",
+        "menu_item_icon_xbUrmB",
         "1da11b30-1728-4068-ba08-b1dbb2f5b1db",
         "9eff77fc-47d0-4f19-9c15-e2b946e0ed4e",
         "11851cb4-88b6-4b7c-a766-691c93f6ec6b",
