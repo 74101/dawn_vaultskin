@@ -5,7 +5,7 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
-        "pagination": "on",
+        "pagination": "off",
         "slider_visual": "dots",
         "custom_dots": true,
         "pagination_margin_bottom": 15,
