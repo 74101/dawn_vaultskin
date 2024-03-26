@@ -1,7 +1,7 @@
 <div class="halved {% if section.settings.image_first == false %}halved_reverse{% endif %}">
   {% if section.settings.image != blank %}
     <div class="halved__image">
-      {{ section.settings.image | image_url: width: 950 | image_tag }}
+      {{ section.settings.image | image_url: width: 950 | image_tag: loading: 'lazy' }}
     </div>
   {% endif %}
   <div class="halved__inner" style="padding-top:{{ section.settings.padding_top }}rem">
