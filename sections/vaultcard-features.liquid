@@ -8,7 +8,7 @@
       <div class="vc_preview__left vc_preview__inner">
         <div class="vc_preview__feature">
           {% if section.settings.feature_1_icon %}
-            <div class="vc_preview__feature-icon">{{ section.settings.feature_1_icon | image_url: width: 30 | image_tag }}</div>
+            <div class="vc_preview__feature-icon">{{ section.settings.feature_1_icon | image_url: width: 30 | image_tag: loading: 'lazy' }}</div>
           {% endif %}
           {% if section.settings.feature_1_title %}
             <div class="vc_preview__feature-title">{{ section.settings.feature_1_title }}</div>
@@ -19,7 +19,7 @@
         </div>
         <div class="vc_preview__feature">
           {% if section.settings.feature_2_icon %}
-            <div class="vc_preview__feature-icon">{{ section.settings.feature_2_icon | image_url: width: 30 | image_tag }}</div>
+            <div class="vc_preview__feature-icon">{{ section.settings.feature_2_icon | image_url: width: 30 | image_tag: loading: 'lazy' }}</div>
           {% endif %}
           {% if section.settings.feature_2_title %}
             <div class="vc_preview__feature-title">{{ section.settings.feature_2_title }}</div>
@@ -30,7 +30,7 @@
         </div>
         <div class="vc_preview__feature">
           {% if section.settings.feature_3_icon %}
-            <div class="vc_preview__feature-icon">{{ section.settings.feature_3_icon | image_url: width: 30 | image_tag }}</div>
+            <div class="vc_preview__feature-icon">{{ section.settings.feature_3_icon | image_url: width: 30 | image_tag: loading: 'lazy' }}</div>
           {% endif %}
           {% if section.settings.feature_3_title %}
             <div class="vc_preview__feature-title">{{ section.settings.feature_3_title }}</div>
@@ -48,7 +48,7 @@
       <div class="vc_preview__right vc_preview__inner">
         <div class="vc_preview__feature">
           {% if section.settings.feature_4_icon %}
-            <div class="vc_preview__feature-icon">{{ section.settings.feature_4_icon | image_url: width: 30 | image_tag }}</div>
+            <div class="vc_preview__feature-icon">{{ section.settings.feature_4_icon | image_url: width: 30 | image_tag: loading: 'lazy' }}</div>
           {% endif %}
           {% if section.settings.feature_4_title %}
             <div class="vc_preview__feature-title">{{ section.settings.feature_4_title }}</div>
@@ -59,7 +59,7 @@
         </div>
         <div class="vc_preview__feature">
           {% if section.settings.feature_5_icon %}
-            <div class="vc_preview__feature-icon">{{ section.settings.feature_5_icon | image_url: width: 30 | image_tag }}</div>
+            <div class="vc_preview__feature-icon">{{ section.settings.feature_5_icon | image_url: width: 30 | image_tag: loading: 'lazy' }}</div>
           {% endif %}
           {% if section.settings.feature_5_title %}
             <div class="vc_preview__feature-title">{{ section.settings.feature_5_title }}</div>
@@ -70,7 +70,7 @@
         </div>
         <div class="vc_preview__feature">
           {% if section.settings.feature_6_icon %}
-            <div class="vc_preview__feature-icon">{{ section.settings.feature_6_icon | image_url: width: 30 | image_tag }}</div>
+            <div class="vc_preview__feature-icon">{{ section.settings.feature_6_icon | image_url: width: 30 | image_tag: loading: 'lazy' }}</div>
           {% endif %}
           {% if section.settings.feature_6_title %}
             <div class="vc_preview__feature-title">{{ section.settings.feature_6_title }}</div>
@@ -126,7 +126,7 @@
           <div class="vc_feature__text">{{ block.settings.text }}</div>
         </div>
         {% if block.settings.image_main != blank %}
-          <div class="vc_feature__image">{{ block.settings.image_main | image_url: width: 1100 | image_tag }}</div>
+          <div class="vc_feature__image">{{ block.settings.image_main | image_url: width: 1100 | image_tag: loading: 'lazy' }}</div>
         {% endif %}
       </div>
     {% when "feature_width_steps" %}
@@ -161,22 +161,22 @@
         <div class="vc_feature__steps">
           {% if block.settings.step_1 != blank %}
             <div class="vc_feature__step">
-              {{ block.settings.step_1 | image_url: width: 240 | image_tag }}
+              {{ block.settings.step_1 | image_url: width: 240 | image_tag: loading: 'lazy' }}
             </div>
           {% endif %}
           {% if block.settings.step_2 != blank %}
             <div class="vc_feature__step">
-              {{ block.settings.step_2 | image_url: width: 211 | image_tag }}
+              {{ block.settings.step_2 | image_url: width: 211 | image_tag: loading: 'lazy' }}
             </div>
           {% endif %}
           {% if block.settings.step_3 != blank %}
             <div class="vc_feature__step">
-              {{ block.settings.step_3 | image_url: width: 216 | image_tag }}
+              {{ block.settings.step_3 | image_url: width: 216 | image_tag: loading: 'lazy' }}
             </div>
           {% endif %}
           {% if block.settings.step_4 != blank %}
             <div class="vc_feature__step">
-              {{ block.settings.step_4 | image_url: width: 293 | image_tag }}
+              {{ block.settings.step_4 | image_url: width: 293 | image_tag: loading: 'lazy' }}
             </div>
           {% endif %}
         </div>
