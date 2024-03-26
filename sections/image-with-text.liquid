@@ -91,7 +91,7 @@
                   <div class="item image-with-text__item" {{ block.shopify_attributes }}>
                     {% if block.settings.icon != blank %}
                       <div class="item__icon">
-                        {{ block.settings.icon | image_url: width: 30 | image_tag }}
+                        {{ block.settings.icon | image_url: width: 30 | image_tag: loading: 'lazy' }}
                       </div>
                     {% endif %}
                     {% if block.settings.heading != blank or block.settings.description != blank %}
