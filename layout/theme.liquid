@@ -501,7 +501,7 @@
     {
       "@context": "http://schema.org/",
       "@type": "Product",
-      "@id": "{{ canonical_url }}",
+      "@id": {{ canonical_url | json }},
       "name": "{{ product.title | strip_html | escape }}",
       "url": "{{ shop.url }}{{ product.url }}",
       "sku": "{{fa_product_id_value}}",
