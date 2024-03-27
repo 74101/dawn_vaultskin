@@ -10,28 +10,15 @@
         {% if item.image != blank %}
           <div class="halved__image">
             {%- if variant_product == product.selected_or_first_available_variant %}
-              {%- if forloop.parentloop.first %}
-                <img
-                  class="product_features__img"
-                  width=""
-                  height=""
-                  src="{{ item.image | image_url: width: 950 }}"
-                  data-src="{{ item.image | image_url: width: 950 }}"
-                  alt="{{ item.feature_title }}"
-                  fetchpriority="high"
-                  >
-              {%- else -%}
-                <img
-                  class="product_features__img"
-                  width=""
-                  height=""
-                  src="{{ item.image | image_url: width: 950 }}"
-                  data-src="{{ item.image | image_url: width: 950 }}"
-                  alt="{{ item.feature_title }}"
-                  fetchpriority="low"
-                  loading="lazy"
-                  >
-              {%- endif -%}
+              <img
+                class="product_features__img"
+                width=""
+                height=""
+                src="{{ item.image | image_url: width: 950 }}"
+                data-src="{{ item.image | image_url: width: 950 }}"
+                alt="{{ item.feature_title }}"
+                loading="lazy"
+                >
             {%- else -%}
               <img
                 class="product_features__img"
@@ -40,7 +27,6 @@
                 src="{{ shop.brand.logo | asset_url }}"
                 data-src="{{ item.image | image_url: width: 950 }}"
                 alt="{{ item.feature_title }}"
-                fetchpriority="low"
                 loading="lazy"
                 >
             {%- endif -%}
