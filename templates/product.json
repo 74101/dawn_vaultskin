@@ -76,7 +76,6 @@
         "buy_buttons",
         "574df41e-05fa-485f-b8b6-c885b3cbb77c"
       ],
-      "disabled": true,
       "settings": {
         "enable_sticky_info": false,
         "color_scheme": "background-1",
@@ -95,13 +94,11 @@
     },
     "product_features": {
       "type": "product-features",
-      "disabled": true,
       "settings": {
       }
     },
     "texnical_details": {
       "type": "texnical-details",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Vaultskin-Technical-Details.webp",
         "image_overlay_opacity": 0,
@@ -123,7 +120,6 @@
       "blocks": {
         "3ee2adb6-35ce-4842-87fd-3fea24395a6c": {
           "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
-          "disabled": true,
           "settings": {
           }
         }
@@ -137,7 +133,6 @@
     },
     "related_products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
