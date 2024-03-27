@@ -171,18 +171,14 @@
                       assign fetch_priority = 'high'
                     endif
                   -%}
-                  {%- if forloop.first %}
-                    {{
-                      current_variant_image
-                      | image_url: width: 1920
-                      | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                    }}
+                  {%- if product_variant == product.selected_or_first_available_variant %}
+                    {%- if forloop.first %}
+                      <img class="slideshow__img" width="" height="" src="{{ current_variant_image | image_url: width: 1920 }}" data-src="{{ current_variant_image | image_url: width: 1920 }}" alt="{{ current_variant_image.alt }}">
+                    {%- else -%}
+                      <img class="slideshow__img" width="" height="" src="{{ current_variant_image | image_url: width: 1920 }}" data-src="{{ current_variant_image | image_url: width: 1920 }}" alt="{{ current_variant_image.alt }}" loading="lazy">
+                    {%- endif -%}
                   {%- else -%}
-                    {{
-                      current_variant_image
-                      | image_url: width: 1920
-                      | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
-                    }}
+                    <img class="slideshow__img" width="" height="" src="" data-src="{{ current_variant_image | image_url: width: 1920 }}" alt="{{ current_variant_image.alt }}" loading="lazy">
                   {%- endif -%}
                 {%- else -%}
                   {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
