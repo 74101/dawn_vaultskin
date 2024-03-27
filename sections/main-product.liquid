@@ -88,6 +88,7 @@
                             height=""
                             src="{{ image | image_url: width: 512 }}"
                             data-src="{{ image | image_url: width: 512 }}"
+                            alt="{{ image.alt }}"
                             fetchpriority="high"
                             >
                         {%- else -%}
@@ -97,6 +98,7 @@
                             height=""
                             src="{{ image | image_url: width: 512 }}"
                             data-src="{{ image | image_url: width: 512 }}"
+                            alt="{{ image.alt }}"
                             fetchpriority="low"
                             loading="lazy">
                         {%- endif -%}
@@ -107,6 +109,7 @@
                           height=""
                           src=""
                           data-src="{{ image | image_url: width: 512 }}"
+                          alt="{{ image.alt }}"
                           fetchpriority="low"
                           loading="lazy">
                       {%- endif -%}
