@@ -158,7 +158,7 @@
               <div class="slideshow__media banner__media media{% if current_variant_image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
                 {%- if current_variant_image -%}
                   {%- if product_variant == product.selected_or_first_available_variant %}
-                    {%- if forloop.first %}
+                    {%- if forloop.parentloop.first %}
                       <img
                         class="slideshow__img"
                         width=""
