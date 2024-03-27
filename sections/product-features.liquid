@@ -17,7 +17,6 @@
                 src="{{ item.image | image_url: width: 950 }}"
                 data-src="{{ item.image | image_url: width: 950 }}"
                 alt="{{ item.feature_title }}"
-                fetchpriority="low"
                 loading="lazy"
                 >
             {%- else -%}
@@ -28,7 +27,6 @@
                 src="{{ shop.brand.logo | asset_url }}"
                 data-src="{{ item.image | image_url: width: 950 }}"
                 alt="{{ item.feature_title }}"
-                fetchpriority="low"
                 loading="lazy"
                 >
             {%- endif -%}
