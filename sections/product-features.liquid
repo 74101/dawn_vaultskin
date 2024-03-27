@@ -37,7 +37,7 @@
                 class="product_features__img"
                 width=""
                 height=""
-                src=""
+                src="{{ shop.brand.logo | asset_url }}"
                 data-src="{{ item.image | image_url: width: 950 }}"
                 alt="{{ item.feature_title }}"
                 fetchpriority="low"

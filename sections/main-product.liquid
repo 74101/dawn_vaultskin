@@ -107,7 +107,7 @@
                           class="product_swiper__img"
                           width=""
                           height=""
-                          src=""
+                          src="{{ shop.brand.logo | asset_url }}"
                           data-src="{{ image | image_url: width: 512 }}"
                           alt="{{ image.alt }}"
                           fetchpriority="low"
