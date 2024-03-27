@@ -166,12 +166,12 @@
                       assign sizes = '100vw'
                       assign widths = '375, 550, 750, 1100, 1360, 1920'
                     endif
-                    assign fetch_priority = 'auto'
+                    assign fetch_priority = 'low'
                     if section.index == 1
                       assign fetch_priority = 'high'
                     endif
                   -%}
-                  {%- if forloop.first %}
+                  {%- if forloop.parentloop.first %}
                     {{
                       current_variant_image
                       | image_url: width: 1920
