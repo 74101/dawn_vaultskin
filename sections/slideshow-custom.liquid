@@ -174,11 +174,13 @@
                   {%- if forloop.first %}
                     {{
                       current_variant_image
+                      | image_url: width: 1920
                       | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
                     }}
                   {%- else -%}
                     {{
                       current_variant_image
+                      | image_url: width: 1920
                       | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
                     }}
                   {%- endif -%}
