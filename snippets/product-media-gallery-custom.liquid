@@ -10,11 +10,7 @@
           <div class="swiper-wrapper">
             {% for image in current_variant_product_images %}
               <div class="swiper-slide">
-                {%- if forloop.parentloop.first %}
-                  {{ image | image_url: width: 512 | image_tag }}
-                {%- else -%}
-                  {{ image | image_url: width: 512 | image_tag: loading: 'lazy', fetchpriority: 'low'}}
-                {%- endif -%}
+                {{ image | image_url: width: 512 | image_tag: loading: 'lazy', fetchpriority: 'low'}}
               </div>
             {% endfor %}
           </div>
