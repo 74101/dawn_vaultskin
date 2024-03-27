@@ -32,18 +32,30 @@ function changeVariant() {
     productVariantOptionsCustomElements.forEach(elem => {
       elem.addEventListener('click', function (evt) {
         if (slideshowContainerElements[this.dataset.index]) {
+          let images = slideshowContainerElements[this.dataset.index].querySelectorAll('.slideshow__img')
+          images.forEach(img => {
+            img.src = img.dataset.src
+          })
           slideshowContainerElements.forEach(el => {
             el.classList.remove('active')
           })
           slideshowContainerElements[this.dataset.index].classList.add('active')
         }
         if (productImagesElements[this.dataset.index]) {
+          let images = productImagesElements[this.dataset.index].querySelectorAll('.product_swiper__img')
+          images.forEach(img => {
+            img.src = img.dataset.src
+          })
           productImagesElements.forEach(el => {
             el.classList.remove('active')
           })
           productImagesElements[this.dataset.index].classList.add('active')
         }
         if (variantProductFeaturesElements[this.dataset.index]) {
+          let images = variantProductFeaturesElements[this.dataset.index].querySelectorAll('.product_features__img')
+          images.forEach(img => {
+            img.src = img.dataset.src
+          })
           variantProductFeaturesElements.forEach(el => {
             el.classList.remove('active')
           })
