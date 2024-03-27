@@ -166,6 +166,7 @@
                       assign sizes = '100vw'
                       assign widths = '375, 550, 750, 1100, 1360, 1920'
                     endif
+                    assign src = current_variant_image | image_url: width: 1920
                     assign fetch_priority = 'auto'
                     if section.index == 1
                       assign fetch_priority = 'high'
@@ -175,7 +176,7 @@
                     {{
                       current_variant_image
                       | image_url: width: 1920
-                      | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                      | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority, data-src: src
                     }}
                   {%- else -%}
                     {{
