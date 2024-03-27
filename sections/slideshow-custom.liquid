@@ -188,6 +188,7 @@
                       src=""
                       data-src="{{ current_variant_image | image_url: width: 1920 }}"
                       alt="{{ current_variant_image.alt }}"
+                      fetchpriority="low"
                       loading="lazy"
                       >
                   {%- endif -%}
