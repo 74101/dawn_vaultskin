@@ -10,7 +10,7 @@
           <div class="swiper-wrapper">
             {% for image in current_variant_product_images %}
               <div class="swiper-slide">
-                {{ image | image_url: width: 512 | image_tag }}
+                {{ image | image_url: width: 512 | image_tag: loading: 'lazy'}}
               </div>
             {% endfor %}
           </div>
