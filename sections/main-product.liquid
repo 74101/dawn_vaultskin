@@ -81,7 +81,7 @@
                   {% for image in current_variant_product_images %}
                     <div class="swiper-slide">
                       {%- if variant_product == product.selected_or_first_available_variant %}
-                        {%- if forloop.parentloop.first %}
+                        {%- if forloop.first %}
                           <img
                             class="product_swiper__img"
                             width=""
