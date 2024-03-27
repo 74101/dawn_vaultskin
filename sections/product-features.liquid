@@ -9,7 +9,7 @@
       <div class="halved product_feature">
         {% if item.image != blank %}
           <div class="halved__image">
-            {{ item.image | image_url: width: 950 | image_tag: loading: 'lazy' }}
+            {{ item.image | image_url: width: 950 | image_tag: loading: 'lazy', fetchpriority: 'low' }}
           </div>
         {% endif %}
         <div class="halved__inner">
@@ -20,7 +20,7 @@
             {% endif %}    
           {% if item.feature_icon != blank %}
             <div class="halved__icon">
-              {{ item.feature_icon | image_url: width: 60 | image_tag: loading: 'lazy' }}
+              {{ item.feature_icon | image_url: width: 60 | image_tag: loading: 'lazy', fetchpriority: 'low' }}
             </div>
           {% endif %}
           {% if item.feature_title != blank %}
