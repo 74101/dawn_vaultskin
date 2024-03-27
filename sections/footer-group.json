@@ -42,6 +42,7 @@
         "d991f681-8513-4da4-a3c0-9d738048259a",
         "bea9aadf-2d34-4fa1-943a-cd73060e5be0"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": false,
