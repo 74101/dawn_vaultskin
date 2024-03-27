@@ -9,7 +9,38 @@
       <div class="halved product_feature">
         {% if item.image != blank %}
           <div class="halved__image">
-            {{ item.image | image_url: width: 950 | image_tag: loading: 'lazy' }}
+            {%- if variant_product == product.selected_or_first_available_variant %}
+              {%- if forloop.first %}
+                <img
+                  class="product_features__img"
+                  width=""
+                  height=""
+                  src="{{ item.image | image_url: width: 950 }}"
+                  data-src="{{ item.image | image_url: width: 950 }}"
+                  fetchpriority="high"
+                  >
+              {%- else -%}
+                <img
+                  class="product_features__img"
+                  width=""
+                  height=""
+                  src="{{ item.image | image_url: width: 950 }}"
+                  data-src="{{ item.image | image_url: width: 950 }}"
+                  fetchpriority="low"
+                  loading="lazy"
+                  >
+              {%- endif -%}
+            {%- else -%}
+              <img
+                class="product_features__img"
+                width=""
+                height=""
+                src=""
+                data-src="{{ item.image | image_url: width: 950 }}"
+                fetchpriority="low"
+                loading="lazy"
+                >
+            {%- endif -%}
           </div>
         {% endif %}
         <div class="halved__inner">
