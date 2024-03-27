@@ -80,7 +80,39 @@
                 <div class="swiper-wrapper">
                   {% for image in current_variant_product_images %}
                     <div class="swiper-slide">
-                      {{ image | image_url: width: 512 | image_tag }}
+                      {%- if variant_product == product.selected_or_first_available_variant %}
+                        {%- if forloop.parentloop.first %}
+                          <img
+                            class="product_swiper__img"
+                            width=""
+                            height=""
+                            src="{{ image | image_url: width: 512 }}"
+                            data-src="{{ image | image_url: width: 512 }}"
+                            alt="{{ image.alt }}"
+                            fetchpriority="high"
+                            >
+                        {%- else -%}
+                          <img
+                            class="product_swiper__img"
+                            width=""
+                            height=""
+                            src="{{ image | image_url: width: 512 }}"
+                            data-src="{{ image | image_url: width: 512 }}"
+                            alt="{{ image.alt }}"
+                            fetchpriority="low"
+                            loading="lazy">
+                        {%- endif -%}
+                      {%- else -%}
+                        <img
+                          class="product_swiper__img"
+                          width=""
+                          height=""
+                          src="{{ shop.brand.logo | asset_url }}"
+                          data-src="{{ image | image_url: width: 512 }}"
+                          alt="{{ image.alt }}"
+                          fetchpriority="low"
+                          loading="lazy">
+                      {%- endif -%}
                     </div>
                   {% endfor %}
                 </div>
