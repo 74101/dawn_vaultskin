@@ -10,7 +10,7 @@
         {% if item.image != blank %}
           <div class="halved__image">
             {%- if variant_product == product.selected_or_first_available_variant %}
-              {%- if forloop.first %}
+              {%- if forloop.parentloop.first %}
                 <img
                   class="product_features__img"
                   width=""
