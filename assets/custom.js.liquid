@@ -52,7 +52,7 @@ function changeVariant() {
           slideshowContainerElements[this.dataset.index].classList.add('active')
         }
         if (productImagesElements[this.dataset.index]) {
-          let divElements = productImagesElements[this.dataset.index].querySelectorAll('div.slideshow__img')
+          let divElements = productImagesElements[this.dataset.index].querySelectorAll('div.product_swiper__img')
           replaceImages(divElements);
           productImagesElements.forEach(el => {
             el.classList.remove('active')
@@ -60,7 +60,7 @@ function changeVariant() {
           productImagesElements[this.dataset.index].classList.add('active')
         }
         if (variantProductFeaturesElements[this.dataset.index]) {
-          let divElements = variantProductFeaturesElements[this.dataset.index].querySelectorAll('div.slideshow__img')
+          let divElements = variantProductFeaturesElements[this.dataset.index].querySelectorAll('div.product_features__img')
           replaceImages(divElements);
           variantProductFeaturesElements.forEach(el => {
             el.classList.remove('active')
