@@ -35,6 +35,7 @@ function changeVariant() {
           let divElements = slideshowContainerElements[this.dataset.index].querySelectorAll('div.slideshow__img')
           divElements.forEach(divElement => {
             let imgElement = document.createElement('img');
+            divElement.src = divElement.dataset.src;
             for (let i = 0; i < divElement.attributes.length; i++) {
               let attr = divElement.attributes[i];
               imgElement.setAttribute(attr.name, attr.value)
