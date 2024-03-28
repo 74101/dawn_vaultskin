@@ -84,8 +84,8 @@
                         {%- if forloop.first %}
                           <img
                             class="product_swiper__img"
-                            width=""
-                            height=""
+                            width="512"
+                            height="512"
                             src="{{ image | image_url: width: 512 }}"
                             data-src="{{ image | image_url: width: 512 }}"
                             alt="{{ image.alt }}"
@@ -94,8 +94,8 @@
                         {%- else -%}
                           <img
                             class="product_swiper__img"
-                            width=""
-                            height=""
+                            width="512"
+                            height="512"
                             src="{{ image | image_url: width: 512 }}"
                             data-src="{{ image | image_url: width: 512 }}"
                             alt="{{ image.alt }}"
@@ -105,8 +105,8 @@
                       {%- else -%}
                         <div
                           class="product_swiper__img"
-                          width=""
-                          height=""
+                          width="512"
+                          height="512"
                           src="{{ shop.brand.logo | asset_url }}"
                           data-src="{{ image | image_url: width: 512 }}"
                           alt="{{ image.alt }}"
