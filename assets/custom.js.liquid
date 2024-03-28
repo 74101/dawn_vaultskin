@@ -22,6 +22,18 @@ function changeImageCollectionCard(element) {
   imageElement.src = imageUrl;
 }
 
+function replaceImages(elements) { 
+  elements.forEach(divElement => {
+    let imgElement = document.createElement('img');
+    for (let i = 0; i < divElement.attributes.length; i++) {
+      let attr = divElement.attributes[i];
+      imgElement.setAttribute(attr.name, attr.value)
+    }
+    divElement.parentNode.replaceChild(imgElement, divElement)
+    imgElement.src = imgElement.dataset.src;
+  })
+}
+
 function changeVariant() { 
   let slideshowContainerElements = document.querySelectorAll('.slideshow_container')
   let productImagesElements = document.querySelectorAll('.product_images')
@@ -32,30 +44,24 @@ function changeVariant() {
     productVariantOptionsCustomElements.forEach(elem => {
       elem.addEventListener('click', function (evt) {
         if (slideshowContainerElements[this.dataset.index]) {
-          let images = slideshowContainerElements[this.dataset.index].querySelectorAll('.slideshow__img')
-          images.forEach(img => {
-            img.src = img.dataset.src
-          })
+          let divElements = slideshowContainerElements[this.dataset.index].querySelectorAll('div.slideshow__img')
+          replaceImages(divElements);
           slideshowContainerElements.forEach(el => {
             el.classList.remove('active')
           })
           slideshowContainerElements[this.dataset.index].classList.add('active')
         }
         if (productImagesElements[this.dataset.index]) {
-          let images = productImagesElements[this.dataset.index].querySelectorAll('.product_swiper__img')
-          images.forEach(img => {
-            img.src = img.dataset.src
-          })
+          let divElements = productImagesElements[this.dataset.index].querySelectorAll('div.product_swiper__img')
+          replaceImages(divElements);
           productImagesElements.forEach(el => {
             el.classList.remove('active')
           })
           productImagesElements[this.dataset.index].classList.add('active')
         }
         if (variantProductFeaturesElements[this.dataset.index]) {
-          let images = variantProductFeaturesElements[this.dataset.index].querySelectorAll('.product_features__img')
-          images.forEach(img => {
-            img.src = img.dataset.src
-          })
+          let divElements = variantProductFeaturesElements[this.dataset.index].querySelectorAll('div.product_features__img')
+          replaceImages(divElements);
           variantProductFeaturesElements.forEach(el => {
             el.classList.remove('active')
           })

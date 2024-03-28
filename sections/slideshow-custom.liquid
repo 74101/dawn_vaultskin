@@ -34,7 +34,7 @@
           }
         {%- endstyle -%}
       {%- endif -%}
-      
+
       <slideshow-component
         class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}{% if section.settings.custom_dots %} custom_dots{% endif %}"
         role="region"
@@ -181,7 +181,7 @@
                         >
                     {%- endif -%}
                   {%- else -%}
-                    <img
+                    <div
                       class="slideshow__img"
                       width=""
                       height=""
@@ -190,7 +190,7 @@
                       alt="{{ current_variant_image.alt }}"
                       fetchpriority="low"
                       loading="lazy"
-                      >
+                      ></div>
                   {%- endif -%}
                 {%- else -%}
                   {%- assign placeholder_slide = forloop.index | modulo: 2 -%}

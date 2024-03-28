@@ -20,7 +20,7 @@
                 loading="lazy"
                 >
             {%- else -%}
-              <img
+              <div
                 class="product_features__img"
                 width=""
                 height=""
@@ -28,7 +28,7 @@
                 data-src="{{ item.image | image_url: width: 950 }}"
                 alt="{{ item.feature_title }}"
                 loading="lazy"
-                >
+                ></div>
             {%- endif -%}
           </div>
         {% endif %}
