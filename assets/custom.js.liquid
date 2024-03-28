@@ -32,13 +32,15 @@ function changeVariant() {
     productVariantOptionsCustomElements.forEach(elem => {
       elem.addEventListener('click', function (evt) {
         if (slideshowContainerElements[this.dataset.index]) {
-          let divElement = slideshowContainerElements[this.dataset.index].querySelectorAll('div.slideshow__img')
-          let imgElement = document.createElement('img');
-          for (let i = 0; i < divElement.attributes.length; i++) {
-            let attr = divElement.attributes[i];
-            imgElement.setAttribute(attr.name, attr.value)
-          }
-          divElement.parentNode.replaceChild(imgElement, divElement)
+          let divElements = slideshowContainerElements[this.dataset.index].querySelectorAll('div.slideshow__img')
+          divElements.forEach(divElement => {
+            let imgElement = document.createElement('img');
+            for (let i = 0; i < divElement.attributes.length; i++) {
+              let attr = divElement.attributes[i];
+              imgElement.setAttribute(attr.name, attr.value)
+            }
+            divElement.parentNode.replaceChild(imgElement, divElement)
+          })
 
           slideshowContainerElements.forEach(el => {
             el.classList.remove('active')
