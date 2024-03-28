@@ -103,7 +103,7 @@
                             loading="lazy">
                         {%- endif -%}
                       {%- else -%}
-                        <img
+                        <div
                           class="product_swiper__img"
                           width=""
                           height=""
@@ -111,7 +111,7 @@
                           data-src="{{ image | image_url: width: 512 }}"
                           alt="{{ image.alt }}"
                           fetchpriority="low"
-                          loading="lazy">
+                          loading="lazy"></div>
                       {%- endif -%}
                     </div>
                   {% endfor %}
