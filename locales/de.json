@@ -426,7 +426,7 @@
       "order_number_link": "Bestellnummer {{ number }}",
       "date": "Datum",
       "payment_status": "Zahlungsstatus",
-      "fulfillment_status": "Fulfillmentstatus",
+      "fulfillment_status": "Status der Bearbeitung",
       "total": "Gesamtsumme",
       "none": "Du hast noch keine Bestellungen aufgegeben."
     },
