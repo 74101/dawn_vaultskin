@@ -508,5 +508,16 @@
       "expanded": "Formular für den Empfänger des Geschenkgutscheins erweitert",
       "collapsed": "Formular für den Empfänger des Geschenkgutscheins minimiert"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "address_management": {
+        "confirm_address_deletion": "Bist Du dir sicher, dass Du die Adresse {{address}} löschen möchtest?"
+      },
+      "general": {
+        "skip_to_content": "Zum Inhalt",
+        "complete_purchase_button_label": "Bestellung abschließen"
+      }
+    }
   }
 }
