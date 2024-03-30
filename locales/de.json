@@ -291,7 +291,7 @@
       },
       "update": "Aktualisieren",
       "login": {
-        "title": "Hast du ein Konto?",
+        "title": "Hast Du ein Konto?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Logge dich ein<\/a>, damit es beim Checkout schneller geht."
       },
       "estimated_total": "Geschätzte Gesamtkosten",
@@ -303,7 +303,7 @@
     "featured_blog": {
       "view_all": "Alle anzeigen",
       "onboarding_title": "Blog-Beitrag",
-      "onboarding_content": "Verschaffe deinen Kunden eine Übersicht über deinen Blog-Beitrag"
+      "onboarding_content": "Verschaffe Deinen Kunden eine Übersicht über Deinen Blog-Beitrag"
     },
     "featured_collection": {
       "view_all": "Alle anzeigen",
@@ -313,7 +313,7 @@
       "view_all": "Alle anzeigen"
     },
     "collection_template": {
-      "title": "Kategorie",
+      "title": "Kollektion",
       "empty": "Keine Produkte gefunden",
       "use_fewer_filters_html": "Verwende weniger Filter oder <a class=\"{{ class }}\" href=\"{{ link }}\">entferne alle<\/a>"
     },
