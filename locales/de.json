@@ -458,7 +458,7 @@
       "billing_address": "Rechnungsadresse",
       "payment_status": "Zahlungsstatus",
       "shipping_address": "Lieferadresse",
-      "fulfillment_status": "Fulfillmentstatus",
+      "fulfillment_status": "Status der Bearbeitung",
       "discount": "Rabatt",
       "shipping": "Versand",
       "tax": "Steuer",
