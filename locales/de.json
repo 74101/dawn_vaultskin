@@ -522,7 +522,9 @@
         "return_to_store_label": "Zurück zum Store"
       },
       "order_summary": {
-        "gift_card_has_been_removed": "Der Geschenkgutschein wurde entfernt"
+        "gift_card_has_been_removed": "Der Geschenkgutschein wurde entfernt",
+        "discount_has_been_removed": "Der Rabatt wurde entfernt",
+        "may_be_charged_on_delivery": "Kann bei Lieferung berechnet werden"
       }
     }
   },
