@@ -546,6 +546,13 @@
       "markets": {
         "invalid_market_manager_error": "Überprüfe deine Kontaktinformationen, bevor du die Zahlung abschließt"
       }
+    },
+    "notices": {
+      "order": {
+        "transaction_status": {
+          "failure": "Fehler"
+        }
+      }
     }
   },
   "customer_accounts": {
