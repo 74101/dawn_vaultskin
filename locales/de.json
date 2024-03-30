@@ -542,6 +542,9 @@
         "wait": {
           "long": "Du erhältst eine E-Mail, sobald deine Bestellung bearbeitet worden ist. Wir haben derzeit eine große Anzahl an Bestellungen."
         }
+      },
+      "markets": {
+        "invalid_market_manager_error": "Überprüfe deine Kontaktinformationen, bevor du die Zahlung abschließt"
       }
     }
   },
