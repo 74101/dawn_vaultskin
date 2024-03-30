@@ -488,7 +488,7 @@
       "copy_code": "Geschenkgutscheincode kopieren",
       "expired": "Abgelaufen",
       "copy_code_success": "Code erfolgreich kopiert",
-      "how_to_use_gift_card": "Verwende diesen Geschenkgutscheincode online oder verwende den QR-Code im Shop",
+      "how_to_use_gift_card": "Verwende den Gutscheincode online oder den QR-Code im Geschäft",
       "expiration_date": "Gültig bis {{ expires_on }}"
     }
   },
