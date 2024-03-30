@@ -526,6 +526,9 @@
       "fees": {
         "return_shipping_fee": "Retourenversand"
       }
+    },
+    "address_form": {
+      "attention_help_text": "Name der Person oder Abteilung"
     }
   }
 }
