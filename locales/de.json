@@ -532,6 +532,9 @@
     },
     "payment_method_brands": {
       "discover": "Discover"
+    },
+    "shop_policies": {
+      "terms_of_sale": "Verkaufsbedingungen"
     }
   }
 }
