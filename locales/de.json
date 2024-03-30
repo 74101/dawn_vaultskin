@@ -131,8 +131,8 @@
       "unavailable": "Nicht verfügbar",
       "vendor": "Anbieter",
       "video_exit_message": "{{ title }} öffnet das Video auf derselben Seite im Vollbildmodus.",
-      "xr_button": "In deinem Bereich ansehen",
-      "xr_button_label": "\"Ansicht in deinem Raum\" lädt den Artikel in ein Augmented-Reality-Fenster",
+      "xr_button": "In Deinem Bereich ansehen",
+      "xr_button_label": "\"Ansicht in Deinem Raum\" lädt den Artikel in ein Augmented-Reality-Fenster",
       "pickup_availability": {
         "view_store_info": "Shop-Informationen anzeigen",
         "check_other_stores": "Verfügbarkeit in anderen Shops überprüfen",
