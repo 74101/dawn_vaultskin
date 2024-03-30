@@ -535,7 +535,7 @@
       },
       "shipping_errors": {
         "shipping_method_not_available_updated": {
-          "one": "Der von dir hinzugefügte Artikel wird nicht an deinen Standort versendet. Entferne ihn vor dem Checkout, oder kontaktiere den Store."
+          "one": "Der von dir hinzugefügte Artikel wird nicht an deinen Standort versendet. Entferne ihn vor dem Checkout, oder kontaktiere den Shop."
         }
       }
     }
