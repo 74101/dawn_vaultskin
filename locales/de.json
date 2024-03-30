@@ -530,7 +530,8 @@
         "shipping_line_phone_label": "Mobiltelefonnummer (erforderlich)"
       },
       "payment": {
-        "gift_card_balance_label": "Guthaben:"
+        "gift_card_balance_label": "Guthaben:",
+        "ideal_label": "iDEAL"
       }
     }
   },
