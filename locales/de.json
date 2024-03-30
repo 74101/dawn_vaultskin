@@ -555,6 +555,9 @@
         "cancel_reason": {
           "fraud": "Betrugsverdacht"
         }
+      },
+      "cart": {
+        "variant_not_found": "Variante nicht gefunden"
       }
     }
   },
