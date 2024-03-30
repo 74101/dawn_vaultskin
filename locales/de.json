@@ -528,6 +528,9 @@
       },
       "shipping": {
         "shipping_line_phone_label": "Mobiltelefonnummer (erforderlich)"
+      },
+      "payment": {
+        "gift_card_balance_label": "Guthaben:"
       }
     }
   },
