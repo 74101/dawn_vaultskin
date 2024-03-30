@@ -522,7 +522,10 @@
   },
   "customer_accounts": {
     "order_details": {
-      "not_applicable": "N\/A"
+      "not_applicable": "N\/A",
+      "fees": {
+        "return_shipping_fee": "Retourenversand"
+      }
     }
   }
 }
