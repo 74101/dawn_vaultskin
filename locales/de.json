@@ -517,6 +517,9 @@
       "general": {
         "skip_to_content": "Zum Inhalt",
         "complete_purchase_button_label": "Bestellung abschließen"
+      },
+      "stock": {
+        "return_to_store_label": "Zurück zum Store"
       }
     }
   },
