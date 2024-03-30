@@ -432,8 +432,8 @@
     },
     "recover_password": {
       "title": "Setze dein Passwort zurück",
-      "subtext": "Wir werden dir eine E-Mail zum Zurücksetzen deines Passworts schicken",
-      "success": "Wir haben dir eine E-Mail mit einem Link zum Aktualisieren deines Passworts geschickt."
+      "subtext": "Wir werden Dir eine E-Mail zum Zurücksetzen Deines Passworts schicken",
+      "success": "Wir haben Dir eine E-Mail mit einem Link zum Aktualisieren Deines Passworts geschickt."
     },
     "register": {
       "title": "Konto erstellen",
