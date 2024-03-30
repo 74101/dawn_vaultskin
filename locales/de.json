@@ -529,6 +529,9 @@
     },
     "address_form": {
       "attention_help_text": "Name der Person oder Abteilung"
+    },
+    "payment_method_brands": {
+      "discover": "Discover"
     }
   }
 }
