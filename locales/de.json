@@ -537,6 +537,11 @@
         "shipping_method_not_available_updated": {
           "one": "Der von dir hinzugefügte Artikel wird nicht an deinen Standort versendet. Entferne ihn vor dem Checkout, oder kontaktiere den Shop."
         }
+      },
+      "processing": {
+        "wait": {
+          "long": "Du erhältst eine E-Mail, sobald deine Bestellung bearbeitet worden ist. Wir haben derzeit eine große Anzahl an Bestellungen."
+        }
       }
     }
   },
