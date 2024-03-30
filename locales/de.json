@@ -520,6 +520,9 @@
       },
       "stock": {
         "return_to_store_label": "Zurück zum Store"
+      },
+      "order_summary": {
+        "gift_card_has_been_removed": "Der Geschenkgutschein wurde entfernt"
       }
     }
   },
