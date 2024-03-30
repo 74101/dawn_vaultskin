@@ -551,6 +551,9 @@
       "order": {
         "transaction_status": {
           "failure": "Fehler"
+        },
+        "cancel_reason": {
+          "fraud": "Betrugsverdacht"
         }
       }
     }
