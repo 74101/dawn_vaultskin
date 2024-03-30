@@ -519,5 +519,10 @@
         "complete_purchase_button_label": "Bestellung abschließen"
       }
     }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "not_applicable": "N\/A"
+    }
   }
 }
