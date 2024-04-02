@@ -10,7 +10,7 @@
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
       {% comment %}<link rel="icon" type="image/svg+xml" href="{{ settings.favicon }}" sizes="any">{% endcomment %}
-      <link rel="icon" type="image/png" href="//cdn.shopify.com/s/files/1/0249/5512/5840/files/favico.png?crop=center&height=32&width=32" >
+      <link rel="icon" type="image/png" href="/cdn/shop/files/favico.png?crop=center&height=32&width=32" >
     {%- endif -%}
 
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
