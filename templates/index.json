@@ -270,7 +270,7 @@
           "type": "item",
           "settings": {
             "heading": "<p><strong>Technology<\/strong><\/p>",
-            "description": "<p>We invented the VaultCard, the world’s most advanced protection for your RFID bank cards, ID cards and passport.<\/p>",
+            "description": "<p>We invented the VAULTCARD, the world’s most advanced protection for your RFID bank cards, ID cards and passport.<\/p>",
             "icon": "shopify:\/\/shop_images\/feature_item5.svg"
           }
         },
@@ -416,7 +416,7 @@
         "template--17041032544496__87d06e70-9dbc-4d36-8482-1ac60e599c49-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Vaultskin offers stylish and practical accessories made from luxury leather which secure your money and identity. The chips on your contactless bank cards, passport or ID cards wirelessly transmit personal and financial data when an RFID (Radio Frequency Identity) signal issent to them. Digital pickpockets now use RFID scanners to do this. Our military-grade RFID-blocking technology prevents these crimes.<\/p><p>We believe that our products should simplify your movements and transactions, so you enjoy streamlined convenience every day.<\/p><p>Our products include smartphone sleeves and cases, standalone wallets and super-slender card holders, and our Vaultcard, which offers exceptional protection for anything that’s RFID-enabled. <\/p>",
+            "text": "<p>Vaultskin offers stylish and practical accessories made from luxury leather which secure your money and identity. The chips on your contactless bank cards, passport or ID cards wirelessly transmit personal and financial data when an RFID (Radio Frequency Identity) signal issent to them. Digital pickpockets now use RFID scanners to do this. Our military-grade RFID-blocking technology prevents these crimes.<\/p><p>We believe that our products should simplify your movements and transactions, so you enjoy streamlined convenience every day.<\/p><p>Our products include smartphone sleeves and cases, standalone wallets and super-slender card holders, and our VAULTCARD, which offers exceptional protection for anything that’s RFID-enabled. <\/p>",
             "text_style": "body"
           }
         },
