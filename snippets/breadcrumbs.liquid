@@ -8,11 +8,13 @@
       <a href="/collections/all">All Products</a>
     </li>
     /
-    
+    {% if product.metafields.products.primary_collection.value != blank %}
+      {% assign primary_coll = product.metafields.products.primary_collection.value %}
       <li>
-        <a href="/collections/all">{{ product.metafields.products.primary_collection.value.title }}</a>
+        <a href="{{ primary_coll.url }}">{{ primary_coll.title }}</a>
       </li>
       /
+    {% endif %}
     <li aria-current="page">
       {% if product_collection %}
         <h1 class="collection-hero__title">
