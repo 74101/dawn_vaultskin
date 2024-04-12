@@ -161,20 +161,17 @@ function productNavigationFix() {
 productNavigationFix();
 
 const swiper_product_gallery = new Swiper('.swiper_product_gallery', {
-  slidesPerView: 'auto',
-  slidesPerGroup: 1,
   spaceBetween: 20,
   speed: 1000,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
   },
-  loopAdditionalSlides: 1,
   loop: true,
-  autoplay: {
-    delay: 6000,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 6000,
+  //   disableOnInteraction: false,
+  // },
 })
 
 const buy_now_btn = document.querySelectorAll('.buy_now_btn')
