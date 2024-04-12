@@ -120,6 +120,7 @@
       "blocks": {
         "3ee2adb6-35ce-4842-87fd-3fea24395a6c": {
           "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/wc-review-section\/f1860e84-309f-40ca-a2df-188435a622f3",
+          "disabled": true,
           "settings": {
           }
         }
