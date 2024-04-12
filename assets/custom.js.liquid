@@ -80,7 +80,7 @@ function offset(el) {
 }
 
 function productTabsScroll() {
-  const anchors = document.querySelectorAll('.product_navigation a[href*="#"]');
+  const anchors = document.querySelectorAll('.product_navigation a[href*='#']');
   const headerHeight = document.querySelector('.section-header').offsetHeight;
   const NAV_HEIGHT = 37;
   for (let anchor of anchors) {
@@ -96,7 +96,7 @@ function productTabsScroll() {
           window.scrollTo({
             top: 0,
             left: 0,
-            behavior: "smooth"
+            behavior: 'smooth'
           });
         } else if (block) {
           setTimeout(() => {
@@ -104,7 +104,7 @@ function productTabsScroll() {
             window.scrollTo({
               top: blockTop,
               left: 0,
-              behavior: "smooth"
+              behavior: 'smooth'
             })
           }, 100)
         }
@@ -118,7 +118,7 @@ function productTabsScroll() {
       }
     })
   }
-  document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener('DOMContentLoaded', function() {
     if(window.location.hash === '#overview') {
       const block = document.querySelector('.overview');
       if(block) {
@@ -126,7 +126,7 @@ function productTabsScroll() {
         window.scrollTo({
           top: blockTop,
           left: 0,
-          behavior: "smooth"
+          behavior: 'smooth'
         });
       }
     }
@@ -160,11 +160,13 @@ function productNavigationFix() {
 }
 productNavigationFix();
 
-const swiper_product_gallery = new Swiper(".swiper_product_gallery", {
+const swiper_product_gallery = new Swiper('.swiper_product_gallery', {
+  slidesPerView: 'auto',
+  slidesPerGroup: 1,
   spaceBetween: 20,
   speed: 1000,
   pagination: {
-    el: ".swiper-pagination",
+    el: '.swiper-pagination',
     clickable: true,
   },
   loop: true,
