@@ -148,7 +148,7 @@
                 {{- block.settings.text -}}
               </p>
             {%- when 'title' -%}
-              <div class="product__title {{ product.iphone }}" {{ block.shopify_attributes }}>
+              <div class="product__title {{ product.metafields.product.iphone }}" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
                   <h2 class="h1">
