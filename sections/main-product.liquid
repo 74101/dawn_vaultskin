@@ -149,19 +149,18 @@
               </p>
             {%- when 'title' -%}
               <div class="product__title
-{% for variant_product in product.variants limit: 1 -%}
-  {%- if variant_product.metafields.variant.virtual_variants.value != blank -%}
-    {%- assign virtual_variants = variant_product.metafields.variant.virtual_variants.value -%}
-  {%- else -%}
-    {%- assign virtual_variants = product.metafields.variant.virtual_variants.value -%}
-  {%- endif -%}
-  {%- for phone in virtual_variants.phone.value -%}
-    {%- if phone.product == product -%}
-      {{- phone.option2 -}}
-    {%- endif -%}
-  {%- endfor -%}
-{%- endfor -%}
-                
+                {% for variant_product in product.variants limit: 1 -%}
+                  {%- if variant_product.metafields.variant.virtual_variants.value != blank -%}
+                    {%- assign virtual_variants = variant_product.metafields.variant.virtual_variants.value -%}
+                  {%- else -%}
+                    {%- assign virtual_variants = product.metafields.variant.virtual_variants.value -%}
+                  {%- endif -%}
+                  {%- for phone in virtual_variants.phone.value -%}
+                    {%- if phone.product == product -%}
+                      {{- phone.option2 -}}
+                    {%- endif -%}
+                  {%- endfor -%}
+                {%- endfor -%}
                 " {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
