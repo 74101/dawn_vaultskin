@@ -161,8 +161,8 @@
                     {%- endif -%}
                   {%- endfor -%}
                 {%- endfor -%}
-                <h1>{{ product.title | escape }}
                 {% assign productCollections = product.collections | map: "handle" %}
+                <h1>{{ product.title | escape }}
                 {% if productCollections contains 'iphone-cases' %}
                     <br>
                     for
@@ -180,6 +180,19 @@
                 <a href="{{ product.url }}" class="product__title">
                   <h2 class="h1">
                     {{ product.title | escape }}
+                    {% if productCollections contains 'iphone-cases' %}
+                        <br>
+                        for
+                      {{ for_phone -}}
+                    {% elsif productCollections contains 'eton-armour' %}
+                        <br>
+                        for
+                      {{ for_phone -}}
+                    {% elsif productCollections contains 'victoria' %}
+                        <br>
+                        for
+                      {{ for_phone -}}
+                    {% endif %}
                   </h2>
                 </a>
               </div>
