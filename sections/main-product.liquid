@@ -149,14 +149,9 @@
               </p>
             {%- when 'title' -%}
               <div class="product__title
-
                 {% liquid
                   for variant_product in product.variants
-                    if variant_product.metafields.variant.virtual_variants.value != blank
-                      assign virtual_variants = variant_product.metafields.variant.virtual_variants.value
-                    else
-                      assign virtual_variants = product.metafields.variant.virtual_variants.value
-                    endif
+                    assign virtual_variants = product.metafields.variant.virtual_variants.value
                     for option in product.options_with_values
                         if virtual_variants.phone.value != blank
                             for phone in virtual_variants.phone.value
@@ -168,7 +163,6 @@
                     endfor
                   endfor
                 %}
-                
                 " {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
