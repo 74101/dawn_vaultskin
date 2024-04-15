@@ -157,21 +157,13 @@
                     {% endif %}
                 
                     {%- for option in product.options_with_values -%}
-                      {% assign option_name = option.name %}
                       {% assign option_name_downcase = option.name | downcase %}
                       {% assign option_with_num = 'option' | append: option.position %}
                       {% unless option_name_downcase == 'color' %}
                         {% if virtual_variants[option_name_downcase].value != blank %}
-                          <fieldset class="product-form__input">
-                            <legend class="form__label">{{ option_name }}</legend>
-                            <div class="virtual_variant_links">
                               {% for phone in virtual_variants[option_name_downcase].value %}
-                                <a href="{{ phone.product.url -}}#overview" class="virtual_variant_link {% if phone.product == product %}active{% endif %}">
                                   {{ phone[option_with_num] }}
-                                </a>
                               {% endfor %}
-                            </div>
-                          </fieldset>
                         {% endif %}
                       {% endunless %}
                     {%- endfor -%}   
