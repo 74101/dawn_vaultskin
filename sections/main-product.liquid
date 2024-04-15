@@ -157,9 +157,7 @@
   {%- endif -%}
   {%- for phone in virtual_variants.phone.value -%}
     {%- if phone.product == product -%}
-      {%- for item in phone -%}
-        {{ item }}
-      {%- endfor -%}
+        {{ phone }}
     {%- endif -%}
   {%- endfor -%}
 {%- endfor -%}
