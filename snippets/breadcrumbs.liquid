@@ -26,4 +26,29 @@
       {% endif %}
     </li>
   </ul>
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope
+        itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="{{ request.origin }}">
+          <span itemprop="name">Home</span></a>
+      <meta itemprop="position" content="1" />
+    </li>
+    /
+    <li itemprop="itemListElement" itemscope
+        itemtype="https://schema.org/ListItem">
+      <a itemscope itemtype="https://schema.org/WebPage"
+         itemprop="item" itemid="{{ request.origin }}/collections/all"
+         href="{{ request.origin }}/collections/all">
+        <span itemprop="name">All Products</span></a>
+      <meta itemprop="position" content="2" />
+    </li>
+    /
+    <li itemprop="itemListElement" itemscope
+        itemtype="https://schema.org/ListItem">
+      <span itemprop="name">Award winners</span>
+      <meta itemprop="position" content="3" />
+    </li>
+  </ol>
 </nav>
+
+
