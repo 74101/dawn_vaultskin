@@ -1,18 +1,48 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
-  <ul>
-    <li>
-      <a href="/">Home</a>
+  <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope
+        itemtype="https://schema.org/ListItem">
+      <a itemscope itemtype="https://schema.org/WebPage"
+         itemprop="item" itemid="{{ request.origin }}"
+         href="{{ request.origin }}">
+        <span itemprop="name">Home</span></a>
+      <meta itemprop="position" content="1" />
     </li>
     /
-    <li aria-current="page">
+    <li itemprop="itemListElement" itemscope
+        itemtype="https://schema.org/ListItem">
+      <a itemscope itemtype="https://schema.org/WebPage"
+         itemprop="item" itemid="{{ request.origin }}/collections/all"
+         href="{{ request.origin }}/collections/all">
+        <span itemprop="name">All Products</span></a>
+      <meta itemprop="position" content="2" />
+    </li>
+    /
+    {% if product.metafields.products.primary_collection.value != blank %}
+      {% assign primary_coll = product.metafields.products.primary_collection.value %}
+      <li itemprop="itemListElement" itemscope
+          itemtype="https://schema.org/ListItem">
+        <a itemscope itemtype="https://schema.org/WebPage"
+           itemprop="item" itemid="{{ primary_coll.url }}"
+           href="{{ primary_coll.url }}">
+          <span itemprop="name">{{ primary_coll.title }}</span></a>
+        <meta itemprop="position" content="3" />
+      </li>
+      /
+    {% endif %}
+    <li itemprop="itemListElement" itemscope aria-current="page"
+        itemtype="https://schema.org/ListItem">
       {% if product_collection %}
-        <h1 class="collection-hero__title">
+        <h1 itemprop="name" class="collection-hero__title">
           <span class="visually-hidden">{{ 'sections.collection_template.title' | t }}: </span>
           {{- collection.title | escape -}}
         </h1>
       {% else %}
-        <a href="{{ request.path }}" aria-current="page">{{ item_title }}</a>
+        <span itemprop="name">{{ item_title }}</span>
       {% endif %}
+      <meta itemprop="position" content="4" />
     </li>
   </ul>
 </nav>
+
+
