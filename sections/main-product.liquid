@@ -160,9 +160,7 @@
                     for option in product.options_with_values
                         if virtual_variants.phone.value != blank
                             for phone in virtual_variants.phone.value
-                              if phone.product == product
                                 echo phone[option.position]
-                              endif
                             endfor
                         endif
                     endfor
