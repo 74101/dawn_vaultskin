@@ -156,7 +156,7 @@
     {%- assign virtual_variants = product.metafields.variant.virtual_variants.value -%}
   {%- endif -%}
   {%- for phone in virtual_variants.phone.value -%}
-    {%- if phone.product == product -%}{{ phone[1] }}{%- endif -%}
+    {%- if phone.product == product -%}{{ phone['phone1'] }}{%- endif -%}
   {%- endfor -%}
 {%- endfor -%}
                 
