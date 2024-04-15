@@ -149,28 +149,16 @@
               </p>
             {%- when 'title' -%}
               <div class="product__title
-
-{% for variant_product in product.variants limit: 1 %}
-  {% if variant_product.metafields.variant.virtual_variants.value != blank %}
-    {% assign virtual_variants = variant_product.metafields.variant.virtual_variants.value %}
-  {% else %}
-    {% assign virtual_variants = product.metafields.variant.virtual_variants.value %}
-  {% endif %}
-
-  {%- for option in product.options_with_values -%}
-    {% assign option_name = option.name %}
-    {% assign option_name_downcase = option.name | downcase %}
-    {% assign option_with_num = 'option' | append: option.position %}
-    {% unless option_name_downcase == 'color' %}
-      {% if virtual_variants[option_name_downcase].value != blank %}
-          {{ option_name }}
-            {% for phone in virtual_variants[option_name_downcase].value %}
-              {% if phone.product == product %}{{ phone[option_with_num] }}{% endif %}
-            {% endfor %}
-      {% endif %}
-    {% endunless %}
-  {%- endfor -%}   
-{% endfor %}
+{%- for variant_product in product.variants limit: 1 -%}
+  {%- if variant_product.metafields.variant.virtual_variants.value != blank -%}
+    {%- assign virtual_variants = variant_product.metafields.variant.virtual_variants.value -%}
+  {%- else -%}
+    {%- assign virtual_variants = product.metafields.variant.virtual_variants.value -%}
+  {%- endif -%}
+  {%- for phone in virtual_variants.phone.value -%}
+    {%- if phone.product == product -%}{{ phone }}{%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
                 
                 " {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
