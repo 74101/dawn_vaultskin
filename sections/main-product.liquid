@@ -149,16 +149,7 @@
               </p>
             {%- when 'title' -%}
               <div class="product__title
-                    {% assign virtual_variants = product.metafields.variant.virtual_variants.value %}
-                    {%- for option in product.options_with_values -%}
-                      {% assign option_name_downcase = option.name | downcase %}
-                      {% assign option_with_num = 'option' | append: option.position %}
-                        {% if virtual_variants[option_name_downcase].value != blank %}
-                              {% for phone in virtual_variants[option_name_downcase].value %}
-                                {% if phone.product == product %}active- {% endif %}{{ phone[option_with_num] }}
-                              {% endfor %}
-                        {% endif %}
-                    {%- endfor -%}
+                    {{ product.metafields.variant.virtual_variants.value }}
                 " {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
