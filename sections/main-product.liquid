@@ -163,10 +163,7 @@
                 {%- endfor -%}
                 <h1>{{ product.title | escape }}
                 {% assign productCollections = product.collections | map: "handle" %}
-                {% if productCollections contains 'eton-armour' %}
-                  {% comment %}
-                  'eton-armour', 'iphone-cases', 'victoria' %}
-                  {% endcomment %}
+                {% if productCollections contains 'iphone-cases' %}
                     <br>
                     for
                   {{ for_phone -}}
