@@ -151,22 +151,22 @@
               <div class="product__title" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}
                 {% assign productCollections = product.collections | map: "handle" %}
-                {% case productCollections %}
-                  {% when contains 'eton-armour', contains 'iphone-cases', contains 'victoria' %}
-                  <br>
-                  for
-                  {% for variant_product in product.variants limit: 1 -%}
-                    {%- if variant_product.metafields.variant.virtual_variants.value != blank -%}
-                      {%- assign virtual_variants = variant_product.metafields.variant.virtual_variants.value -%}
-                    {%- else -%}
-                      {%- assign virtual_variants = product.metafields.variant.virtual_variants.value -%}
-                    {%- endif -%}
-                    {%- for phone in virtual_variants.phone.value -%}
-                      {%- if phone.product == product -%}
-                        {{- phone.option2 -}}
+                {% case productCollections contains %}
+                  {% when 'eton-armour', 'iphone-cases', 'victoria' %}
+                    <br>
+                    for
+                    {% for variant_product in product.variants limit: 1 -%}
+                      {%- if variant_product.metafields.variant.virtual_variants.value != blank -%}
+                        {%- assign virtual_variants = variant_product.metafields.variant.virtual_variants.value -%}
+                      {%- else -%}
+                        {%- assign virtual_variants = product.metafields.variant.virtual_variants.value -%}
                       {%- endif -%}
+                      {%- for phone in virtual_variants.phone.value -%}
+                        {%- if phone.product == product -%}
+                          {{- phone.option2 -}}
+                        {%- endif -%}
+                      {%- endfor -%}
                     {%- endfor -%}
-                  {%- endfor -%}
                 {% endcase %}
                 </h1>
                 <a href="{{ product.url }}" class="product__title">
