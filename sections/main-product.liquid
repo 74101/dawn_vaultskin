@@ -151,10 +151,8 @@
               <div class="product__title" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}
                 {% assign productCollections = product.collections | map: "handle" %}
-                {% if productCollections contains 'eton-armour' %} 
-                  This product is Discontinued
-                {% endif %}
-                {%- if false %}
+                {% case productCollections %}
+                  {% when contains 'eton-armour', contains 'iphone-cases', contains 'victoria' %}
                   <br>
                   for
                   {% for variant_product in product.variants limit: 1 -%}
@@ -169,7 +167,7 @@
                       {%- endif -%}
                     {%- endfor -%}
                   {%- endfor -%}
-                {%- endif -%}
+                {% endcase %}
                 </h1>
                 <a href="{{ product.url }}" class="product__title">
                   <h2 class="h1">
