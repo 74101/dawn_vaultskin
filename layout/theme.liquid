@@ -304,6 +304,48 @@
       {% endif %}
     {%- endif -%}
 
+    {%- if template.name == 'product' -%}
+      {% comment %}
+      <script type="application/ld+json">
+          {
+            "@context": "http://schema.org",
+            "@type": "ItemList",
+            "name": {{ collection.title | json }},
+            "itemListElement": [
+              {% for product in collection.products %}
+                {
+                  "@type": "ListItem",
+                  "position": {{ forloop.index | json }},
+                  "url": "{{ request.origin | append: product.url }}"
+                }{%- unless forloop.last %},{% endunless %}
+              {% endfor %}
+            ]
+          }
+      </script>
+      {% endcomment %}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Books",
+            "item": "{{ request.origin | append: product.url }}"
+          },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Science Fiction",
+            "item": "https://example.com/books/sciencefiction"
+          },{
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Award Winners"
+          }]
+        }
+      </script>
+    {%- endif -%}
+
     {% comment %} Google Ads Remarketing Tag By FeedArmy Version 2.17 START {% endcomment %}
     {% comment %} FeedArmy tutorial found at https://feedarmy.com/kb/adding-google-adwords-remarketing-tag-to-shopify/ {% endcomment %}
     
