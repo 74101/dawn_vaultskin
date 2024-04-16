@@ -178,13 +178,6 @@
         "settings": {
         }
       },
-      "734556878661012776": {
-        "type": "shopify:\/\/apps\/image-sitemap\/blocks\/google-verify\/7f21250b-d915-4143-91b8-090f195e7204",
-        "disabled": false,
-        "settings": {
-          "google_verify_code": "<meta name=\"google-site-verification\" content=\"qTrR_XqRIamQaI5Ir_3-aWKbeWxjd1skFGPnT-AnQkI\">"
-        }
-      },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
@@ -197,6 +190,13 @@
           "button_horizontal_position": "bottom_left",
           "button_vertical_position": "lowest",
           "greeting_message": ""
+        }
+      },
+      "734556878661012776": {
+        "type": "shopify:\/\/apps\/image-sitemap\/blocks\/google-verify\/7f21250b-d915-4143-91b8-090f195e7204",
+        "disabled": true,
+        "settings": {
+          "google_verify_code": "<meta name=\"google-site-verification\" content=\"qTrR_XqRIamQaI5Ir_3-aWKbeWxjd1skFGPnT-AnQkI\">"
         }
       }
     },
