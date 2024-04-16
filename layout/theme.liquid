@@ -416,7 +416,7 @@
     {{ 'custom.css' | asset_url | stylesheet_tag }}
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %} {% if template.suffix != blank %}template_{{- template.suffix -}}{% else %} template_{{- template.name -}}{% endif %}">
+  <body class="cli gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %} {% if template.suffix != blank %}template_{{- template.suffix -}}{% else %} template_{{- template.name -}}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
