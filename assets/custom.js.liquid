@@ -322,3 +322,15 @@ function headerSubmenuHover() {
   }
 }
 headerSubmenuHover()
+
+
+function headerSubmenuClick() {
+  let childlinksSummary = document.querySelectorAll('.childlinks summary');
+  if (childlinksSummary) {
+    childlinksSummary.forEach(item => {
+      let link = item;
+      console.log(item)
+    })
+  }
+}
+headerSubmenuClick()
