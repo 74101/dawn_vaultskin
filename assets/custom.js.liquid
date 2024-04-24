@@ -322,16 +322,3 @@ function headerSubmenuHover() {
   }
 }
 headerSubmenuHover()
-
-
-function headerSubmenuClick() {
-  let childlinksSummary = document.querySelectorAll('.childlinks summary');
-  if (childlinksSummary) {
-    childlinksSummary.forEach(item => {
-      item.addEventListener('click', function(evt) {
-        item.querySelector('a.visually-hidden').click()
-      })
-    })
-  }
-}
-headerSubmenuClick()
