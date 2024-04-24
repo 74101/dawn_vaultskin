@@ -65,7 +65,7 @@
                               {{ childlink.title | escape }}
                             </span>
                             {% render 'icon-caret' %}
-                            <a class="visually-hidden" href="{{ childlink.url }}"></a>
+                            <a class="summary_link" href="{{ childlink.url }}">{{ childlink.title | escape }}</a>
                           </summary>
                           <ul
                             id="HeaderMenu-SubMenuList-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
