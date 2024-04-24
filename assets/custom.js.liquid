@@ -329,8 +329,7 @@ function headerSubmenuClick() {
   if (childlinksSummary) {
     childlinksSummary.forEach(item => {
       item.addEventListener('click', function(evt) {
-        let link = item.querySelector('a.visually-hidden');
-        console.log(link)
+        item.querySelector('a.visually-hidden').click()
       })
     })
   }
