@@ -56,7 +56,6 @@
                             id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
                             class="header__menu-item link link--text list-menu__item focus-inset caption-large"
                           >
-                            <a class="visually-hidden" href="{{ childlink.url }}"></a>
                             <span class="item_with_icon">
                               {% assign icon = section.blocks[step].settings.icon %}
                               {% assign step = step | plus: 1 %}
@@ -66,6 +65,7 @@
                               {{ childlink.title | escape }}
                             </span>
                             {% render 'icon-caret' %}
+                            <a class="visually-hidden" href="{{ childlink.url }}"></a>
                           </summary>
                           <ul
                             id="HeaderMenu-SubMenuList-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
