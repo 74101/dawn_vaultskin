@@ -328,8 +328,10 @@ function headerSubmenuClick() {
   let childlinksSummary = document.querySelectorAll('.childlinks summary');
   if (childlinksSummary) {
     childlinksSummary.forEach(item => {
-      let link = item;
-      console.log(item)
+      item.addEventListener('click', function(evt) {
+        let link = item.querySelector('a.visually-hidden');
+        console.log(link)
+      })
     })
   }
 }
