@@ -1348,6 +1348,14 @@ product-info .price {
 .product-form .form .customer {
   order: 99;
 }
+.summary_link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 0 !important;
+}
 
 /* MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA  */
 
@@ -1414,7 +1422,7 @@ product-info .price {
     padding-top: 0.5rem;
   }
   .header-localization .disclosure .localization-form__select,
-  .header nav * {
+  .header nav *:not(.summary_link) {
     font-size: 1.1rem !important;
   }
   .banner--large {
