@@ -26,9 +26,12 @@
       {%- unless page_title | downcase contains shop.name | downcase %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
 
-    {% if page_description %}
+    {% if template == 'blog' and current_tags != blank %}
+      <meta name="description" content="Vaultskin blogs tagged with {{ current_tags.first }}.">
+    {% elsif page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
+    
     <meta
       name="keywords"
       content="wallet card holder iphone case minimalist slim leather rfid blocking nfc front pocket purse"
