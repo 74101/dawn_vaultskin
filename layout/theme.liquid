@@ -29,7 +29,7 @@
     {% endcomment %}
     <title>
       {% if template == 'blog' and current_tags != blank %}
-        Vaultskin Fashion News and latest Announcements about {{ current_tags.first }}.
+      Vaultskin Fashion News and latest Announcements about {{ current_tags.first }}.
         {%- if current_page != 1 %} Page {{ current_page }}{% endif -%}
       {% else %}
         {{ page_title }}
