@@ -332,7 +332,7 @@
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "content_padding_top": 5,
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
