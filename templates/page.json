@@ -71,6 +71,7 @@
         "buy_buttons_n9yH7r",
         "share_by8Hwz"
       ],
+      "disabled": true,
       "settings": {
         "product": "vaultcard",
         "color_scheme": "background-1",
@@ -182,6 +183,7 @@
         "collapsible_row_3kiieL",
         "collapsible_row_aEgHrt"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Collapsible content",
