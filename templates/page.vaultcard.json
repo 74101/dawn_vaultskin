@@ -1,0 +1,208 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "featured_product_TDWCND": {
+      "type": "featured-product",
+      "blocks": {
+        "text_WCtYy4": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_iQUJGm": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_a9HCV4": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_DpQmYe": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_rTEh3E": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_n9yH7r": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_by8Hwz": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_WCtYy4",
+        "title_iQUJGm",
+        "price_a9HCV4",
+        "variant_picker_DpQmYe",
+        "quantity_selector_rTEh3E",
+        "buy_buttons_n9yH7r",
+        "share_by8Hwz"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "vaultcard",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_AkrzLx": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_idf6tQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does VAULTCARD need a battery or other power source?",
+            "icon": "check_mark",
+            "row_content": "<p>VAULTCARD is powered by the electromagnetic signal of the RFID devices it detects, so itdoesn’t need its own power source. Other RFID fraud protectors on the market rely onbattery power, which needs to be re-charged. <br\/><br\/><br\/><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3AeaXr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How far away does an RFID-enabled credit or debit card need to be from VAULTCARDbefore it works for a normal transaction?",
+            "icon": "check_mark",
+            "row_content": "<p>Hold your payment card 20cm away from your VAULTCARD to use it for legitimatetransactions.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qwdhRn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why should I choose VAULTCARD over another RFID-blocking technology?",
+            "icon": "check_mark",
+            "row_content": "<p>VAULTCARD has no RFID “blind spots” – it completely blocks RFID signals from the most<br\/>high-powered skimming devices. It is also convenient to use, compact in size and can be<br\/>placed in your existing wallet. → See document attached.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pJiNat": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Q: Does VAULTCARD interfere with mobile phone signals?",
+            "icon": "check_mark",
+            "row_content": "<p>VAULTCARD is designed to protect cards in its immediate vicinity and will not affect mobile<br\/>phone signals.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ta6QYU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How many cards can VAULTCARD protect?",
+            "icon": "check_mark",
+            "row_content": "<p>If VAULTCARD is placed in the middle of your wallet all RFID enabled cards will be protected<br\/>within 4cm of the card, in wallets up to 8cm thick.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_t9REbg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I get my own VAULTCARD?",
+            "icon": "check_mark",
+            "row_content": "<p>VAULTCARD can be ordered from the Vaultskin website:<br\/>https:\/\/www.vaultskin.com\/VAULTCARD.html<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DxmFhf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does VAULTCARD affect my RFID enabled cards?",
+            "icon": "check_mark",
+            "row_content": "<p>VAULTCARD has no impact on any of your cards. To be able to use your RFID enabled creditcard you just need to move it away from VAULTCARD to a distance of more than 10 inches(25cm) <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3kiieL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are there any health risks associated with radio waves that VAULTCARD emits?",
+            "icon": "check_mark",
+            "row_content": "<p>In general RFID and VAULTCARD use the low-end of the electromagnetic spectrum. The<br\/>waves VAULTCARD generates are no more dangerous than the waves coming to your car<br\/>radio.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aEgHrt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_idf6tQ",
+        "collapsible_row_3AeaXr",
+        "collapsible_row_qwdhRn",
+        "collapsible_row_pJiNat",
+        "collapsible_row_ta6QYU",
+        "collapsible_row_t9REbg",
+        "collapsible_row_DxmFhf",
+        "collapsible_row_3kiieL",
+        "collapsible_row_aEgHrt"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_TDWCND",
+    "collapsible_content_AkrzLx"
+  ]
+}
