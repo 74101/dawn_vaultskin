@@ -198,11 +198,159 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_rXEiUy": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_KPamn8": {
+          "type": "heading",
+          "settings": {
+            "heading": "RFID Technology",
+            "heading_size": "h1"
+          }
+        },
+        "text_YV9Vbe": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><em><strong>RFID wallet is something we hear a lot about these days. <br\/>However, as some people don’t know what it means, we decided to clear up the confusion.<\/strong><\/em><\/h3>",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_4fznTU": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KPamn8",
+        "text_YV9Vbe",
+        "buttons_4fznTU"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/8.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "desktop_content_width": 70,
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_z6VaK6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KTC4hm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why You Need an RFID Wallet Today",
+            "heading_size": "h1"
+          }
+        },
+        "text_G9pxnV": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>RFID<\/strong>, or<strong> Radio Frequency Identification<\/strong>, was initially developed during World War II to identify returning British aircraft. Today, it's widely used in banking, shopping, and transportation. Credit cards with embedded RFID chips allow contactless payments, enhancing convenience but also posing risks. <br\/>In crowded areas, thieves can use RFID scanners to steal and clone your card information. To counter this, RFID-blocking wallets have been designed to protect your data from unauthorized scans, ensuring your personal information remains secure.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KTC4hm",
+        "text_G9pxnV"
+      ],
+      "settings": {
+        "container_size": "default",
+        "image": "shopify:\/\/shop_images\/a-credit-card-transaction-over-a-card-reader.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "content_padding_top": 5,
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_apnXyJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LkKF7x": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>What is an RFID wallet?<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_qK8DEW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tech-savvy thieves can use RFID readers to scan credit card data through radio waves. RFID wallets block these waves with special materials, preventing data theft. While not all credit cards are vulnerable, the risk exists, and with rising data theft, it's wise to take precautions.<\/p><p>Many RFID wallets are bulky, but there are slim, stylish options like the Baggizmo Wiseward Essential, which is also water-repellent and available in various colors. Ultimately, the best RFID wallet depends on your personal preferences and needs.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_Kc9t8y": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "flex-start",
+            "button_alignment_mobile": "flex-start"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LkKF7x",
+        "text_qK8DEW",
+        "button_Kc9t8y"
+      ],
+      "settings": {
+        "container_size": "default",
+        "image": "shopify:\/\/shop_images\/Photo_9_6c3dfd5f-3f91-46b0-a014-cd6eb033252d.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "content_padding_top": 5,
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "featured_product_TDWCND",
-    "collapsible_content_AkrzLx"
+    "collapsible_content_AkrzLx",
+    "image_banner_rXEiUy",
+    "image_with_text_z6VaK6",
+    "image_with_text_apnXyJ"
   ]
 }
