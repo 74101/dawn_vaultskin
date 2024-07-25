@@ -403,6 +403,34 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_YbRVAp": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Protect yourself with our RFID Blocking Card and Wallets",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "rfid-wallets",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "featured_blog_iFAcLX": {
       "type": "featured-blog",
       "settings": {
@@ -429,6 +457,7 @@
     "image_with_text_z6VaK6",
     "image_with_text_apnXyJ",
     "multicolumn_QKp4TR",
+    "featured_collection_YbRVAp",
     "featured_blog_iFAcLX"
   ]
 }
