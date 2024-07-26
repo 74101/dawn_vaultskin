@@ -92,7 +92,7 @@
       "settings": {
         "container_size": "full",
         "image": "shopify:\/\/shop_images\/a-credit-card-transaction-over-a-card-reader.jpg",
-        "height": "small",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -147,7 +147,7 @@
       "settings": {
         "container_size": "full",
         "image": "shopify:\/\/shop_images\/Photo_9_6c3dfd5f-3f91-46b0-a014-cd6eb033252d.jpg",
-        "height": "small",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -202,7 +202,7 @@
       "settings": {
         "container_size": "full",
         "image": "shopify:\/\/shop_images\/20230114-carousel_0739753b-cfad-4212-829d-bfb1b7291dc2.jpg",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
