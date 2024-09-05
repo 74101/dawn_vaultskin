@@ -74,9 +74,9 @@
       {%- endcase -%}
     {%- endfor -%}
 
-{% assign product_id_1 = article.metafields.featured_product.product_id %}
-{% assign product_id_2 = product_id_1 | minus: 2 %}
-{% assign product_ids = product_id_1 | append: ',' | append: product_id_2 %}
+{% assign product_id_minus_2 = article.metafields.featured_product.product_id | minus: 2 %}
+{% assign product_ids = article.metafields.featured_product.product_id | join: ',' %}
+{% assign product_ids = product_ids | append: "," | append: product_id_minus_2 %}
 
 {% for product_id in product_ids %}
   {% if product_id %}
