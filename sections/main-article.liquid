@@ -96,11 +96,13 @@
             <div class="prod_inner">
               <h4 class="prod_title">{{ product.title }}</h4>
               {{ product.metafields.product.hero_subtitle }}
+              {% comment %}
               <ul class="prod_collections">
                 {% for collection in product.collections %}
                   <li>{{ collection.title }}</li>
                 {% endfor %}
               </ul>
+              {% endcomment %}
               <a href="{{ variant.url }}" class="button">VIEW PRODUCT</a>
             </div>
           </div>
