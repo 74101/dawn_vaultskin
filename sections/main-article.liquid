@@ -74,102 +74,58 @@
       {%- endcase -%}
     {%- endfor -%}
 
-    {% if article.metafields.featured_product.product_id %}
-      {% assign product_id = article.metafields.featured_product.product_id %}
-      <div class="article_featured_product">
-        <h3 class="section_title">FEATURED PRODUCT</h3>
-        {% for product in collections.all.products %}
-          {% if product.id == product_id %}
-            <div class="prod">
-              <div class="prod_image">
-                <img src="{{ product.featured_image | image_url: width: 200 }}" width="" height="">
-              </div>
-              <div class="prod_inner">
-                <h4 class="prod_title">{{ product.title }}</h4> 
-                <ul class="prod_collections">
-                  {% for collection in product.collections %}
-                    <li>{{ collection.title }}</li>
-                  {% endfor %}
-                </ul>
-                <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
-              </div>
-            </div>
-          {% endif %}
-    
-          {% for var in product.variants %}
-            {% if var.id == product_id %}
-              <div class="prod">
-                <div class="prod_image">
-                  <img src="{{ var.featured_image | image_url: width: 200 }}" width="" height="">
-                </div>
-                <div class="prod_inner">
-                  <h4 class="prod_title">{{ product.title }}</h4> 
-                  <ul class="prod_collections">
-                    {% for collection in product.collections %}
-                      <li>{{ collection.title }}</li>
-                    {% endfor %}
-                  </ul>
-                  <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
-                </div>
-              </div>
-            {% endif %}
-          {% endfor %}
-    
-        {% endfor %}
-    
-      </div>
-    
-    {% endif %}
-    
-    
-    {% if article.metafields.featured_product.product_id-2 %}
-      {% assign product_id = article.metafields.featured_product.product_id-2 %}
-      <div class="article_featured_product">
-        {% if article.metafields.featured_product.product_id == blank %}
-          <h3 class="section_title">FEATURED PRODUCT</h3>
-        {% endif %}
-        {% for product in collections.all.products %}
-          {% if product.id == product_id %}
-            <div class="prod">
-              <div class="prod_image">
-                <img src="{{ product.featured_image | image_url: width: 200 }}" width="" height="">
-              </div>
-              <div class="prod_inner">
-                <h4 class="prod_title">{{ product.title }}</h4> 
-                <ul class="prod_collections">
-                  {% for collection in product.collections %}
-                    <li>{{ collection.title }}</li>
-                  {% endfor %}
-                </ul>
-                <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
-              </div>
-            </div>
-          {% endif %}
-    
-          {% for var in product.variants %}
-            {% if var.id == product_id %}
-              <div class="prod">
-                <div class="prod_image">
-                  <img src="{{ var.featured_image | image_url: width: 200 }}" width="" height="">
-                </div>
-                <div class="prod_inner">
-                  <h4 class="prod_title">{{ product.title }}</h4> 
-                  <ul class="prod_collections">
-                    {% for collection in product.collections %}
-                      <li>{{ collection.title }}</li>
-                    {% endfor %}
-                  </ul>
-                  <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
-                </div>
-              </div>
-            {% endif %}
-          {% endfor %}
-    
-        {% endfor %}
-    
-      </div>
+{% assign product_id_1 = article.metafields.featured_product.product_id %}
+{% assign product_id_2 = product_id_1 | minus: 2 %}
+{% assign product_ids = product_id_1 | append: ',' | append: product_id_2 %}
 
-    {% endif %}
+{% for product_id in product_ids %}
+  {% if product_id %}
+    <div class="article_featured_product">
+      <h3 class="section_title">FEATURED PRODUCT</h3>
+      
+      {% for product in collections.all.products %}
+        {% if product.id == product_id %}
+          <div class="prod">
+            <div class="prod_image">
+              <img src="{{ product.featured_image | image_url: width: 200 }}" width="" height="">
+            </div>
+            <div class="prod_inner">
+              <h4 class="prod_title">{{ product.title }}</h4> 
+              <ul class="prod_collections">
+                {% for collection in product.collections %}
+                  <li>{{ collection.title }}</li>
+                {% endfor %}
+              </ul>
+              <a href="{{ product.url }}" class="button">VIEW PRODUCT</a>
+            </div>
+          </div>
+        {% endif %}
+        
+        {% for var in product.variants %}
+          {% if var.id == product_id %}
+            <div class="prod">
+              <div class="prod_image">
+                <img src="{{ var.featured_image | image_url: width: 200 }}" width="" height="">
+              </div>
+              <div class="prod_inner">
+                <h4 class="prod_title">{{ product.title }}</h4> 
+                <ul class="prod_collections">
+                  {% for collection in product.collections %}
+                    <li>{{ collection.title }}</li>
+                  {% endfor %}
+                </ul>
+                <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
+
+    
     <div class="card__tags">
       <span class="card__tags-title">Tags: </span>
       {% for tag in article.tags %}
