@@ -76,7 +76,7 @@
 
     {% # featured product %}
     {% assign variant_ids = article.metafields.featured_product.variants %}
-    {% if variant_ids.size > 0 %}
+    {% if variant_ids != blank %}
       <div class="article_featured_product">
         <h3 class="section_title">FEATURED PRODUCTS</h3>
         {% for variant_id in variant_ids %}
