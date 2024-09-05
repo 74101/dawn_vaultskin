@@ -86,10 +86,15 @@
           
           <div class="prod">
             <div class="prod_image">
-              <img src="{{ variant.featured_image | image_url: width: 200 }}" width="200" height="">
+              <!-- Check if the variant has a featured image, otherwise use the product's featured image -->
+              {% if variant.featured_image %}
+                <img src="{{ variant.featured_image | image_url: width: 200 }}" width="200" height="">
+              {% else %}
+                <img src="{{ product.featured_image | image_url: width: 200 }}" width="200" height="">
+              {% endif %}
             </div>
             <div class="prod_inner">
-              <h4 class="prod_title">{{ product.title }} - {{ variant.title }}</h4>
+              <h4 class="prod_title">{{ product.title }}</h4>
               <ul class="prod_collections">
                 {% for collection in product.collections %}
                   <li>{{ collection.title }}</li>
