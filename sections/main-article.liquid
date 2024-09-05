@@ -74,38 +74,34 @@
       {%- endcase -%}
     {%- endfor -%}
 
-    {% # featured product %}
-  {% assign variant_gids = article.metafields.featured_product.variants.value %}
-  {% if variant_gids != blank %}
-    <!-- If featured_product.variants has values -->
-    <div class="article_featured_product">
-      <h3 class="section_title">FEATURED PRODUCTS</h3>
-
-      {% for variant_gid in variant_gids %}{{ variant_gid }}
-        {% assign variant_id = variant_gid | replace: "gid://shopify/ProductVariant/", "" %}
+    {% # featured variants %}
+    {% assign variant_gids = article.metafields.featured_product.variants %}
+    
+    {% if variant_gids != blank %}
+      <!-- If featured_product.variants has values -->
+      <div class="article_featured_product">
+        <h3 class="section_title">FEATURED PRODUCTS</h3>
         
-        {% for product in collections.all.products %}
-          {% for var in product.variants %}
-            {% if var.id == variant_id %}
-              <div class="prod">
-                <div class="prod_image">
-                  <img src="{{ var.featured_image | image_url: width: 200 }}" width="" height="">
-                </div>
-                <div class="prod_inner">
-                  <h4 class="prod_title">{{ product.title }} - {{ var.title }}</h4>
-                  <ul class="prod_collections">
-                    {% for collection in product.collections %}
-                      <li>{{ collection.title }}</li>
-                    {% endfor %}
-                  </ul>
-                  <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
-                </div>
-              </div>
-            {% endif %}
-          {% endfor %}
+        {% for variant in variant_gids %}
+          {% assign product = variant.product %}  <!-- Assuming you can directly access the product object from variant -->
+          
+          <div class="prod">
+            <div class="prod_image">
+              <img src="{{ variant.featured_image | image_url: width: 200 }}" width="" height="">
+            </div>
+            <div class="prod_inner">
+              <h4 class="prod_title">{{ product.title }} - {{ variant.title }}</h4>
+              <ul class="prod_collections">
+                {% for collection in product.collections %}
+                  <li>{{ collection.title }}</li>
+                {% endfor %}
+              </ul>
+              <a href="{{ variant.url }}" class="button">VIEW PRODUCT</a>
+            </div>
+          </div>
+          
         {% endfor %}
-      {% endfor %}
-    </div>
+      </div>
     {% endif %}
 
     {% if article.metafields.featured_product.product_id %}
