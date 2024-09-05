@@ -95,6 +95,7 @@
             </div>
             <div class="prod_inner">
               <h4 class="prod_title">{{ product.title }}</h4>
+              {{ product.metafields.product.hero_subtitle }}
               <ul class="prod_collections">
                 {% for collection in product.collections %}
                   <li>{{ collection.title }}</li>
