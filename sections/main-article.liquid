@@ -75,19 +75,18 @@
     {%- endfor -%}
 
     {% # featured variants %}
-    {% assign variant_gids = article.metafields.featured_product.variants %}
+    {% assign variants = article.metafields.featured_product.variants.value %}
     
-    {% if variant_gids != blank %}
-      <!-- If featured_product.variants has values -->
+    {% if variants %}
       <div class="article_featured_product">
         <h3 class="section_title">FEATURED PRODUCTS</h3>
         
-        {% for variant in variant_gids %}
-          {% assign product = variant.product %}  <!-- Assuming you can directly access the product object from variant -->
+        {% for variant in variants %}
+          {% assign product = variant.product %}
           
           <div class="prod">
             <div class="prod_image">
-              <img src="{{ variant.featured_image | image_url: width: 200 }}" width="" height="">
+              <img src="{{ variant.featured_image | image_url: width: 200 }}" width="200" height="">
             </div>
             <div class="prod_inner">
               <h4 class="prod_title">{{ product.title }} - {{ variant.title }}</h4>
