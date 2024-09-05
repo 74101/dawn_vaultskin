@@ -74,6 +74,36 @@
       {%- endcase -%}
     {%- endfor -%}
 
+    {% # featured product %}
+    {% assign variant_ids = article.metafields.featured_product.variants %}
+    {% if variant_ids.size > 0 %}
+      <div class="article_featured_product">
+        <h3 class="section_title">FEATURED VARIANTS</h3>
+        {% for variant_id in variant_ids %}
+          {% for product in collections.all.products %}
+            {% for var in product.variants %}
+              {% if var.id == variant_id %}
+                <div class="prod">
+                  <div class="prod_image">
+                    <img src="{{ var.featured_image | image_url: width: 200 }}" width="" height="">
+                  </div>
+                  <div class="prod_inner">
+                    <h4 class="prod_title">{{ product.title }} - {{ var.title }}</h4>
+                    <ul class="prod_collections">
+                      {% for collection in product.collections %}
+                        <li>{{ collection.title }}</li>
+                      {% endfor %}
+                    </ul>
+                    <a href="{{ var.url }}" class="button">VIEW VARIANT</a>
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
     {% if article.metafields.featured_product.product_id %}
       {% assign product_id = article.metafields.featured_product.product_id %}
       <div class="article_featured_product">
