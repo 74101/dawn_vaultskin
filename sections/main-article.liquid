@@ -78,7 +78,7 @@
     {% assign variant_ids = article.metafields.featured_product.variants %}
     {% if variant_ids.size > 0 %}
       <div class="article_featured_product">
-        <h3 class="section_title">FEATURED VARIANTS</h3>
+        <h3 class="section_title">FEATURED PRODUCTS</h3>
         {% for variant_id in variant_ids %}
           {% for product in collections.all.products %}
             {% for var in product.variants %}
@@ -94,7 +94,7 @@
                         <li>{{ collection.title }}</li>
                       {% endfor %}
                     </ul>
-                    <a href="{{ var.url }}" class="button">VIEW VARIANT</a>
+                    <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
                   </div>
                 </div>
               {% endif %}
