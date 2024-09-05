@@ -75,6 +75,7 @@
     {%- endfor -%}
 
     {% # featured product %}
+    {{ article.metafields.featured_product.variants }}
     {% assign variant_ids = article.metafields.featured_product.variants %}
     {% if variant_ids != blank %}
       <div class="article_featured_product">
