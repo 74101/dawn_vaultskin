@@ -80,6 +80,7 @@
       <div class="article_featured_product">
         <h3 class="section_title">FEATURED PRODUCTS</h3>
         {% for variant_id in variant_ids %}
+          {% for product in collections.all.products %}
             {% for var in product.variants %}
               {% if var.id == variant_id %}
                 <div class="prod">
@@ -97,6 +98,7 @@
                   </div>
                 </div>
               {% endif %}
+            {% endfor %}
           {% endfor %}
         {% endfor %}
       </div>
