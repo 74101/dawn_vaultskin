@@ -80,9 +80,8 @@
     <!-- If featured_product.variants has values -->
     <div class="article_featured_product">
       <h3 class="section_title">FEATURED PRODUCTS</h3>
-      {% assign variant_gids = variant_gids | split: "," %}
-      {{ variant_gids }}
-      {% for variant_gid in variant_gids %}
+
+      {% for variant_gid in variant_gids %}3
         {% assign variant_id = variant_gid | replace: "gid://shopify/ProductVariant/", "" %}
         
         {% for product in collections.all.products %}
