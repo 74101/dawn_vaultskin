@@ -81,7 +81,7 @@
     <div class="article_featured_product">
       <h3 class="section_title">FEATURED PRODUCTS</h3>
 
-      {% for variant_gid in variant_gids %}3
+      {% for variant_gid in variant_gids %}{{ variant_gid }}
         {% assign variant_id = variant_gid | replace: "gid://shopify/ProductVariant/", "" %}
         
         {% for product in collections.all.products %}
