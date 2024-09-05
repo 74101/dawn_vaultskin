@@ -79,8 +79,8 @@
   {% if variant_gids != blank %}
     <!-- If featured_product.variants has values -->
     <div class="article_featured_product">
-      <h3 class="section_title">FEATURED VARIANTS</h3>
-      
+      <h3 class="section_title">FEATURED PRODUCTS</h3>
+      {{ variant_gids | json }}
       {% for variant_gid in variant_gids %}
         {% assign variant_id = variant_gid | replace: "gid://shopify/ProductVariant/", "" %}
         
@@ -98,7 +98,7 @@
                       <li>{{ collection.title }}</li>
                     {% endfor %}
                   </ul>
-                  <a href="{{ var.url }}" class="button">VIEW VARIANT</a>
+                  <a href="{{ var.url }}" class="button">VIEW PRODUCT</a>
                 </div>
               </div>
             {% endif %}
