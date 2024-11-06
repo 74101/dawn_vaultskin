@@ -17,6 +17,58 @@
         "padding_bottom": 28
       }
     },
+    "slideshow_BAxLwp": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_xLFQkf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/8.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "<strong>RFID wallet is something we hear a lot about these days. However, as some people don’t know what it means, we decided to clear up the confusion.</strong>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_xLFQkf"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "pagination": "on",
+        "slider_visual": "counter",
+        "custom_dots": false,
+        "pagination_margin_bottom": 0,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "desktop_content_width": 40,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "RFID Technology Explainer",
+        "heading": "RFID Technology",
+        "heading_tag": "h1",
+        "heading_size": "h1",
+        "subheading": "<strong>RFID wallet is something we hear a lot about these days. However, as some people don’t know what it means, we decided to clear up the confusion.</strong>",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "box_align": "middle-center",
+        "show_text_box": false,
+        "text_alignment": "center",
+        "color_scheme": "accent-1"
+      }
+    },
     "image_banner_rXEiUy": {
       "type": "image-banner",
       "blocks": {
@@ -39,6 +91,7 @@
         "heading_KPamn8",
         "text_YV9Vbe"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/8.jpg",
         "image_overlay_opacity": 40,
@@ -401,6 +454,7 @@
   },
   "order": [
     "main",
+    "slideshow_BAxLwp",
     "image_banner_rXEiUy",
     "image_with_text_z6VaK6",
     "image_with_text_apnXyJ",
