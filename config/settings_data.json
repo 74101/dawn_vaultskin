@@ -1,11 +1,20 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "mobile_menu": "mobile-menu-v2",
     "mobile_menu_collection": "bestsellers",
     "logo": "{{ shop.brand.logo }}",
     "logo_width": 130,
-    "favicon": "shopify:\/\/shop_images\/favico.svg",
-    "logo_scroll": "shopify:\/\/shop_images\/Vaultskin-Logo-Mobile.svg",
+    "favicon": "shopify://shop_images/favico.svg",
+    "logo_scroll": "shopify://shop_images/Vaultskin-Logo-Mobile.svg",
     "logo_width_scroll": 300,
     "type_header_font": "pt_sans_n7",
     "heading_scale": 100,
@@ -103,15 +112,15 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
-    "social_facebook_link": "https:\/\/www.facebook.com\/vaultskin\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/vaultskin\/",
-    "social_youtube_link": "https:\/\/www.youtube.com\/vaultskin",
+    "social_facebook_link": "https://www.facebook.com/vaultskin/",
+    "social_instagram_link": "https://www.instagram.com/vaultskin/",
+    "social_youtube_link": "https://www.youtube.com/vaultskin",
     "social_tiktok_link": "",
-    "social_twitter_link": "https:\/\/twitter.com\/vaultskin",
+    "social_twitter_link": "https://twitter.com/vaultskin",
     "social_snapchat_link": "",
-    "social_pinterest_link": "https:\/\/www.pinterest.com\/vaultskin\/",
+    "social_pinterest_link": "https://www.pinterest.com/vaultskin/",
     "social_tumblr_link": "",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
@@ -123,8 +132,8 @@
     "show_cart_note": false,
     "cart_drawer_collection": "bestsellers",
     "cart_color_scheme": "accent-1",
-    "checkout_header_image": "shopify:\/\/shop_images\/Vaultskin-Checkout-Header_6511bf27-383e-4c33-b7b3-66ed65aadb05.webp",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Vaultskin_London-Logo.svg",
+    "checkout_header_image": "shopify://shop_images/Vaultskin-Checkout-Header_6511bf27-383e-4c33-b7b3-66ed65aadb05.webp",
+    "checkout_logo_image": "shopify://shop_images/Vaultskin_London-Logo.svg",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_accent_color": "#b58f5e",
@@ -149,37 +158,31 @@
     ],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
       "16789939927838974014": {
-        "type": "shopify:\/\/apps\/rivyo-product-reviews\/blocks\/app-embed\/f1860e84-309f-40ca-a2df-188435a622f3",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "13289604166815178351": {
-        "type": "shopify:\/\/apps\/redirect-pro-404-seo\/blocks\/redirect-pro\/68d49184-0465-4c21-8d3d-e051f7921c3f",
+        "type": "shopify://apps/rivyo-product-reviews/blocks/app-embed/f1860e84-309f-40ca-a2df-188435a622f3",
         "disabled": false,
         "settings": {
         }
       },
       "16936614187718193802": {
-        "type": "shopify:\/\/apps\/multifeeds\/blocks\/app_embed\/f3e7ca1d-2d5a-45a7-97dd-2fd45843acef",
+        "type": "shopify://apps/multifeeds/blocks/app_embed/f3e7ca1d-2d5a-45a7-97dd-2fd45843acef",
         "disabled": true,
         "settings": {
         }
       },
       "6858403126979251294": {
-        "type": "shopify:\/\/apps\/omega-cookie-banner\/blocks\/omega-cookies-notification\/13cba824-a338-452e-9b8e-c83046a79f21",
+        "type": "shopify://apps/omega-cookie-banner/blocks/omega-cookies-notification/13cba824-a338-452e-9b8e-c83046a79f21",
         "disabled": false,
         "settings": {
         }
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#b58f5e",
@@ -407,7 +410,7 @@
       "sale_badge_color_scheme": "accent-2",
       "sold_out_badge_color_scheme": "inverse",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",

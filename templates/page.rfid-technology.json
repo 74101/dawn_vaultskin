@@ -1,17 +1,16 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -30,7 +29,7 @@
         "text_YV9Vbe": {
           "type": "text",
           "settings": {
-            "text": "<h3><em><strong>RFID wallet is something we hear a lot about these days. <br\/>However, as some people don’t know what it means, we decided to clear up the confusion.<\/strong><\/em><\/h3>",
+            "text": "<h3><em><strong>RFID wallet is something we hear a lot about these days. <br/>However, as some people don’t know what it means, we decided to clear up the confusion.</strong></em></h3>",
             "text_style": "subtitle"
           }
         },
@@ -53,7 +52,7 @@
         "buttons_4fznTU"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/8.jpg",
+        "image": "shopify://shop_images/8.jpg",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -80,7 +79,7 @@
         "text_G9pxnV": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>RFID<\/strong>, or<strong> Radio Frequency Identification<\/strong>, was initially developed during World War II to identify returning British aircraft. Today, it's widely used in banking, shopping, and transportation. Credit cards with embedded RFID chips allow contactless payments, enhancing convenience but also posing risks. <br\/>In crowded areas, thieves can use RFID scanners to steal and clone your card information. To counter this, RFID-blocking wallets have been designed to protect your data from unauthorized scans, ensuring your personal information remains secure.<\/p>",
+            "text": "<p><strong>RFID</strong>, or<strong> Radio Frequency Identification</strong>, was initially developed during World War II to identify returning British aircraft. Today, it's widely used in banking, shopping, and transportation. Credit cards with embedded RFID chips allow contactless payments, enhancing convenience but also posing risks. <br/>In crowded areas, thieves can use RFID scanners to steal and clone your card information. To counter this, RFID-blocking wallets have been designed to protect your data from unauthorized scans, ensuring your personal information remains secure.</p>",
             "text_style": "body"
           }
         }
@@ -91,7 +90,7 @@
       ],
       "settings": {
         "container_size": "default",
-        "image": "shopify:\/\/shop_images\/a-credit-card-transaction-over-a-card-reader.jpg",
+        "image": "shopify://shop_images/a-credit-card-transaction-over-a-card-reader.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -113,14 +112,14 @@
         "heading_LkKF7x": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>What is an RFID wallet?<\/strong>",
+            "heading": "<strong>What is an RFID wallet?</strong>",
             "heading_size": "h1"
           }
         },
         "text_qK8DEW": {
           "type": "text",
           "settings": {
-            "text": "<p>Tech-savvy thieves can use RFID readers to scan credit card data through radio waves. RFID wallets block these waves with special materials, preventing data theft. While not all credit cards are vulnerable, the risk exists, and with rising data theft, it's wise to take precautions.<\/p><p>Many RFID wallets are bulky, but there are slim, stylish options like the Baggizmo Wiseward Essential, which is also water-repellent and available in various colors. Ultimately, the best RFID wallet depends on your personal preferences and needs.<\/p>",
+            "text": "<p>Tech-savvy thieves can use RFID readers to scan credit card data through radio waves. RFID wallets block these waves with special materials, preventing data theft. While not all credit cards are vulnerable, the risk exists, and with rising data theft, it's wise to take precautions.</p><p>Many RFID wallets are bulky, but there are slim, stylish options like the Baggizmo Wiseward Essential, which is also water-repellent and available in various colors. Ultimately, the best RFID wallet depends on your personal preferences and needs.</p>",
             "text_style": "body"
           }
         },
@@ -146,7 +145,7 @@
       ],
       "settings": {
         "container_size": "default",
-        "image": "shopify:\/\/shop_images\/Photo_9_6c3dfd5f-3f91-46b0-a014-cd6eb033252d.jpg",
+        "image": "shopify://shop_images/Photo_9_6c3dfd5f-3f91-46b0-a014-cd6eb033252d.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -191,9 +190,9 @@
         "column_AycACN": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4.jpg",
+            "image": "shopify://shop_images/4.jpg",
             "title": "Protect Your Financial Data",
-            "text": "<p>RFID protection blocks unauthorized scans of your credit cards, preventing financial fraud and unauthorized transactions.<\/p>",
+            "text": "<p>RFID protection blocks unauthorized scans of your credit cards, preventing financial fraud and unauthorized transactions.</p>",
             "link_label": "",
             "link": ""
           }
@@ -201,9 +200,9 @@
         "column_bgypGn": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vaultskin_VICTORIA_VAULTCARD.jpg",
+            "image": "shopify://shop_images/Vaultskin_VICTORIA_VAULTCARD.jpg",
             "title": "Peace of Mind",
-            "text": "<p>With RFID protection, you can confidently carry your cards, knowing your personal information is safe from digital thieves, especially in crowded places.<\/p>",
+            "text": "<p>With RFID protection, you can confidently carry your cards, knowing your personal information is safe from digital thieves, especially in crowded places.</p>",
             "link_label": "",
             "link": ""
           }
@@ -211,9 +210,9 @@
         "column_whyn4y": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vaultskin_Title_VAULTCARD_2-2.jpg",
+            "image": "shopify://shop_images/Vaultskin_Title_VAULTCARD_2-2.jpg",
             "title": "Cost-Effective Security",
-            "text": "<p>RFID wallets and blocking cards offer an affordable way to safeguard your data, reducing the risk of financial fraud and identity theft without significant investment.<\/p>",
+            "text": "<p>RFID wallets and blocking cards offer an affordable way to safeguard your data, reducing the risk of financial fraud and identity theft without significant investment.</p>",
             "link_label": "",
             "link": ""
           }
@@ -302,7 +301,7 @@
         "paragraph_jqzCWY": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
         "email_form_CgfaK8": {
