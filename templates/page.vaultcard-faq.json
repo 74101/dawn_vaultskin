@@ -33,24 +33,11 @@
             "text": "<h3><em><strong>RFID wallet is something we hear a lot about these days. <br/>However, as some people don’t know what it means, we decided to clear up the confusion.</strong></em></h3>",
             "text_style": "subtitle"
           }
-        },
-        "buttons_4fznTU": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_KPamn8",
-        "text_YV9Vbe",
-        "buttons_4fznTU"
+        "text_YV9Vbe"
       ],
       "settings": {
         "image": "shopify://shop_images/8.jpg",
