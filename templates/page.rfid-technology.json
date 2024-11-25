@@ -17,6 +17,325 @@
         "padding_bottom": 28
       }
     },
+    "slideshow_xn8i8L": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_BcctKk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/best_rfid_card.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_BcctKk"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "pagination": "off",
+        "slider_visual": "counter",
+        "custom_dots": false,
+        "pagination_margin_bottom": 0,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "desktop_content_width": 100,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand",
+        "heading": "<strong>VAULTCARD: The Ultimate RFID Protection Solution</strong>",
+        "heading_tag": "h1",
+        "heading_size": "h1",
+        "subheading": "Don’t leave your sensitive information vulnerable to modern threats. Upgrade your wallet with the most advanced RFID blocking card available. Compact, powerful, and effortless to use, VAULTCARD is the ultimate solution for safeguarding your data.",
+        "button_label": "",
+        "link": "",
+        "button_style_secondary": false,
+        "box_align": "middle-center",
+        "show_text_box": false,
+        "text_alignment": "center",
+        "color_scheme": "inverse"
+      }
+    },
+    "rich_text_J7gL66": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QXD9fk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>VAULTCARD Advantages</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QXD9fk"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_DzAefh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_p8Hzb8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unmatched RFID Protection: Why VAULTCARD Stands Out",
+            "heading_size": "h2"
+          }
+        },
+        "text_AU3ewE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking for a reliable solution to safeguard your cards from RFID skimming? VAULTCARD redefines protection by using advanced <strong>jamming technology</strong>, which actively disrupts communication between your bank cards and RFID scanners. Unlike traditional shielding cards, which act as simple barriers and work only under limited conditions, VAULTCARD ensures complete security by effectively jamming RFID signals. Its cutting-edge, non-“white noise” signal offers superior effectiveness, blocking even high-powered skimming devices with ease. Compact and convenient, it fits seamlessly into your wallet, making it the ultimate choice for modern security.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_cPRMXn": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "flex-start",
+            "button_alignment_mobile": "flex-start"
+          }
+        }
+      },
+      "block_order": [
+        "heading_p8Hzb8",
+        "text_AU3ewE",
+        "button_cPRMXn"
+      ],
+      "settings": {
+        "container_size": "full",
+        "image": "shopify://shop_images/Vaultskin_Title_VAULTCARD_2-2.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "content_padding_top": 5,
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_tWdx6e": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TzL9LP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Enhanced Range and Efficiency: Protection That Works Anywhere</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_y4LqMk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>VAULTCARD is engineered to offer <strong>unparalleled coverage</strong>, outperforming other RFID blocking cards on the market. While alternative jamming cards need precise alignment to be effective, VAULTCARD works even when misaligned, with a range exceeding 6 cm—double that of competitors. Its orthogonal antenna design ensures maximum signal efficiency, capturing both electric and magnetic waves to create a jamming signal 1000x stronger than rival products. Say goodbye to blind spots and limited functionality—VAULTCARD protects your cards wherever they are in your wallet.</p><p></p>",
+            "text_style": "body"
+          }
+        },
+        "button_nHxJDM": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "flex-start",
+            "button_alignment_mobile": "flex-start"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TzL9LP",
+        "text_y4LqMk",
+        "button_nHxJDM"
+      ],
+      "settings": {
+        "container_size": "full",
+        "image": "shopify://shop_images/rfid_blocking_card.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "content_padding_top": 5,
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_F46byb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_r8K4Gd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Eco-Friendly and Maintenance-Free Innovation</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_LUJYW9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlike competitors that rely on batteries needing frequent recharging, VAULTCARD is entirely <strong>self-powered</strong>, harnessing electromagnetic signals from nearby RFID devices. This innovative design eliminates the hassle of charging, offering a hassle-free and eco-friendly solution. With no blind spots and no need for constant adjustments, VAULTCARD delivers reliable, long-lasting RFID protection, ensuring your peace of mind wherever you go. Protect your data with the most advanced RFID blocking card available today.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Nxifwn": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "flex-start",
+            "button_alignment_mobile": "flex-start"
+          }
+        }
+      },
+      "block_order": [
+        "heading_r8K4Gd",
+        "text_LUJYW9",
+        "button_Nxifwn"
+      ],
+      "settings": {
+        "container_size": "full",
+        "image": "shopify://shop_images/VAULTCARD_Young_Man_Holding_Card.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "content_padding_top": 5,
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_cRTnHQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pB3T7C": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Revolutionary Features</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pB3T7C"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_PmbHwh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_aWVJWp": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Orthogonal Antenna Design</strong>",
+            "text": "<p>Unlike most RFID blockers that use a single antenna for energy and transmission, VAULTCARD utilizes a <strong>specialized orthogonal antenna system</strong>. This ensures peak efficiency, providing consistent and reliable protection.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eqh9QX": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Self-Powered for Sustainability</strong>",
+            "text": "<p>Forget about batteries or frequent recharging. VAULTCARD is powered by electromagnetic signals emitted by RFID devices, making it completely <strong>maintenance-free and eco-friendly</strong>. It’s always ready to protect, with no additional upkeep required.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_y4P94W": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>No Blind Spots</strong>",
+            "text": "<p>Most RFID blockers only work when perfectly aligned with your bank cards, leaving gaps in protection. VAULTCARD eliminates blind spots entirely, safeguarding your cards no matter where they are in your wallet. Its comprehensive design blocks even high-powered skimming devices.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_aWVJWp",
+        "column_eqh9QX",
+        "column_y4P94W"
+      ],
+      "settings": {
+        "section_position": "default",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "container_width": 1600,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "description_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_product_4MdUbW": {
       "type": "featured-product",
       "blocks": {
@@ -56,6 +375,7 @@
         },
         "share_Jenb8z": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -72,7 +392,7 @@
       ],
       "settings": {
         "product": "vaultcard",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "secondary_background": false,
         "media_size": "small",
         "constrain_to_viewport": true,
@@ -85,105 +405,23 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_nKW9Bk": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_3QiqKf": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Jamming instead of shielding",
-            "icon": "check_mark",
-            "row_content": "<p>There are two types of RFID blocking cards: shielding and jamming cards. VAULTCARD is a jamming card and therefore significantly more effective than comparable products on the market. Shielding cards can be compared to a protecting piece of metal foil and are only effective in very specific circumstances. In contrast, jamming cards function differently. They jam the receiver of both the RFID card and RFID scanner and as a result disturb communication between bank cards and RFID scanners.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_dQMYRL": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Expanded range",
-            "icon": "check_mark",
-            "row_content": "<p>Alternative jamming cards need to be placed square on to the protected card (in practice this makes such protection useless). Whereas, VAULTCARD and the RFID cards can be misaligned: at least 20mm along the short side and 40mm along the long side. This also means that VAULTCARD covers a significantly larger range. The usual range of available alternatives on the market is only 2-3 cm, whereas VAULTCARD's is more than 6cm.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3jE4JY": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Sophisticated RFID jamming signal",
-            "icon": "check_mark",
-            "row_content": "<p>Competing products use a simple “white noise” jamming signal. VAULTCARD uses a different, sophisticated non “white noise” jamming signal.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_8iKBXj": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Strongest jamming signal",
-            "icon": "check_mark",
-            "row_content": "<p>Rival products tend to capture only magnetic H-fields. However, VAULTCARD’s internalenergy harnessing is designed to capture both the electric E-field as well as the magneticH-field of electromagnetic waves. This more efficient energy harnessing greatly increasesthe jamming signal. The spectral energy of VAULTCARD’s signal is 1000x greater than thatof competitors. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_ai3F8F": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Orthogonal antennas",
-            "icon": "check_mark",
-            "row_content": "<p>Alternative products typically use the same antenna for both energy harnessing and signaltransmission. In practice this means that none of them are efficient enough. VAULTCARD uses a highly specialized orthogonal antenna for transmission to ensure greatesteffectiveness.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_8prdR9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Effective energy supply",
-            "icon": "check_mark",
-            "row_content": "<p>Other RFID fraud protectors on the market rely on battery power, which needs to be recharged. VAULTCARD is powered by the electromagnetic signal of the RFID devices itdetects. This means it doesn’t need its own power source. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_JhFrmK": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "No blind spots",
-            "icon": "check_mark",
-            "row_content": "<p>Most RFID blocking cards only work if they are inserted in front of a bank card and literallynext to it. If you remove a blocking card by a fraction of an inch from the card it isprotecting, the card can be easily read out by skimming devices. VAULTCARD on the otherhand works irrespective of where it is placed (behind or in front) and it can be separatedfrom the cards. Therefore, VAULTCARD has no “blind spots” – it completely blocks RFIDsignals even from high-powered skimming devices. It is also convenient to use, compact insize and can be placed in your existing wallet.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_3QiqKf",
-        "collapsible_row_dQMYRL",
-        "collapsible_row_3jE4JY",
-        "collapsible_row_8iKBXj",
-        "collapsible_row_ai3F8F",
-        "collapsible_row_8prdR9",
-        "collapsible_row_JhFrmK"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "<strong>Why is VAULTCARD superior to other RFID blocking cards? </strong>",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collapsible_content_xBXxhx": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_tnPatC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes VAULTCARD better than other competitors?",
+            "icon": "none",
+            "row_content": "<ul><li><strong>Complete RFID Protection:</strong> Blocks all attempts to skim data from your cards.</li><li><strong>User-Friendly Design:</strong> Slim and compact, it fits seamlessly into any wallet.</li><li><strong>Eco-Friendly:</strong> No batteries or recharging required.</li><li><strong>Advanced Technology:</strong> Outperforms all traditional shielding and basic jamming cards.</li></ul>",
+            "page": ""
+          }
+        },
         "collapsible_row_gUHKRM": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Does VAULTCARD need a battery or other power source?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>VAULTCARD is powered by the electromagnetic signal of the RFID devices it detects, so itdoesn’t need its own power source. Other RFID fraud protectors on the market rely onbattery power, which needs to be re-charged. </p>",
             "page": ""
           }
@@ -192,7 +430,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How far away does an RFID-enabled credit or debit card need to be from VAULTCARDbefore it works for a normal transaction?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Hold your payment card 20cm away from your VAULTCARD to use it for legitimatetransactions. </p>",
             "page": ""
           }
@@ -201,7 +439,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Does VAULTCARD interfere with mobile phone signals?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Q: Does VAULTCARD interfere with mobile phone signals?VAULTCARD is designed to protect cards in its immediate vicinity and will not affect mobilephone signals.</p>",
             "page": ""
           }
@@ -210,7 +448,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Why should I choose VAULTCARD over another RFID-blocking technology?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>VAULTCARD has no RFID “blind spots” – it completely blocks RFID signals from the mosthigh-powered skimming devices. It is also convenient to use, compact in size and can beplaced in your existing wallet.</p>",
             "page": ""
           }
@@ -219,7 +457,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How many cards can VAULTCARD protect?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>If VAULTCARD is placed in the middle of your wallet all RFID enabled cards will be protectedwithin 4cm of the card, in wallets up to 8cm thick. </p>",
             "page": ""
           }
@@ -228,7 +466,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How does VAULTCARD affect my RFID enabled cards?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>VAULTCARD has no impact on any of your cards. To be able to use your RFID enabled creditcard you just need to move it away from VAULTCARD to a distance of more than 10 inches(25cm).</p>",
             "page": ""
           }
@@ -237,7 +475,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Are there any health risks associated with radio waves that VAULTCARD emits?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>In general RFID and VAULTCARD use the low-end of the electromagnetic spectrum. Thewaves VAULTCARD generates are no more dangerous than the waves coming to your carradio. </p>",
             "page": ""
           }
@@ -246,7 +484,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Can VAULTCARD de-magnetize my other credit cards?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>NO. In general RFID and VAULTCARD use the low-end of the electromagnetic spectrum. Thewaves VAULTCARD generates are no more dangerous than the waves coming to your carradio. Which mean the magnetic component of the electromagnetic waves VAULTCARDgenerates is extremely small.</p>",
             "page": ""
           }
@@ -255,13 +493,14 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What can break VAULTCARD?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Serious physical damage to VAULTCARD will break it. You should not bend nor fold the card.Small bending is allowed though. In general, you should not do to VAULTCARD anything thatyou would not do to your credit card. </p>",
             "page": ""
           }
         }
       },
       "block_order": [
+        "collapsible_row_tnPatC",
         "collapsible_row_gUHKRM",
         "collapsible_row_QgQFcm",
         "collapsible_row_k9XWVK",
@@ -278,274 +517,13 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image_banner_rXEiUy": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_KPamn8": {
-          "type": "heading",
-          "settings": {
-            "heading": "RFID Technology",
-            "heading_size": "h1"
-          }
-        },
-        "text_YV9Vbe": {
-          "type": "text",
-          "settings": {
-            "text": "<h3><em><strong>RFID wallet is something we hear a lot about these days. <br/>However, as some people don’t know what it means, we decided to clear up the confusion.</strong></em></h3>",
-            "text_style": "subtitle"
-          }
-        },
-        "buttons_4fznTU": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_KPamn8",
-        "text_YV9Vbe",
-        "buttons_4fznTU"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/8.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "desktop_content_width": 70,
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_with_text_z6VaK6": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_KTC4hm": {
-          "type": "heading",
-          "settings": {
-            "heading": "Why You Need an RFID Wallet Today",
-            "heading_size": "h1"
-          }
-        },
-        "text_G9pxnV": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>RFID</strong>, or<strong> Radio Frequency Identification</strong>, was initially developed during World War II to identify returning British aircraft. Today, it's widely used in banking, shopping, and transportation. Credit cards with embedded RFID chips allow contactless payments, enhancing convenience but also posing risks. <br/>In crowded areas, thieves can use RFID scanners to steal and clone your card information. To counter this, RFID-blocking wallets have been designed to protect your data from unauthorized scans, ensuring your personal information remains secure.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_KTC4hm",
-        "text_G9pxnV"
-      ],
-      "disabled": true,
-      "settings": {
-        "container_size": "default",
-        "image": "shopify://shop_images/a-credit-card-transaction-over-a-card-reader.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "content_padding_top": 5,
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_apnXyJ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_LkKF7x": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>What is an RFID wallet?</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_qK8DEW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Tech-savvy thieves can use RFID readers to scan credit card data through radio waves. RFID wallets block these waves with special materials, preventing data theft. While not all credit cards are vulnerable, the risk exists, and with rising data theft, it's wise to take precautions.</p><p>Many RFID wallets are bulky, but there are slim, stylish options like the Baggizmo Wiseward Essential, which is also water-repellent and available in various colors. Ultimately, the best RFID wallet depends on your personal preferences and needs.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_Kc9t8y": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_alignment": "flex-start",
-            "button_alignment_mobile": "flex-start"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LkKF7x",
-        "text_qK8DEW",
-        "button_Kc9t8y"
-      ],
-      "disabled": true,
-      "settings": {
-        "container_size": "default",
-        "image": "shopify://shop_images/Photo_9_6c3dfd5f-3f91-46b0-a014-cd6eb033252d.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "content_padding_top": 5,
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "rich_text_zkWKyU": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Kxr9qH": {
-          "type": "heading",
-          "settings": {
-            "heading": "Top 3 Reasons to Invest in RFID Protection",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Kxr9qH"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "multicolumn_QKp4TR": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_AycACN": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/4.jpg",
-            "title": "Protect Your Financial Data",
-            "text": "<p>RFID protection blocks unauthorized scans of your credit cards, preventing financial fraud and unauthorized transactions.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_bgypGn": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Vaultskin_VICTORIA_VAULTCARD.jpg",
-            "title": "Peace of Mind",
-            "text": "<p>With RFID protection, you can confidently carry your cards, knowing your personal information is safe from digital thieves, especially in crowded places.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_whyn4y": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Vaultskin_Title_VAULTCARD_2-2.jpg",
-            "title": "Cost-Effective Security",
-            "text": "<p>RFID wallets and blocking cards offer an affordable way to safeguard your data, reducing the risk of financial fraud and identity theft without significant investment.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_AycACN",
-        "column_bgypGn",
-        "column_whyn4y"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_position": "default",
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "container_width": 1600,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "description_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_YbRVAp": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Secure Your Data with RFID Blocking Card and Wallets",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "rfid-wallets",
-        "products_to_show": 6,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 20,
-        "padding_bottom": 20
       }
     },
     "featured_blog_iFAcLX": {
@@ -602,15 +580,15 @@
   },
   "order": [
     "main",
+    "slideshow_xn8i8L",
+    "rich_text_J7gL66",
+    "image_with_text_DzAefh",
+    "image_with_text_tWdx6e",
+    "image_with_text_F46byb",
+    "rich_text_cRTnHQ",
+    "multicolumn_PmbHwh",
     "featured_product_4MdUbW",
-    "collapsible_content_nKW9Bk",
     "collapsible_content_xBXxhx",
-    "image_banner_rXEiUy",
-    "image_with_text_z6VaK6",
-    "image_with_text_apnXyJ",
-    "rich_text_zkWKyU",
-    "multicolumn_QKp4TR",
-    "featured_collection_YbRVAp",
     "featured_blog_iFAcLX",
     "newsletter_pLnUze"
   ]
