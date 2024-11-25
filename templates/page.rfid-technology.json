@@ -307,8 +307,7 @@
         },
         "email_form_CgfaK8": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
