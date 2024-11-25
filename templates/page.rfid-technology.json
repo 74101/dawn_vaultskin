@@ -9,12 +9,171 @@
  */
 {
   "sections": {
+    "featured_product_4MdUbW": {
+      "type": "featured-product",
+      "blocks": {
+        "text_XCQzCe": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_6wtQVH": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_99aqXb": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_XtThKY": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_WXDRbw": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_PX8wd7": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_Jenb8z": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_XCQzCe",
+        "title_6wtQVH",
+        "price_99aqXb",
+        "variant_picker_XtThKY",
+        "quantity_selector_WXDRbw",
+        "buy_buttons_PX8wd7",
+        "share_Jenb8z"
+      ],
+      "settings": {
+        "product": "vaultcard",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "collapsible_content_nKW9Bk": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_3QiqKf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Jamming instead of shielding",
+            "icon": "check_mark",
+            "row_content": "<p>There are two types of RFID blocking cards: shielding and jamming cards. VAULTCARD is a jamming card and therefore significantly more effective than comparable products on the market. Shielding cards can be compared to a protecting piece of metal foil and are only effective in very specific circumstances. In contrast, jamming cards function differently. They jam the receiver of both the RFID card and RFID scanner and as a result disturb communication between bank cards and RFID scanners.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dQMYRL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Expanded range",
+            "icon": "check_mark",
+            "row_content": "<p>Alternative jamming cards need to be placed square on to the protected card (in practice this makes such protection useless). Whereas, VAULTCARD and the RFID cards can be misaligned: at least 20mm along the short side and 40mm along the long side. This also means that VAULTCARD covers a significantly larger range. The usual range of available alternatives on the market is only 2-3 cm, whereas VAULTCARD's is more than 6cm.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3jE4JY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sophisticated RFID jamming signal",
+            "icon": "check_mark",
+            "row_content": "<p>Competing products use a simple “white noise” jamming signal. VAULTCARD uses a different, sophisticated non “white noise” jamming signal.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8iKBXj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Strongest jamming signal",
+            "icon": "check_mark",
+            "row_content": "<p>Rival products tend to capture only magnetic H-fields. However, VAULTCARD’s internalenergy harnessing is designed to capture both the electric E-field as well as the magneticH-field of electromagnetic waves. This more efficient energy harnessing greatly increasesthe jamming signal. The spectral energy of VAULTCARD’s signal is 1000x greater than thatof competitors. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ai3F8F": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Orthogonal antennas",
+            "icon": "check_mark",
+            "row_content": "<p>Alternative products typically use the same antenna for both energy harnessing and signaltransmission. In practice this means that none of them are efficient enough. VAULTCARD uses a highly specialized orthogonal antenna for transmission to ensure greatesteffectiveness.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8prdR9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Effective energy supply",
+            "icon": "check_mark",
+            "row_content": "<p>Other RFID fraud protectors on the market rely on battery power, which needs to be recharged. VAULTCARD is powered by the electromagnetic signal of the RFID devices itdetects. This means it doesn’t need its own power source. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JhFrmK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "No blind spots",
+            "icon": "check_mark",
+            "row_content": "<p>Most RFID blocking cards only work if they are inserted in front of a bank card and literallynext to it. If you remove a blocking card by a fraction of an inch from the card it isprotecting, the card can be easily read out by skimming devices. VAULTCARD on the otherhand works irrespective of where it is placed (behind or in front) and it can be separatedfrom the cards. Therefore, VAULTCARD has no “blind spots” – it completely blocks RFIDsignals even from high-powered skimming devices. It is also convenient to use, compact insize and can be placed in your existing wallet.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_3QiqKf",
+        "collapsible_row_dQMYRL",
+        "collapsible_row_3jE4JY",
+        "collapsible_row_8iKBXj",
+        "collapsible_row_ai3F8F",
+        "collapsible_row_8prdR9",
+        "collapsible_row_JhFrmK"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "<strong>Why is VAULTCARD superior to other RFID blocking cards? </strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "collapsible_content_xBXxhx": {
@@ -116,97 +275,6 @@
       "settings": {
         "caption": "",
         "heading": "VAULTCARD FAQs",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_nKW9Bk": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_3QiqKf": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Jamming instead of shielding",
-            "icon": "check_mark",
-            "row_content": "<p>There are two types of RFID blocking cards: shielding and jamming cards. VAULTCARD is a jamming card and therefore significantly more effective than comparable products on the market. Shielding cards can be compared to a protecting piece of metal foil and are only effective in very specific circumstances. In contrast, jamming cards function differently. They jam the receiver of both the RFID card and RFID scanner and as a result disturb communication between bank cards and RFID scanners.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_dQMYRL": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Expanded range",
-            "icon": "check_mark",
-            "row_content": "<p>Alternative jamming cards need to be placed square on to the protected card (in practice this makes such protection useless). Whereas, VAULTCARD and the RFID cards can be misaligned: at least 20mm along the short side and 40mm along the long side. This also means that VAULTCARD covers a significantly larger range. The usual range of available alternatives on the market is only 2-3 cm, whereas VAULTCARD's is more than 6cm.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3jE4JY": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Sophisticated RFID jamming signal",
-            "icon": "check_mark",
-            "row_content": "<p>Competing products use a simple “white noise” jamming signal. VAULTCARD uses a different, sophisticated non “white noise” jamming signal.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_8iKBXj": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Strongest jamming signal",
-            "icon": "check_mark",
-            "row_content": "<p>Rival products tend to capture only magnetic H-fields. However, VAULTCARD’s internalenergy harnessing is designed to capture both the electric E-field as well as the magneticH-field of electromagnetic waves. This more efficient energy harnessing greatly increasesthe jamming signal. The spectral energy of VAULTCARD’s signal is 1000x greater than thatof competitors. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_ai3F8F": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Orthogonal antennas",
-            "icon": "check_mark",
-            "row_content": "<p>Alternative products typically use the same antenna for both energy harnessing and signaltransmission. In practice this means that none of them are efficient enough. VAULTCARD uses a highly specialized orthogonal antenna for transmission to ensure greatesteffectiveness.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_8prdR9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Effective energy supply",
-            "icon": "check_mark",
-            "row_content": "<p>Other RFID fraud protectors on the market rely on battery power, which needs to be recharged. VAULTCARD is powered by the electromagnetic signal of the RFID devices itdetects. This means it doesn’t need its own power source. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_JhFrmK": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "No blind spots",
-            "icon": "check_mark",
-            "row_content": "<p>Most RFID blocking cards only work if they are inserted in front of a bank card and literallynext to it. If you remove a blocking card by a fraction of an inch from the card it isprotecting, the card can be easily read out by skimming devices. VAULTCARD on the otherhand works irrespective of where it is placed (behind or in front) and it can be separatedfrom the cards. Therefore, VAULTCARD has no “blind spots” – it completely blocks RFIDsignals even from high-powered skimming devices. It is also convenient to use, compact insize and can be placed in your existing wallet.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_3QiqKf",
-        "collapsible_row_dQMYRL",
-        "collapsible_row_3jE4JY",
-        "collapsible_row_8iKBXj",
-        "collapsible_row_ai3F8F",
-        "collapsible_row_8prdR9",
-        "collapsible_row_JhFrmK"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "<strong>Why is VAULTCARD superior to other RFID blocking cards? </strong>",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
@@ -533,6 +601,7 @@
     }
   },
   "order": [
+    "featured_product_4MdUbW",
     "main",
     "collapsible_content_nKW9Bk",
     "collapsible_content_xBXxhx",
