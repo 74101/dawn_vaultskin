@@ -17,6 +17,117 @@
         "padding_bottom": 28
       }
     },
+    "collapsible_content_xBXxhx": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_gUHKRM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does VAULTCARD need a battery or other power source?",
+            "icon": "check_mark",
+            "row_content": "<p>VAULTCARD is powered by the electromagnetic signal of the RFID devices it detects, so itdoesn’t need its own power source. Other RFID fraud protectors on the market rely onbattery power, which needs to be re-charged. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QgQFcm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How far away does an RFID-enabled credit or debit card need to be from VAULTCARDbefore it works for a normal transaction?",
+            "icon": "check_mark",
+            "row_content": "<p>Hold your payment card 20cm away from your VAULTCARD to use it for legitimatetransactions. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_k9XWVK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does VAULTCARD interfere with mobile phone signals?",
+            "icon": "check_mark",
+            "row_content": "<p>Q: Does VAULTCARD interfere with mobile phone signals?VAULTCARD is designed to protect cards in its immediate vicinity and will not affect mobilephone signals.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_w8Rtwq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why should I choose VAULTCARD over another RFID-blocking technology?",
+            "icon": "check_mark",
+            "row_content": "<p>VAULTCARD has no RFID “blind spots” – it completely blocks RFID signals from the mosthigh-powered skimming devices. It is also convenient to use, compact in size and can beplaced in your existing wallet.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_emmpDC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How many cards can VAULTCARD protect?",
+            "icon": "check_mark",
+            "row_content": "<p>If VAULTCARD is placed in the middle of your wallet all RFID enabled cards will be protectedwithin 4cm of the card, in wallets up to 8cm thick. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4k93Cr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does VAULTCARD affect my RFID enabled cards?",
+            "icon": "check_mark",
+            "row_content": "<p>VAULTCARD has no impact on any of your cards. To be able to use your RFID enabled creditcard you just need to move it away from VAULTCARD to a distance of more than 10 inches(25cm).</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PVzHeU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are there any health risks associated with radio waves that VAULTCARD emits?",
+            "icon": "check_mark",
+            "row_content": "<p>In general RFID and VAULTCARD use the low-end of the electromagnetic spectrum. Thewaves VAULTCARD generates are no more dangerous than the waves coming to your carradio. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DqHRiB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can VAULTCARD de-magnetize my other credit cards?",
+            "icon": "check_mark",
+            "row_content": "<p>NO. In general RFID and VAULTCARD use the low-end of the electromagnetic spectrum. Thewaves VAULTCARD generates are no more dangerous than the waves coming to your carradio. Which mean the magnetic component of the electromagnetic waves VAULTCARDgenerates is extremely small.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rd3rz6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What can break VAULTCARD?",
+            "icon": "check_mark",
+            "row_content": "<p>Serious physical damage to VAULTCARD will break it. You should not bend nor fold the card.Small bending is allowed though. In general, you should not do to VAULTCARD anything thatyou would not do to your credit card. </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_gUHKRM",
+        "collapsible_row_QgQFcm",
+        "collapsible_row_k9XWVK",
+        "collapsible_row_w8Rtwq",
+        "collapsible_row_emmpDC",
+        "collapsible_row_4k93Cr",
+        "collapsible_row_PVzHeU",
+        "collapsible_row_DqHRiB",
+        "collapsible_row_rd3rz6"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "VAULTCARD FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_nKW9Bk": {
       "type": "collapsible-content",
       "blocks": {
@@ -424,6 +535,7 @@
   "order": [
     "main",
     "collapsible_content_nKW9Bk",
+    "collapsible_content_xBXxhx",
     "image_banner_rXEiUy",
     "image_with_text_z6VaK6",
     "image_with_text_apnXyJ",
