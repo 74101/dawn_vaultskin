@@ -60,13 +60,92 @@
         "heading_tag": "h1",
         "heading_size": "h1",
         "subheading": "Don’t leave your sensitive information vulnerable to modern threats. Upgrade your wallet with the most advanced RFID blocking card available. Compact, powerful, and effortless to use, VAULTCARD is the ultimate solution for safeguarding your data.",
-        "button_label": "",
-        "link": "",
+        "button_label": "BUY NOW",
+        "link": "shopify://products/vaultcard",
         "button_style_secondary": false,
         "box_align": "middle-center",
         "show_text_box": false,
         "text_alignment": "center",
         "color_scheme": "inverse"
+      }
+    },
+    "rich_text_cRTnHQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pB3T7C": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Revolutionary Features</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pB3T7C"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_PmbHwh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_aWVJWp": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Orthogonal Antenna Design</strong>",
+            "text": "<p>Unlike most RFID blockers that use a single antenna for energy and transmission, VAULTCARD utilizes a <strong>specialized orthogonal antenna system</strong>. This ensures peak efficiency, providing consistent and reliable protection.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eqh9QX": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Self-Powered for Sustainability</strong>",
+            "text": "<p>Forget about batteries or frequent recharging. VAULTCARD is powered by electromagnetic signals emitted by RFID devices, making it completely <strong>maintenance-free and eco-friendly</strong>. It’s always ready to protect, with no additional upkeep required.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_y4P94W": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>No Blind Spots</strong>",
+            "text": "<p>Most RFID blockers only work when perfectly aligned with your bank cards, leaving gaps in protection. VAULTCARD eliminates blind spots entirely, safeguarding your cards no matter where they are in your wallet. Its comprehensive design blocks even high-powered skimming devices.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_aWVJWp",
+        "column_eqh9QX",
+        "column_y4P94W"
+      ],
+      "settings": {
+        "section_position": "default",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "container_width": 1600,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "description_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text_J7gL66": {
@@ -254,85 +333,6 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_cRTnHQ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_pB3T7C": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Revolutionary Features</strong>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_pB3T7C"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "multicolumn_PmbHwh": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_aWVJWp": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Orthogonal Antenna Design</strong>",
-            "text": "<p>Unlike most RFID blockers that use a single antenna for energy and transmission, VAULTCARD utilizes a <strong>specialized orthogonal antenna system</strong>. This ensures peak efficiency, providing consistent and reliable protection.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_eqh9QX": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Self-Powered for Sustainability</strong>",
-            "text": "<p>Forget about batteries or frequent recharging. VAULTCARD is powered by electromagnetic signals emitted by RFID devices, making it completely <strong>maintenance-free and eco-friendly</strong>. It’s always ready to protect, with no additional upkeep required.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_y4P94W": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>No Blind Spots</strong>",
-            "text": "<p>Most RFID blockers only work when perfectly aligned with your bank cards, leaving gaps in protection. VAULTCARD eliminates blind spots entirely, safeguarding your cards no matter where they are in your wallet. Its comprehensive design blocks even high-powered skimming devices.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_aWVJWp",
-        "column_eqh9QX",
-        "column_y4P94W"
-      ],
-      "settings": {
-        "section_position": "default",
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "container_width": 1600,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "description_on_mobile": false,
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
