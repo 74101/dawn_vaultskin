@@ -98,6 +98,7 @@
         "column_aWVJWp": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/satellite-dish.svg",
             "title": "<strong>Orthogonal Antenna Design</strong>",
             "text": "<p>Unlike most RFID blockers that use a single antenna for energy and transmission, VAULTCARD utilizes a <strong>specialized orthogonal antenna system</strong>. This ensures peak efficiency, providing consistent and reliable protection.</p>",
             "link_label": "",
@@ -107,6 +108,7 @@
         "column_eqh9QX": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/battery-charging.svg",
             "title": "<strong>Self-Powered for Sustainability</strong>",
             "text": "<p>Forget about batteries or frequent recharging. VAULTCARD is powered by electromagnetic signals emitted by RFID devices, making it completely <strong>maintenance-free and eco-friendly</strong>. It’s always ready to protect, with no additional upkeep required.</p>",
             "link_label": "",
@@ -116,8 +118,9 @@
         "column_y4P94W": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/book-key.svg",
             "title": "<strong>No Blind Spots</strong>",
-            "text": "<p>Most RFID blockers only work when perfectly aligned with your bank cards, leaving gaps in protection. VAULTCARD eliminates blind spots entirely, safeguarding your cards no matter where they are in your wallet. Its comprehensive design blocks even high-powered skimming devices.</p>",
+            "text": "<p>Most RFID blockers only work when perfectly aligned with your bank cards, leaving gaps in protection. <strong>VAULTCARD eliminates blind spots</strong> entirely, safeguarding your cards no matter where they are in your wallet. Its comprehensive design blocks even high-powered skimming devices.</p>",
             "link_label": "",
             "link": ""
           }
@@ -131,8 +134,8 @@
       "settings": {
         "section_position": "default",
         "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
+        "heading_size": "h2",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "container_width": 1600,
