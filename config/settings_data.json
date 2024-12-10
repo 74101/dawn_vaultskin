@@ -117,7 +117,7 @@
     "social_facebook_link": "https://www.facebook.com/vaultskin/",
     "social_instagram_link": "https://www.instagram.com/vaultskin/",
     "social_youtube_link": "https://www.youtube.com/vaultskin",
-    "social_tiktok_link": "",
+    "social_tiktok_link": "https://www.tiktok.com/@vaultskin",
     "social_twitter_link": "https://twitter.com/vaultskin",
     "social_snapchat_link": "",
     "social_pinterest_link": "https://www.pinterest.com/vaultskin/",
@@ -153,33 +153,27 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "16789939927838974014": {
         "type": "shopify://apps/rivyo-product-reviews/blocks/app-embed/f1860e84-309f-40ca-a2df-188435a622f3",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "16936614187718193802": {
         "type": "shopify://apps/multifeeds/blocks/app_embed/f3e7ca1d-2d5a-45a7-97dd-2fd45843acef",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "6858403126979251294": {
         "type": "shopify://apps/omega-cookie-banner/blocks/omega-cookies-notification/13cba824-a338-452e-9b8e-c83046a79f21",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -447,8 +441,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }
