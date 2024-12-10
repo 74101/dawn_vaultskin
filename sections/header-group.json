@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -33,9 +42,7 @@
       "block_order": [
         "announcement-bar-0"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "accent-2",
         "show_line_separator": false,
@@ -52,73 +59,73 @@
         "1f52a879-c676-4f39-8e5d-7b3f3f028419": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/cardholder.svg"
+            "icon": "shopify://shop_images/cardholder.svg"
           }
         },
         "cace3ca6-4968-4e7f-9520-b7cf5bc47306": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/wallet.svg"
+            "icon": "shopify://shop_images/wallet.svg"
           }
         },
         "a354b442-c1a7-43bb-a99e-9f78561e886c": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/device-mobile-speaker.svg"
+            "icon": "shopify://shop_images/device-mobile-speaker.svg"
           }
         },
         "de508342-f54d-444e-bcdb-8670ddbce739": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/credit-card.svg"
+            "icon": "shopify://shop_images/credit-card.svg"
           }
         },
         "menu_item_icon_xbUrmB": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/arrows-left-right-comparison-icon_5dfb4179-1812-432f-94a6-d68489728987.svg"
+            "icon": "shopify://shop_images/arrows-left-right-comparison-icon_5dfb4179-1812-432f-94a6-d68489728987.svg"
           }
         },
         "1da11b30-1728-4068-ba08-b1dbb2f5b1db": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/star.svg"
+            "icon": "shopify://shop_images/star.svg"
           }
         },
         "9eff77fc-47d0-4f19-9c15-e2b946e0ed4e": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/wallet.svg"
+            "icon": "shopify://shop_images/wallet.svg"
           }
         },
         "11851cb4-88b6-4b7c-a766-691c93f6ec6b": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/device-mobile_1.svg"
+            "icon": "shopify://shop_images/device-mobile_1.svg"
           }
         },
         "48a1b6d4-2ed3-4ba4-b159-a0c7ed5d193a": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/device-mobile-speaker.svg"
+            "icon": "shopify://shop_images/device-mobile-speaker.svg"
           }
         },
         "menu_item_icon_9wCXUF": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/flower-lotus.svg"
+            "icon": "shopify://shop_images/flower-lotus.svg"
           }
         },
         "menu_item_icon_PB4HGF": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/shirt-folded.svg"
+            "icon": "shopify://shop_images/shirt-folded.svg"
           }
         },
         "menu_item_icon_Rymd6C": {
           "type": "menu_item_icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/gift.svg"
+            "icon": "shopify://shop_images/gift.svg"
           }
         }
       },
@@ -136,9 +143,7 @@
         "menu_item_icon_PB4HGF",
         "menu_item_icon_Rymd6C"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "logo_position": "middle-center",
         "menu": "main-menu-1",
@@ -148,7 +153,7 @@
         "color_scheme": "accent-1",
         "menu_color_scheme": "accent-1",
         "enable_country_selector": true,
-        "enable_language_selector": false,
+        "enable_language_selector": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
         "padding_top": 32,
