@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -17,30 +17,30 @@
         "c0a43b96-f43e-446f-b245-8ad59ffca6a8": {
           "type": "link_list",
           "settings": {
-            "heading": "<strong>MOST POPULAR<\/strong>",
+            "heading": "<strong>MOST POPULAR</strong>",
             "menu": "footer-most-popular"
           }
         },
         "8d79a95d-7054-4be5-aecb-40cdd73b3b3b": {
           "type": "text",
           "settings": {
-            "heading": "<strong>ORDERS<\/strong>",
-            "subtext": "<p><strong>Fast Dispatch & Delivery:<\/strong> Orders shipped within 2 business days. Delivery is dependent on postal services but is generally within a few days.<\/p><p><strong>Easy returns:<\/strong> Returns are accepted within 4 weeks from the date of delivery.<\/p><p><strong>Payments:<\/strong> Local currency payments accepted. <\/p>",
+            "heading": "<strong>ORDERS</strong>",
+            "subtext": "<p><strong>Fast Dispatch & Delivery:</strong> Orders shipped within 2 business days. Delivery is dependent on postal services but is generally within a few days.</p><p><strong>Easy returns:</strong> Returns are accepted within 4 weeks from the date of delivery.</p><p><strong>Payments:</strong> Local currency payments accepted. </p>",
             "show_trustpilot": false
           }
         },
         "d991f681-8513-4da4-a3c0-9d738048259a": {
           "type": "link_list",
           "settings": {
-            "heading": "<strong>OUR COMPANY<\/strong>",
+            "heading": "<strong>OUR COMPANY</strong>",
             "menu": "footer"
           }
         },
         "bea9aadf-2d34-4fa1-943a-cd73060e5be0": {
           "type": "text",
           "settings": {
-            "heading": "<strong>CUSTOMER SERVICE<\/strong>",
-            "subtext": "<p>Customer Service: <a href=\"mailto:customers@vaultskin.com\">customers@vaultskin.com<\/a><\/p><p>Corporate and Other: <a href=\"mailto:info@vaultskin.com\">info@vaultskin.com<\/a><\/p><p><a href=\"\/pages\/contact\" title=\"Contact Us\">Contact Us<\/a><\/p><p><a href=\"\/pages\/community\" title=\"Community\">Affiliate Program<\/a><\/p>",
+            "heading": "<strong>CUSTOMER SERVICE</strong>",
+            "subtext": "<p>Customer Service: <a href=\"mailto:customers@vaultskin.com\">customers@vaultskin.com</a></p><p>Corporate and Other: <a href=\"mailto:info@vaultskin.com\">info@vaultskin.com</a></p><p><a href=\"/pages/contact\" title=\"Contact Us\">Contact Us</a></p><p><a href=\"/pages/community\" title=\"Community\">Affiliate Program</a></p>",
             "show_trustpilot": true
           }
         }
@@ -58,7 +58,7 @@
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
-        "enable_language_selector": false,
+        "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": true,
         "margin_top": 0,
