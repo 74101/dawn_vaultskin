@@ -48,6 +48,8 @@
                   background-color:{{ block.settings.color -}}"
                 ></div>
               </div>
+            {% when '@app' %}
+              {% render block %}
             {% when 'form' %}
               <div class="subs__item" {{ block.shopify_attributes }}>
                 {%- form 'customer', id: 'ContactSubs', class: 'subs__form' -%}
@@ -156,6 +158,9 @@
             "label": "Content"
           }
         ]
+      },
+      {
+        "type": "@app"
       },
       {
         "type": "form",
