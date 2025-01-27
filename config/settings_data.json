@@ -188,6 +188,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
+      },
+      "13768625480086291342": {
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
