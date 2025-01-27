@@ -49,7 +49,9 @@
                 ></div>
               </div>
             {% when '@app' %}
-              {% render block %}
+              <div class="subs__item" {{ block.shopify_attributes }}>
+                {% render block %}
+              </div>
             {% when 'form' %}
               <div class="subs__item" {{ block.shopify_attributes }}>
                 {%- form 'customer', id: 'ContactSubs', class: 'subs__form' -%}
