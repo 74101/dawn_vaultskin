@@ -4,6 +4,10 @@
   <div class="subs__container page-width">
     <div class="subs__inner subs__left">
       {% for block in section.blocks %}
+        {% when '@app' %}
+          <div class="subs__item" {{ block.shopify_attributes }}>
+            {% render block %}
+          </div>
         {% if block.settings.position == 'left' %}
           {% case block.type %}
             {% when 'content' %}
@@ -21,10 +25,6 @@
                   background-color:{{ block.settings.color -}}"
                 ></div>
               </div>
-            {% when 'form' %}
-              <div class="subs__item" {{ block.shopify_attributes }}>
-                <div class="klaviyo-form-YmMqk4"></div>
-            </div>
           {% endcase %}
         {%- endif -%}
       {% endfor %}
@@ -47,10 +47,6 @@
                   margin-bottom:{{ block.settings.margin_bottom -}}px;
                   background-color:{{ block.settings.color -}}"
                 ></div>
-              </div>
-            {% when '@app' %}
-              <div class="subs__item" {{ block.shopify_attributes }}>
-                {% render block %}
               </div>
             {% when 'form' %}
               <div class="subs__item" {{ block.shopify_attributes }}>
