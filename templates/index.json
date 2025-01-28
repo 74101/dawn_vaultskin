@@ -585,9 +585,9 @@
           "settings": {
             "form_id": "326007",
             "text_color": "#202020",
-            "button_background_color": "#202020",
+            "button_background_color": "#b58f5e",
             "button_label_color": "#ffffff",
-            "links_color": "#1878b9",
+            "links_color": "#b58f5e",
             "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
