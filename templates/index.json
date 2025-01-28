@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "c695660e-e1dc-4928-9327-84eb26861546": {
@@ -6,12 +15,12 @@
         "2a3bd9dd-11d8-4baf-af2c-87374387a369": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vaultskin-Title-VICTORIA-iPhone-Wallet-Case.webp",
-            "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL.  <\/strong>",
+            "image": "shopify://shop_images/Vaultskin-Title-VICTORIA-iPhone-Wallet-Case.webp",
+            "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL.  </strong>",
             "heading_size": "h1",
             "subheading": "Slim, minimalist wallets, card holders and iPhone covers. Designed in Britain to combine elegance, convenience and RFID security.",
             "button_label": "SEE ALL PRODUCTS",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -24,12 +33,12 @@
         "template--17041032544496__c695660e-e1dc-4928-9327-84eb26861546-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vaultskin-black_friday3.png",
-            "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL.<\/strong>",
+            "image": "shopify://shop_images/vaultskin-black_friday3.png",
+            "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL.</strong>",
             "heading_size": "h1",
             "subheading": "Slim, minimalist wallets, card holders and iPhone covers. Designed in Britain to combine elegance, convenience and RFID security.",
             "button_label": "SEE ALL PRODUCTS",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -42,12 +51,12 @@
         "9d4846e6-896a-4c87-ab61-a2171fdd595a": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vaultskin-title-victoria-wallet.jpg",
-            "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL.<\/strong>",
+            "image": "shopify://shop_images/vaultskin-title-victoria-wallet.jpg",
+            "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL.</strong>",
             "heading_size": "h1",
             "subheading": "Slim, minimalist wallets, card holders and iPhone covers. Designed in Britain to combine elegance, convenience and RFID security.",
             "button_label": "SEE ALL PRODUCTS",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -77,12 +86,12 @@
         "desktop_content_width": 100,
         "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand",
-        "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL.<\/strong>",
+        "heading": "<strong>LUXURY. STYLISH. FUNCTIONAL.</strong>",
         "heading_tag": "h1",
         "heading_size": "h1",
         "subheading": "Slim, minimalist wallets, card holders and iPhone covers. Designed in Britain to combine elegance, convenience and RFID security.",
         "button_label": "SEE ALL PRODUCTS",
-        "link": "shopify:\/\/collections\/all",
+        "link": "shopify://collections/all",
         "button_style_secondary": false,
         "box_align": "middle-center",
         "show_text_box": false,
@@ -96,41 +105,41 @@
         "template--17041032544496__abdbc101-3d61-44ba-bb6b-e9aee1c11989-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HomepageFeature-Wallets.jpg",
-            "title": "<strong>Smart WALLETS<\/strong>",
-            "text": "<p>Slim RFID-protected wallets for secure, smart card storage.<\/p><p><\/p>",
+            "image": "shopify://shop_images/HomepageFeature-Wallets.jpg",
+            "title": "<strong>Smart WALLETS</strong>",
+            "text": "<p>Slim RFID-protected wallets for secure, smart card storage.</p><p></p>",
             "link_label": "VIEW MORE",
-            "link": "shopify:\/\/collections\/smart-wallets"
+            "link": "shopify://collections/smart-wallets"
           }
         },
         "template--17041032544496__abdbc101-3d61-44ba-bb6b-e9aee1c11989-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HomepageFeature-PhoneCases.jpg",
-            "title": "<strong>iPhone CASES<\/strong>",
-            "text": "<p>Streamlined iPhone <br\/>wallet cases for minimalists.<\/p>",
+            "image": "shopify://shop_images/HomepageFeature-PhoneCases.jpg",
+            "title": "<strong>iPhone CASES</strong>",
+            "text": "<p>Streamlined iPhone <br/>wallet cases for minimalists.</p>",
             "link_label": "VIEW MORE",
-            "link": "shopify:\/\/collections\/iphone-cases"
+            "link": "shopify://collections/iphone-cases"
           }
         },
         "template--17041032544496__abdbc101-3d61-44ba-bb6b-e9aee1c11989-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HomepageFeature-Vaultcard.jpg",
-            "title": "<strong>VAULTCARD<\/strong>",
-            "text": "<p>Тop-tier RFID blocking <br\/>for contactless card protection. <\/p>",
+            "image": "shopify://shop_images/HomepageFeature-Vaultcard.jpg",
+            "title": "<strong>VAULTCARD</strong>",
+            "text": "<p>Тop-tier RFID blocking <br/>for contactless card protection. </p>",
             "link_label": "VIEW MORE",
-            "link": "shopify:\/\/products\/vaultcard"
+            "link": "shopify://products/vaultcard"
           }
         },
         "59b71136-b8c0-4b96-b86d-776275950e36": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HomepageFeature-Victoria.jpg",
-            "title": "<strong>VICTORIA<\/strong>",
-            "text": "<p>Elegant crossbody iPhone wallet <br\/>for style on-the-go.<\/p>",
+            "image": "shopify://shop_images/HomepageFeature-Victoria.jpg",
+            "title": "<strong>VICTORIA</strong>",
+            "text": "<p>Elegant crossbody iPhone wallet <br/>for style on-the-go.</p>",
             "link_label": "GET INSPIRED",
-            "link": "shopify:\/\/pages\/victoria"
+            "link": "shopify://pages/victoria"
           }
         }
       },
@@ -166,49 +175,49 @@
         "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>STYLE FUSED WITH FUNCTION<\/strong>",
+            "heading": "<strong>STYLE FUSED WITH FUNCTION</strong>",
             "heading_size": "h1"
           }
         },
         "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We wouldn’t want you to settle for anything less than a wallet that is easy to use and is undeniably stylish.<\/p>",
+            "text": "<p>We wouldn’t want you to settle for anything less than a wallet that is easy to use and is undeniably stylish.</p>",
             "text_style": "body"
           }
         },
         "99b4ae35-3fec-4556-850a-edd697c9da62": {
           "type": "item",
           "settings": {
-            "heading": "<p><strong>Practicality<\/strong><\/p>",
-            "description": "<p>We set exceptionally high standards for you. A beautiful wallet is useless if it doesn’t serve your purpose. We go a step beyond practicality into frictionless ease of use.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item1.svg"
+            "heading": "<p><strong>Practicality</strong></p>",
+            "description": "<p>We set exceptionally high standards for you. A beautiful wallet is useless if it doesn’t serve your purpose. We go a step beyond practicality into frictionless ease of use.</p>",
+            "icon": "shopify://shop_images/feature_item1.svg"
           }
         },
         "336c9859-b653-4a34-ba8a-26993b3a0228": {
           "type": "item",
           "settings": {
-            "heading": "<p><strong>Simplicity<\/strong><\/p>",
-            "description": "<p>We know that practicality is best delivered by refining complexity into simplicity. Our designs are understated and sophisticated.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item2.svg"
+            "heading": "<p><strong>Simplicity</strong></p>",
+            "description": "<p>We know that practicality is best delivered by refining complexity into simplicity. Our designs are understated and sophisticated.</p>",
+            "icon": "shopify://shop_images/feature_item2.svg"
           }
         },
         "2c2fcd37-43a8-4555-ad5b-1ea87e8306ee": {
           "type": "item",
           "settings": {
-            "heading": "<p><strong>Elegance<\/strong><\/p>",
-            "description": "<p>We believe elegance is derived from simplicity. We offer you contemporary British classics, using high-quality, durable materials and precision manufacturing.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item3.svg"
+            "heading": "<p><strong>Elegance</strong></p>",
+            "description": "<p>We believe elegance is derived from simplicity. We offer you contemporary British classics, using high-quality, durable materials and precision manufacturing.</p>",
+            "icon": "shopify://shop_images/feature_item3.svg"
           }
         },
         "template--17136483696880__63b1d84f-fc30-4e99-befe-6c9a0e2f6436-button-1": {
           "type": "button",
           "settings": {
             "button_label": "SEE ALL PRODUCTS",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false,
             "button_label_2": "",
-            "button_link_2": "shopify:\/\/collections\/all",
+            "button_link_2": "shopify://collections/all",
             "button_style_secondary_2": false,
             "button_alignment": "flex-start",
             "button_alignment_mobile": "flex-start"
@@ -225,7 +234,7 @@
       ],
       "settings": {
         "container_size": "full",
-        "image": "shopify:\/\/shop_images\/feature1-1.jpg",
+        "image": "shopify://shop_images/feature1-1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -247,46 +256,46 @@
         "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>INNOVATION AND INVENTION<\/strong>",
+            "heading": "<strong>INNOVATION AND INVENTION</strong>",
             "heading_size": "h1"
           }
         },
         "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>In today’s fast-paced technological world, we are constantly evaluating changes to ensure we keep you up to date.<\/p>",
+            "text": "<p>In today’s fast-paced technological world, we are constantly evaluating changes to ensure we keep you up to date.</p>",
             "text_style": "body"
           }
         },
         "6c114d78-2f8b-4b8d-a9a1-cad7832339a9": {
           "type": "item",
           "settings": {
-            "heading": "<p><strong>Design<\/strong><\/p>",
-            "description": "<p>Our international team in London is equipped with a broad yet unconventional range of expertise, including architecture and engineering as well as leather crafting.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item4.svg"
+            "heading": "<p><strong>Design</strong></p>",
+            "description": "<p>Our international team in London is equipped with a broad yet unconventional range of expertise, including architecture and engineering as well as leather crafting.</p>",
+            "icon": "shopify://shop_images/feature_item4.svg"
           }
         },
         "4883ab05-6d2f-497f-a28b-cb95f0f27583": {
           "type": "item",
           "settings": {
-            "heading": "<p><strong>Technology<\/strong><\/p>",
-            "description": "<p>We invented the VAULTCARD, the world’s most advanced protection for your RFID bank cards, ID cards and passport.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item5.svg"
+            "heading": "<p><strong>Technology</strong></p>",
+            "description": "<p>We invented the VAULTCARD, the world’s most advanced protection for your RFID bank cards, ID cards and passport.</p>",
+            "icon": "shopify://shop_images/feature_item5.svg"
           }
         },
         "d5555a0b-56c2-4f06-aad8-f5b0d91c9dfe": {
           "type": "item",
           "settings": {
-            "heading": "<p><strong>Security<\/strong><\/p>",
-            "description": "<p>We invisibly incorporate RFID security in wallets that remain super slim, so that your style is compromised by a bulging pocket.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item6.svg"
+            "heading": "<p><strong>Security</strong></p>",
+            "description": "<p>We invisibly incorporate RFID security in wallets that remain super slim, so that your style is compromised by a bulging pocket.</p>",
+            "icon": "shopify://shop_images/feature_item6.svg"
           }
         },
         "template--17136483696880__ad4ac7b7-c919-4390-9566-b597362e8510-button-1": {
           "type": "button",
           "settings": {
             "button_label": "SEE ALL PRODUCTS",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -306,7 +315,7 @@
       ],
       "settings": {
         "container_size": "full",
-        "image": "shopify:\/\/shop_images\/feature2-1.jpg",
+        "image": "shopify://shop_images/feature2-1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -328,46 +337,46 @@
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>QUALITY WITHOUT COMPROMISE<\/strong>",
+            "heading": "<strong>QUALITY WITHOUT COMPROMISE</strong>",
             "heading_size": "h1"
           }
         },
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>All of our products are made with premium materials and precision processes to ensure that they look and feel gorgeous over many years of service.<\/p>",
+            "text": "<p>All of our products are made with premium materials and precision processes to ensure that they look and feel gorgeous over many years of service.</p>",
             "text_style": "body"
           }
         },
         "c76045de-f035-4ca0-ae1e-39dba5fc82c4": {
           "type": "item",
           "settings": {
-            "heading": "<p><strong>Luxury Leather<\/strong><\/p>",
-            "description": "<p>We exclusively use top-grain natural Italian leather. It is strong yet supple, thick enough to be substantial yet slim enough to make slender wallets.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item7.svg"
+            "heading": "<p><strong>Luxury Leather</strong></p>",
+            "description": "<p>We exclusively use top-grain natural Italian leather. It is strong yet supple, thick enough to be substantial yet slim enough to make slender wallets.</p>",
+            "icon": "shopify://shop_images/feature_item7.svg"
           }
         },
         "a17d5feb-888a-41a0-ac1e-7ed027fdf3f0": {
           "type": "item",
           "settings": {
-            "heading": "<p><strong>Careful Crafting<\/strong><\/p>",
-            "description": "<p>Our aim is to make wallets that you will use for a long time, so they have to be well made. Every detail is examined in our extremely high quality-control standards.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item8.svg"
+            "heading": "<p><strong>Careful Crafting</strong></p>",
+            "description": "<p>Our aim is to make wallets that you will use for a long time, so they have to be well made. Every detail is examined in our extremely high quality-control standards.</p>",
+            "icon": "shopify://shop_images/feature_item8.svg"
           }
         },
         "a297cdbd-3a05-4861-b541-3f79e3fd5aef": {
           "type": "item",
           "settings": {
-            "heading": "<p><strong>Constantly Improving<\/strong><\/p>",
-            "description": "<p>We listen carefully to our customers, to find out how we can keep innovating to improve our products. We want to hear your feedback, to give you more of what you need.<\/p>",
-            "icon": "shopify:\/\/shop_images\/feature_item9.svg"
+            "heading": "<p><strong>Constantly Improving</strong></p>",
+            "description": "<p>We listen carefully to our customers, to find out how we can keep innovating to improve our products. We want to hear your feedback, to give you more of what you need.</p>",
+            "icon": "shopify://shop_images/feature_item9.svg"
           }
         },
         "template--17136463544560__3d43a7a7-384c-4096-a30f-a1647ec6df32-button-1": {
           "type": "button",
           "settings": {
             "button_label": "SEE ALL PRODUCTS",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -387,7 +396,7 @@
       ],
       "settings": {
         "container_size": "full",
-        "image": "shopify:\/\/shop_images\/feature3-1.jpg",
+        "image": "shopify://shop_images/feature3-1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -409,14 +418,14 @@
         "template--17041032544496__87d06e70-9dbc-4d36-8482-1ac60e599c49-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>DELIVERING QUALITY PRODUCTS SINCE 2012<\/strong>",
+            "heading": "<strong>DELIVERING QUALITY PRODUCTS SINCE 2012</strong>",
             "heading_size": "h1"
           }
         },
         "template--17041032544496__87d06e70-9dbc-4d36-8482-1ac60e599c49-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Vaultskin offers stylish and practical accessories made from luxury leather which secure your money and identity. The chips on your contactless bank cards, passport or ID cards wirelessly transmit personal and financial data when an RFID (Radio Frequency Identity) signal issent to them. Digital pickpockets now use RFID scanners to do this. Our military-grade RFID-blocking technology prevents these crimes.<\/p><p>We believe that our products should simplify your movements and transactions, so you enjoy streamlined convenience every day.<\/p><p>Our products include smartphone sleeves and cases, standalone wallets and super-slender card holders, and our VAULTCARD, which offers exceptional protection for anything that’s RFID-enabled. <\/p>",
+            "text": "<p>Vaultskin offers stylish and practical accessories made from luxury leather which secure your money and identity. The chips on your contactless bank cards, passport or ID cards wirelessly transmit personal and financial data when an RFID (Radio Frequency Identity) signal issent to them. Digital pickpockets now use RFID scanners to do this. Our military-grade RFID-blocking technology prevents these crimes.</p><p>We believe that our products should simplify your movements and transactions, so you enjoy streamlined convenience every day.</p><p>Our products include smartphone sleeves and cases, standalone wallets and super-slender card holders, and our VAULTCARD, which offers exceptional protection for anything that’s RFID-enabled. </p>",
             "text_style": "body"
           }
         },
@@ -424,7 +433,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Learn more about us",
-            "button_link_1": "shopify:\/\/pages\/about-us",
+            "button_link_1": "shopify://pages/about-us",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -438,7 +447,7 @@
         "template--17041032544496__87d06e70-9dbc-4d36-8482-1ac60e599c49-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/crafting__bg_1.jpg",
+        "image": "shopify://shop_images/crafting__bg_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -458,19 +467,19 @@
         "template--17041032544496__56a5d040-3ca0-4bf0-a019-fd501c81d225-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/forbes-logo.svg",
+            "image": "shopify://shop_images/forbes-logo.svg",
             "title": "",
-            "text": "<p>“Vaultskin specializes in RFID-blocking wallets, offering an extra layer of protection with a sleek and compact design.”<\/p>",
+            "text": "<p>“Vaultskin specializes in RFID-blocking wallets, offering an extra layer of protection with a sleek and compact design.”</p>",
             "link_label": "",
-            "link": "https:\/\/www.forbes.com\/sites\/forbes-personal-shopper\/article\/best-wallets-for-women\/?sh=ad3d4a042066"
+            "link": "https://www.forbes.com/sites/forbes-personal-shopper/article/best-wallets-for-women/?sh=ad3d4a042066"
           }
         },
         "template--17041032544496__56a5d040-3ca0-4bf0-a019-fd501c81d225-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CNET-logo.svg",
+            "image": "shopify://shop_images/CNET-logo.svg",
             "title": "",
-            "text": "<p>“Elevate your everyday carry with Vaultskin's Notting Hill wallet – where style meets security, offering a tasteful design and a zippered compartment for ultimate organization.”<\/p>",
+            "text": "<p>“Elevate your everyday carry with Vaultskin's Notting Hill wallet – where style meets security, offering a tasteful design and a zippered compartment for ultimate organization.”</p>",
             "link_label": "",
             "link": ""
           }
@@ -478,9 +487,9 @@
         "9586ac5e-13f7-40b2-b25d-2a6024858ab2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/esquire-logo.svg",
+            "image": "shopify://shop_images/esquire-logo.svg",
             "title": "",
-            "text": "<p>“The fact is that passport holders look and function roughly the same. But the key difference here is you've got RFID protection built into the leather case.”<\/p>",
+            "text": "<p>“The fact is that passport holders look and function roughly the same. But the key difference here is you've got RFID protection built into the leather case.”</p>",
             "link_label": "",
             "link": ""
           }
@@ -488,9 +497,9 @@
         "template--17041032544496__56a5d040-3ca0-4bf0-a019-fd501c81d225-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/themanual-logo.png",
+            "image": "shopify://shop_images/themanual-logo.png",
             "title": "",
-            "text": "<p>“The Vaultskin wallet has the best of all worlds. It’s slim and bi-fold for easy management, and it has RFID protection to offer high-level security to your personal items.”<\/p>",
+            "text": "<p>“The Vaultskin wallet has the best of all worlds. It’s slim and bi-fold for easy management, and it has RFID protection to offer high-level security to your personal items.”</p>",
             "link_label": "",
             "link": ""
           }
@@ -557,7 +566,7 @@
           "type": "content",
           "settings": {
             "position": "left",
-            "content": "<h4><strong>NEWSLETTER<\/strong><\/h4>"
+            "content": "<h4>Subscribe and get 5% off entire order</h4>"
           }
         },
         "58fde479-94f8-476c-8020-17d127c3426e": {
@@ -571,8 +580,26 @@
             "color": "#999999"
           }
         },
+        "forms_inline_P4abYB": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "326007",
+            "text_color": "#202020",
+            "button_background_color": "#b58f5e",
+            "button_label_color": "#ffffff",
+            "links_color": "#b58f5e",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        },
         "52fe120b-5c13-49f4-a804-5e9af93067f4": {
           "type": "form",
+          "disabled": true,
           "settings": {
             "position": "left"
           }
@@ -581,7 +608,7 @@
           "type": "content",
           "settings": {
             "position": "right",
-            "content": "<h4><strong>DELIVERY & WARRANTY<\/strong><\/h4>"
+            "content": "<h4><strong>DELIVERY & WARRANTY</strong></h4>"
           }
         },
         "b784e584-4d37-4c5d-a650-901f1fba447a": {
@@ -599,7 +626,7 @@
           "type": "content",
           "settings": {
             "position": "right",
-            "content": "<h4><strong>30-DAY MONEY-BACK GUARANTEE<\/strong><\/h4><h4><strong>12-MONTH WARRANTY<\/strong><\/h4><h4><strong>WORLDWIDE SHIPPING<\/strong><\/h4>"
+            "content": "<h4><strong>30-DAY MONEY-BACK GUARANTEE</strong></h4><h4><strong>12-MONTH WARRANTY</strong></h4><h4><strong>WORLDWIDE SHIPPING</strong></h4>"
           }
         },
         "026032af-b3b0-4438-82ad-0a0985946b34": {
@@ -617,13 +644,14 @@
           "type": "content",
           "settings": {
             "position": "right",
-            "content": "<p>* Check our <a href=\"https:\/\/vaultskin.com\/policies\/terms-of-service\" title=\"https:\/\/vaultskin.com\/policies\/terms-of-service\">Terms and Conditions<\/a><\/p>"
+            "content": "<p>* Check our <a href=\"https://vaultskin.com/policies/terms-of-service\" title=\"https://vaultskin.com/policies/terms-of-service\">Terms and Conditions</a></p>"
           }
         }
       },
       "block_order": [
         "398cfd68-0227-4940-a3bb-8b8f34cf7b91",
         "58fde479-94f8-476c-8020-17d127c3426e",
+        "forms_inline_P4abYB",
         "52fe120b-5c13-49f4-a804-5e9af93067f4",
         "2ef1092a-3446-411a-a959-47fe348c4eac",
         "b784e584-4d37-4c5d-a650-901f1fba447a",
@@ -632,7 +660,13 @@
         "8af358f1-8c05-4547-a926-366d128bff76"
       ],
       "settings": {
-        "background": "shopify:\/\/shop_images\/newsletter__bg2.jpg"
+        "background": "shopify://shop_images/newsletter__bg2.jpg"
+      }
+    },
+    "1738082243f1c9f661": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     }
   },
@@ -645,6 +679,7 @@
     "87d06e70-9dbc-4d36-8482-1ac60e599c49",
     "56a5d040-3ca0-4bf0-a019-fd501c81d225",
     "featured_collection_ayjb8g",
-    "a02a8e9c-404b-4e1e-9b66-93088c367285"
+    "a02a8e9c-404b-4e1e-9b66-93088c367285",
+    "1738082243f1c9f661"
   ]
 }
