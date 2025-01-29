@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_ajbbYm": {
@@ -59,7 +68,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -68,7 +77,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -77,7 +86,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -122,7 +131,7 @@
         "text_a9pmib": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ metaobject.feature.value.feature_description | metafield_tag }}<\/p>",
+            "text": "<p>{{ metaobject.feature.value.feature_description | metafield_tag }}</p>",
             "text_style": "body"
           }
         },
@@ -228,7 +237,7 @@
         "text_KwVyqM": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ metaobject.feature_2.value.feature_description | metafield_tag }}<\/p>",
+            "text": "<p>{{ metaobject.feature_2.value.feature_description | metafield_tag }}</p>",
             "text_style": "body"
           }
         },
@@ -272,11 +281,40 @@
     },
     "custom_liquid_L7w3W3": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-TaZRXS\"><\/div>",
+        "custom_liquid": "<div class=\"klaviyo-form-TaZRXS\"></div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "1738128599d112750e": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_wrw8D4": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "327870",
+            "text_color": "#202020",
+            "button_background_color": "#f3f3f3",
+            "button_label_color": "#b58f5e",
+            "links_color": "#b58f5e",
+            "errors_color": "#c34146",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 20,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_wrw8D4"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
@@ -287,6 +325,7 @@
     "rich_text_xLHcx7",
     "featured_collection_z6bLE3",
     "image_with_text_GPKaGg",
-    "custom_liquid_L7w3W3"
+    "custom_liquid_L7w3W3",
+    "1738128599d112750e"
   ]
 }
