@@ -417,38 +417,32 @@
         "padding_bottom": 36
       }
     },
-    "newsletter_pLnUze": {
-      "type": "newsletter",
+    "1738130126e35e9e4e": {
+      "type": "apps",
       "blocks": {
-        "heading_JgAezE": {
-          "type": "heading",
+        "forms_inline_YExg4D": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_jqzCWY": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
-          }
-        },
-        "email_form_CgfaK8": {
-          "type": "email_form",
-          "settings": {
+            "form_id": "327870",
+            "text_color": "#202020",
+            "button_background_color": "#f3f3f3",
+            "button_label_color": "#b58f5e",
+            "links_color": "#b58f5e",
+            "errors_color": "#c34146",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 20,
+            "padding_right": 0,
+            "padding_left": 0
           }
         }
       },
       "block_order": [
-        "heading_JgAezE",
-        "paragraph_jqzCWY",
-        "email_form_CgfaK8"
+        "forms_inline_YExg4D"
       ],
       "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "include_margins": true
       }
     }
   },
@@ -463,6 +457,6 @@
     "multicolumn_QKp4TR",
     "featured_collection_YbRVAp",
     "featured_blog_iFAcLX",
-    "newsletter_pLnUze"
+    "1738130126e35e9e4e"
   ]
 }
