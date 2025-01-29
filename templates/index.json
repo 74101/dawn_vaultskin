@@ -566,7 +566,7 @@
           "type": "content",
           "settings": {
             "position": "left",
-            "content": "<h4>Subscribe and get 5% off entire order</h4>"
+            "content": "<h4>Subscribe and get 5% off your first order</h4>"
           }
         },
         "58fde479-94f8-476c-8020-17d127c3426e": {
@@ -588,7 +588,7 @@
             "button_background_color": "#b58f5e",
             "button_label_color": "#ffffff",
             "links_color": "#b58f5e",
-            "errors_color": "#e02229",
+            "errors_color": "#c34146",
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
