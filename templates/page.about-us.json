@@ -23,7 +23,7 @@
         "slide_QGGM6C": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/header_bg_main_2_1_e80b3aae-ae24-4c16-b221-1eeb27d13f4e.jpg",
+            "image": "shopify://shop_images/header_bg_main_2_1_e80b3aae-ae24-4c16-b221-1eeb27d13f4e.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -82,7 +82,7 @@
         "template--17150325457136__9532899a-1428-48ca-996d-e12c7ec46d0b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
             "text_style": "body"
           }
         },
@@ -106,7 +106,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/header_bg_main_2_1_e80b3aae-ae24-4c16-b221-1eeb27d13f4e.jpg",
+        "image": "shopify://shop_images/header_bg_main_2_1_e80b3aae-ae24-4c16-b221-1eeb27d13f4e.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -133,7 +133,7 @@
         "template--17150325457136__e1bbb2f4-3b1c-44f0-b22b-d4307f3c9432-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Vaultskin was founded on a shared vision: a beautiful solution for two synchronistic problems.<\/p><p>We are a young, international team of unconventional thinkers who have been friends since childhood, and pursued diverse careers in architecture, engineering, finance, industrial design and information technology. <\/p><p>All that came together in a moment of synchronicity when Apple launched the iPhone and banks introduced contactless payments in 2007. Both game-changing technologies had huge advantages and one frustratingly fatal flaw each.<\/p><p>An iPhone rarely survived being dropped, and PIN-less transactions gave thieves the opportunity to steal money and IDs from passers-by using scanners.<\/p>",
+            "text": "<p>Vaultskin was founded on a shared vision: a beautiful solution for two synchronistic problems.</p><p>We are a young, international team of unconventional thinkers who have been friends since childhood, and pursued diverse careers in architecture, engineering, finance, industrial design and information technology. </p><p>All that came together in a moment of synchronicity when Apple launched the iPhone and banks introduced contactless payments in 2007. Both game-changing technologies had huge advantages and one frustratingly fatal flaw each.</p><p>An iPhone rarely survived being dropped, and PIN-less transactions gave thieves the opportunity to steal money and IDs from passers-by using scanners.</p>",
             "text_style": "body"
           }
         },
@@ -159,7 +159,7 @@
       ],
       "settings": {
         "container_size": "full",
-        "image": "shopify:\/\/shop_images\/about-us-feature1_1010x_6a85e8ef-0f1a-4f2c-9555-20920f6aa965.jpg",
+        "image": "shopify://shop_images/Vaultskin_Designing_Products.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -188,7 +188,7 @@
         "template--17150325457136__c3ba44dc-5a5f-4af2-ae7b-8e8cecd578a0-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Unfettered by any standard practices from the fashion world, we approached our design drawing board without perceived rules or boundaries but with a fresh perspective, and a commitment to one thing as a priority: excellence.<\/p><p>We each brought different aspects of creativity and problem solving which we required for the disciplines within our individual professions. And we took inspiration from the city that had become home – London, with its distinctive blend of traditional and contemporary culture.<\/p><p>The challenge was to give your iPhone and your wallet protection, a level of security comparable to Bank of England vault, by transforming the conventional leather wallet into a design that surpassed anything seen so far, and functioned faultlessly for modern living.<\/p>",
+            "text": "<p>Unfettered by any standard practices from the fashion world, we approached our design drawing board without perceived rules or boundaries but with a fresh perspective, and a commitment to one thing as a priority: excellence.</p><p>We each brought different aspects of creativity and problem solving which we required for the disciplines within our individual professions. And we took inspiration from the city that had become home – London, with its distinctive blend of traditional and contemporary culture.</p><p>The challenge was to give your iPhone and your wallet protection, a level of security comparable to Bank of England vault, by transforming the conventional leather wallet into a design that surpassed anything seen so far, and functioned faultlessly for modern living.</p>",
             "text_style": "body"
           }
         },
@@ -211,7 +211,7 @@
         "template--17150325457136__c3ba44dc-5a5f-4af2-ae7b-8e8cecd578a0-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/VAULTCARD-RFID-blocking-card-holder-protector-theft-lining-Vaultskin.jpg",
+        "image": "shopify://shop_images/VAULTCARD-RFID-blocking-card-holder-protector-theft-lining-Vaultskin.jpg",
         "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -238,7 +238,7 @@
         "text_pXW9kY": {
           "type": "text",
           "settings": {
-            "text": "<p>The gorgeously designed iPhone seemed to have it all: tech, form and function which had never been seen before. Its sleek, smooth surfaces were a sensory delight – yet they allowed the phone to easily slip from your hand, and we all came to recognise the heart-sinking sound of a screen smashing.<\/p><p>The iPhone cover became a must-have accessory, and Vaultskin was on the case.<\/p><p>We strove to match the pleasure of holding your streamlined iPhone with a cover that offered a similar tactile satisfaction. Engineers, architects and industrial designers are meticulous and uncompromising about the materials they use. Everything must have the strength and durability to withstand the specific strains that the structure will endure over a long period.<\/p><p>We found a synthetic substance that would form a tough, slender yet springy modern casing to protect your iPhone from damage. And we sourced the best quality leather possible, which would also be a symbol of classic English heritage. Then began the process of drawings, revisions and refinements that would combine the two materials into a contemporary classic: a minimalist wallet that protected your iPhone.<\/p><p>To this day, only the true risk-takers in life carry their iPhone without a cover – the sort of people who drive to Monte Carlo to put it all on red.<\/p><h2><\/h2>",
+            "text": "<p>The gorgeously designed iPhone seemed to have it all: tech, form and function which had never been seen before. Its sleek, smooth surfaces were a sensory delight – yet they allowed the phone to easily slip from your hand, and we all came to recognise the heart-sinking sound of a screen smashing.</p><p>The iPhone cover became a must-have accessory, and Vaultskin was on the case.</p><p>We strove to match the pleasure of holding your streamlined iPhone with a cover that offered a similar tactile satisfaction. Engineers, architects and industrial designers are meticulous and uncompromising about the materials they use. Everything must have the strength and durability to withstand the specific strains that the structure will endure over a long period.</p><p>We found a synthetic substance that would form a tough, slender yet springy modern casing to protect your iPhone from damage. And we sourced the best quality leather possible, which would also be a symbol of classic English heritage. Then began the process of drawings, revisions and refinements that would combine the two materials into a contemporary classic: a minimalist wallet that protected your iPhone.</p><p>To this day, only the true risk-takers in life carry their iPhone without a cover – the sort of people who drive to Monte Carlo to put it all on red.</p><h2></h2>",
             "text_style": "body"
           }
         },
@@ -257,7 +257,7 @@
       ],
       "settings": {
         "container_size": "full",
-        "image": "shopify:\/\/shop_images\/Vaultskin_Eton_15_Pro_Case_iPhone_wallet_leather_slim_protection_feature_brown-11.png",
+        "image": "shopify://shop_images/Vaultskin_Eton_15_Pro_Case_iPhone_wallet_leather_slim_protection_feature_brown-11.png",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -286,7 +286,7 @@
         "text_EWJyhY": {
           "type": "text",
           "settings": {
-            "text": "<p>Research into the RFID (Radio Frequency ID) technology behind contactless payments revealed that anything which blocked thieves from stealing from you also blocked your phone signal.<\/p><p>Refusing to abandon our commitment to combining your wallet with your phone, we invented and patented the VaultCard. This is where information technology expertise came together with engineering and design skills.<\/p><p>Slipping into a wallet slot the same as a credit card, it ingeniously jams any RFID signals it detects. It responds to signals a hundred times smaller than your RFID-enabled cards use, and the more powerful the device it identifies, the stronger the blocking signal it generates.<\/p><p>You can make and receive all your calls, while your ID and credit cards are securely protected, and the technology is self-powering, so there’s no need for batteries.<\/p><p>Even with the introduction of Apple Pay, there is a place for the iPhone wallet. It’s not always convenient, possible or desired to pay with your phone or use biometric identifying technologies.<\/p>",
+            "text": "<p>Research into the RFID (Radio Frequency ID) technology behind contactless payments revealed that anything which blocked thieves from stealing from you also blocked your phone signal.</p><p>Refusing to abandon our commitment to combining your wallet with your phone, we invented and patented the VaultCard. This is where information technology expertise came together with engineering and design skills.</p><p>Slipping into a wallet slot the same as a credit card, it ingeniously jams any RFID signals it detects. It responds to signals a hundred times smaller than your RFID-enabled cards use, and the more powerful the device it identifies, the stronger the blocking signal it generates.</p><p>You can make and receive all your calls, while your ID and credit cards are securely protected, and the technology is self-powering, so there’s no need for batteries.</p><p>Even with the introduction of Apple Pay, there is a place for the iPhone wallet. It’s not always convenient, possible or desired to pay with your phone or use biometric identifying technologies.</p>",
             "text_style": "body"
           }
         }
@@ -297,7 +297,7 @@
       ],
       "settings": {
         "container_size": "full",
-        "image": "shopify:\/\/shop_images\/Vaultskin_Title_VAULTCARD_2_f8a87667-5dfa-4b33-ad60-2281cd742846.png",
+        "image": "shopify://shop_images/Vaultskin_Title_VAULTCARD_2_f8a87667-5dfa-4b33-ad60-2281cd742846.png",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -326,7 +326,7 @@
         "text_hXnUBR": {
           "type": "text",
           "settings": {
-            "text": "<p>In 2003, the London Transport Oyster card was the forerunner for contactless payments which were introduced in 2007. Ironically, putting contactless cards into the crushing crowds of the Underground was a gift to thieves and fraudsters.<\/p><p>Carrying cards that can be used without PIN numbers is like leaving home with your front door open. Pickpockets don’t even need to get within touching distance to steal from your wallet, they just use hand-held RFID scanners to snatch payments and information for identity fraud.<\/p><p>Vaultskin wallets put a lock on the door. Everything is protected by military grade technology which is invisibly integrated to unfeasibly slender Italian leather designs that are devised for the modern minimalist.<\/p><p>With slim-fit tailoring, bulging pockets are an eyesore that cannot be tolerated. Any Vaultskin wallet allows you to carry all that you need without compromise.<\/p>",
+            "text": "<p>In 2003, the London Transport Oyster card was the forerunner for contactless payments which were introduced in 2007. Ironically, putting contactless cards into the crushing crowds of the Underground was a gift to thieves and fraudsters.</p><p>Carrying cards that can be used without PIN numbers is like leaving home with your front door open. Pickpockets don’t even need to get within touching distance to steal from your wallet, they just use hand-held RFID scanners to snatch payments and information for identity fraud.</p><p>Vaultskin wallets put a lock on the door. Everything is protected by military grade technology which is invisibly integrated to unfeasibly slender Italian leather designs that are devised for the modern minimalist.</p><p>With slim-fit tailoring, bulging pockets are an eyesore that cannot be tolerated. Any Vaultskin wallet allows you to carry all that you need without compromise.</p>",
             "text_style": "body"
           }
         }
@@ -337,7 +337,7 @@
       ],
       "settings": {
         "container_size": "full",
-        "image": "shopify:\/\/shop_images\/20230114_-_carousel_8caac71a-e1a3-42ef-8be9-c7e05ad873e7.jpg",
+        "image": "shopify://shop_images/Vaultskin_CITY_NY24.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -366,7 +366,7 @@
         "template--17150325457136__ab568e55-d1b1-42df-bdc1-103ee5b2d616-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Engineers and industrial designers demand function without friction. Architects know how to make the most of a small space. Innovators conceive original design features that make life easier. Financiers understand the value of money so we can offer luxury products at an affordable price. Information technology always has to stay one step ahead of fraudsters, hackers and thieves.<\/p><p>We combine all of this into our wallets. That’s what we mean by engineered elegance.<\/p><p>Change is always coming, and we are ready to be inspired by it, and harness it. We are constantly researching and examining new materials and more efficient devices. We believe our products should simplify your movements and transactions every day. If we let you down, we have let ourselves down, and our satisfaction guarantee reflects that.<\/p><p>In our professions, it’s essential to have the same personal integrity as the structures you create. You need to be authentically committed to fulfilling the needs and expectations of the people who will inhabit your buildings and use your systems. We leave no scope for self-indulgence or shoddy corner-cutting.<\/p><p>We also believe in enhancing the lives of the people we work with, and for. We trade with the same people that we began with, from the producers of our premium quality leather to the production facilities that manufacture our goods to the highest standard.<\/p><p>With careful monitoring at every stage of production, and always listening to feedback, we strive to keep our products as simple, functional and stylish as possible.<\/p><p>Our wallets are a statement of who we are and what we bring to the world. And when you choose the slim, minimalist design of a Vaultskin wallet, it says a lot about you too.<\/p>",
+            "text": "<p>Engineers and industrial designers demand function without friction. Architects know how to make the most of a small space. Innovators conceive original design features that make life easier. Financiers understand the value of money so we can offer luxury products at an affordable price. Information technology always has to stay one step ahead of fraudsters, hackers and thieves.</p><p>We combine all of this into our wallets. That’s what we mean by engineered elegance.</p><p>Change is always coming, and we are ready to be inspired by it, and harness it. We are constantly researching and examining new materials and more efficient devices. We believe our products should simplify your movements and transactions every day. If we let you down, we have let ourselves down, and our satisfaction guarantee reflects that.</p><p>In our professions, it’s essential to have the same personal integrity as the structures you create. You need to be authentically committed to fulfilling the needs and expectations of the people who will inhabit your buildings and use your systems. We leave no scope for self-indulgence or shoddy corner-cutting.</p><p>We also believe in enhancing the lives of the people we work with, and for. We trade with the same people that we began with, from the producers of our premium quality leather to the production facilities that manufacture our goods to the highest standard.</p><p>With careful monitoring at every stage of production, and always listening to feedback, we strive to keep our products as simple, functional and stylish as possible.</p><p>Our wallets are a statement of who we are and what we bring to the world. And when you choose the slim, minimalist design of a Vaultskin wallet, it says a lot about you too.</p>",
             "text_style": "body"
           }
         }
@@ -376,7 +376,7 @@
         "template--17150325457136__ab568e55-d1b1-42df-bdc1-103ee5b2d616-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/vaultcard-header.jpg",
+        "image": "shopify://shop_images/Vaultcard_development_process.jpg",
         "image_overlay_opacity": 50,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
