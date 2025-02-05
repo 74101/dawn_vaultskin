@@ -80,10 +80,17 @@
           </div>
 
           {%- if show_excerpt -%}
-            {%- assign excerpt_text = article.excerpt | default: article.content | strip_html | truncatewords: 30 -%}
-            {%- if excerpt_text != blank -%}
+            {%- if article.excerpt != blank -%}
               <p class="article-card__excerpt rte-width">
-                {{ excerpt_text }}
+                {{ article.excerpt | strip_html | truncatewords: 30 }}
+              </p>
+            {%- elsif article.content != blank -%}
+              <p class="article-card__excerpt rte-width">
+                {{ article.content | strip_html | truncatewords: 30 }}
+              </p>
+            {%- else -%}
+              <p class="article-card__excerpt rte-width">
+                {{ 'blogs.article.read_more' | t }}
               </p>
             {%- endif -%}
           {%- endif -%}
