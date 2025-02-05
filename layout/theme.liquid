@@ -26,7 +26,7 @@
       {%- if current_page != 1 %} Page {{ current_page }}{% endif -%}
       {%- unless page_title | downcase contains shop.name | downcase %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
-    {% endcomment %}
+
     <title>
       {% if template == 'blog' and current_tags != blank %}
         {{ current_tags.first | truncate: 40 | capitalize }} - Vaultskin
@@ -35,6 +35,41 @@
         {{ page_title }}
       {% endif %}
       {%- unless page_title | downcase contains shop.name | downcase %} &ndash; {{ shop.name }}{% endunless -%}  
+    </title>
+    {% endcomment %}    
+
+    <title>
+      {% if template == 'blog' and current_tags != blank %}
+        {{ current_tags.first | truncate: 40 | capitalize }} - Vaultskin
+        {%- if current_page != 1 %} | Page {{ current_page }}{% endif -%}
+      {% elsif template == 'article' %}
+        {%- assign formatted_title = page_title | strip -%}
+        {%- assign formatted_h1 = article.title | strip -%}
+    
+        {%- if formatted_title == formatted_h1 -%}
+          Read More: {{ formatted_title }}
+        {%- else -%}
+          {{ formatted_title }}
+        {%- endif -%}
+    
+        {%- if current_page != 1 %} | Page {{ current_page }}{% endif -%}
+    
+        {%- unless formatted_title | downcase contains shop.name | downcase -%}
+          &ndash; {{ shop.name }}
+        {%- endunless -%}
+      {% else %}
+        {%- assign formatted_title = page_title | strip -%}
+    
+        {%- if current_page != 1 -%}
+          {{ formatted_title }} | Page {{ current_page }}
+        {%- else -%}
+          {{ formatted_title }}
+        {%- endif -%}
+    
+        {%- unless formatted_title | downcase contains shop.name | downcase -%}
+          &ndash; {{ shop.name }}
+        {%- endunless -%}
+      {% endif %}
     </title>
     
 
