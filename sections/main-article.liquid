@@ -28,7 +28,7 @@
                 fetchpriority="high"
                 width="{{ article.image.width }}"
                 height="{{ article.image.height }}"
-                alt="{{ article.image.alt | escape }}"
+                alt="{% if article.image.alt != blank %}{{ article.image.alt | escape }}{% else %}{{ article.title | append: ' - ' | append: article.tags.first | default: 'Vaultskin Product Image' | escape }}{% endif %}"
               >
             </div>
           {%- endif -%}
@@ -88,9 +88,19 @@
             <div class="prod_image">
               <!-- Check if the variant has a featured image, otherwise use the product's featured image -->
               {% if variant.featured_image %}
-                <img src="{{ variant.featured_image | image_url: width: 200 }}" width="200" height="">
+                <img 
+                  src="{{ variant.featured_image | image_url: width: 200 }}" 
+                  width="200" 
+                  height="{{ variant.featured_image.height | times: 200 | divided_by: variant.featured_image.width | round }}"
+                  alt="{% if variant.featured_image.alt != blank %}{{ variant.featured_image.alt | escape }}{% else %}{{ product.title | append: ' - ' | append: article.title | default: 'Vaultskin Product Image' | append: ' - ' | append: product.tags.first | escape }}{% endif %}"
+                >
               {% else %}
-                <img src="{{ product.featured_image | image_url: width: 200 }}" width="200" height="">
+                <img 
+                  src="{{ product.featured_image | image_url: width: 200 }}" 
+                  width="200" 
+                  height="{{ product.featured_image.height | times: 200 | divided_by: product.featured_image.width | round }}"
+                  alt="{% if product.featured_image.alt != blank %}{{ product.featured_image.alt | escape }}{% else %}{{ product.title | append: ' - ' | append: article.title | default: 'Vaultskin Product Image' | append: ' - ' | append: product.tags.first | escape }}{% endif %}"
+                >
               {% endif %}
             </div>
             <div class="prod_inner">
@@ -119,7 +129,12 @@
           {% if product.id == product_id %}
             <div class="prod">
               <div class="prod_image">
-                <img src="{{ product.featured_image | image_url: width: 200 }}" width="" height="">
+                <img 
+                  src="{{ product.featured_image | image_url: width: 200 }}" 
+                  width="200" 
+                  height="{{ product.featured_image.height | times: 200 | divided_by: product.featured_image.width | round }}"
+                  alt="{% if product.featured_image.alt != blank %}{{ product.featured_image.alt | escape }}{% else %}{{ product.title | append: ' - ' | append: article.title | default: 'Vaultskin Product Image' | append: ' - ' | append: product.tags.first | escape }}{% endif %}"
+                >
               </div>
               <div class="prod_inner">
                 <h4 class="prod_title">{{ product.title }}</h4> 
@@ -137,7 +152,12 @@
             {% if var.id == product_id %}
               <div class="prod">
                 <div class="prod_image">
-                  <img src="{{ var.featured_image | image_url: width: 200 }}" width="" height="">
+                  <img 
+                    src="{{ var.featured_image | image_url: width: 200 }}" 
+                    width="200" 
+                    height="{{ var.featured_image.height | times: 200 | divided_by: var.featured_image.width | round }}"
+                    alt="{% if var.featured_image.alt != blank %}{{ var.featured_image.alt | escape }}{% else %}{{ product.title | append: ' - ' | append: article.title | default: 'Vaultskin Product Image' | append: ' - ' | append: product.tags.first | escape }}{% endif %}"
+                  >
                 </div>
                 <div class="prod_inner">
                   <h4 class="prod_title">{{ product.title }}</h4> 
@@ -169,7 +189,12 @@
           {% if product.id == product_id %}
             <div class="prod">
               <div class="prod_image">
-                <img src="{{ product.featured_image | image_url: width: 200 }}" width="" height="">
+                <img 
+                  src="{{ product.featured_image | image_url: width: 200 }}" 
+                  width="200" 
+                  height="{{ product.featured_image.height | times: 200 | divided_by: product.featured_image.width | round }}"
+                  alt="{% if product.featured_image.alt != blank %}{{ product.featured_image.alt | escape }}{% else %}{{ product.title | append: ' - ' | append: article.title | default: 'Vaultskin Product Image' | append: ' - ' | append: product.tags.first | escape }}{% endif %}"
+                >
               </div>
               <div class="prod_inner">
                 <h4 class="prod_title">{{ product.title }}</h4> 
@@ -187,7 +212,12 @@
             {% if var.id == product_id %}
               <div class="prod">
                 <div class="prod_image">
-                  <img src="{{ var.featured_image | image_url: width: 200 }}" width="" height="">
+                  <img 
+                    src="{{ var.featured_image | image_url: width: 200 }}" 
+                    width="200" 
+                    height="{{ var.featured_image.height | times: 200 | divided_by: var.featured_image.width | round }}"
+                    alt="{% if var.featured_image.alt != blank %}{{ var.featured_image.alt | escape }}{% else %}{{ product.title | append: ' - ' | append: article.title | default: 'Vaultskin Product Image' | append: ' - ' | append: product.tags.first | escape }}{% endif %}"
+                  >
                 </div>
                 <div class="prod_inner">
                   <h4 class="prod_title">{{ product.title }}</h4> 
