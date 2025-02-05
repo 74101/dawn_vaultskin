@@ -29,8 +29,8 @@
     {% endcomment %}
     <title>
       {% if template == 'blog' and current_tags != blank %}
-        {{ current_tags.first | truncate: 40 | capitalize }} - Vaultskin{% if paginate.current_page > 1 %} - Page {{ paginate.current_page }}{% endif %}
-        {%- if current_page != 1 %} Page {{ current_page }}{% endif -%}
+        {{ current_tags.first | truncate: 40 | capitalize }} - Vaultskin
+        {% if paginate.current_page > 1 %}Page {{ paginate.current_page }}{% endif %}
       {% else %}
         {{ page_title }}
       {% endif %}
