@@ -1,34 +1,42 @@
 <!doctype html>
-<html class="ui-mobile" lang="en"><head>
+<html class="ui-mobile" lang="en">
+  <head>
     <meta charset="UTF-8">
     <title>Crossbody Wallet Case VICTORIA by Vaultskin</title>
-	<meta name="description" content="Wearable iPhone wallet case for iPhone. Compact, light-weight, and fashionable design – the perfect iPhone accessory. Holds iPhone 6, 6(S), 7, 8 &amp; X, up to 10 cards, cash and small items.">
+    <meta
+      name="description"
+      content="Wearable iPhone wallet case for iPhone. Compact, light-weight, and fashionable design – the perfect iPhone accessory. Holds iPhone 6, 7, 8, X, 12 &amp; 13, up to 10 cards, cash and small items."
+    >
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="{{'style-victoria.css' | asset_url }}">
 
-  {% if settings.favicon %}
-    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
-  {% endif %}
-
-
-</head>
-<body class="ui-mobile-viewport ui-overlay-a"><div data-role="page" data-url="/victoria/" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 951px;">
-    <nav class="header">
+    {% if settings.favicon %}
+      <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
+    {% endif %}
+  </head>
+  <body class="ui-mobile-viewport ui-overlay-a">
+    <div
+      data-role="page"
+      data-url="/victoria/"
+      tabindex="0"
+      class="ui-page ui-page-theme-a ui-page-active"
+      style="min-height: 951px;"
+    >
+      <nav class="header">
         <a class="header-logo ui-link" href="/" target="_blank">
-            <img src="{{'logo.svg' | asset_url }}" alt="Vaultskin">
+          <img src="{{'logo.svg' | asset_url }}" alt="Vaultskin">
         </a>
-    
+
         <div class="header-brand">
-            <img src="{{'logo-victoria.svg' | asset_url }}" class="header-brand-logo" alt="Victoria"> by Vaultskin
+          <img src="{{'logo-victoria.svg' | asset_url }}" class="header-brand-logo" alt="Victoria"> by Vaultskin
         </div>
-    
+
         <a href="/collections/victoria-case" target="_blank" class="btn ui-link">Buy now</a>
-    </nav>
-  <div class="hide">{{content_for_header}}</div>
-  {{content_for_layout}}
-  
-  </div>
+      </nav>
+      <div class="hide">{{ content_for_header }}</div>
+      {{ content_for_layout }}
+    </div>
   </body>
 </html>
