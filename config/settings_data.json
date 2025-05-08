@@ -196,7 +196,7 @@
       },
       "12429728106950981667": {
         "type": "shopify://apps/blocky-fraud-blocker/blocks/app-embed/aa25b3bf-c2c5-4359-aa61-7836c225c5a9",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     },
