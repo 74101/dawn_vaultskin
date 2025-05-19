@@ -160,7 +160,7 @@
         "text_qK8DEW": {
           "type": "text",
           "settings": {
-            "text": "<p>Tech-savvy thieves can use RFID readers to scan credit card data through radio waves. RFID wallets block these waves with special materials, preventing data theft. While not all credit cards are vulnerable, the risk exists, and with rising data theft, it's wise to take precautions.</p><p>Many RFID wallets are bulky, but there are slim, stylish options like the Baggizmo Wiseward Essential, which is also water-repellent and available in various colors. Ultimately, the best RFID wallet depends on your personal preferences and needs.</p>",
+            "text": "<p>Tech-savvy thieves can use RFID readers to scan credit card data through radio waves. RFID wallets block these waves with special materials, preventing data theft. While not all credit cards are vulnerable, the risk exists, and with rising data theft, it's wise to take precautions.</p><p>Many <a href=\"/collections/rfid-wallets\" title=\"RFID Wallets\">RFID wallets</a> are bulky, but there are slim, stylish options like the Baggizmo Wiseward Essential, which is also water-repellent and available in various colors. Ultimately, the best RFID wallet depends on your personal preferences and needs.</p>",
             "text_style": "body"
           }
         },
