@@ -109,7 +109,7 @@
         "container_color_scheme": "",
         "open_first_collapsible_row": true,
         "image": "{{ collection.metafields.collection.faqs.value.image.value }}",
-        "image_ratio": "small",
+        "image_ratio": "large",
         "desktop_layout": "image_second",
         "padding_top": 0,
         "padding_bottom": 0
