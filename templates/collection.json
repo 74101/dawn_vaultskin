@@ -89,7 +89,7 @@
           "repeater": "{{ collection.metafields.collection.faqs.value.faq_list.value }}",
           "settings": {
             "heading": "{{ block.repeater.question.value }}",
-            "icon": "check_mark",
+            "icon": "question_mark",
             "row_content": "{{ block.repeater.answer | metafield_tag }}",
             "page": ""
           }
