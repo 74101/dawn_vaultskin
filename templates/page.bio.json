@@ -45,6 +45,7 @@
         "text_AVndAg",
         "button_3WkQCU"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "container_size": "default",
@@ -97,6 +98,7 @@
         "text_GHNDN4",
         "button_UKEmxH"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -109,15 +111,27 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "custom_liquid_ThyH4g": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Vaultskin from Instagram</title>\n  <style>\n    body {\n      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n      margin: 0;\n      padding: 0;\n      background: #fff;\n      color: #111;\n    }\n    .container {\n      max-width: 480px;\n      margin: 0 auto;\n      padding: 20px;\n    }\n    .logo {\n      text-align: center;\n      font-size: 24px;\n      font-weight: bold;\n      margin-bottom: 10px;\n    }\n    .tagline {\n      text-align: center;\n      font-size: 16px;\n      color: #444;\n      margin-bottom: 20px;\n    }\n    .cta-btn {\n      display: block;\n      text-align: center;\n      background: #111;\n      color: #fff;\n      padding: 12px 20px;\n      border-radius: 6px;\n      text-decoration: none;\n      font-weight: bold;\n      margin: 0 auto 30px;\n      width: fit-content;\n    }\n    .product-images {\n      display: grid;\n      grid-template-columns: 1fr 1fr;\n      gap: 10px;\n      margin-bottom: 30px;\n    }\n    .product-images img {\n      width: 100%;\n      border-radius: 8px;\n    }\n    .about {\n      text-align: center;\n      margin-bottom: 30px;\n    }\n    .about h2 {\n      font-size: 20px;\n      margin-bottom: 10px;\n    }\n    .about p {\n      font-size: 14px;\n      color: #555;\n      line-height: 1.5;\n    }\n    .button-list a {\n      display: block;\n      margin: 10px 0;\n      background: #fff;\n      border: 1px solid #111;\n      padding: 12px;\n      text-align: center;\n      text-decoration: none;\n      color: #111;\n      border-radius: 6px;\n      font-weight: 600;\n    }\n    .social {\n      display: flex;\n      justify-content: center;\n      gap: 16px;\n      margin-top: 30px;\n    }\n    .social a {\n      text-decoration: none;\n      color: #111;\n      font-size: 18px;\n    }\n  </style>\n\n\n  <div class=\"container\">\n    <div class=\"logo\">VAULTSKIN</div>\n    <div class=\"tagline\">Smart. Slim. Secure.<br>Minimalist wallets &amp; accessories from London.</div>\n    <a class=\"cta-btn\" href=\"https://www.vaultskin.com\">Shop Now</a>\n\n    <div class=\"product-images\">\n      <img src=\"https://via.placeholder.com/300x200?text=Wallet+Detail+1\" alt=\"Wallet Detail 1\">\n      <img src=\"https://via.placeholder.com/300x200?text=Wallet+Detail+2\" alt=\"Wallet Detail 2\">\n      <img src=\"https://via.placeholder.com/300x200?text=Zipper+Close-up\" alt=\"Zipper Close-up\">\n      <img src=\"https://via.placeholder.com/300x200?text=Logo+Embossed\" alt=\"Logo Embossed\">\n    </div>\n\n    <div class=\"about\">\n      <h2>About Vaultskin</h2>\n      <p>We blend elegance and function to create wallets and accessories that match your lifestyle. London-designed. Built to last.</p>\n    </div>\n\n    <div class=\"button-list\">\n      <a href=\"https://www.vaultskin.com/collections/wallets\">All Wallets</a>\n      <a href=\"https://www.vaultskin.com/collections/minimalist\">Minimalist Designs</a>\n      <a href=\"https://www.vaultskin.com/pages/gift-guide\">Gift Ideas</a>\n    </div>\n\n    <div class=\"social\">\n      <a href=\"https://instagram.com/vaultskin\">IG</a>\n      <a href=\"https://facebook.com/vaultskin\">FB</a>\n      <a href=\"https://tiktok.com/@vaultskin\">TikTok</a>\n      <a href=\"https://www.amazon.com/vaultskin\">Amazon</a>\n    </div>\n  </div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "image_with_text_DtaXhP",
     "rich_text_6cm4ah",
-    "main"
+    "main",
+    "custom_liquid_ThyH4g"
   ]
 }
