@@ -97,7 +97,7 @@
             "button_label": "All Wallets",
             "button_link": "shopify://collections/all",
             "button_style_secondary": false,
-            "button_label_2": "Gift Ideas",
+            "button_label_2": "Vaultcard",
             "button_link_2": "shopify://metaobjects/gift_page/for-him",
             "button_style_secondary_2": true
           }
