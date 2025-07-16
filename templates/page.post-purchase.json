@@ -11,13 +11,177 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_aKdC9h": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_j8wbPN": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Welcome to Vaultskin</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "caption_bhzYLg": {
+          "type": "caption",
+          "settings": {
+            "caption": "Your wallet is just the beginning.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "text_R6NKT6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thank you for choosing Vaultskin. We craft each piece with care, and we’re excited to support you on your journey.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_N7BaMG": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_alignment": "flex-start",
+            "button_alignment_mobile": "flex-start"
+          }
+        }
+      },
+      "block_order": [
+        "heading_j8wbPN",
+        "caption_bhzYLg",
+        "text_R6NKT6",
+        "button_N7BaMG"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container_size": "default",
+        "image": "shopify://shop_images/Vaultskin-NOTTING_HILL-Lifestyle-green2.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "content_padding_top": 5,
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-2",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "1752666606ae9013a9": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_G4Aha8": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "562277",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 24,
+            "padding_bottom": 24,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_G4Aha8"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn_RjLXf9": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_h6dPhb": {
+          "type": "column",
+          "settings": {
+            "title": "Keep It Beautiful",
+            "text": "<p>Your leather wallet is made to last. With a little care, it will look even better with time.</p><ul><li>Wipe gently with a soft, dry cloth.</li><li>Avoid prolonged contact with water.</li><li>Store away from direct sunlight when not in use.</li></ul>",
+            "link_label": "See full care guide",
+            "link": ""
+          }
+        },
+        "column_LCt4Er": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9ge38n": {
+          "type": "column",
+          "settings": {
+            "title": "Your Feedback Matters",
+            "text": "<p>We’d love to hear your thoughts! Your feedback helps us grow and keeps us on our toes.</p>",
+            "link_label": "Trustpilot Review",
+            "link": "https://www.trustpilot.com/review/vaultskin.com"
+          }
+        },
+        "column_pqVci3": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>We’re Here for You</strong>",
+            "text": "<p>Something not right? Have a question? Our customer happiness team is ready to help.</p><p>Email: <a href=\"mailto:info@vaultskin.com\" title=\"Vaultskin Customer Service Email\"><strong>info@vaultskin.com</strong></a></p>",
+            "link_label": "or fill out the form here",
+            "link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": [
+        "column_h6dPhb",
+        "column_LCt4Er",
+        "column_9ge38n",
+        "column_pqVci3"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "section_position": "default",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "container_width": 1600,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "description_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_aKdC9h",
+    "1752666606ae9013a9",
+    "multicolumn_RjLXf9"
   ]
 }
