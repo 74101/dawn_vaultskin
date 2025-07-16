@@ -125,10 +125,10 @@
         "column_LCt4Er": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "title": "<strong>Show Your Style</strong>",
+            "text": "<p>We love seeing how our customers use their Vaultskin.<br/>Tag us on Instagram with #vaultskin or see posts from other customers</p>",
+            "link_label": "Instagram",
+            "link": "https://www.instagram.com/vaultskin"
           }
         },
         "column_9ge38n": {
