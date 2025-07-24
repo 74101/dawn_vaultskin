@@ -40,7 +40,7 @@
           "type": "text",
           "settings": {
             "heading": "<strong>CUSTOMER SERVICE</strong>",
-            "subtext": "<p>Customer Service: <a href=\"mailto:customers@vaultskin.com\">customers@vaultskin.com<br/></a></p><p><a href=\"/pages/leather-wallet-care-guide\" title=\"Leather Wallet Care Guide\">Leather Care Guide</a></p><p>Corporate and Other: <a href=\"mailto:info@vaultskin.com\">info@vaultskin.com</a></p><p><a href=\"/pages/contact\" title=\"Contact Us\">Contact Us</a></p><p><a href=\"/pages/community\" title=\"Community\">Affiliate Program</a></p>",
+            "subtext": "<p>Customer Service: <a href=\"mailto:customers@vaultskin.com\">customers@vaultskin.com</a></p><p>Corporate and Other: <a href=\"mailto:info@vaultskin.com\">info@vaultskin.com</a></p><p><a href=\"/pages/leather-wallet-care-guide\" title=\"Leather Wallet Care Guide\">Leather Care Guide</a></p><p><a href=\"/pages/contact\" title=\"Contact Us\">Contact Us</a></p><p><a href=\"/pages/community\" title=\"Community\">Affiliate Program</a></p>",
             "show_trustpilot": true
           }
         }
