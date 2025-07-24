@@ -91,9 +91,9 @@
             "form_id": "562277",
             "text_color": "#202020",
             "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 24,
@@ -119,7 +119,7 @@
             "title": "Keep It Beautiful",
             "text": "<p>Your leather wallet is made to last. With a little care, it will look even better with time.</p><ul><li>Wipe gently with a soft, dry cloth.</li><li>Avoid prolonged contact with water.</li><li>Store away from direct sunlight when not in use.</li></ul>",
             "link_label": "See full care guide",
-            "link": ""
+            "link": "shopify://pages/leather-wallet-care-guide"
           }
         },
         "column_LCt4Er": {
