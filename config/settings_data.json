@@ -165,11 +165,6 @@
         "disabled": true,
         "settings": {}
       },
-      "6858403126979251294": {
-        "type": "shopify://apps/omega-cookie-banner/blocks/omega-cookies-notification/13cba824-a338-452e-9b8e-c83046a79f21",
-        "disabled": false,
-        "settings": {}
-      },
       "13768625480086291342": {
         "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
@@ -192,6 +187,11 @@
       "2567389343055140935": {
         "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
         "disabled": false,
+        "settings": {}
+      },
+      "6858403126979251294": {
+        "type": "shopify://apps/consentik-cookie/blocks/omega-cookies-notification/13cba824-a338-452e-9b8e-c83046a79f21",
+        "disabled": true,
         "settings": {}
       }
     },
