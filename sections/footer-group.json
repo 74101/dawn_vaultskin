@@ -25,7 +25,7 @@
           "type": "text",
           "settings": {
             "heading": "<strong>ORDERS</strong>",
-            "subtext": "<p><strong>Fast Dispatch & Delivery:</strong> Orders shipped within 2 business days. Delivery is dependent on postal services but is generally within a few days.</p><p><strong>Easy returns:</strong> Returns are accepted within 4 weeks from the date of delivery.</p><p><strong>Payments:</strong> Local currency payments accepted. </p>",
+            "subtext": "<p><strong>30 Days Risk-Free Money Back</strong><br/>Shop with confidence. Return your purchase within 30 days for a full refund, no questions asked.</p><p><strong>Easy Returns</strong><br/>Hassle-free returns process designed to be simple and quick.</p><p><strong>2 Years Warranty</strong><br/>Every product is backed by our 2-year warranty for your peace of mind.</p><p><strong>Secure Payments in Your Local Currency</strong><br/>Pay safely in your own currency with trusted, encrypted payment methods.</p><p><strong>Fast Order Processing</strong><br/>We process and dispatch orders quickly so you can enjoy your purchase without delay.</p>",
             "show_trustpilot": false
           }
         },
